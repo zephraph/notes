@@ -1,0 +1,6 @@
+- [[Weekly Goals]] #[[February 17th, 2020]] #[[February 18th, 2020]] #[[February 19th, 2020]] #[[February 20th, 2020]] #[[February 21st, 2020]]
+    - [x] Enable canary deployments for reaction and palette
+    - [ ] Setup [[callback.to]] with [[Saasify]]
+    - [ ] Add a PR to [[auto]] that documents how the circle-ci orb works
+- [ ] https://github.com/webpack/webpack/issues/10352 [[Reading List]]
+- Got [[auto]] setup to deploy canaries finally. 

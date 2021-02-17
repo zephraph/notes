@@ -1,0 +1,56 @@
+- A mortgage startup based in NYC that I talked to in 2019/2020
+- **Employees**  [[Alan Johnson]] [[Devang]]
+- Notes from call
+    - Dave
+        - Senior engineering manager
+        - joined a year ago
+        - spent 3 months shipping code
+        - after started shifting focus to growing team & hiring process
+        - 30 engineers (over 65 engineers)
+        - Manages 3 teams
+            - Mortgage engine team 
+                - under the hood automation process
+                - reduces turn around time, increases margins
+            - Apps, graphs, and services
+                - Used to incubate smaller businesses
+            - Core technology (platform)
+                - core applications & services
+                    - auth & eventbus
+                - SRE & infra
+                    - k8s, AWS, dev tools, developer productivity, etc
+                - Test engineering
+                    - evolving test automation
+    - Better doesn't have established/explicit culture
+    - The interview is built with empathy in mind
+        - No algorithm whiteboard based question
+    - Still evolving their process
+        - grew both engineering and product in 4 months
+        - rather than small teams focused on wide areas, small teams are focused on small areas
+            - lets them own it end to end
+        - every department has a product director
+            - works with tech leads at high level for what business objectives/high level goals are
+                - maybe reduce underwriting time
+            - engineering manager, senior engineer, product manger working with subject matter experts
+            - "from the ground up we share responsibility end to end"
+- Notes from interview on [[February 5th, 2020]] [[hiring]]
+    - 4 parts of the interview
+        - Dave -- Business overview
+        - Erik (CTO) -- General Q&A/technical screening
+            - Mentioned a few things being important to him
+                - Individual autonomy
+                - "Commercial" mindset
+                - Culture (consisting of the two above)
+            - Asked how to sort an array of 100M digits
+                - I responded with quicksort to begin with
+                    - How can we sort them faster than quicksort?
+                - "What do we know about the numbers"
+                    - They're all single digits 0-9
+            - Asked about what databases I'm familiar with
+                - Asked about the different features of each database
+        - Liam -- Situational questions
+        - Benjamin -- Systems design(ish)
+            - Design the schema for a calendar
+                - Constraints where that events can only be scheduled for a day
+                - Requirements grew to cover repeated events
+                - Asked to write a query to find events on a day at a given time
+                - Asked how to update a specific day

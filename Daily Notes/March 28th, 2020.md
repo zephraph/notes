@@ -1,0 +1,1 @@
+- [[Tools]] [Graphql Mesh](https://medium.com/the-guild/graphql-mesh-query-anything-run-anywhere-433c173863b5) -- A mechanism which multiple types of data endpoints can be joined into a graphql interface

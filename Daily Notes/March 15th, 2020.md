@@ -1,0 +1,2 @@
+- Spent some time trying to add CI to [[Saasify]]
+- Went back to my apartment to clean and gather some more supplies

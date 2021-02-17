@@ -1,0 +1,9 @@
+- Got in pretty late today, but definitely feeling better
+- [[Joey]] [mentioned](https://artsy.slack.com/archives/CA8SANW3W/p1582302230060100) there were issues with assets loading from force (instead of our CDN) which seemed to be causing issues in prod. Spent some time digging into that. 
+- [[February 22nd, 2020]]
+    - [x] Build a global context provider for Graphiql that they can use to migrate some of the functionality out of their base class. 
+- Paired with [[Chris Pappas]] to figure out issue mentioned by [[Joey]] above
+- Got on a call about a [[Artsy/Diffusion]] outage
+    - C9Q data migration caused service to become unavailable
+    - Seems to have had a cascading effect on latency in MP
+    - Thead: https://artsy.slack.com/archives/C0HP61PUJ/p1582318930117800

@@ -1,0 +1,10 @@
+- Worked on adding an [update to palette](https://github.com/artsy/palette/pull/654) to allow for having a clear link on filters
+- [[Purchase Team]] standup
+- Inquiries walk-through with [[Guillaume]] and [[Will Anderson]]
+- [[Purchase Team]] core meeting at 2
+- Interviewing [Matthew Newman](https://app.greenhouse.io/people/135652453?application_id=151835213) for frontend product (Canceled)
+    - From his resume
+        - "Evangelized and built out company design system"
+        - Was a Lead UI/UX Developer
+        - His GitHub hasn't had activity in a bit
+- Opened a [PR](https://github.com/artsy/reaction/pull/3302) for adding a reset link to the year created filter

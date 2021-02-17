@@ -1,0 +1,5 @@
+- Based on some inspiration from [[Matt Dole]], I'm going to start doing some journaling
+- [[Journal]]
+    - Let's see... how do I feel today...
+    - Well, had a feelings checking w/ [[Matt Dole]] and [[Steve Hicks]] which was good. [[Matt Dole]] talked a bit about having trouble thinking about this as a short term thing and not taking care of things he would otherwise. [[Steve Hicks]] talked about feeling very burnt out. He also related to what I shared which is just generally having trouble taking feedback. Was glad to get to share that and I feel a bit better about it. 
+    - All I really want to do is work on projects... but I feel like I'm spinning myself out. When I lay down at night my mind churns with how to solve this stupid problems.

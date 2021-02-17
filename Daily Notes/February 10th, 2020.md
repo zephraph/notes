@@ -1,0 +1,15 @@
+- [[Weekly Goals]] #[[February 10th, 2020]] #[[February 11th, 2020]] #[[February 12th, 2020]] #[[February 13th, 2020]] #[[February 14th, 2020]]
+    - "[x] Schedule time off for valentines day"
+    - "[x] Add a ticket to jira about Palette's carrot being missaligned in the small dropdown"
+    - [x] Push bundle splitting PR through
+    - [x] Help get most of auction results into prod
+    - [x] Buy vday supplies
+- Reviewing [[Lily]]'s [PR](https://github.com/artsy/reaction/pull/3139) about auction results layout updates
+    - There's a rehydration issue that's causing rendering issues
+- [[Artsy]] [[idea]]
+    - [Collector] Save a filter as an alert so that they know when an artwork is added that matches what their looking for
+    - [Gallery] Gets notified of saved filters to help map inform what collectors want
+- Still need to update [auto](https://github.com/intuit/auto) to the latest version to support canaries and pre-releases
+- Botify SEO Meeting
+    - The product seems pretty slow
+    - It's weird how the sales guy doesn't actually walk through the product. Instead he just talks through features/functionality. 

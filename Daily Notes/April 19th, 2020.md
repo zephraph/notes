@@ -1,0 +1,10 @@
+- Been reading up more on [[Monorepo]] tools
+    - https://github.com/folke/ultra-runner
+    - This is a good resource: https://github.com/korfuri/awesome-monorepo
+- Working more on [[Artsy/studio]] today
+    - Trying to figure out if I can share _document and _app
+- [[Travis Fischer]] wants me to look over this idea doc for [[Saasify]]
+    - https://www.notion.so/saasifysh/Developer-Experience-DX-1f5686b459ec4d4ebc8234ad30f6d7a8
+    - References this https://github.com/open-draft/msw, which looks like a cool [[tool]]
+- [ ] Send [[Travis Fischer]] a calendar invite for looking into Artsy's code [[April 21st, 2020]]
+- This is pretty inspirational: https://blog.nrwl.io/how-to-never-build-or-test-the-same-code-twice-2dc58e413279

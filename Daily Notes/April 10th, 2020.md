@@ -1,0 +1,5 @@
+- [[Devon Blandin]] pointed me to the place in gravity where we add a special exception to `artsy.net` URLs for auth. https://github.com/artsy/gravity/blob/6aeb935de2f0d45845dfd54d4b739599c5e283a2/app/models/util/url_validation.rb#L24
+- [[TIL]] [[Next.js]] tips
+    - If you're linking or routing to a dynamic path (One that contains `[something]`) then `href` is the value with the placeholder and `as` is the actual url. https://nextjs.org/docs/api-reference/next/link#dynamic-routes
+    - If you're manually calling the router (for like when you're powering search), you can use the shallow routing
+        - https://nextjs.org/docs/api-reference/next/link#dynamic-route

@@ -1,0 +1,15 @@
+- Talked to [[Devon Blandin]] about [Tandem](https://tandem.chat) [[Tools]]
+- Finished up scorecard
+    - "[x] Finish scorecard for Timothy"
+- Shipped [[Artsy/Force]] deploy for [[Chris Pappas]]
+- Grooming for [[Purchase Team]]
+- Core [[Purchase Team]] meeting
+- Tech leads support meeting
+- [[idea]] A firefox extension that formats [[Roam]] links as well as helps schedule todo tasks
+- Wrapping up year created filter work
+- Did a last minute [fix](https://github.com/artsy/lint-changed/pull/12) for [an issue](https://artsy.slack.com/archives/CP9P4KR35/p1584486633163200) [[Barry]] ran into
+    - This [stackoverflow answer](https://stackoverflow.com/questions/34279322/how-to-git-diff-all-changes-since-branching-from-master) helped me solve it. 
+        - [[TIL]] `git diff --name-only master...${branch}` returns the files that have changed since this branch was created from master
+- For [[March 18th, 2020]]
+    - [x] Finish tests for year created filter
+    - [x] Merge [[Artsy/lint-changed]] update into [[Artsy/Reaction]]

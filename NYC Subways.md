@@ -1,0 +1,7 @@
+- Operated by the MTA
+- Used to be three separate companies
+    - Inter-borough Rapid Transit Company (IRT) [1, 2, 3]
+    - Brooklyn-Manhattan Transit Corporation (BMT) [A,C,E]
+    - Independent Subway System (operated by NYC, started in 1932)
+- Consolidated in 1940s
+- Learned from https://twobithistory.org/2020/01/05/foaf.html, which also details [[facebook]]'s monopoly and what could've been in social networks

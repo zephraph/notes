@@ -1,0 +1,8 @@
+- [[Purchase Team]] knowledge share
+    - Got [[Sepand Ansari]] to share his work on de-duplicating data in [[Artsy/Diffusion]] w/ [[Jackie Potts]]
+- Attended the GraphiQL working session
+- Finally wrap up the [MP PR for querying year created](https://github.com/artsy/metaphysics/pull/2225)
+    - "[x] Finish up that damn metaphysics PR"
+- 1-on-1 w/ [[Guillaume]]
+- [x] Investigate /user/converation route not showing up
+- "[ ] Add a PR to [[auto]] that documents how the circle-ci orb works"

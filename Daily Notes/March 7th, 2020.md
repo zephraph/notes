@@ -1,0 +1,5 @@
+- Went to peer labs with [[Orta Therox]] and [[Ash Furrow]]
+- Met up with [[Ricky]] from [[Gatsby]] to talk about GraphiQL and a plugin system for it
+- Went climbing with [[Alex Zhang]]
+    - She's pretty worried/stressed about the [[corona virus]]
+    - She's seeing someone new, which is good! Can't really tell how she feels though because she still talks about him pretty dismissively. Sort of typical for her, but I hope this works out. 🤞

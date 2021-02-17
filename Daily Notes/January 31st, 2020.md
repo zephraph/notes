@@ -1,0 +1,17 @@
+- [[February 5th, 2020]]
+    - [ ] Send [[Marcus]] blog posts and resources on GraphQL 
+    - [ ] Figure out what I need to do to update my license in NYC
+        - [ ] Schedule an appointment to get a new copy of my social
+    - [ ]  Give feedback on [[Joey]]'s [performance technical plan](https://www.notion.so/artsy/Artist-Page-Performance-Spike-f909b7bcb8144b3dbfb05951357b50b9)
+- Outlined some thoughts about [[[[Artsy]] automated deployments]]
+- Answered some deployment related questions for [[Jackie Potts]]
+- Working on [PURCHASE-1733](https://artsyproduct.atlassian.net/browse/PURCHASE-1733)
+    - Shuffling things around in the auctions results tab to get ready to add filtering
+    - Requiring a bit of refactoring to relay-ify some components
+- Noticed [[January 30th, 2020]] that releases weren't being tagged in GitHub anymore therefore the deployment bot isn't working. Need to figure out how to re-enable that.
+- [[DeepCrawl + Conductor -- January 31st, 2020]]
+- Finally figured out the reason why openseadragon was being pulled into all of our dependencies
+    - https://github.com/artsy/reaction/pull/3119
+    - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fjust-be%2FXe_KBo_3vt?alt=media&token=bace2147-ba0e-48d8-af4c-68e94d73369d)
+        - These are the remaining index files to optimize
+    - Ran into a weird jest error where the tests fail on watch mode, but not when running normally. Something about `../Assets/Checkmark` not being found... which shouldn't be found, because it's not in the FS. Somehow it gets pulled in `.cache` by haste. Not sure what's going on there though. I tried clearing watchman cache and shutting down the watchman server. Clearing jest cache, yarn cache, re-installing node modules, etc, etc. 

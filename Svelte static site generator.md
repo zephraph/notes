@@ -1,0 +1,9 @@
+- Uses `/pages` like [[Next.js]] to render pages...
+- Has multiple service output targets (self-hosted, now, cloudflare, AWS)
+- Three targets:
+    - CSR - (client side rendering)
+    - SSR - (server side rendering)
+    - SSG - (static site generation)
+- Layouts can be specified via the `/layouts` directory
+- Natively supports (svelte style) MDX
+- Doesn't actively require any special linking tooling

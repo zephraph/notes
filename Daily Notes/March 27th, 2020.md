@@ -1,0 +1,48 @@
+- [ ] Go through [[Purchase Team]] priorities
+- Interview with [Joel Rosenblatt](https://app.greenhouse.io/people/137307852?application_id=153555149)
+    - 2 user personas
+        - Collector
+        - Gallery/Partner
+    - Entities
+        - User
+            - has auth
+        - Order
+        - Gallery
+            - Has many works
+        - Artwork
+            - shared meta data
+                - Artist
+                - Medium
+                - Year
+    - Feedback to user by email after purchase
+    - Spent time talking about navigation
+    - Let's start at artwork view
+        - Click purchase (assuming we're not supporting auctions)
+        - User taken to next step
+            - purchase order gets initiated
+            - started with state on frontend but corrected himself because another user could come through
+                - How do we handle mutliple users transacting at the same time
+                    - User A initiates first, B clicks on buy give them a message saying the work is unavailable
+                    - Trigger a user's purchase intent
+                    - User feedback is key. Lots of user emapthy.
+                        - As a user wants to know if work becomes available again
+    - From the checkout flow
+        - Navigate user to checkout flow
+        - Adds information which gets written to order
+        - Initiates payment
+        - Normalization needs to happen for address
+            - google maps api
+        - Evaluate logic if it's too complex
+            - First approach to handle errors personally
+            - If it's too complex, look for an external library
+                - When considering libraries
+                    - Look to see if there are recommendations or requirements from the business
+                    - Check with peers
+                    - Check online by options
+                    - Make decision from peers and research
+    - If something goes wrong, try to ease their pain
+        - Making sure the user doesn't have to fill out the whole form again
+        - Communicate to the user as clear as possible
+        - For payment error, show error
+            - Give option to resubmit
+            - Prompt user to change card and call attention to that part of the form

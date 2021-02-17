@@ -1,0 +1,18 @@
+- **Rating**: 6/10
+    - Another day of no/low coding
+    - Paired a lot
+    - [[Jackie Potts]] seemed to make good progress!
+- [[An ❤️ ]] stayed over last night so I'm a little tired / got in a little late today
+- Talked to [[Tim Griesser]] about [[GraphLog]] and a [[Startup School]] group meeting
+- Took notes in [[Platform Practice]] on data dog  tracing for [[Artsy/Metaphysics]]
+- Did some QAing on the new artist page for [[Sarah Weir]]
+- Attending a [[lunch and learn]] by [[Ash Furrow]] that's about building a retroactive [[technical plan]] for adopting [[React Native]]
+- Call w/ [[Better]] @ 2PM
+- Reviewing some PRs
+- Paired with [[Eve Essex]] on a [[hokusai]] [[orb]] issue in [[Artsy/Orbs]]
+- Read [[ADHD -- A lifelong struggle]] [[Reading List]]
+- [x] As recommended https://ashfurrow.com/blog/giving-your-best-will-always-feel-super-difficult/ [[Reading List]]
+- Group [[Startup School]] session tonight w/ [[Tim Griesser]]
+- I need to start sleeping earlier. 
+- [[January 24th, 2020]]
+    - [x] Email Dave from Better to get more details about the team

@@ -1,0 +1,43 @@
+- [[Weekly Goals]] #[[April 6th, 2020]] #[[April 7th, 2020]] #[[April 8th, 2020]] #[[April 9th, 2020]] #[[April 10th, 2020]]
+    - [x] Enable the team to start on the inquiries project
+    - [ ] Talk to [[Anil]] about how to consolidate redirect logic between [[Artsy/Cinder]] and [[Artsy/Reaction]]
+    - [x] Reschedule pairing session with [[Sam R]] on APRD dashboard
+- [[Quick Capture]]
+    - [[Reading List]] http://hasura-forest-admin.surge.sh/
+    - Look into these
+- https://www.metabase.com/
+    - https://github.com/Steams/ra-data-hasura-graphql
+    - [[Reading List]] https://blog.remaketheweb.com/low-code-frameworks-for-building-multi-user-web-apps/
+- [[idea]] Build some automation around technical plans
+    - Let folks know when a technical plan has reached the proposed state
+    - Poke folks if a technical plan has been in a proposed state for a while without being updated
+- [[idea]] linear-jira-bridge
+    - 2-way sync between jira and linear designed to be a minimal on-boarding trial phase
+        - For comments
+            - __User blah commented in jira__ <-- links off to the jira issue
+"Hey we could do this thing"
+            - Both jira and linear tickets include a link to the other in the description and comments include links to their associated links in a little blurb. Don't worry about linking the users for comments.
+        - Some things could be 1-way only
+            - Descriptions go from linear -> jira but not vice versa?
+            - Would help to have a little importing GUI to manually import a select hand full of issues from jira to linear just to kick start the process
+        - minimize assumptions about assigning sprints, users, etc
+            - Would be nice to have a slack bot to mentioned linked issue events so you can make manual updates if needed. 
+- For [[Artsy/studio]]
+    - Would be good to think about how to deploy multiple apps if that's going to be a thing
+    - Still need to think about auth and how to make that easier
+    - Current idea:
+        - Enable studio to contain multiple Apps
+            - Each app will have an independent deployment
+            - An app will only try to deploy if there were changes to that app
+            - Every app will have independent now.json (if necessary)
+            - Root will have a now.js that contains them all
+            - Root will have redirects or symlinks for the individual apps
+- [[idea]] transparent private image service
+    - Right click -> paste private image
+    - Proxies to an image service that by default returns a placeholder image
+    - When given a signed JWT in the header it returns the real image (with little lock badge at top right corner to show it's secure)
+    - Driven by browser extension?
+- [[TIL]] zeit's now can be used as a clever reverse proxy
+    - https://josefaidt.dev/blog/2019/11/using-zeit-now-proxy/
+    - Planning to use this to customize domains for [[Artsy/studio]]
+- Had an [interesting discussing](https://artsy.slack.com/archives/CHZ7CMD53/p1586214920005200) with [[Ani]] in [[Purchase PDDE]] about inquiries spurred by [[Will Anderson]]'s [prototype of real inquiries in the new design](https://www.figma.com/proto/vtXzdPefblvRiAapA79fTh/Conversations?node-id=439%3A16504&viewport=-1955%2C408%2C0.5197209715843201&scaling=scale-down)

@@ -1,0 +1,12 @@
+- Started the day out by making breakfast and coffee for [[An ❤️ ]]
+- Got the first [conversations UI PR](https://github.com/artsy/reaction/pull/3389) merged
+- Thinking a little bit about what it would look like to greenfield Artsy
+    - https://github.com/LukasBombach/next-super-performance
+    - https://medium.com/@luke_schmuke/how-we-achieved-the-best-web-performance-with-partial-hydration-20fab9c808d5
+    - Performance and reduced complexity would be 100% requirements
+- [[Tools]] [phelia](https://github.com/maxchehab/phelia) -- A react way to build interactive slack UI
+    - This would be a perfect fit for some of the things APR is covering right now
+- [[Reading List]] [What Is Amazon EventBridge?](https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html)
+- Created two metaphysics tickets for the [[Inquiries project]]
+    - https://artsyproduct.atlassian.net/browse/PURCHASE-1867
+    - https://artsyproduct.atlassian.net/browse/PURCHASE-1868

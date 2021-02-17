@@ -1,0 +1,7 @@
+- Zeit [rebranded](https://vercel.com/blog/zeit-is-now-vercel) today. Gross.
+- Node 14 was [released](https://medium.com/@nodejs/node-js-version-14-available-now-8170d384567e) 🎉
+- [[Reading List]] https://dev-tester.com/control-your-secrets-on-testcafe-with-vault/
+- [[Purchase Team]] knowledge share
+    - Went over collector profile
+    - Had a lot of discussions about how to bubble up signals to the gallery about a collector. Specifically on the collector profile card that shows up in the conversations list. I'm pretty adamantly encouraging that we 
+-  

@@ -1,0 +1,69 @@
+- Made coffee for [[An ❤️ ]] and I
+- Chatted briefly with [[Devon Blandin]] on [[Tandem]] about [[Artsy/studio]], [isotopes](https://github.com/squidfunk/isotopes), and [[Artsy]] 2FA
+- Reached out to [[Rob Townend]] about finishing project start/end dates for software capitalization
+- [[Purchase Team]] standup
+- Spent some time poking on a [codesandbox](https://codesandbox.io/s/status-tag-ant-design-demo-hpwcv) for [simple-cron](https://simple-cron.saasify.sh/)
+- Interviewing [Sintija Birgele](https://app.greenhouse.io/people/135907171?application_id=152096860)
+    - What exists already?
+    - Who is the user? (collector)
+    - Defining relations between purchase and existing data
+        - needs integration w/ ecommerce platform
+        - security is most important
+    - Most important defining state
+        - 3 states
+            - request
+                - identifying client
+                - identifying target (info about artwork)
+                - responsible system
+                - need auth token
+                - need identification token for artwork
+            - resolving
+    - What UI does the page need?
+        - Add icon or button
+        - Needs fewest steps as possible
+        - Info is stored in session storage or local storage
+        - Needs a form + validation
+        - Few libraries are useful
+            - material UI - Forms + validation
+    - Check if the product is available
+        - Conflict between two users
+            - product amount defined in the database
+    - Payments + client id to bank service
+        - embedded payment system
+    - Network inavailability
+        - Cache information about purchase
+            - service worker
+        - From UI
+            - Adding pending state
+            - inform if there was a technical error
+        - Would you always ask to retry
+            - From business side always retry
+            - Sometimes give user UI to retry
+    - Availability
+        - Should be information if it's the last one
+        - Even if purchase is started
+            - Shouldn't be blocked for other customer to buy
+                - User could close browser and don't want to block other buyers
+            - Should  we inform the users someone is chechking out
+                - show how many customers are viewing or trying to buy
+                - analytics perspective these actions should be captured
+    - She said making transactions faster is important for business
+        - What could we do to make them faster?
+            - reducing steps, defining relations, auto completing information
+            - reduce amount of calls to improve the page performance
+            - lazy loading for collections
+    - When purchase has been completed
+        - db has been updated
+        - gallery gets all necessary information
+        - adding analytics call
+        - send out an email to notify the user or thank you page
+        - display recommended related products
+    - Questions
+        - How do we use RabbitMQ?
+        - Are we on AWS?
+        - What's the system architecture look like?
+        - Are we still migrating from a monolith to microservices?
+    - Set goals for next 1-2 years to grow in backend areas
+    - Doing side projects
+- [MeiliSearch]()https://github.com/meilisearch/MeiliSearch) -- ElasticSearch alternative written in rust [[Tools]]
+

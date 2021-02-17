@@ -1,0 +1,3 @@
+- [[Reading List]] https://www.jeremyong.com/klein/case_studies/ga_skeletal_animation/
+- [[Arsty/studio]]
+    - Use [stale-while-invalidate](https://zeit.co/docs/v2/network/caching#stale-while-revalidate) and [swr](https://github.com/zeit/swr) for team nav data fetching

@@ -1,0 +1,12 @@
+- [[Purchase Team]] standup
+- Cleared out integrity credit cards
+- Had engineering team standup
+- Starting to look into the [[Inquiries project]]
+- Merged [[Artsy/Palette]] update into [[Artsy/Reaction]] after fixing some snapshot test failures
+- [[Purchase PDDE]] meeting
+    - Looking at OKRs
+    - Review of the quarter
+- Met with [[Will Anderson]], [[Chris Pappas]], [[Steve Hicks]], & [[Nicole Boettcher]] on adding letter spacing to [[Artsy/Palette]]
+    - [[Will Anderson]] suggested adding a prop to our typography components to support letter spacing
+        - Also asked about separating font size and line spacing into separate things
+- [[Reading List]] [useSound by Josh Comeau](https://joshwcomeau.com/react/announcing-use-sound-react-hook/)

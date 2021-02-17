@@ -1,0 +1,22 @@
+- [[Purchase Team]] retro
+- Performance Pairing session
+    - Code coverage & discoveries
+        - [x] Show code coverage tool in chrome
+        - [x] Dig into main_layout to see [what]'s included
+            - "Oh, credit card stuff? Well that's weird" 
+    - Bundle analysis & discoveries
+        - [x] Show bundle before PR to remove `Components/v2/index.ts`
+        - [x] Show with common.js disabled
+        - [x] Show generating stats file w/ webpack
+        - [x] Show webpack analysis trace of `openseadragon`
+            - Update stats in `baseConfig.js` to be `normal`
+            - Run `env NODE_ENV=production yarn webpack --json > stats.json`
+            - Delete output stuff from `stats.json` file
+            - Go to modules, search for `openseadragon`
+            - follow reasons
+        - [x] Show bundle report 
+- Reviewed/merged reaction engine version removal
+    - https://github.com/artsy/reaction/pull/3128
+- Fixed a failing test for https://github.com/artsy/reaction/pull/3124
+- [[[[Svelte]] Society]] meetup
+    - 

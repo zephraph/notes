@@ -1,0 +1,10 @@
+- Employ appreciation breakfast
+- [[Purchase Team]] sprint planning
+    - [[Jackie Potts]] starts next week
+    - She's really knowledgeable on rails + postgres stuff! Super excited. 
+- [[[[Artsy]] Demo Days]]
+- Got [PURCHASE-1812](https://artsyproduct.atlassian.net/browse/PURCHASE-1812) [PR](https://github.com/artsy/metaphysics/pull/2225) up for review
+    - "[x] Get [PURCHASE-1812](https://artsyproduct.atlassian.net/browse/PURCHASE-1812) into review" 
+- Starting on [PURCHASE-1813](https://artsyproduct.atlassian.net/browse/PURCHASE-1813)
+- Interviewing [Zachary Samuelson](https://app.greenhouse.io/people/135551626?application_id=151730525)
+- Interviewing [Alexander Bercow](https://app.greenhouse.io/people/135889054?application_id=152077957)

@@ -1,0 +1,9 @@
+- https://www.justindfuller.com/2020/01/why-do-we-fall-into-the-rewrite-trap/
+- Written by [[Justin Fuller]] at the [[NYT]]
+- Key Takeaways
+    - Prefer refactoring over rewriting.
+    - If your reason for rewriting the code is that you don't understand it, you should not rewrite it.
+    - Prefer refactoring __before__ you make a change, rather than after.
+    - Rewrite for better functionality, rather than better code.
+- [ ] Recommends reading [[Refactoring (Book)]] by [[Martain Fowler]] [[Reading List]]
+- **Tag** [[article]] [[Reading List]]

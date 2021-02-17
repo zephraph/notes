@@ -1,0 +1,16 @@
+- Wrote a blogpost on adding [[canary deployments]] to [[Artsy]]'s [[auto]] setup
+- Found an interesting seo library for next.js https://github.com/garmeeh/next-seo [[Tools]]
+- [[February 20th, 2020]]
+    - [x] Merge canary blog post: https://github.com/artsy/artsy.github.io/pull/607
+- [[February 21st, 2020]]
+    - Meeting with [[Travis Fischer]] around 4:30ish
+- Spending more time thinking about what it would look like to only run things that have changed. I mentioned that [[February 18th, 2020]] in the block below
+    - "[[idea]] What if we could eagerly opt out of ci tests based on the hashes of their dependencies. If there was a simple way to generate a hash for dependencies and reference that against a source of truth (for that job) then we could straight up skip tests that don't need to be ran."
+    - There's a [skip orb](https://circleci.com/orbs/registry/orb/theodo/skip) in circle's registry that might be useful to some degree
+    - Jest has the ability to run only tests that have [changed since](https://jestjs.io/docs/en/cli.html#--changedsince) a certain branch
+        - this does _not_ take into account dependency updates so those would need to be handled separately
+        - Probably would be best to run full test on master unless we're sure that the updates wouldn't effect our output
+- Went through grooming with the [[Purchase Team]]
+- Inquiries knowledge share with [[Purchase Team]]
+- [[Sitemap]]s for [[Artsy]] are stored [here](https://github.com/artsy/cinder/tree/master/src/main/scala/net/artsy/jobs/sitemaps)
+- [[TIL]] that [[CircleCI]] jobs/commands can accept [steps as parameters](https://circleci.com/docs/2.0/reusing-config/[[steps]])

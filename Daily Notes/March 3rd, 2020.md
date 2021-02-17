@@ -1,0 +1,13 @@
+- Celebrated [[Ashkan]]'s day at [[Artsy]] yesterday. It was a fun night, but very bitter sweet. 
+- [[Andrew Lisowski]] finished off my PR to [[auto]] that ensures canaries aren't deployed on skip release
+- Goals for today:
+    - [x] Fetch date range from diffusion
+    - [x] Sort diffusion by date range
+    - [ ] Dig into [relay issue](https://artsy.slack.com/archives/CP9P4KR35/p1583264496067200) in reaction storybooks [[March 5th, 2020]]
+        - Couldn't really get to this one
+- [[idea]] What would it look like to have an interviewing worksheet?
+    - Half the page for notes
+    - Half the page contains in interview information
+        - Prompts of things to dig into
+        - Questions to ask yourself if you need to dig into other areas
+- [[Reading List]] [Simple systems have less downtime](https://www.gkogan.co/blog/simple-systems/?r=0)

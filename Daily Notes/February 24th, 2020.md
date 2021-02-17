@@ -1,0 +1,7 @@
+- There was a [production incident](https://artsy.slack.com/archives/C02BC3HEJ/p1582557643007000) in which search was broken due to some bundle splitting path issues
+    - [[Chris Pappas]] put in a [PR](https://github.com/artsy/force/pull/5110) to  hardcode the CDN paths in [[Artsy/Force]] which replaced the docker envs that I added via [this PR](https://github.com/artsy/force/pull/5106).
+- Ran team standup, notes [here](https://www.notion.so/artsy/February-24th-2020-672ef41dbeb146c1bdae51c0010b27de).
+- [[Travis Fischer]] sent me [a writeup](https://www.notion.so/saasifysh/Competitive-Analysis-cda4cc7e6e8543f8864148bf7bcd06b1) on the competitive landscape for [[Saasify]]
+- [[Watch List]] https://www.youtube.com/watch?v=QTmlvMzNyU0&feature=youtu.be
+- Had a weird meeting with [[Botify]] where they wanted us to help them figure out what should be in different packages
+- I got the tech lead position for [[Purchase Team]]

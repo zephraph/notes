@@ -1,0 +1,12 @@
+- https://github.com/jameslnewell/run-if-diff/blob/master/src/api/utils/git.ts will likely contain some good resources for how to build a lint/script runner capable of reducing overall CI time. 
+- [[idea]] What if I wrote a `lint-changed` orb step that allowed users to specify their actual lint steps but gracefully handled the checking for changes part
+- Botify meeting:
+    - "**Show alerts in your CMS** regarding some page’s content to keep your SEO optimized. ~ https://developers.botify.com/api/
+    - Provides global filtering on page type and other segmentations. Important for giving product teams insights relevant to their work
+    - Has a feature called action board which provides high level valuable opportunities for improvement
+        - Does a good job of giving both impact and education around the issue
+    - Can do crawls of staging for early detection of issues and is working on alert panel integration w/ slack to inform of regressions detected in production
+- Goals:
+    - What does it mean to have a happy healthy team
+- [ ] Write out what it looks like to be a successful tech lead
+- [ ] Put some time on the calendar for goals brainstorming

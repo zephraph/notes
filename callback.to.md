@@ -1,0 +1,6 @@
+- A [[SaaS]] startup idea I had to facilitate the easy scheduling of asynchronous lambdas
+- Isn't primarily a [[cron]] service. It's a scheduled callback service.
+- **Info**
+    - [Figma Designs](https://www.figma.com/file/daKIFviG7aHaiTNFyREflU/Callback.to?node-id=0%3A1)
+    - [Repo](https://github.com/zephraph/callback.to)
+- **Tags** [[business-idea]]

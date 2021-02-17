@@ -1,0 +1,63 @@
+- Remote interview with [Martin Foakes](https://app.greenhouse.io/people/136030088?application_id=152224391)
+    - Notes
+        - Questions about scope
+            - Should a user be authenticated?
+        - Doesn't like to dive into UI right away
+        - So payment button doesn't exist?
+        - Payment button would be a link
+        - Need to transfer data over to payment section
+        - What happens when we click buy now?
+            - Think about route it goes to (path)
+            - setup different route
+            - Add loading state
+            - Pass data from artwork to 
+        - What data do we care about?
+            - Artwork meta data
+        - Payment button could be a trigger for redux action
+        - Offer login flow as first step (not exactly what I expected)
+        - Flow
+            - sign-in -> redirect (check availability) -> order flow
+        - payment page
+            - Pulls relevant info
+            - summary
+            - form (one step or many)?
+                - What are the tradeoffs?
+                    - Having everything in one place may be overwhelming
+                    - Step-by-step helps uses react to a sense of progress
+            - Start w/ summary
+            - Series of forms
+                - UI components
+                - form validations
+            - Success/fail states
+                - success
+                    - Confirmation page
+                    - Save card details
+                - fail
+                    - payment issue
+                        - Show error state UI
+                        - double check info
+                        - resubmit
+                    - Try again in X amount of time
+        - How do we handle availability
+            - show demand signals
+            - Follow up communications
+- [[Tools]] [go microservice framework](https://github.com/micro/go-micro)
+- Thinking a lot how to do redirects for studio
+    - Want `/team` to redirect to `team.artsy.net` but also want it to live in the same app
+    - Want to do custom stuff during dev
+    - What if we...
+        - git ignore the `now.json`
+        - generate it post build
+- [[ci-cd-task-force]] meeting
+    - Lots of conversations about how to setup automated review apps but not a lot of areas I felt like giving feedback on. [[Isac]], [[Daniel Levenson]], and [[Devon Blandin]] lead the conversation.
+- [[Lily]] and I paired on some [functionality she was working on](https://artsyproduct.atlassian.net/browse/PURCHASE-1792) surrounding not showing the sign up modal when the user presses the back button on the artist page
+- [[dev-tech-leads]] [discussion](https://www.notion.so/artsy/March-31-2020-7bc4f8ec633f49a48060d2a7f6fb1ec3)
+- [x] Do quick pass at T-shirt sizing priorities for the upcoming quarter
+- Talked to [[Guillaume]] a little bit about the [[Inquiries project]]. 
+    - I'm going to start the [technical plan](https://www.notion.so/artsy/Bring-inquiry-conversations-to-artsy-net-517f1041982543cd99bd46492300b7a2) today w/ a goal of having it in review by [[April 3rd, 2020]]
+- Tasks
+    - [x] Add end date to buyer fraud prevention project as per [[Rob Townend]]'s [request](https://artsy.slack.com/archives/D01001T5FPU/p1585687084002700)
+    - [x] Respond to [[Sarah Weir]]'s question about [[Purchase Team]] staffing
+    - [x] Finish scorecard
+        - "Remote interview with [Martin Foakes](https://app.greenhouse.io/people/136030088?application_id=152224391)"
+- [[Reading List]] https://dashbit.co/blog/a-new-authentication-solution-for-phoenix

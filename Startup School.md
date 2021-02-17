@@ -1,0 +1,17 @@
+- Entering around [[GraphLog]]
+- [[Startup School Group Session 1]]
+- Evaluating startup ideas
+    - Problem
+    - Solution
+    - Insight
+- MVP
+    - tips
+        - Timebox your spec
+        - Write it down
+        - Cut things down
+    - Never ask users for features
+    - Ask users for problems
+    - If a user asks for a feature, redirect it to the problem that they have
+    - MVP is all about does it solve the problem
+    - Solve the problem in front of you
+    - Product/Market fit happens when you're struggling to keep it running

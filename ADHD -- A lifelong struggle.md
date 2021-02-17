@@ -1,0 +1,13 @@
+- Found on: https://news.ycombinator.com/item?id=22129777
+- https://gekk.info/articles/adhd.html
+- Quotes that resonate
+    - I think that for most of human history ADHD was called laziness
+    - That's because my brain won't let me focus on things I don't want to do.
+    - On good days I was unstoppable. I'd sit down and slam through an entire page of work in minutes, much faster than I should have been able to. I was a voracious reader and could devour any age appropriate book in twenty minutes. I did everything quicker and better than my peers when my mind was engaged. But that always, always, always meant I was enjoying it. I had to want it.
+    - A day planner may help if you have trouble remembering what's happening in the future. I found that if I scheduled social activities (seeing a friend, going to a show) I would consistently forget when I had them planned. Reminders didn't help because I wouldn't think to scroll through them. Calendar items on my phone didn't help and I'm not sure why, but years of trying this and it never got better. I bought an actual paper day planner and since then I haven't had any trouble with scheduling mixups.
+        - **Update:** It worked for 2-3 months. I haven't touched it since then and everything's a wreck again. I know why, and I'll explain. I call it the Scorched Earth Effect.
+        - The problem with "systems" is that they are authorities. They have to be. If you decide __"I'll prioritize things with a stack of notecards"__ then **you are telling yourself the following:
+            - **__"The notecards replace my own brain. Everything that I do must be on a notecard. If it isn't on a notecard, it can't be done. If I want it done, it has to be on a notecard."
+            - __The problem is that when you have a crisis (a day full of emergencies) that forces you to break from this system you will lose all respect for its authority. Your brain will learn that it __doesn't__ have to respect the notecards, that they aren't in charge, and this sense of freedom is addictive and will persist. Most ADHD sufferers have left a trail of systems - notecards, whiteboards, lists, post-its, apps, alarms - that worked great for [a month, a week, three days] but are now dead to them, scorched earth we can't return to.
+            - ==I have no idea what to do about this.==
+- **Tag** [[article]] [[Reading List]] [[ADHD]]

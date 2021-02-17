@@ -1,0 +1,12 @@
+- I'm feeling really tired today
+- [[Purchase Team]] standup
+    - Today trying to move auction results along
+- Got [[Lily]]'s [PR](((3wj8kEcjH))) from yesterday merged
+- Investigated if [[cloudfront]] was capable of serving our scripts as http2
+    - Turns out we're already doing that in production
+    - https://artsy.slack.com/archives/CA8SANW3W/p1581533801158000
+- [[stdlib]] launched a [new feature](https://autocode.stdlib.com/) today
+- Talked to [[Travis Fischer]] about adding zeit marketplace integrations to [[Saasify]]
+- Fixed node v12 update [PR](https://github.com/artsy/force/pull/4999)
+- Merged [[Sepand Ansari]]'s [PR](https://github.com/artsy/reaction/pull/3131) adding auction house filters to the auction results tab on the artist page
+- [[Ashkan]] told me he's leaving [[Artsy]]

@@ -1,0 +1,14 @@
+- [[Weekly Goals]] #[[March 2nd, 2020]] #[[March 3rd, 2020]] #[[March 4th, 2020]] #[[March 5th, 2020]] #[[March 6th, 2020]]
+    - [ ] Launch year selector
+    - [x] Redo technical plan notion board
+    - [ ] Write postmortems from on-call process
+    - [ ] Tinker with hiring worksheet
+        - "[[idea]] What would it look like to have an interviewing worksheet?"
+    - [ ] CI improvements technical plan
+    - [x] Put orders, inquiries menu items behind lab flag
+        - This [ticket](https://artsyproduct.atlassian.net/browse/FX-1825) has some docs on how to create one
+        - The jira ticket tracking that is [here](https://artsyproduct.atlassian.net/browse/PURCHASE-1820)
+- Trying to figure out why [[Artsy/Diffusion]] doesn't 
+- Completed security training work
+- Conducting a systems design interview with [[Brandon Murphy]]
+- [[tool]] https://webcodesk.com/ -- A react visual page builder kind of like blocks-ui

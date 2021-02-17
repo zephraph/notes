@@ -1,0 +1,10 @@
+- 1-on-1 with [[Steve Hicks]]
+    - Talked about the virus
+    - Lots of pairing
+        - Good but maybe a little draining if it happens a lot
+    - Talking about Chris and Jon having good ability to own their tooling and make improvements to the ecosystem
+    - Talked about remote culture and how to increase empathy
+        - [[Steve Hicks]] noted that it's interesting that the virtual happy hour never happened before
+- [ ] Do software cap by [[March 20th, 2020]]
+    - https://artsy.slack.com/archives/CF4CLED41/p1584128623007500
+- 

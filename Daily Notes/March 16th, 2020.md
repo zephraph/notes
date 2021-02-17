@@ -1,0 +1,46 @@
+- [[Anil]] reached out to me saying that [[Sam R]] had reached out to him to ask him to help us out with our CIQ stuff. I'm going to have him and [[Jackie Potts]] pair on [PURCHASE-1798](https://artsyproduct.atlassian.net/browse/PURCHASE-1798)
+- [[Purchase Team]] standup
+- [ ] Finish up [PURCHASE-1810](https://artsyproduct.atlassian.net/browse/PURCHASE-1810)
+- [ ] Look at GraphiQL PR tonight
+- [ ] Help push [[Lily]]'s in progress changes through review
+- Interview with [Timothy Liu](https://app.greenhouse.io/people/135500459?application_id=151677577)
+    - Started by asking questions about details
+    - Store state of artwork in a table 
+        - purchased boolean
+    - Logged in
+    - asked about shopping cart
+    - Discovery methods for viewing vs buyer
+        - A view that flips
+    - What happens when the user clicks on purchase
+        - When artwork is sold, disable the button
+        - Give an error message if they just bought something that's unavailable
+        - Update the state of the button when availability changes
+            - Might need to check pretty often
+                - Performance issues
+            - Probably could do it but it might be glitchy
+    - On the ordering view
+        - Make sure they see an artwork preview
+        - Input for payment / address
+            - Shows recommendations before purchase are finished
+                - Tradeoffs
+                    - Uncertainty, might not buy
+                    - Might be too much noise
+            - How would you do input validation
+                - Credit card validation limit to numbers
+                - Make sure it's right length
+                - Premade payment libraries
+                    - When looking for a library
+                        - Customizability for UI
+                        - How Popular / used / recently updated
+        - Review page
+        - During checkout if it's not available just take them to another page saying the work is unavailable
+            - Should check in multiple places
+        - Show a confirmation page
+        - View artworks that they've purchased
+        - Something to track shipping
+        - Work w/ a backend person to figure how to do order availability
+            - Sit down and talk to them about feasibility
+    - Asked about day to day
+- [[March 17th, 2020]]
+    - [x] Finish scorecard for Timothy
+        - "Interview with [Timothy Liu](https://app.greenhouse.io/people/135500459?application_id=151677577)"

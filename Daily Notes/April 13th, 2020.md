@@ -1,0 +1,6 @@
+- There's a [slack thread](https://artsy.slack.com/archives/CA8SANW3W/p1586301392192100) from [[April 7th, 2020]] about heavy bot traffic coming from Indonesia. [[Joey]] added an ip block, but it seems they changed IPs. I added a new [cloudflare firewall rule](https://dash.cloudflare.com/0373426be7be649ff052277fb5377c4f/artsy.net/firewall/firewall-rules/562fd4f6f41b4b57b7b57af2ced2c345) to challenge everything from that [[ASN]]
+- Had a great conversation w/ [[Christina Thompson]]. I'm trying to encourage  her to join [[Purchase Team]]
+- Struggled to be productive
+- Paired w/ [[Lily]] on getting her [[Artsy/Cinder]] [PR](https://github.com/artsy/cinder/pull/314) on adding `/works-for-sale` to the sitemap merged. It was a bit of a challenge because we had to figure out how to run the tests with `sbt`. 
+- Spent a long while getting up a [PR](https://github.com/artsy/reaction/pull/3389) to update the conversations view
+- Didn't really stop working until a little after 11:30

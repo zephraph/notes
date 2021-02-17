@@ -1,0 +1,11 @@
+- [[Purchase Team]] sprint planning
+- [[Sam R]] [asked](https://artsy.slack.com/archives/C9YNS4X32/p1585923592199100) for someone to add Euro to the APRd dashboard
+- [ ] Follow up w/ [[Chris Pappas]] today on Cinder updates [[April 6th, 2020]]
+- [ ] Work on [INTGRTY-11](https://artsyproduct.atlassian.net/browse/INTGRTY-11) (which is just adding some documentation around SSR considerations) [[April 6th, 2020]]
+- [Trust & Safety OKR review](https://www.notion.so/artsy/Trust-Safety-5c442b5ed10f438b88aed31836fa4b91) @ 1pm
+    - One big question from [[Nicole Yeo]] was how do we increase the quality of the initial message from the collector
+    - Should we support a dedicated marketing product to reduce galleries spamming old inquiry conversations with newsletters?
+    - Graduated payments for inquiries might be a thing the business side would be on board with
+    - More [here](https://artsy.slack.com/archives/C9YNS4X32/p1585941378213100)
+- [x] [[April 9th, 2020]] Give technical plan overview for inquiry conversations
+- Merged [force#5329](https://github.com/artsy/force/pull/5329) for [[Lily]]

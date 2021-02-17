@@ -1,0 +1,20 @@
+- [[Purchase Team]] Meetings
+    - Grooming
+    - Knowledge share
+        - Went over technical plan progress so far
+- [[Artsy]] all hands
+    - Talked about revenue numbers (pulled loans)
+    - Introduced [new company values](https://docs.google.com/presentation/d/1G76GWQLXWPWDmSjGqAiWp-SHW56us4i7az95oojRugo/edit)
+        - For the Love of Art
+            - We are obsessed with art because we believe in its power to move us and change the way we experience the world. Together, we are dedicated to expanding art’s impact on humanity.
+        - Own Our Outcomes
+            - We are all individual owners of Artsy’s shared success. We are resourceful and resilient, and to get the job done, we each take responsibility for our outcomes.
+        - Lead with Openness
+            - We trust in our teammates. We have the courage to be vulnerable, to communicate honestly, and to invite diverse perspectives. A more open art world starts with us.
+        - Transform Together
+            - Our mission asks us to challenge the status quo. We embrace learning, growth, and change so that we can transform our industry, our company, and ourselves.
+        - Impact Over Perfection
+            - Using both Art and Science, we debate and decide swiftly and iterate on our plans as we learn. To make the biggest impact, we prioritize speed and clarity of action over perfection.
+        - Do the Right Thing, Always
+            - We are building a company and community we can all be proud of. We make decisions with honesty and integrity, even when it’s not convenient. Empathy, respect, and inclusivity are core to our mission.
+- Wrapped up [logged in artist page redirect](https://github.com/artsy/reaction/pull/3307)

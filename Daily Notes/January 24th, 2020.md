@@ -1,0 +1,15 @@
+- **Rating**: 6/10
+    - Continuing to not make much coding progress
+    - Did finally settle out on an approach for [[PURCHASE-1604]]
+- [x] Read Dave's email about the team
+    - by [[January 27th, 2020]] email Dave back
+- [[Purchase Team]] standup
+- Participated in [[feedback Friday]] by requesting feedback from [[Jackie Potts]]
+- [Fixed](https://github.com/artsy/aprd/pull/72) [[Artsy/aprd]]'s [renovate failures](https://github.com/artsy/aprd/pull/48)
+- [x] Lunch with [[Luc Success]] and [[Kieran]] on Monday [[January 27th, 2020]]
+- [ ] I was reminded of this article https://medium.com/@rinaarts/radical-candor-software-edition-d4b5ad401be3 which I want to read again [[Reading List]]
+- [ ] Pair w/ [[Matt Zikherman]] on [[January 27th, 2020]] on tslint plugin
+- Had drinks with [[Devon Blandin]], [[Roop]], [[Anson]], and [[Jackie Potts]]
+- [[January 25th, 2020]]
+    - [x] Pairing at [[Peer Labs]] with [[Tim Griesser]] and [[Roger King]]
+    - [x] Dinner party at [[Devon Blandin]]'s at 6 (with [[An ❤️ ]])

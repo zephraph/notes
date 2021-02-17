@@ -1,0 +1,4 @@
+- [[Tools]] https://getcleanshot.com
+- [[Tools]] https://boardgame.io/
+- I'm not feeling great today. Just stressed/tired
+- [[Tools]] https://googlechrome.github.io/lighthouse-ci/viewer/

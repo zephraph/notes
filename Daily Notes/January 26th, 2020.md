@@ -1,0 +1,8 @@
+- Had brunch with [[An ❤️ ]] at [[two hands]]
+- [State of independent SaaS]()https://static1.squarespace.com/static/5d6fd1b92a7aeb00017966dd/t/5e291fc7d2e9fa1df81e2a8c/1579753464656/sois) [[Reading List]]
+- [x] Respond to [[Dave]] from [[Better]]
+    - Do today [[January 27th, 2020]]
+- [ ] Setup [[GraphLog]] spark instance on laradock
+    - defer to [[January 29th, 2020]]
+- [x] Work on my artsy Salon project
+- 

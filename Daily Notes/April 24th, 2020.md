@@ -1,0 +1,2 @@
+- A free day! Also the day before my 30th 😅
+- I'm gonna starting working on a [[blog post]] called [[programming while blind]]

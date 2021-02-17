@@ -1,0 +1,13 @@
+- [[Purchase Team]] grooming
+    - Groomed a lot of tickets for the [[Inquiries project]]
+- [[Purchase Team]] knowledge share
+    - Not much to show today
+- [[Lily]] [reported an issue](https://artsy.slack.com/archives/C9YNS4X32/p1586965852419500) where submitting a conversation breaks due to the timestamp being null
+    - [PR'd here](https://github.com/artsy/reaction/pull/3406)
+- Had a [long conversation](https://artsy.slack.com/archives/C9YNS4X32/p1586971627425200) about disabling the `reply-all` functionality to ensure that users don't get an email about the message they just sent on platform. 
+    - [TL;DR](https://artsy.slack.com/archives/C9YNS4X32/p1586977033440700?thread_ts=1586971627.425200&cid=C9YNS4X32) from [[Chung-Yi]]
+        - "OK this is long thread. TLDR something we learned: when collector replies to a conversation (currently only on the app), we are doing a [reply_all that adds the collector herself to the to field](https://github.com/artsy/radiation/blob/fc92489d97578a3a42ac6d0ba29ad0fc237b7c21/app/services/conversation_service.rb#L133). Therefore, collector will get an email with the message she just replied. This is a behavior we can change."
+- [[Idea]]
+    - setup github action to provide two way linking of wiki via
+        - https://github.com/maxchehab/phelia.wiki.git
+- 

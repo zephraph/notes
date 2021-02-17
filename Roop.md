@@ -1,0 +1,7 @@
+- An engineer at [[Artsy]] who works on the [[Find and Explore Team]] team
+- **Info**
+    - **Employer**: [[Artsy]]
+    - **Team** [[Find and Explore Team]]
+    - **Email** [roop@artsymail.com](mailto:roop@artsymail.com)
+    - **Team Nav** https://team.artsy.net/member/roop
+- **Tags** [[person]]

@@ -1,0 +1,22 @@
+- [[Artsy/integrity]] tests [failing](https://app.circleci.com/pipelines/github/artsy/integrity/414/workflows/be139522-36ee-4c57-a9f8-c00f2cd33335/jobs/3588) consistently overnight
+    - It's the `offerArtworkWithScaCard` test
+    - [[Sarah Weir]] pointed me to a [doc about removing cards from stripe](https://github.com/artsy/integrity#too-many-credit-cards-for-a-customer) which could've been causing the tests to fail
+- Added a [ticket](https://artsyproduct.atlassian.net/browse/PURCHASE-1835) to add a fallback to images in [[Artsy/Palette]]
+- Fixed the reset error in my [year created PR](https://github.com/artsy/reaction/pull/3270)
+- Creating a few usability tickets for filters
+    - Should be able to clear year ranges on deskop 
+        - https://artsy.slack.com/archives/C9YNS4X32/p1584636177074300?thread_ts=1584635782.067200&cid=C9YNS4X32
+    - Should be able to see the amount of results before "applying" the filter in mobile
+        - https://artsy.slack.com/archives/C9YNS4X32/p1584635873069100
+    - Should be able to slide down the filter view to dismiss
+        - https://artsy.slack.com/archives/C9YNS4X32/p1584636185074900
+- [[Purchase Team]] [retro](https://www.notion.so/artsy/b6b1c01359be48f19764cf64a3929d56?v=62c0cab6c4f545749db61b3e4ae556ec)
+- Paired with [[Lily]] on fixing a weird jest mocking issue with `react-tracking`
+    - Turned out to be a weird case when a `beforeEach` wasn't being ran for code deeper in the tests. Changing the mocking to `beforeAll` fixed the issue. 
+- __Finally__ shipped the [year created filter](https://artsyproduct.atlassian.net/browse/PURCHASE-1809) for artist auction results
+- Added a [PR](https://github.com/artsy/integrity/pull/91) to integrity to hopefully help it be a bit more stable
+- Paired with [[Chris Pappas]] a little bit trying to dig into a mysterious failure for integrity potentially related to bundle splitting
+- Created [[Artsy/studio]]
+    - Intended to be like what backstage is for spotify
+    - https://adamwathan.me/2019/10/17/persistent-layout-patterns-in-nextjs/
+    - Use TinaCMS visual editor mode to make blog posts editable

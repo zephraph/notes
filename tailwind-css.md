@@ -1,0 +1,2 @@
+- A css tool/framework for styling UI with utility based classes
+- https://blog.logrocket.com/create-react-app-and-tailwindcss

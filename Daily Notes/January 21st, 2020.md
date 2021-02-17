@@ -1,0 +1,16 @@
+- **Rating**: 5/10
+- Used a toner in the morning. Might have helped? [[skincare]]
+- I haven't taken notes consistently in a while. Is it doable?
+- Fixed an issue w/ [[Artsy/Force]] where we were relying on repos that got unpublished
+- Had a [[Purchase Team]] retro. I really struggled to be present during the meeting. 
+- Looked into issue updates on the [[react-lazy-load-image-component]] repo.
+    - Updated the version to the latest beta in both [[Artsy/Palette]] and [[Artsy/Reaction]]
+- Verified that technical plans reference linking product briefs
+    - [[Sarah Weir]] mentioned it might be a good to work in product briefs as an explicit part of [[technical plan]]
+- Talked to [[Caroline Perkins]] and [[Ashkan]] about [[PURCHASE-1604]]. More context can be found in the page associated with that issue, but there's a bit of work to do in both settling out where we want to go and getting it built. I'm probably going to make a [[technical plan]] (even though that might be a  little overkill)
+- Gave [[Jackie Potts]] an overview of [[Artsy]]'s architecture
+- Trying out [[roam]] for the first time, we'll see how it goes
+    - So far I really freaking like it
+- **After work**
+- I talked to [[dad]] for a bit on the phone. He wanted help getting his profile picture set up with [[what's app]]. 
+- Started thinking more about [[callback.to]]

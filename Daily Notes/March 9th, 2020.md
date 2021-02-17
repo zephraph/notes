@@ -1,0 +1,25 @@
+- Something to look into later: https://github.com/rikumantysalo/ts-incremental-strict-mode
+- Kind of feel like I'm drowning in work here, ha
+- Had an interview w/ [Arda Ilgaz](https://app.greenhouse.io/people/135375541?application_id=151546995)
+    - This is a hard one. Trying to be unbiased here, but I feel somewhat apathetic about this interview which is a major red flag. More to work on. 
+- [[Chris Pappas]] was sort of pushing hard against some of the [[Artsy/Reaction]] [PR to add eslint](https://github.com/artsy/reaction/pull/3247) which I understand but is also slightly frustrating.
+    - Immediate thoughts
+        - I have to separate my feelings from my work. Very critical that I learn to do this.
+        - Maybe avoid adding reviewers on PRs that aren't done. Maybe avoid creating PRs at all until something is ready to review.
+            - Is this a bad mindset?
+        - He actually has really valid thoughts. We need to make sure the config is simple. I also want that, it's just not exactly what was on my mind as I was pushing through. This is __good__ feedback and I should feel __good__ about receiving it. Should. 
+        - 
+- Had a conversation with [[Eve Essex]] about CI/CD. 
+    - She really values safety and consistency above everything else. I should really respect/be mindful of that moving forward
+    - In retrospect, I feel somewhat disrespectful about continuing to do side channel work. This work could be unintentionally antagonizing or go counter purpose to the goals of platform without my realizing it because it's outside of my area of responsibility and is being lead fully by platform. Food for thought.
+- [[Chris Pappas]] pointed out that there are some potentially bad failures in production related to open sea dragon
+    - https://artsy.slack.com/archives/C2TQ4PT8R/p1583779475048800
+- [[tool]] https://www.debuggex.com/ -- Useful for debugging regex
+- Finally got in Alexander's scorecard. It was pretty late. I really don't know which way to go with that. 
+    - "Interviewing [Alexander Bercow](https://app.greenhouse.io/people/135889054?application_id=152077957)"
+- For [[March 10th, 2020]]
+    - [x] Prep for GraphiQL working group session
+    - [x] Finish up that damn metaphysics PR
+    - [x] See if I can figure out integrity test failures
+        - Chris is looking more into it so I'll defer for now
+    - [ ] Look into sentry issues

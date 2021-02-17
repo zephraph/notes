@@ -1,0 +1,8 @@
+- Bundle splitting PR had to be reverted due to issues on staging (there's a [new PR](https://github.com/artsy/reaction/pull/3151))
+- Node 12 update [PR](https://github.com/artsy/force/pull/4999) ready, but hasn't moved (maybe needs to be behind a review app?)
+- Product review meeting
+    - [[Will Doenlen]] and [[Nicole Boettcher]] presented aggregating more supply by allowing artworks that lead off platform to a partner's site
+- The [[relay]] team is working on a [rust version of relay compiler](https://github.com/facebook/relay/tree/312e791301ee1375fc7eb728dfcef9dc8c4fe285/compiler)
+- Update [[Artsy/Horizon]] [PR](https://github.com/artsy/horizon/pull/61) to drop a message in dev when a deployment PR is ready
+- Create a [[Artsy/Horizon]] [PR](https://github.com/artsy/horizon/pull/62) to automatically create a deployment PR when it's ready
+- Had a conversation with [[Sam R]] about potential options for career path

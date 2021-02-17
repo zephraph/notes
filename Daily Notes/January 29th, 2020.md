@@ -1,0 +1,11 @@
+- Standup with [[Purchase Team]]
+- Briefly paired with [[Sepand Ansari]] on [[relay]] pagination. 
+    - We couldn't really figure out why the props in the pagination component weren't being updated after the refetch was happening
+    - Used `refetch container` as opposed to the `pagination container` and I'm not sure why?
+        - I have a [question](https://artsy.slack.com/archives/CP9P4KR35/p1580317053080600) in #[[dev-help]] about that
+        - [[Matt Zikherman]] actually mentioned this  in [his blogpost on relay windowed pagination](https://artsy.github.io/blog/2020/01/21/graphql-relay-windowed-pagination/) [[Reading List]]
+- Paired with [[Matt Zikherman]] on a tslint plugin for [[Artsy/Reaction]]
+- Got my hair cut
+- Paired with [[Sepand Ansari]] more on the relay issue. We really struggled to make progress. Need to dig into relay more to understand it better.
+- [[An ❤️ ]] told me she started reading [[God's Demon]]
+- Going rock climbing with [[Alex Zhang]]

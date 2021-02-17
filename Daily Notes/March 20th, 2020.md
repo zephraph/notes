@@ -1,0 +1,10 @@
+- Made some coffee for [[An ❤️ ]] and I
+- Led a somewhat awkward [[Purchase Team]] sprint planning
+    - Jira is not my friend
+- [Guide on how to write documentation for a Rust crate](https://blog.guillaume-gomez.fr/articles/2020-03-12+Guide+on+how+to+write+documentation+for+a+Rust+crate) [[Rust]] [[Reading List]]
+- https://developers.google.com/tech-writing [[Reading List]]
+- A little unmotivated/listless right now.
+- Created a new ticket to add the ability to reset date range filters
+    - https://artsyproduct.atlassian.net/browse/PURCHASE-1841
+- [Playroom](https://github.com/seek-oss/playroom) -- A react playground to test a component in different viewports [[Tools]]
+    - I'd kind of like to integrate this to [[Artsy/Palette]] for a little bit of easier development without having to mess w/ storybooks

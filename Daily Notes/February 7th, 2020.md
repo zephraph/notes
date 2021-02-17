@@ -1,0 +1,6 @@
+- Huddle in the morning to talk about the incident with [[Everette]]. [[Mike]] did a great job. 
+- [[Salon]] was canceled. I'm pretty relieved because my project isn't really done. I slept very poorly last night thinking about it. 
+- Sent out [a tweet](https://twitter.com/Zephraph/status/1225811949247778818?s=20) about hiring at [[Artsy]]. [[Mike]]'s handling of the huddle this morning definitely inspired more confidence from me. 
+- [ ] https://statickit.com/guides/fathom-analytics-next-js [[Reading List]]
+- Spent a long time digging into what's happening with SSR/bundle-splitting in  [[Chris Pappas]]'s [PR](https://github.com/artsy/reaction/pull/3137)
+    - Potentially traced it down to accidentally using `babel-plugin-dynamic-import-node` as noted  by [this issue](https://github.com/webpack/webpack/issues/5703)

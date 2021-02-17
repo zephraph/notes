@@ -1,0 +1,16 @@
+- What would it look like if we had software specifically design to make us better?
+- Adaptive interfaces across the devices you used
+    - Mobile takeover experience
+        - android launcher
+    - Desktop quick launcher?
+        - alfred like experience for quickly...
+            - Adding events to your calendar
+            - Adding notes to your... notes?
+            - Setting reminders
+- Primary aspects
+    - Time/scheduling
+    - Ideas
+    - Important tasks
+    - Keeping up with relationships
+    - Reducing friction in everyday life
+- **Tags** [[idea]]

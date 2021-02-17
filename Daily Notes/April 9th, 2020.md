@@ -1,0 +1,2 @@
+- [[Reading List]] https://slack.engineering/deploys-at-slack-cd0d28c61701, https://landing.google.com/sre/books/
+- This could be interesting to explore later: https://www.metalevel.at/prolog

@@ -1,0 +1,9 @@
+- Today was a pretty productive day
+- Incidents review meeting highlighted some action items for integrity
+    - https://artsy.slack.com/archives/CNRF89P7Y/p1588091274207700
+- Got [PURCHASE-1867](https://artsyproduct.atlassian.net/browse/PURCHASE-1867) merged. We're just returning `null` if no `initial_message` is provided
+- Paired with [[Christina Thompson]] on fixing up notifications on the header
+- Met w/ the tech leads and talked about integrity 
+- Paired a while w/ [[Oksana]] on getting her local force up and running.
+- Put No messages issue up for review
+    - https://artsyproduct.atlassian.net/browse/PURCHASE-1860

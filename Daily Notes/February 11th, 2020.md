@@ -1,0 +1,13 @@
+- Inquiry training session
+    - `inquiry_service.rb` in [[Artsy/Gravity]] controls most of the backend behavior
+    - `impulse_service.rb` controls inquiry service
+    - [[Artsy/Pulse]] is only for notification emails
+    - [[Artsy/Gravity]] only knows about the artwork
+    - [[Artsy/Impulse]] owns and aggregates information about the inquiry (it's primarily responsible for inquiries)
+    - [[Artsy/Radiation]] is just a masked email conversation system
+    - [[Artsy/Impulse]] && [[Artsy/Radiation]] are hosted on [[heroku]]
+- Used a [[tool]] called [alfy](https://www.npmjs.com/package/alfy) to easily make alfred workflows from node.js files
+- 1-on-1 with [[Guillaume]] on inquires based workflow
+- More digging into [[Lily]]'s [PR](https://github.com/artsy/reaction/pull/3139)
+    - "There's a rehydration issue that's causing rendering issues"
+    - Turns out it was a weird issue w/ how [[Artsy/Fresnel]] was being used. [The fix](https://github.com/artsy/reaction/pull/3139/commits/e2b2dac8bd244465acce3788f306adcecb94b9ad) was to remove the child render function from the `Media` component.

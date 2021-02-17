@@ -1,0 +1,7 @@
+- Late start to the day
+- There was a [production incident today](https://artsy.slack.com/archives/C9RK0BLEP/p1582653772002000) that was caused by the client side routing A/B test rolling out which used an env var that wasn't set for production
+- [[Weekly Goals]] #[[February 25th, 2020]] #[[February 26th, 2020]] #[[February 27th, 2020]] #[[February 28th, 2020]] #[[February 29th, 2020]]
+    - [x] [NOT DONE]Write postmortem for incidents that happened while I was on call
+        - "There was a [production incident today](https://artsy.slack.com/archives/C9RK0BLEP/p1582653772002000) that was caused by the client side routing A/B test rolling out which used an env var that wasn't set for production"
+        - "There was a [production incident](https://artsy.slack.com/archives/C02BC3HEJ/p1582557643007000) in which search was broken due to some bundle splitting path issues"
+        - "Got on a call about a [[Artsy/Diffusion]] outage"

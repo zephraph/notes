@@ -1,0 +1,7 @@
+- Apt w/ [[Dr. D]]
+	- He seems to be late again. Given that I'm paying him 450 for this session, that somewhat urks me. 
+	- He talked most of the time and went on a shpill about performance mindset. Essentially making sure that you live a mindful, purposeful life puts you above the other shmucks just struggling to get by on their whims of fancy. Schedule your week, start your day with a win, build on your wins and capitalize "leverage" to level up your life. I mean, there's probably some truth here, but I'm not buying what he's selling. I could've saved 425 and bought an inspirational self help book on amazon to tell me the same thing. _Frustrating_
+
+- Tweet from [[Sam Saccone]] highlights [[begin.com]] and [[arc.codes]] which are both projects I should check out at some point. 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">turns out <a href="https://t.co/hETvIQNN8q">https://t.co/hETvIQNN8q</a> and <a href="https://t.co/FXcu1uRwIK">https://t.co/FXcu1uRwIK</a> is basically this :)<br><br>Thanks <a href="https://twitter.com/brianleroux?ref_src=twsrc%5Etfw">@brianleroux</a> for giving me the tour.</p>&mdash; Sam Saccone (@samccone) <a href="https://twitter.com/samccone/status/1361465239871516673?ref_src=twsrc%5Etfw">February 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+- Maybe I should write a twitter embedder?

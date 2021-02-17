@@ -1,0 +1,1 @@
+- Maybe I should write a blog post about the layout handling in next via the `_layout` file

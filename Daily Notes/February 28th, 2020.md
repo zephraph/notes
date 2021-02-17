@@ -1,0 +1,4 @@
+- Found an [interesting read](https://www.geoffreylitt.com/wildcard/salon2020/) on manipulating sites with a spreadsheet like dataview [[Reading List]]
+- Added a [PR](https://github.com/graphql/graphiql/pull/1380) to [[GraphiQL]] in order to assist some refactoring/migration. [[Orta Therox]] asked if I wanted to be involved initially. I should really be mindful of my obligations though. 
+- Joined the engineering core huddle as a tech lead for the first time
+- Conducted a systems design interview with [[Mounir Dhahri]]

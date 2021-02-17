@@ -1,0 +1,17 @@
+- Started the day off with a message that the artist page was down on staging because of infinite redirects
+    - Reverted in master
+    - Worked on a [fix](https://github.com/artsy/reaction/pull/3338) which was reviewed by [[Sarah Weir]]
+- Team QA meeting
+- [[Eve Essex]] [asked me](https://artsy.slack.com/archives/CNRF89P7Y/p1585842011038900) to look at adding docs to integrity around SSR
+- Lunch and learn
+    - [[Jon Allured]] showed off some of his convection setup
+    - [[Devon Blandin]] gave a shout out to [[Roam]]!
+    - I Talked about [[Artsy/studio]] a bit
+- Inquiry component design review with [[Will Anderson]]
+- Check-in with [[Chung-Yi]]
+    - He's primarily focused on helping [[Galleries Team]] with shipping the virtual show room
+    - Available to pair the [[Inquiries project]], especially things that are partner facing
+- Paired with [[Lily]] on adding `/works-for-sale` to the sitemap and realized we have an issue where where `/` is always crawled but sometimes redirects to `/works-for-sale`. This could lead to duplicate content being reported. More context can be found in [this slack thread](https://artsy.slack.com/archives/C9YNS4X32/p1585859437186500).
+    - [x] Update [the ticket](https://artsyproduct.atlassian.net/browse/PURCHASE-1851) to capture the work surrounding this
+    - [[Sarah Weir]] suggested we might want to copy the redirect logic over to [[Artsy/Gravity]] (which sounds like a great idea to me)
+- Merged --> "Worked on a [fix](https://github.com/artsy/reaction/pull/3338) which was reviewed by [[Sarah Weir]]"

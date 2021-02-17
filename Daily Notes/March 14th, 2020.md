@@ -1,0 +1,6 @@
+- [ ] Add setup notes for [[Saasify]] (Maybe? There's a lot of notes already in the readme)
+- Met up w/ [[Travis Fischer]] to talk/work on [[Saasify]]
+    - Got a few PRs in
+    - Talked about what joining him might look like. He's planning on doing YC in may so ideally we'd figure something out before then. 
+    - To change the deployment type
+        - `scripts/bootstrap.js dev/imagemin > src/lib/default-deployment.json`

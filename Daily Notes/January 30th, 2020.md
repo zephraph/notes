@@ -1,0 +1,18 @@
+- **Todo**
+    - [x] Dinner w/ [[Marcus]] ( [Event](https://calendar.google.com/calendar/b/2/r/eventedit/NHIzMDEyNnI2YjU4Z2hhcm1udW5jbmpqY2cganRibm50QG0) )
+
+    - [x] Call [[Mom]]
+- --- Midnight ---
+- Setting up [[GraphLog]] dashboard app w/ [[tailwind-css]]
+- Learned about a tiny, interesting modal library called [micro-modal](https://github.com/ghosh/micromodal) from an [article](https://www.viget.com/articles/a-better-approach-for-using-purgecss-with-tailwind/) by [[viget]] on optimizing [[tailwind-css]] with purgecss
+- https://gedd.ski/post/article-grid-layout/ [[Reading List]]
+- I’ve decided to stop giving a rating to day notes. It’s not something that’s very meaningful. 
+- --- Work ---
+- Merged [[Artsy/Fulcrum]] [PR](https://github.com/artsy/fulcrum/pull/1462) that begins the ingestion of fraud review data into redshift
+- Created a [PR](https://github.com/yarnpkg/berry/pull/852) to yarn/berry adding attribution to [[David Sheldrick]] since it's using a good portion of [[patch-package]]'s code
+- Had a one-on-one with [[Sarah Weir]]
+    - Discussed goals. Need to workshop ideas on  impactful work that I could do
+    - Talked about performance and what went wrong with it. There’s some learning opportunities here
+- Paired with [[Jackie Potts]] on some reaction artwork stuff. She had a frustrating problem where she didn’t know to run relay and couldn’t understand why the data for her component wasn’t flowing through.
+- Worked on [[Artsy/aprd]] to add CTA buttons on potentially fraudulent transactions to streamline adding notes. It's not the full flow that I want, but it's better than nothing. I really shouldn't put more time into this project as it's not the top priority
+- Talked to [[Mom]] and [[Bobby]] a bit. [[Bobby]] wants to set up a pressure washing service to make a little side money. [[Mom]] is still working too much. 

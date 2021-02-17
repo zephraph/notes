@@ -1,0 +1,21 @@
+- Product review
+    - Online viewing room
+        - Doing a user experiment (showing galleries a prototype) to try to learn why they want it and what it's for
+        - Gagosian, Zwirner, Cristea Roberts all have online viewing rooms.
+        - Require users to log in to see this
+        - Artworks that are unindexed from the artwork page and only discoverable through the viewing room
+        - Do online only shows overlap with this?
+        - Early access is important to content
+    - Sign-in w/ apple
+- Platform practice
+    - Client side routing continues to fail A/B testing
+        - Might be related to large initial bundle
+    - Buyer vetting
+    - Question raised around if we should continue stitching, consider apollo federation, or investigate another solution
+- Question from [[Sarah Weir]]: How do we speed up force releases?
+- Watched [[Matt Zikherman]]'s [[lunch and learn]] on giving
+- [x] Add a ticket to jira about Palette's carrot being missaligned in the small dropdown
+- [ ] Make a ticket about auction results page not having a sort label
+- [x] add meeting with Sam R on the calendar for sometime in the next few weeks
+- Had drinks with [[Travis Fischer]] to talk a bit about [[Saasify]]. He's interested in potentially having me join as a co-founder depending on how things go. 
+    - [ ] Check out [[Saasify]]'s open source repos and make a few contributions

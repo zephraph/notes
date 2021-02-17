@@ -1,0 +1,17 @@
+- **Rating**: 7/10
+- **Summary**: All in all it was a decent day. I did essentially 0 coding today, but I paired with [[Jackie Potts]] on some 
+- **Tasks**
+    - [x] [[Purchase Team]] grooming
+    - [x] Sketch out quick technical plan for [[PURCHASE-1604]]
+        - [x] How do we hook up new tables in [[Artsy/Exchange]] to be imported into [[redshift]]?
+            - [[Joey]] responded w/ this [[Artsy/Fulcrum]] [link](https://github.com/artsy/fulcrum/blob/d0bfe446d536336cf770f2fe8be9daa0b671d665/tasks/extract.rake#L172-L188)
+        - Instead of sketching up a technical plan, I've updated the ticket with more  context as a message
+    - [x] Pair with [[Jackie Potts]]
+- Discussed a [[lunch and learn]] on [[graphql]] with [[Marcus]]
+    - Having dinner with [[Marcus]] on [[January 30th, 2020]]
+- Went to the dentist
+-  [[Roop]] mentioned a post by [[Dan Abramov]] on overusing [[abstractions]]
+    - [ ] https://overreacted.io/goodbye-clean-code/ [[Reading List]]
+    - He mentioned it's also related to an article by [[Sandi Metz]] on the  consequences of choosing the wrong abstraction
+        - [ ] https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction [[Reading List]]
+- Read [[Why do we fall into the rewrite trap?]] [[Reading List]]

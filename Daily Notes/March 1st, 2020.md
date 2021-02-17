@@ -1,0 +1,9 @@
+- Spent the last two nights with [[An ❤️ ]]
+    - We had a bit of a tough conversation about how I express my desire to be with her when we're not together. My not asking her to come over more makes her feel unwanted. Something to keep in mind and work on. This is the third tougher conversation that we've had. One where I needed space due to feeling down, one where I wasn't being open enough about what's on my mind, and this one. Definitely something I should continue to monitor. 
+- Wrote a packaged called [lint-changed](https://github.com/artsy/lint-changed). It allows us to only lint things that have changed in CI. Kind of continues with the theme of work around being smarter about what work we take on. 
+- Found this tweet about git commit messages
+    - https://twitter.com/csswizardry/status/1233410891900735488?ref_src=twsrc%5Etfw
+    - I should find a better way to craft commit messages. The __are__ a good source of information sharing. 
+- [[idea]] Create an evolutionary architecture dashboard
+    - Tracks the important things over time
+    - CI time

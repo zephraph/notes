@@ -1,0 +1,4 @@
+- Looking into issues w/ `CDN_URL` on force staging showing `undefined` in the URL. Here's a [thread](https://artsy.slack.com/archives/CA8SANW3W/p1582446579001900) about it
+- [[Reading List]] https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/
+- [[Orta Therox]] sent me a [link](https://github.com/microsoft/TypeScript/issues/36935) to a [[TypeScript]] bug related to what we were seeing in [[Artsy/Reaction]] around `data-*` attributes not being able to be used. 
+- Shipped [[Artsy/Force]] [PR 5105](https://github.com/artsy/force/pull/5105)

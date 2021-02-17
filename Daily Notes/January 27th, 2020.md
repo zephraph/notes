@@ -1,0 +1,14 @@
+- Talked to [[Ashkan]] about [[PURCHASE-1604]]
+    - I'm going to pair the ticket down and only add an admin interface
+    - Let [[Caroline Perkins]] know about the plans there (so the pressure is on to deliver)
+    - Finally got the [PR](https://github.com/artsy/exchange/pull/562) up at 8:00 PM
+- Participated in the [[feelings check-in]]
+    - [[ADHD]] continues to be a major personal topic for me
+    - [[Lily]] is having a hard time with relationships. I'm not sure what I can do to help. 
+- [x] Schedule [[frontend practice hour]]
+- [x] Get my haircut on [[January 29th, 2020]] at 1PM
+- Paired with [[Matt Zikherman]] on getting the exchange field added
+- Found an article on the typescript compiler api that'll be helpful for my [[TS Module to CLI]] project
+    - https://convincedcoder.com/2019/01/19/Processing-TypeScript-using-TypeScript/ [[article]] [[Reading List]]
+- I was talking to [[An ❤️ ]] and I was reminded about the [[topology]] video I watched on [[youtube]] the other day. 
+    - https://www.youtube.com/watch?v=AmgkSdhK4K8

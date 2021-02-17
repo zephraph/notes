@@ -1,0 +1,4 @@
+- Used by [[Artsy/Palette]] and [[Artsy/Reaction]] at [[Artsy]] to manage image lazy loading
+- Links
+    - [GitHub](https://github.com/Aljullu/react-lazy-load-image-component#readme)
+    - [NPM](https://www.npmjs.com/package/react-lazy-load-image-component)

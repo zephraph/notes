@@ -1,0 +1,21 @@
+- Started the day w/ breakfast and PR grooming
+- Got both diffusion PRs merged!
+- Work tasks for the day
+    - [x] Dig into issue where auto gets in a release loop when the github release isn't set correctly
+        - Turns out if the release and existing labels don't correspond then things don't go well
+    - [x] Fix `lint-changed` failure
+    - [x] Restore `lint-changed` to reaction
+    - [x] Investigate why integrity is failing
+        - Looks like it's due to (potentially many) timing issues
+        - Immediate steps [[March 5th, 2020]]
+            - [ ] Wait for hydration before starting testing
+            - [ ] use `cypress-pipe` to test for things until success
+    - [x] Get [PURCHASE-1812](https://artsyproduct.atlassian.net/browse/PURCHASE-1812) into review
+- Future tasks
+
+    - [ ] Put a PR into auto to fix error/release cycle
+    - [x] Add an update to the canary publish to skip if circle says thing is a branch instead of PR
+- I should follow this guy: https://joshwcomeau.com/
+- Learned some things about [[Cypress]]
+    - Use [cypress-pipe](https://github.com/NicholasBoll/cypress-pipe) to do click retrying (as recommend in the [cypress docs](https://www.cypress.io/blog/2019/01/22/when-can-the-test-click/))
+    - There's a [blog post](https://www.cypress.io/blog/2018/02/05/when-can-the-test-start/) about waiting for the right time to start testing

@@ -1,0 +1,3 @@
+- Shipped a [fix](https://github.com/artsy/reaction/pull/3295) for pagination on auction results being broken
+- Continued working on the babel plugin for [[Artsy/studio]]
+    - https://dev.to/aprietof/nextjs--styled-components-the-really-simple-guide----101c Used to figure out how to SSR styled-components

@@ -1,0 +1,1 @@
+- Talked to [[Tim Griesser]] about the MVP 

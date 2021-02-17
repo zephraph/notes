@@ -1,0 +1,11 @@
+- [[Purchase Team]] knowledge share
+    - [[Jackie Potts]] showed off some elastic search query improvements in [[Artsy/Diffusion]]
+    - I showed off the [routing PR](https://github.com/artsy/reaction/pull/3307#partial-timeline) that [[Lily]] and I paired on
+    - I also introduced [[Artsy/studio]]
+- [[Reading List]] https://www.nfx.com/post/28-moves-survive-thrive-downturn/
+- Internal interview for [Thomas Meerschwam](https://app.greenhouse.io/people/137370215?application_id=153617930)
+- Incident review
+- Software capitalization meeting
+- [[Purchase Team]] OKR reviews
+    - [ ] Come up w/ good suggestions for OKRs for the next quarter by [[March 25th, 2020]]
+- 
