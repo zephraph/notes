@@ -1,0 +1,2 @@
+# Esbuild
+- when building for node, esbuild by default looks for `main` then `module` entry points. Meaning it only looks for `esm` if there is no `cjs` setup.  If you add ` mainFields: ["module", "main"]` to the build config it'll reverse that order letting you take advantage of esm builds.  

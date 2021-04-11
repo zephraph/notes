@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "5543293e5c929db9",
+        "id": "01dea82cee542e34",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Daily Notes/April 11th, 2021.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -24,20 +26,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02b102d9b44cef10",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
             "id": "e5e110f01229ff52",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#idea",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,9 +39,16 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "04e684c8803eac4e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -67,12 +68,31 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/April 11th, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
+            }
+          },
+          {
+            "id": "d81352cb7f603a8e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "596cc21b0d592465",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -82,8 +102,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "01dea82cee542e34",
   "lastOpenFiles": [
-    "An intro to thought.md",
-    "Untitled.md"
+    "Daily Notes/April 11th, 2021.md",
+    "Daily Notes/April 10th, 2021.md",
+    "Untitled 1.md",
+    "Industrial Magic.md",
+    "GUI for building prompts.md",
+    "Daily Notes/April 8th, 2021.md",
+    "Alfred MyMind integration.md",
+    "Recurse Center Application.md",
+    "Daily Notes/March 15th, 2021.md",
+    "Daily Notes/March 16th, 2021.md"
   ]
 }

@@ -1,0 +1,14 @@
+### Today's anxiety scale
+
+**0**
+**1**
+- 11:28 -- Unmotivated, tired. Trying to coordinate a walk w/ [[An ❤️]], not sure if I should eat before. 
+**2**
+**3**
+**4**
+**5**
+**6**
+**7**
+**8**
+**9**
+**10**
