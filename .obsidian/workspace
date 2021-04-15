@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/April 11th, 2021.md",
+            "file": "Daily Notes/April 15th, 2021.md",
             "mode": "source"
           }
         }
@@ -31,7 +31,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#idea",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -45,6 +45,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "8a4929eaf75de5a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
               "state": {}
             }
           }
@@ -68,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/April 11th, 2021.md",
+                "file": "Daily Notes/April 15th, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,25 +102,53 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "95cb24c184a202e8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba2481669021a7f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily Notes/April 15th, 2021.md"
+              }
+            }
+          },
+          {
+            "id": "2b4f324882e2c020",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "01dea82cee542e34",
   "lastOpenFiles": [
+    "Daily Notes/April 15th, 2021.md",
+    "Daily Notes/April 14th, 2021.md",
+    "Daily Notes/April 13th, 2021.md",
     "Daily Notes/April 11th, 2021.md",
     "Daily Notes/April 10th, 2021.md",
     "Untitled 1.md",
     "Industrial Magic.md",
     "GUI for building prompts.md",
     "Daily Notes/April 8th, 2021.md",
-    "Alfred MyMind integration.md",
-    "Recurse Center Application.md",
-    "Daily Notes/March 15th, 2021.md",
-    "Daily Notes/March 16th, 2021.md"
+    "Alfred MyMind integration.md"
   ]
 }
