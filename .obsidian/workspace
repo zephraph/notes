@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Recurse Center Application.md",
+            "file": "Daily Notes/April 14th, 2021.md",
             "mode": "source"
           }
         }
@@ -31,7 +31,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Recurse",
+                "query": "theme",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurse Center Application.md",
+                "file": "Daily Notes/April 14th, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +104,15 @@
   },
   "active": "01dea82cee542e34",
   "lastOpenFiles": [
+    "Daily Notes/April 14th, 2021.md",
+    "Daily Notes/March 1st, 2020.md",
+    "Daily Notes/April 13th, 2021.md",
+    "Daily Notes/March 25th, 2021.md",
     "Recurse Center Application.md",
     "Daily Notes/April 12th, 2021.md",
     "Custom Mechanical Keyboard.md",
     "Untitled 2.md",
     "Daily Notes/April 11th, 2021.md",
-    "Daily Notes/April 10th, 2021.md",
-    "Untitled 1.md",
-    "Industrial Magic.md",
-    "GUI for building prompts.md",
-    "Daily Notes/April 8th, 2021.md"
+    "Daily Notes/April 10th, 2021.md"
   ]
 }
