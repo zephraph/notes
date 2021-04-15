@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily Notes/April 14th, 2021.md",
+            "file": "Custom Mechanical Keyboard.md",
             "mode": "source"
           }
         }
@@ -31,7 +31,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "theme",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/April 14th, 2021.md",
+                "file": "Custom Mechanical Keyboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,24 +94,32 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "78a9276531a180dc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "01dea82cee542e34",
   "lastOpenFiles": [
+    "Custom Mechanical Keyboard.md",
+    "Untitled 2.md",
     "Daily Notes/April 14th, 2021.md",
-    "Daily Notes/March 1st, 2020.md",
     "Daily Notes/April 13th, 2021.md",
+    "Daily Notes/March 1st, 2020.md",
     "Daily Notes/March 25th, 2021.md",
     "Recurse Center Application.md",
     "Daily Notes/April 12th, 2021.md",
-    "Custom Mechanical Keyboard.md",
-    "Untitled 2.md",
     "Daily Notes/April 11th, 2021.md",
     "Daily Notes/April 10th, 2021.md"
   ]
