@@ -11,4 +11,6 @@
 #keyboard
 - Following this tutorial: https://medium.com/swlh/building-a-keyboard-with-elixir-fc7bd3f60ec3
 - Installed nerves
+- Setup nerves app
+	- https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app
 - 
