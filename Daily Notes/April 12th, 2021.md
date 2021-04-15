@@ -1,0 +1,12 @@
+#work 
+- Interview with George Clarke
+	- [[Roop]] does a good job of outlining expectations
+		- Reads out the prompt
+		- Roop lets the candidate talk most of the time
+			- Asks a few detailed questions
+				- How would we calculate (mathmatically) the range of an acceptable artwork
+				- Would this strategy have a cold start strategy (i.e. when dynamically calculating an acceptable inquiry range)
+		- Says "Thank you, that's helpful"
+		- How might we build a similarity engine?
+			- Roop detailed what was available on the artwork
+			- Add weighted value for artwork metadata

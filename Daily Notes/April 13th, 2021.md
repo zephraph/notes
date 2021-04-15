@@ -2,3 +2,7 @@
 - Themes for Recurse
 	- Human computer interaction
 	- Meta work
+=======
+#recurse
+
+Plans for Recurse
