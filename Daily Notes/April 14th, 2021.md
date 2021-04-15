@@ -7,3 +7,8 @@
 	- Gravity staging environment variable has SDK endpoint
 		- `BRAZE_API_KEY`
 		- `BRAZE_API_URL`
+
+#keyboard
+- Following this tutorial: https://medium.com/swlh/building-a-keyboard-with-elixir-fc7bd3f60ec3
+- Installed nerves
+- 

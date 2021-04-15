@@ -1,3 +1,4 @@
+#keyboard
 ## Features
 - Split mechanical keyboard
 - Custom pi zero controller board
