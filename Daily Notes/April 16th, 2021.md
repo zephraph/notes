@@ -1,3 +1,7 @@
 #work 
 - Event sourcing working group
+- Auctions event sourcing work
+- Sprint planning
+	- I'm going to be mostly working on braze sdk stuff
+	- [Next thursday](2021-04-22) I'm presenting the sitemaps techplan
 - 
