@@ -14,4 +14,4 @@
 - Setup nerves app
 	- https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app
 - Ran into the error `ping: cannot resolve nerves.local: Unknown host`
-	- Seems to
+	- Seems to have likely been caused due to using a cable that only transfered power and not data
