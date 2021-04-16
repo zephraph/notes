@@ -13,4 +13,5 @@
 - Installed nerves
 - Setup nerves app
 	- https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app
-- 
+- Ran into the error `ping: cannot resolve nerves.local: Unknown host`
+	- Seems to
