@@ -4,5 +4,6 @@ For now it'll house some weekly reviews. In the future maybe more thoughts and n
 
 You might have better luck finding things here:
 
+https://just-be.dev
 https://github.com/zephraph
-https://
+https://twitter.com/zephraph
