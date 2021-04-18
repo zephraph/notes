@@ -1,4 +1,1 @@
-Obsidian has a really rich plugin ecosystem. 
-
-
-- uploadChanges
+Obsidian has a really rich plugin ecosystem.
