@@ -1,1 +1,1 @@
-Obsidian has a really rich plugin ecosystem.
+[[Obsidian]] has a really rich plugin ecosystem.
