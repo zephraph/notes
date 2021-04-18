@@ -1,0 +1,1 @@
+Obsidian has a really rich plugin ecosystem. 
