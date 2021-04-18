@@ -1,1 +1,1 @@
-[[Obsidian]]
+I'm using [Obsidian Publish](https://obsidian.md/publish) to publish these notes. 
