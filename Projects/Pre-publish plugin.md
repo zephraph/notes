@@ -85,8 +85,10 @@ I'll start by just... uploading some files. I did that, by uploading the current
 
 ![[obisdian-pre-publish-api-upload-breakpoint.png]]
 
-That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd probably be a pain. Here are the highlights:
+That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd probably be a pain. Here's how things are working as I understand it:
 
-I was able to see what was being passed to this
+This is tangentially related to some generator code and it actually sequentially steps through all or most of the switch cases via repeated calls. 
+
+I was able to see what was being passed to the function. It's an object that represents the fs entry (unsurprisingly). 
 
 ![[obsidian-pre-publish-debug-file-meta.png]]
