@@ -26,7 +26,7 @@ After checking `.instance` I still didn't see anything that quite jumped out at 
 
 If you expand the function definition it'll give you some metadata like `[[FunctionLocation]]` which is handy because that tells you what file it's in. Theoretically it's supposed to link to the file, but mine says it's on line one and opens `app.js` in sources, but it's not super useful otherwise (though that might just be me not really understanding how to use it).
 
-### Searching for a needle
+### Finding our function
 
 I opened up the console with <kbd>⌘</kbd>+<kbd>⎇</kbd>+<kbd>i</kbd> and headed over to the sources tab to see what I could discover.
 
