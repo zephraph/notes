@@ -95,4 +95,8 @@ This is tangentially related to some generator code and it actually sequentially
 
 That's really all there is to it. Seems like the last part _was_ all I really needed to concern myself with.
 
-### How 
+### What to monkey-patch
+
+Okay, so `apiUploadFile` ultimately just calls `apiRequest` with a buffer. I don't really want to mess with the logic of `apiUploadFile` so what I'll do is create a new wrapper function around `apiRequest` that'll do something different when `/api/upload` is included in the URL, otherwise it'll fall back to its default behavior. 
+
+The whole
