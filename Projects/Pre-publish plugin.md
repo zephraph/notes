@@ -99,4 +99,8 @@ That's really all there is to it. Seems like the last part _was_ all I really ne
 
 Okay, so `apiUploadFile` ultimately just calls `apiRequest` with a buffer. I don't really want to mess with the logic of `apiUploadFile` so what I'll do is create a new wrapper function around `apiRequest` that'll do something different when `/api/upload` is included in the URL, otherwise it'll fall back to its default behavior. 
 
-The whole
+The _something different_ is the whole meat and potatoes of this plugin. Ideally we'll iterate over the buffer (as efficiently as possible) and truncate it if/once we hit the terminal mark. Depending on how the buffer is formatted, that could be a trick because the terminal mark could be split up over different buffer chunks. 
+
+Maybe prior to really getting into that, I'll just setup the plugin with the monkey-patch and we can revisit. 
+
+I think that's all for me tonight.
