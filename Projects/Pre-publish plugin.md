@@ -85,5 +85,7 @@ I'll start by just... uploading some files. I did that, by uploading the current
 
 ![[obisdian-pre-publish-api-upload-breakpoint.png]]
 
-That's done, let's publish the file again...
+That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd probably be a pain. Here are the highlights:
+
+
 
