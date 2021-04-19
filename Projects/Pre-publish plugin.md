@@ -12,7 +12,7 @@ Let's poke around at its insides a bit...
 
 From my work with [obsidian-tools](https://www.github.com/zephraph/obsidian-tools), I already know there's an `app` object exposed in the window object that represents the app instance (this is also documented in their [api documentation](https://github.com/obsidianmd/obsidian-api)). 
 
-`app.plugins` has all of the community plugins, but it doesn't actually have any of the built-in plugins. When I was in the process of writing `app.plu` a suggested boxed popped up w/ either `.plugins` or `.internalPlugins`. Thanks firefox!
+`app.plugins` has all of the community plugins, but it doesn't actually have any of the built-in plugins. When I was in the process of writing `app.plu` a suggested boxed popped up w/ either `.plugins` or `.internalPlugins`. Now that's good tooling!
 
 `app.internalPlugins.plugins.publish` is the ticket.
 
@@ -24,18 +24,20 @@ After checking `.instance` I still didn't see anything that quite jumped out at 
 
 `app.internalPlugins.plugins.publish.instance.__proto__` is _exactly_ what I was looking for. Lot's of goodies here. `apiUploadFile` sounds like its exactly what I want. Next step is to dig into the source and see what it does. 
 
-If you expand the function definition it'll give you some metadata like `[[FunctionLocation]]` which is handy because that tells you what file it's in. Theoretically it's supposed to link to the file, but mine says it's on line 
+If you expand the function definition it'll give you some metadata like `[[FunctionLocation]]` which is handy because that tells you what file it's in. Theoretically it's supposed to link to the file, but mine says it's on line one and opens `app.js` in sources, but it's not super useful otherwise (though that might just be me not really understanding how to use it).
 
 ### Searching for a needle
 
-I opened up the console with <kbd>⌘</kbd>+<kbd>⎇</kbd>+<kbd>i</kbd> and headed over to the sources tab to see what I could discover. (I guess it's worth noting that I'm in firefox).
+I opened up the console with <kbd>⌘</kbd>+<kbd>⎇</kbd>+<kbd>i</kbd> and headed over to the sources tab to see what I could discover.
 
 When I look in the side panel of the sources tab (you might have to expand the navigator, which'll be the button in the top right, under the element selection icon) this is what I see:
 
 ![[obsidian-sources-navigator.png]]
 
-I started poking around in all these files, generally looking for anything related to the publish plugin. If the [[Obsidian]] team publishes source-maps, it (should) have an individual file listed out here. 
+I started poking around in all these files. `app.js` is fairly obvious as it's top level, but I was trying to see if there were any sourcemaps published. Doesn't look like it, so digging into `app.js` it is. Note that even though this is a giant minified file, there should be a pretty print or format option somewhere in the dev tools. 
 
-Unfortunately didn't find anything. Their `app.js` file is a whopping 31.8k lines after being pretty printed though, so that was my next place to search. I just searched for `publish`. There's ~120ish results, but that's not too bad. Found what I was looking for (the plugin definition) in the 64.5k line range. 
+Searching for `apiUploadFile` in `app.js` only yields two instances: the definition and where it's called. It's called in a `startUpload` function that looks like it's attached to the publish modal in some way, but that's further verification that this is the function I
+
+
 
 
