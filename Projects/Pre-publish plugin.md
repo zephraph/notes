@@ -87,5 +87,6 @@ I'll start by just... uploading some files. I did that, by uploading the current
 
 That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd probably be a pain. Here are the highlights:
 
+I was able to see what was being passed to this
 
-
+![[obsidian-pre-publish-debug-file-meta.png]]
