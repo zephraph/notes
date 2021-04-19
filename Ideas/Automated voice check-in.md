@@ -24,4 +24,5 @@ _You receive a notification after the transcript has been processed_
 
 - Automated phone based service that handles journaling, check-ins, etc
 - Text based pre-screens to ensure the time is still okay and that it doesn't need to be rescheduled
-- Visual check-in builder that's easy to setup for therapists or individuals
+- Visual check-in/journal builder that's easy to setup for therapists or individuals
+- Callback service that recognizes your number and allows you to add an entry
