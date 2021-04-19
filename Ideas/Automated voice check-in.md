@@ -19,3 +19,9 @@ _Your phone rings_
 _More questions are asked and responses given. The call ends._
 
 _You receive a notification after the transcript has been processed_
+
+## Features
+
+- Automated phone based service that handles journaling, check-ins, etc
+- Text based pre-screens to ensure the time is still okay and that it doesn't need to be rescheduled
+- Visual check-in builder that's easy to setup for therapists or individuals
