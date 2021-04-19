@@ -36,8 +36,44 @@ When I look in the side panel of the sources tab (you might have to expand the n
 
 I started poking around in all these files. `app.js` is fairly obvious as it's top level, but I was trying to see if there were any sourcemaps published. Doesn't look like it, so digging into `app.js` it is. Note that even though this is a giant minified file, there should be a pretty print or format option somewhere in the dev tools. 
 
-Searching for `apiUploadFile` in `app.js` only yields two instances: the definition and where it's called. It's called in a `startUpload` function that looks like it's attached to the publish modal in some way, but that's further verification that this is the function I
+Searching for `apiUploadFile` in `app.js` only yields two instances: the definition and where it's called. It's called in a `startUpload` function that looks like it's attached to the publish modal in some way, but that's further verification that this is the function I want.
 
+Here's the `apiUploadFile` function in all its mangled glory:
 
+```
+e.prototype.apiUploadFile = function(e) {
+	return a(this, void 0, Promise, (function() {
+		var t, n, i;
+		return l(this, (function(r) {
+			switch (r.label) {
+			case 0:
+				if (e.stat.size > 52428800)
+					throw new eD("TOOLARGE","Failed to upload file over limit of 50mb.");
+				return [4, this.getHash(e)];
+			case 1:
+				return t = r.sent(),
+				[4, this.vault.readBinary(e)];
+			case 2:
+				return n = r.sent(),
+				i = {
+					"obs-token": this.app.account.token,
+					"obs-id": this.siteId,
+					"obs-path": encodeURIComponent(e.path),
+					"obs-hash": t
+				},
+				[2, this.apiRequest({
+					method: "POST",
+					url: this.getHost() + "/api/upload",
+					headers: i,
+					data: n
+				})]
+			}
+		}
+		))
+	}
+	))
+}
+```
 
+All kinds of fun things happening here. I imagine that `r.label` is some sort of enum. 
 
