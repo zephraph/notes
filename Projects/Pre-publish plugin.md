@@ -81,5 +81,9 @@ All kinds of fun things happening here. I'm going to ignore most of this given t
 
 I put a breakpoint on line 64877 (which likely means nothing to you). It's mapped over to that `return a(this, void 0, Proimse...` as seen in the code snippet above. It's the very next line under the `apiUploadFile` definition.
 
-I'll start by just... uploading some files. 
+I'll start by just... uploading some files. I did that, by uploading the current draft of this file actually. Unfortunately, it didn't break. I thought I might've had breakpoints disabled, but that doesn't seem to be the case.... maybe I put the breakpoint in the wrong place. Adding a new one:
+
+![[obisdian-pre-publish-api-upload-breakpoint.png]]
+
+That's done, let's publish the file again...
 
