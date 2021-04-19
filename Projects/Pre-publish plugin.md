@@ -22,6 +22,10 @@ Digging into the publish plugin definition, there's not a whole lot that jumps o
 
 After checking `.instance` I still didn't see anything that quite jumped out at me... but remember, this is an instance! JavaScript uses prototypal inheritance so that's a clue to also check `__proto__`.
 
+`app.internalPlugins.plugins.publish.instance.__proto__` is _exactly_ what I was looking for. Lot's of goodies here. `apiUploadFile` sounds like its exactly what I want. Next step is to dig into the source and see what it does. 
+
+If you expand the function definition it'll give you some metadata like `[[FunctionLocation]]` which is handy because that tells you what file it's in. Theoretically it's supposed to link to the file, but mine says it's on line 
+
 ### Searching for a needle
 
 I opened up the console with <kbd>⌘</kbd>+<kbd>⎇</kbd>+<kbd>i</kbd> and headed over to the sources tab to see what I could discover. (I guess it's worth noting that I'm in firefox).
