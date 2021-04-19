@@ -2,5 +2,5 @@
 
 ## Adding custom analytics to publish pages
 
-I use [Plausible.io](https://plausible.io) as an analytics service. I wanted to get that onto my notes page, but it's pretty limited in what you can customize. You can't specify a head tag to be added, but you can publish a single js file. 
+I use [Plausible.io](https://plausible.io) as an analytics service. I wanted to get that onto my notes page, but it's pretty limited in what you can customize. You can't specify a head tag to be added, but you can [publish a single js file.]() 
 
