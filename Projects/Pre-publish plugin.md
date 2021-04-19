@@ -16,24 +16,11 @@ From my work with [obsidian-tools](https://www.github.com/zephraph/obsidian-tool
 
 `app.internalPlugins.plugins.publish` is the ticket.
 
-Digging into the publish plugin definition, there's not a whole lot that jumps out to me that says "hey, I handle uploading!". Also, this just looks like the definition. The
+Digging into the publish plugin definition, there's not a whole lot that jumps out to me that says "hey, I handle uploading!". Also, this just looks like the definition/configuration. There's an `instance` key there that looks more interesting. 
 
-```
-1.  addedButtonEls: \[div.side-dock-ribbon-action\]
-2.  app: e {hotkeyManager: e, customCss: t, viewRegistry: t, nextFrameEvents: Array(0), nextFrameTimer: null, …}
-3.  commands: \[{…}\]
-4.  enabled: true
-5.  hasStatusBarItem: false
-6.  instance: e {id: "publish", name: "Publish", description: "Publish your notes through Obsidian Publish.", app: e, vault: t, …}
-7.  manager: t {\_: {…}, plugins: {…}, app: e}
-8.  mobileFileInfo: \[\]
-9.  ribbonActions: \[{…}\]
-10.  statusBarEl: null
-11.  views: {}
-12.  \_children: \[\]
-13.  \_events: \[\]
-14.  \_loaded: true
-```
+![[obsidian-publish-plugin-console.png]]
+
+After checking `.instance` I still didn't see anything that quite jumped out at me... but remember, this is an instance! JavaScript uses prototypal inheritance so that's a clue to also check `__proto__`.
 
 ### Searching for a needle
 
