@@ -75,5 +75,11 @@ e.prototype.apiUploadFile = function(e) {
 }
 ```
 
-All kinds of fun things happening here. I'm going to ignore most of this given that the last part (`case 2`) seems like what I want. It's calling `apiRequest` with a `POST` and some data.
+All kinds of fun things happening here. I'm going to ignore most of this given that the last part (`case 2`) seems like what I want. It's calling `apiRequest` with a `POST` and some data. That said, I don't really know what the other two cases are doing. The best way that I know how to handle this is to set a breakpoint and walk through the code while it's trying to do its thing. 
+
+### Break out the breakpoints
+
+I put a breakpoint on line 64877 (which likely means nothing to you). It's mapped over to that `return a(this, void 0, Proimse...` as seen in the code snippet above. It's the very next line under the `apiUploadFile` definition.
+
+I'll start by just... uploading some files. 
 
