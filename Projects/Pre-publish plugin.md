@@ -85,10 +85,14 @@ I'll start by just... uploading some files. I did that, by uploading the current
 
 ![[obisdian-pre-publish-api-upload-breakpoint.png]]
 
-That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd probably be a pain. Here's how things are working as I understand it:
+That's done, let's publish the file again... Great, the breakpoint worked that time. I'd try to show it all, but that'd be a pain. Here's how things are working as I understand it:
 
-This is tangentially related to some generator code and it actually sequentially steps through all or most of the switch cases via repeated calls. 
+This is tangentially related to some generator code and it actually sequentially steps through all or most of the switch cases via repeated calls. The function flows like a mini-workflow task or something.
 
-I was able to see what was being passed to the function. It's an object that represents the fs entry (unsurprisingly). 
+1. Check the size, if less than 50MB get the file hash
+2. If the hash has changed, read the file from the filesystem and store it in a buffer
+3. Make a post request with the buffer contents
 
-![[obsidian-pre-publish-debug-file-meta.png]]
+That's really all there is to it. Seems like the last part _was_ all I really needed to concern myself with.
+
+### How 
