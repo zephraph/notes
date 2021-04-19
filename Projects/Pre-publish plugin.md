@@ -75,5 +75,5 @@ e.prototype.apiUploadFile = function(e) {
 }
 ```
 
-All kinds of fun things happening here. I imagine that `r.label` is some sort of enum. 
+All kinds of fun things happening here. I'm going to ignore most of this given that the last part (`case 2`) seems like what I want. It's calling `apiRequest` with a `POST` and some data.
 
