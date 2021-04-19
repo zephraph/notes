@@ -4,4 +4,10 @@ I'm using [Obsidian Publish](https://obsidian.md/publish) to publish these notes
 
 ## Exploration
 
-Okay, so the publish plugin is built in to Obsidian, which means anything that I do to it is undocumented and unsupported. I'll essentially be [[monkey-patching]] it. 
+Okay, so the publish plugin is built in to [[Obsidian]], which means anything that I do to it is undocumented and unsupported. I'll essentially be [[monkey-patching]] it. 
+
+Let's poke around at its insides a bit... 
+
+### Searching for a needle
+
+I opened up the console with <kbd>⌘</kbd>+<kbd>⎇</kbd>+<kbd>i</kbd> and
