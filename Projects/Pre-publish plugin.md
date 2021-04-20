@@ -113,3 +113,4 @@ yarn create obsidian-plugin publish-hooks
 
 That'll automatically set up a new hooks repo and prompt for some other information to help build it out. 
 
+https://github.com/zephraph/obsidian-publish-hooks-plugin
