@@ -101,6 +101,8 @@ Okay, so `apiUploadFile` ultimately just calls `apiRequest` with a buffer. I don
 
 The _something different_ is the whole meat and potatoes of this plugin. Ideally we'll iterate over the buffer (as efficiently as possible) and truncate it if/once we hit the terminal mark. Depending on how the buffer is formatted, that could be a trick because the terminal mark could be split up over different buffer chunks. 
 
-Maybe prior to really getting into that, I'll just setup the plugin with the monkey-patch and we can revisit. 
+I guess first thing's first though. Time to set up the plugin.
 
-I think that's all for me tonight.
+### Setting up the plugin
+
+
