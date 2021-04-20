@@ -105,4 +105,11 @@ I guess first thing's first though. Time to set up the plugin.
 
 ### Setting up the plugin
 
+I build [a tool](https://github.com/zephraph/obsidian-tools/tree/main/packages/create-obsidian-plugin) for setting up new plugins already, so I'll just use that to bootstrap the plugin.
+
+```
+yarn create obsidian-plugin publish-hooks
+```
+
+That'll automatically set up a new hooks repo and prompt for some other information to help build it out. 
 
