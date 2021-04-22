@@ -44,3 +44,13 @@ Flags have long and short forms, can be of different types, have their own descr
 
 I think the only flag I'll add is `--vault` to represent which vault to install the plugin in. If the flag isn't provided, I'll just prompt the user to fill it in. 
 
+### Building the body of the command
+
+All the magic happens inside of `run`. First we need to get our `args` and `flags` to be able to do something with them.
+
+```
+const { args, flags } = this.parse(Install);
+const { plugin } = args;
+const { vault } = flags;
+```
+
