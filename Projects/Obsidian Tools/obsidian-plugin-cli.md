@@ -40,5 +40,7 @@ It's simple to add, just another `static` property in the class.
 
 ### Adding flags
 
-Flags have long and short forms, can be of different types, have their own description, etc. They're a lot more advanced than the above so you can read more about flags 
+Flags have long and short forms, can be of different types, have their own description, etc. They're a lot more advanced than the above so you can read more about flags [here](https://oclif.io/docs/flags#docsNav).
+
+I think the only flag I'll add is `--vault` to represent which vault to install the plugin in. If the flag isn't provided, I'll just prompt the user to fill it in. 
 
