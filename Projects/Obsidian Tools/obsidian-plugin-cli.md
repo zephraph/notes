@@ -18,3 +18,7 @@ export default class Install extends Command {
 }
 ```
 
+First thing I'll do is add a description. You do that by defining a `static` property named `description` in the class. Makes sense, right?
+
+I'll note that I use a tool called [`dedent`](https://www.npmjs.com/package/dedent) which automatically normalizes the spacing for multi-line [template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) so I don't have to worry about writing them a special way for it to not come out wonky. `endent` and `ts-dedent` are alternatives that do a similar thing. 
+
