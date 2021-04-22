@@ -1,8 +1,8 @@
 This is an experimental space. I'm not sure what it'll turn into yet.
 
-For now it'll house some weekly reviews. In the future maybe more thoughts and notes as I figure out how I want to structure things. 
+I'm currently working on a [[Pre-publish plugin]] for [[Obsidian]] to give me the ability to strip out private sections of my notes so that they aren't published here. 
 
-You might have better luck finding things here:
+There's not much else here yet. You can find more at these places:
 
 https://just-be.dev
 https://github.com/zephraph
