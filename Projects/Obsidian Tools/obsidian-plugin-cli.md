@@ -26,4 +26,19 @@ First thing I'll do is add a description. You do that by defining a `static` pro
 
 I'll note that I use a tool called [`dedent`](https://www.npmjs.com/package/dedent) which automatically normalizes the spacing for multi-line [template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) so I don't have to worry about writing them a special way for it to not come out wonky. `endent` and `ts-dedent` are alternatives that do a similar thing. 
 
-The description is important because not only is it a best practice, this command also has some overloaded usage which could use explaining. Part of me feels like that's a smell and I should be more explicit, but
+The description is important because not only is it a best practice, this command also has some overloaded usage which could use explaining. Part of me feels like that's a smell and I should be more explicit, but I'm making a tradeoff here for usability. 
+
+### Adding args
+
+Args (short for arguments) are the required input that comes at the end of a cli command. Not all commands have args, but the ones that do usually are primarily acting on that arg (or args). For example `mkdir foo/bar` takes a path for it's arg and is really build around taking an action on the arg. 
+
+It's simple to add, just another `static` property in the class.
+
+```
+  static args = [{ name: "plugin" }];
+```
+
+### Adding flags
+
+Flags have long and short forms, can be of different types, have their own description, etc. They're a lot more advanced than the above so you can read more about flags 
+
