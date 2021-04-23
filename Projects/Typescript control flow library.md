@@ -6,7 +6,6 @@ I started scratching out what a "better" approach might be.
 procedure('install', context, [
   validate('plugin', isValidPlugin).or(pluginNotProvidedError),
   validate('vault', isValidVault).or(selectVault),
-  act(formatVault),
   match([
     [pluginFoundInRegistry, installFromRegistry],
     [pluginFoundOnGithub, installFromGithub],
@@ -15,4 +14,4 @@ procedure('install', context, [
 ])
 ```
 
-Let's break this down. So we have this top level function called `procedure` which encapsulates the steps I want to take to finish this install.
+Let's break this down. So we have this top level function called `procedure` which encapsulates the steps I want to take to finish this install. It takes a `string` that represents its name, a `context` object which is just data to pass into the procedure and an array of steps to execute. 
