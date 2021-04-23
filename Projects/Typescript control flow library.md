@@ -21,7 +21,14 @@ Internally you might think about about what a procedure is doing like this pseud
 ```
 procedure {
 	for each step in steps {
-		
+		call step
+		stop procedure if step errors
 	}
 }
 ```
+
+So essentially, if a step that'll bubble up to the procedure level to handle. 
+
+---
+
+This is just a rough idea, but I was trying to massage it to work in typescript. Essentially, I'd want 
