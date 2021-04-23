@@ -8,10 +8,11 @@ procedure('install', context, [
   validate('vault', isValidVault).or(selectVault),
   act(formatVault),
   match([
-    [pluginFoundInRegistry, downloadFromRegistry],
-    [pluginFoundOnGithub, downloadFromGithub],
+    [pluginFoundInRegistry, installFromRegistry],
+    [pluginFoundOnGithub, installFromGithub],
     pluginNotFoundError
   ])
 ])
 ```
 
+Let's break this down. So we have this top level function called `procedure` which encapsulates the steps I want to take to finish this install.
