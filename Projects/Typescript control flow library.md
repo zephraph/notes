@@ -1,0 +1,1 @@
+As I was working on the [[Pre-publish plugin]], I was struck again (not for the first time) how procedure logic can get messy in a hurry.
