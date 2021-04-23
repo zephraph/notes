@@ -33,4 +33,21 @@ So essentially, if a step that'll bubble up to the procedure level to handle.
 
 This is just a rough idea, but I was trying to massage it to work in typescript. The challenge that I'm having is that I want to pass the context to procedure and have it inferred the rest of the way down the chain.
 
-I tried to articulate my problem here: 
+I tried to articulate my problem in this [ts playground](https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABANwIYBsYBNVQKYA8AwongB75hYDOiASnhHAE5YHVTMxgDmANInABrMHADuYAHySAFGkw58AMTAAuRDKZh8FdUQCUiALyTEAIzhx0eVGH3rbATwCwAKFCRYCFBmy5CJOSUNPSMLGwcXLwCwqIS0jJgqAC2eOpCeI5wwIhEAvJ+ymoa8iBpuQDaGVk5RAC6hibmlta29ohObh7Q8EgFigGkFHhUtAxMrOyc3PyCYCLiUrJJqQDyzErgPQjpmdm5iAA+GpoIOlB6jaYWVjZ2+b4DKgD86nIYZXpVe7UNxtctO72JyIADebkQkMQzDwUBAzD6j38KkQADJUYgoI4AA54fYrPDrTaeXrGIxGRAAIkiM0piAhUMZzw0WnOl3+PgUyLAp20QQqBKJWy8YAaDMZkLerKC7Kago2wt6vPO+jcAF83G4APRa3K2RAASUQ2NQ1FoUAAFnhEDwRnguBBMXBMVbEN0RZicdbqHBUhbxM83FjcYgAGpIorEUwU4N4nL9fwAbiDXsQAGV8Nio8YwxG8Coo5rXKbHJA3YrvNjmHAIHgsPDBkERiFxuEplFZrFFgkCeoadFENLdLkBBw8NjqOoM+OoxU-uDXIzgCwZNYoIhqLDENwN5nqIYF+LEBrXCe3FoOIOzkEcwvGdj0CAeNx1AByV98I9oEDoC6Id-qkW2oAFTARCwGGogYi2OulrWgm+DliSCC0GYeDoOITrmNaqBmNYWG4fhUDOtwwD2lefIUOYpp1og2Q5PsYgWrgr60CaZq0dwxHGswtb1jCAB04Fam4VY1nWDYyK+3AcBg6AfhR5wCBUDIIXgUkPk+3AKTA1DhgoAAKj7Pvcql5lJ36-jpemPOGP5QKqrhiq4XQVkgun6dgRlaTymkmX20y8AeR4wnCCLGsZO7MpwZSIOowAYJugEue4bnbjZCh2b+7z2QFHbBYuUKhfCiL2Yg0XMLF8WJXg6pAA).
+
+I suspect that there's a way to make it work but when I start fighting my tools it makes me second guess myself. So now I'm re-imagining it again and maybe it'll turn out to look something more like this
+
+```
+procedure('install', context)
+  .validate('plugin', isValidPlugin)
+  .orError(invalidPluginError)
+  .validate('vault', isValidVault)
+  .or(promptForVault)
+  .match([
+    [pluginFoundInRegistry, downloadFromRegistry],
+    [pluginFoundOnGitHub, downloadFromGithub],
+    pluginNotFoundError
+  ])
+```
+
+This has its own complexities... one of the things I really want to handle with this is managing sync/async calls with
