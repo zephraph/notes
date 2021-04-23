@@ -48,6 +48,11 @@ procedure('install', context)
     [pluginFoundOnGitHub, downloadFromGithub],
     pluginNotFoundError
   ])
+  .exec()
 ```
 
-This has its own complexities... one of the things I really want to handle with this is managing sync/async calls with
+This has its own complexities... one of the things I really want to handle with this is managing sync/async calls without the user having to thing too much about them. Problem is, as soon as a function returns a promise, it can't return an object to chain things on. I could make the whole thing a promise chain, but that implies that more things are promises than really are and creates a lot of visual clutter. 
+
+The biggest different here is that every call on the chain will actually just be queuing up work. The work itself won't happen until `exec` is called. 
+
+I'm going to continue to experiment. I'll write more about it later. 
