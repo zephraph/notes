@@ -1,1 +1,1 @@
-As I was working on the [[Pre-publish plugin]], I was struck again (not for the first time) how procedure logic can get messy in a hurry.
+As I was working on the [[Pre-publish plugin]], I was struck again (not for the first time) how procedural logic can be messy in a hurry. That's particularly true when you've got a lot of erro
