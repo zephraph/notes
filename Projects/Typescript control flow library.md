@@ -14,4 +14,14 @@ procedure('install', context, [
 ])
 ```
 
-Let's break this down. So we have this top level function called `procedure` which encapsulates the steps I want to take to finish this install. It takes a `string` that represents its name, a `context` object which is just data to pass into the procedure and an array of steps to execute. 
+Let's break this down. So we have this top level function called `procedure` which encapsulates the steps I want to take to finish this install. It takes a `string` that represents its name, a `context` object which is just data to pass into the procedure and an array of steps to execute. I've only got two different step types sketched out here, a `validate` and `match` step. Validate essentially accesses a specific key on `context` (like `'plugin'`) and passes its value over to a given function... like `isValidPlugin`. So one may assume that if `validate` successfully completes then the procedure moves to the next step... and one would be correct in that assumption. In this case, `validate` has the optional ability to trigger an `or` call. If `validate` fails, a function passed to `or` can do something. Notice that in the first `validate` function, what it does... is invokes an error. This is an opportunity to format the error in a way that's meaningful to the user. What happens _after_ that though?
+
+Internally you might think about about what a procedure is doing like this pseudo code:
+
+```
+procedure {
+	for each step in steps {
+		
+	}
+}
+```
