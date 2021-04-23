@@ -32,3 +32,5 @@ So essentially, if a step that'll bubble up to the procedure level to handle.
 ---
 
 This is just a rough idea, but I was trying to massage it to work in typescript. The challenge that I'm having is that I want to pass the context to procedure and have it inferred the rest of the way down the chain.
+
+I tried to articulate my problem here: 
