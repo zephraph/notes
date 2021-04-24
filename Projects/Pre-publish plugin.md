@@ -114,3 +114,7 @@ yarn create obsidian-plugin publish-hooks
 That'll automatically set up a new hooks repo and prompt for some other information to help build it out. 
 
 https://github.com/zephraph/obsidian-publish-hooks-plugin
+
+---
+
+I got a little sidetracked on this and started working on the [[Typescript control flow library]] to make some of the logic for this (and other) tools easier.

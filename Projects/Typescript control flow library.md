@@ -55,4 +55,5 @@ This has its own complexities... one of the things I really want to handle with 
 
 The biggest different here is that every call on the chain will actually just be queuing up work. The work itself won't happen until `exec` is called. 
 
-I'm going to continue to experiment. I'll write more about it later. 
+---
+
