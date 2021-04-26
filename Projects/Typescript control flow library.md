@@ -57,3 +57,4 @@ The biggest different here is that every call on the chain will actually just be
 
 ---
 
+Getting back to this, I've made a bit of progress. I've implemented two basic "verbs" so f
