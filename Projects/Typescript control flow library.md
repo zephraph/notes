@@ -60,10 +60,10 @@ The biggest different here is that every call on the chain will actually just be
 Getting back to this, I've made a bit of progress. I've implemented two basic "verbs" so far.
 
 ```
-procedure('install', context)
+await procedure('install', context)
 	.validate('plugin', isValidPlugin)
 	.load(configFromFs)
 	.exec()
 ```
 
-This is the minimal control flow that I can represent right now. 
+This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. 
