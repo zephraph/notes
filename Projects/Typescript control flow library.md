@@ -61,9 +61,9 @@ Getting back to this, I've made a bit of progress. I've implemented two basic "v
 
 ```
 await procedure('install', context)
-	.validate('plugin', isValidPlugin)
-	.load(configFromFs)
-	.exec()
+  .validate('plugin', isValidPlugin)
+  .load(configFromFs)
+  .exec()
 ```
 
-This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. 
+This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. That class has a notion of `context` which is the datastore for the process and `operations` which are the steps to be run. When you call ``
