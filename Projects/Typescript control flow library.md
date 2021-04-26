@@ -67,5 +67,3 @@ await procedure('install', context)
 ```
 
 This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. That class has a notion of `context` which is the data store for the process and `operations` which are the steps to be run. When you call `validate` or `load` it creates an `Operation` object with a `type` property that match its name. All the operations are buffered up and once `exec` is called the `operations` are looped over and called in order. In essence, a procedure is lazy.
-
-My hope is that `procedures` can be referenced and joined together in ways that allow us to create larger `procedures`. 
