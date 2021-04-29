@@ -2,7 +2,7 @@ As I was working on the [[Pre-publish plugin]], I was struck again (not for the 
 
 I started scratching out what a "better" approach might be.
 
-```
+```js
 procedure('install', context, [
   validate('plugin', isValidPlugin).or(pluginNotProvidedError),
   validate('vault', isValidVault).or(selectVault),
@@ -37,7 +37,7 @@ I tried to articulate my problem in this [ts playground](https://www.typescriptl
 
 I suspect that there's a way to make it work but when I start fighting my tools it makes me second guess myself. So now I'm re-imagining it again and maybe it'll turn out to look something more like this
 
-```
+```js
 procedure('install', context)
   .validate('plugin', isValidPlugin)
   .orError(invalidPluginError)
@@ -59,7 +59,7 @@ The biggest different here is that every call on the chain will actually just be
 
 Getting back to this, I've made a bit of progress. I've implemented two basic "verbs" so far.
 
-```
+```js
 await procedure('install', context)
   .validate('plugin', isValidPlugin)
   .load(configFromFs)
@@ -76,4 +76,23 @@ In somewhat of an interesting distraction / turn of events I decided to add some
 
 Turns out it's easy enough to do that with [@babel/codeframe](https://babeljs.io/docs/en/babel-code-frame). Ultimately this isn't likely the error messaging you'd want to bubble up to the end user, but while developing it's helpful. This pairs really well with [stacktracey](https://www.npmjs.com/package/stacktracey) which I'm using to correctly position the stack frame to be at the usage callsite and get data out for the codeframe error. 
 
-I'm not sure any of that'll make 
+I'm not sure any of that'll make sense outside of my head, but here's my error module for a better reference.
+
+```typescript
+import { codeFrameColumns } from "@babel/code-frame";
+import StackTracey from "stacktracey";
+
+export const createError = (trace: StackTracey, message: string) => {
+  const stack = trace.withSource(trace.items[0])
+  const lines = stack.sourceFile?.text
+  return codeFrameColumns(lines!, {
+    start: {
+      line: stack.line!,
+      column: stack.column
+    },
+  }, {
+    message,
+    highlightCode: process.env.NODE_ENV === "test" ? false : true
+  }) 
+}
+```
