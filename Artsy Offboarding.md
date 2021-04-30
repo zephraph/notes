@@ -26,8 +26,8 @@
 - [x] [[Jon Allured]]
 - [x] [[Lily Pace]]
 - [ ] [[Matt Dole]]
-- [ ] [[Matt Zikherman]]
-- [ ] [[Mounir Dhahri]]
+- [ ] [[Matt Zikherman]] - scheduled
+- [ ] [[Mounir Dhahri]] - scheduled
 - [ ] [[Oksana Udovitska]]
 - [ ] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
