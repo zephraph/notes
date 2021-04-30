@@ -30,6 +30,6 @@
 - [ ] [[Mounir Dhahri]]
 - [ ] [[Oksana Udovitska]]
 - [ ] [[Pavlos Vinieratos]]
-- [ ] [[Roop Roy]]
+- [ ] [[Roop Roy]] - scheduled
 - [ ] [[Sepand Ansari]]
 - [ ] [[Steve Hicks]]
