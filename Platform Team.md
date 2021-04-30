@@ -1,2 +1,2 @@
 - A team at [[Artsy]] that handles builds/systems/services/etc
-- Lead by [[Joey]]
+- Lead by [[Joey Aghion]]
