@@ -11,15 +11,15 @@
 - [ ] [[Cameron Rollheiser]]
 - [x] [[Christina Thompson]]
 - [x] [[Chris Pappas]]
-- [ ] [[Chung-Yi]] - scheduled
+- [x] [[Chung-Yi]]
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
 - [ ] [[Devon Blandin]]
 - [ ] [[Emma Dickson]]
 - [ ] [[Erik Stockmeier]] - in person
-- [ ] [[Guillaume Delgutte]]
+- [ ] [[Guillaume Delgutte]] - in person (Sunday at 11 in Williamsburg)
 - [x] [[Isac Petruzzi]]
-- [ ] [[Jackie Potts]]
+- [ ] [[Jackie Potts]] - scheduled
 - [x] [[Jian Xu]]
 - [x] [[Joel Rosenblatt]]
 - [ ] [[Joey Aghion]]
