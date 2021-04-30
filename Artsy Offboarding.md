@@ -17,6 +17,7 @@
 - [ ] [[Devon Blandin]]
 - [ ] [[Emma Dickson]]
 - [ ] [[Erik Stockmeier]]
+- [ ] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
 - [ ] [[Jackie Potts]]
 - [x] [[Jian Xu]]
