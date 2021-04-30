@@ -8,7 +8,7 @@
 - [x] [[Ashley Jelks]]
 - [ ] [[Barry Hoggard]] - in person
 - [ ] [[Brian Beckerle]]
-- [ ] [[Cameron Rollheiser]]
+- [ ] [[Cameron Rollheiser]] - scheduled
 - [x] [[Christina Thompson]]
 - [x] [[Chris Pappas]]
 - [x] [[Chung-Yi]]
@@ -32,4 +32,4 @@
 - [ ] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
 - [ ] [[Sepand Ansari]]
-- [ ] [[Steve Hicks]]
+- [x] [[Steve Hicks]]
