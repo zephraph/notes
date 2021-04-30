@@ -1,22 +1,22 @@
 ## Conversations
 
-- [ ] [[Adam Butler]]
+- [ ] [[Adam Butler]] - scheduled
 - [ ] [[Adam Iskounen]]
 - [x] [[Ana Lisa]]
 - [x] [[Anna Carey]]
 - [ ] [[Anson Wang]]
 - [x] [[Ashley Jelks]]
-- [ ] [[Barry Hoggard]]
+- [ ] [[Barry Hoggard]] - in person
 - [ ] [[Brian Beckerle]]
 - [ ] [[Cameron Rollheiser]]
-- [ ] [[Christina Thompson]]
+- [x] [[Christina Thompson]]
 - [x] [[Chris Pappas]]
-- [ ] [[Chung-Yi]]
+- [ ] [[Chung-Yi]] - scheduled
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
 - [ ] [[Devon Blandin]]
 - [ ] [[Emma Dickson]]
-- [ ] [[Erik Stockmeier]]
+- [ ] [[Erik Stockmeier]] - in person
 - [ ] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
 - [ ] [[Jackie Potts]]
