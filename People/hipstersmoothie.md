@@ -1,5 +1,5 @@
 ---
-aliases: [Andrew Lisowski]
+aliases: []
 ---
 
 Twitter: https://twitter.com/HipsterSmoothie
