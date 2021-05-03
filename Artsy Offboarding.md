@@ -17,7 +17,7 @@
 - [ ] [[Devon Blandin]]
 - [ ] [[Emma Dickson]]
 - [ ] [[Erik Stockmeier]] - in person
-- [ ] [[Guillaume Delgutte]] - in person (Sunday at 11 in Williamsburg)
+- [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
 - [ ] [[Jackie Potts]] - scheduled
 - [x] [[Jian Xu]]
@@ -27,9 +27,14 @@
 - [x] [[Lily Pace]]
 - [ ] [[Matt Dole]]
 - [ ] [[Matt Zikherman]] - scheduled
-- [ ] [[Mounir Dhahri]] - scheduled
+- [ ] [[Mounir Dhahri]] - need to reschedule
 - [ ] [[Oksana Udovitska]]
 - [ ] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
 - [ ] [[Sepand Ansari]]
 - [x] [[Steve Hicks]]
+
+## Todo
+
+
+- [ ] Return computer
