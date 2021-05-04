@@ -183,5 +183,7 @@ The entire reason I'm taking on this project is because I want to use it to modi
 
 Maybe one plugin automatically adds tags. Maybe another re-formats something, and another generates some sort of content. The challenge here is that multiple plugins could use this one plugin to do many things. 
 
-We're firing off an event to the workspace that all plugins who care will be listening for. Instead of doing the work immediately, we'll need to provide a callback for each of the subscribers to express
+We're firing off an event to the workspace that all plugins who care will be listening for. Instead of doing the work immediately, we'll need to provide a callback for each of the subscribers to register the work they'd like to do and then we'll chain them together. So that we don't need to worry with multiple simultaneous edits. 
+
+Beyond that sort of weird workflow, the other challenge is that these files could potentially be large (maximum of 50MB) and we could be processing many at one time. The upload function stores the files as an `ArrayBuffer` which will need to be decoded, edited (potentially multiple times), re-encoded and then uploaded. Ideally this is done inc
 
