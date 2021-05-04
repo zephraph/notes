@@ -177,8 +177,11 @@ this.register(around(publishPlugin, {
 
 Yeah, that's basically it. 
 
-### How to efficiently allow file editing
+### Coordinating multiple file edits efficiently
 
-The entire reason I'm taking on this project is because I want to use it for me. In a vary particular usecase. That said, other folks might find it useful and decide to add their own features to it. 
+The entire reason I'm taking on this project is because I want to use it to modify content before it's published. That said, other folks might find it useful and decide to add their own features to it. 
 
-Maybe one plugin automatically adds labels. Maybe another re-formats something, and another adds something extra. The challenge here, is that all of these
+Maybe one plugin automatically adds tags. Maybe another re-formats something, and another generates some sort of content. The challenge here is that multiple plugins could use this one plugin to do many things. 
+
+We're firing off an event to the workspace that all plugins who care will be listening for. Instead of doing the work immediately, we'll need to provide a callback for each of the subscribers to express
+
