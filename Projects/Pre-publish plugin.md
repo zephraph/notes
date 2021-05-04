@@ -131,6 +131,22 @@ Getting back to this, I've made a bit of progress. Essentially I'm creating a me
 
 This was a little bit of a tricky thing to figure out. Normally in this case I'd naturally reach for node's [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) which essentially seems to ascribe to the API obsidian is using. That said, I imagine mobile won't have node APIs available and I don't _know_ that the API is the same, so it's best to do what's recommended here. This is generally when I turn to the community and start looking around for other plugins that do a similar thing. Luckily I found a hint in [[pjeby]]'s [hotkey-helper](https://github.com/pjeby/hotkey-helper/blob/2182a677c1689e5796b81b1c27e9e1ea9cec64e8/src/plugin.js#L133).
 
-It seems we ultimately just leverage `this.app.workspace`
+It seems we ultimately just leverage `this.app.workspace`'s event emitter to trigger events. So if I want to emit a pre-publish event, it'd look something like
+
+```ts
+this.app.workspace.trigger('publish-hooks:pre-publish', pluginMetaData)
+```
  
- Essentially, as I understand it, the best way to emit an event is by calling `this.app.workspace.trigger('my-plugin:my-event')` to issue the event and then using `this.registerEvent(this.app.workspace.on('my-plugin:my-event', someCallbackAction))` to wire it up in the consuming plugin.
+ From a consuming app, hooking into the event from a different plugin would just be following the [Obsidian-api docs on registering events](https://github.com/obsidianmd/obsidian-api#registering-events).
+ 
+ Just to play the example out
+ 
+ ```ts
+ this.registerEvent(this.app.workspace.on('publish-hooks:pre-publish', doSomething))
+ ```
+ 
+That's really all there is to it. 
+
+### Monkey-patching safely
+
+It goes without sa
