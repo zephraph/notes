@@ -124,5 +124,12 @@ I got a little sidetracked on this and started working on the [[Typescript contr
 Getting back to this, I've made a bit of progress. Essentially I'm creating a meta-plugin here, that other plugins can interact with. So there are a few base things I need to do.
 
 1. When the publish plugin has loaded, [[monkey-patching|monkey-patch]] the `apiRequest` function to be able to intercept/alter uploads and `apiUploadFile` to be able to hook into before/after the file is published
-2. When either of the above methods are called emit an event that other plugins can hook into 
-3. When this plugin is unloaded clean everything up.
+2. When either of the above methods are called emit an event that other plugins can hook into hook into. I'll detail that more below.
+3. When this plugin is unloaded remove the monkey-patches and clean everything up.
+
+### Emitting events for other plugins to consume
+
+This was a little bit of a tricky thing to figure out. Normally in this case I'd naturally reach for node's [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter)
+ I've dealt plenty with node's event emitters, but I figured that was the wrong way to go about it. @pjeby's code is always educational and this line gave me the clue I was looking for. [https://github.com/pjeby/hotkey-helper/blob/2182a677c1689e5796b81b1c27e9e1ea9cec64e8/src/plugin.js#L133](https://github.com/pjeby/hotkey-helper/blob/2182a677c1689e5796b81b1c27e9e1ea9cec64e8/src/plugin.js#L133 "https://github.com/pjeby/hotkey-helper/blob/2182a677c1689e5796b81b1c27e9e1ea9cec64e8/src/plugin.js#L133") 
+ 
+ Essentially, as I understand it, the best way to emit an event is by calling `this.app.workspace.trigger('my-plugin:my-event')` to issue the event and then using `this.registerEvent(this.app.workspace.on('my-plugin:my-event', someCallbackAction))` to wire it up in the consuming plugin.
