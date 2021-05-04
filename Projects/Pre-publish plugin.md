@@ -123,4 +123,6 @@ I got a little sidetracked on this and started working on the [[Typescript contr
 
 Getting back to this, I've made a bit of progress. Essentially I'm creating a meta-plugin here, that other plugins can interact with. So there are a few base things I need to do.
 
-1. When the publish plugin has loaded
+1. When the publish plugin has loaded, [[monkey-patching|monkey-patch]] the `apiRequest` function to be able to intercept/alter uploads and `apiUploadFile` to be able to hook into before/after the file is published
+2. When either of the above methods are called emit an event that other plugins can hook into 
+3. When this plugin is unloaded clean everything up.
