@@ -149,4 +149,15 @@ That's really all there is to it.
 
 ### Monkey-patching safely
 
-It goes without sa
+It goes without saying that [[monkey-patching]] is a potentially dangerous operation. _Especially_ if you don't clean up after yourself. If a user disables the publish-hooks plugin, we don't want their publishing to start failing!
+
+Funnily enough, [[pjeby]] comes to the rescue again here. As I was looking at the source for [hotkey-helper](https://github.com/pjeby/hotkey-helper) I noticed it called this `around` function that it was... well, wrapping around built-in objects.
+
+It'd look something like this:
+
+```
+this.register(around(app.commands, {addCommand: refresher}));
+```
+
+`this.register` is documented in obsidian's api, it just essentially calls a function you give it when your plugin unloads. So this `around` function is taking a built-in obsidian object, adding some stuff to it, and returning a function to be cleaned up on load... which sounds perfect. 
+
