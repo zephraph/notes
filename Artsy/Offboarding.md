@@ -27,9 +27,9 @@
 - [x] [[Lily Pace]]
 - [ ] [[Matt Dole]]
 - [ ] [[Matt Zikherman]] - scheduled
-- [ ] [[Mounir Dhahri]] - need to reschedule
+- [ ] [[Mounir Dhahri]] - scheduled
 - [ ] [[Oksana Udovitska]]
-- [ ] [[Pavlos Vinieratos]]
+- [x] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
 - [ ] [[Sepand Ansari]]
 - [x] [[Steve Hicks]]
