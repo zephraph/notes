@@ -187,3 +187,4 @@ We're firing off an event to the workspace that all plugins who care will be lis
 
 Beyond that sort of weird workflow, the other challenge is that these files could potentially be large (maximum of 50MB) and we could be processing many at one time. The upload function stores the files as an `ArrayBuffer` which will need to be decoded, edited (potentially multiple times), re-encoded and then uploaded. Ideally this is done incrementally such that small parts of the file can be read in at one time. I suspect that likely means using streams.
 
+That's all for me tonight. You can check out the latest progress here: https://github.com/zephraph/obsidian-publish-hooks-plugin
