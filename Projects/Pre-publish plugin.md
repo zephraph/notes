@@ -162,3 +162,17 @@ this.register(around(app.commands, {addCommand: refresher}));
 `this.register` is documented in obsidian's api, it just essentially calls a function you give it when your plugin unloads. So this `around` function is taking a built-in obsidian object, adding some stuff to it, and returning a function to be cleaned up on load... which sounds perfect. 
 
 Turns out this is all apart of [[monkey-around]], another library by [[pjeby]] for doing semi-safe monkey-patching.
+
+For us it'll look something like...
+
+```ts
+this.register(around(publishPlugin, {
+	apiRequest: (baseApiRequest) =>
+		async function publishHooksPatchedApiRequest(...args) {
+			// do other stuff
+			return baseApiRequest.apply(this, args);
+		}
+}))
+```
+
+Yeah, that's basically it. 
