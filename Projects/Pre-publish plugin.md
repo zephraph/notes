@@ -176,3 +176,9 @@ this.register(around(publishPlugin, {
 ```
 
 Yeah, that's basically it. 
+
+### How to efficiently allow file editing
+
+The entire reason I'm taking on this project is because I want to use it for me. In a vary particular usecase. That said, other folks might find it useful and decide to add their own features to it. 
+
+Maybe one plugin automatically adds labels. Maybe another re-formats something, and another adds something extra. The challenge here, is that all of these
