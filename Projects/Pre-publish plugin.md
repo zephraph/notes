@@ -118,3 +118,9 @@ https://github.com/zephraph/obsidian-publish-hooks-plugin
 ---
 
 I got a little sidetracked on this and started working on the [[Typescript control flow library]] to make some of the logic for this (and other) tools easier.
+
+---
+
+Getting back to this, I've made a bit of progress. Essentially I'm creating a meta-plugin here, that other plugins can interact with. So there are a few base things I need to do.
+
+1. When the publish plugin has loaded
