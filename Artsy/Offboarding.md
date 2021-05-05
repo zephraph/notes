@@ -4,7 +4,7 @@
 - [ ] [[Adam Iskounen]]
 - [x] [[Ana Lisa]]
 - [x] [[Anna Carey]]
-- [ ] [[Anson Wang]]
+- [ ] [[Anson Wang]] - scheduled
 - [x] [[Ashley Jelks]]
 - [ ] [[Barry Hoggard]] - in person
 - [ ] [[Brian Beckerle]]
@@ -28,7 +28,7 @@
 - [ ] [[Matt Dole]]
 - [x] [[Matt Zikherman]]
 - [ ] [[Mounir Dhahri]] - scheduled
-- [ ] [[Oksana Udovitska]]
+- [ ] [[Oksana Udovitska]] - scheduled
 - [x] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
 - [ ] [[Sepand Ansari]] - scheduled
