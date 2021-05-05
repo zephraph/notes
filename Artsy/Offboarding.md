@@ -31,11 +31,11 @@
 - [ ] [[Oksana Udovitska]]
 - [x] [[Pavlos Vinieratos]]
 - [ ] [[Roop Roy]] - scheduled
-- [ ] [[Sepand Ansari]]
+- [ ] [[Sepand Ansari]] - scheduled
 - [x] [[Steve Hicks]]
 
 ## Todo
 
-- [ ] Send an email to pdde@ to let them know about the intent to leave the company within 2 weeks of resignation date so that we can properly plan the transition.
+- [x] Send an email to pdde@ to let them know about the intent to leave the company within 2 weeks of resignation date so that we can properly plan the transition.
 - [ ] Goodbye email can be sent to close collaborators and teams within 2 weeks of final day.
 - [ ] Return computer and building badge
