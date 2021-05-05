@@ -1,6 +1,6 @@
 ## Conversations
 
-- [ ] [[Adam Butler]] - scheduled
+- [x] [[Adam Butler]] - follow up
 - [ ] [[Adam Iskounen]]
 - [x] [[Ana Lisa]]
 - [x] [[Anna Carey]]
@@ -19,14 +19,14 @@
 - [ ] [[Erik Stockmeier]] - in person
 - [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
-- [ ] [[Jackie Potts]] - scheduled
+- [x] [[Jackie Potts]]
 - [x] [[Jian Xu]]
 - [x] [[Joel Rosenblatt]]
 - [ ] [[Joey Aghion]]
 - [x] [[Jon Allured]]
 - [x] [[Lily Pace]]
 - [ ] [[Matt Dole]]
-- [ ] [[Matt Zikherman]] - scheduled
+- [x] [[Matt Zikherman]]
 - [ ] [[Mounir Dhahri]] - scheduled
 - [ ] [[Oksana Udovitska]]
 - [x] [[Pavlos Vinieratos]]
