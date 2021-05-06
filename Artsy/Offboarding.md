@@ -15,7 +15,6 @@
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
 - [ ] [[Devon Blandin]]
-- [ ] [[Emma Dickson]]
 - [ ] [[Erik Stockmeier]] - in person
 - [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
