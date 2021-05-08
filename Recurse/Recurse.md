@@ -37,3 +37,11 @@ I've got an [ergodox](https://ergodox-ez.com/) which I greatly enjoy. There are 
 At the same time, I'd really love to invest more in learning about electronics. I went to college for computer engineering which is mostly electrical engineering with some computer science sprinkled in. I really haven't done hardware work since college. 
 
 So, the crazy idea... can I build my own keyboard? 
+
+### Visual programming to enhance our current experience
+
+Visual programming languages never really take off. It's a hard problem because to this point it largely seems like text is just easier to manipulate and understand at a glance. Not all problems are best solved visually. Is there a middle ground though? What if we had tools that enhanced our textual programming languages instead of replacing them. What if I could create a visual module to manage some complex data pipeline and import that simply into the textual code I'm working on as a module or function. I'm sure this has been explored by others, but it seems like a fun project.
+
+### Considering the terminal of the future
+
+I've talked with the founders of [fig](https://withfig.com/) and we spent some time discussing what the terminal of the future might look like. The seed of the idea was planted then and every since ideas have been sprouting.
