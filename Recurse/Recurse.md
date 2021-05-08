@@ -32,4 +32,8 @@ There are many areas to explore here. I could pick up an android phone and itera
 
 ### Building a custom keyboard
 
-I've got an [ergodox](https://ergodox-ez.com/)
+I've got an [ergodox](https://ergodox-ez.com/) which I greatly enjoy. There are things though, that I wish it did differently. I wish I didn't have to go through a multi-step process to update my keymappings. I wish it understood the context of what type of OS I was working on so actions like copy and paste were the same actions even if different keys (without me manually having to switch between mappings).
+
+At the same time, I'd really love to invest more in learning about electronics. I went to college for computer engineering which is mostly electrical engineering with some computer science sprinkled in. I really haven't done hardware work since college. 
+
+So, the crazy idea... can I build my own keyboard? 
