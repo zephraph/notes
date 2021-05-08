@@ -11,4 +11,6 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 2. **Knowledge gained is knowledge shared**
 	- I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
 3. **Community is key**
-	- The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself
+	- The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself when it is offered.
+4. **Kindness in all things**
+	- I will approach people and problems with an open mind and an open heart. I will seek to understand before being understood. I will also endeavor to save some kindness for myself. To forgive myself for things undone, for motivation unfound, for potential unmet.
