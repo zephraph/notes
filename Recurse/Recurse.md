@@ -48,4 +48,8 @@ I've talked with the founders of [fig](https://withfig.com/) and we spent some t
 
 ### Enhancing tools for thought
 
-I use [[Obsidian]]
+I use [[Obsidian]] heavily (you're reading a note published from it). I've done some work on [[Obsidian Tools]], but is there more I can do in this space?
+
+What if there was a combined reading and note taking view? In one pane you have an ebook, pdf, website, etc. In the other, notes. As you add notes the right pane expands so that when you scroll to different sections of the document on the left your notes are spatially aligned with what you took the notes. With a quick selection you can copy over a quote and write on that specifically. 
+
+## Technologies
