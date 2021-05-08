@@ -6,4 +6,4 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 ## Principles to govern my time at RC
 
-- 
+- I will work on project or pursue a topic 
