@@ -22,4 +22,7 @@ To be kind to my future self I have only two items here
 1. As a part of my work, continuously document my thoughts, learnings, and decisions to be shared at https://just-be.dev/notes.
 2. Check-in daily to Recurse's check-in channel
 
-## Area
+## Areas of interest
+
+- Tools for thought
+- 
