@@ -44,4 +44,8 @@ Visual programming languages never really take off. It's a hard problem because 
 
 ### Considering the terminal of the future
 
-I've talked with the founders of [fig](https://withfig.com/) and we spent some time discussing what the terminal of the future might look like. The seed of the idea was planted then and every since ideas have been sprouting.
+I've talked with the founders of [fig](https://withfig.com/) and we spent some time discussing what the terminal of the future might look like. The seed was planted then and every since ideas have been sprouting. How might we better provide error hints and feedback? What of a interface that lets you tweak commands in a pipe chain interactively to explore results until you've got the command you want? How might you share scripts, tools, and workflows trivially amongst your peers? Does the terminal have room for more visual interactions.
+
+### Enhancing tools for thought
+
+I use [[Obsidian]]
