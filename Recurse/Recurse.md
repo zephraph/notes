@@ -24,6 +24,8 @@ To be kind to my future self I have only two items here
 
 ## Projects of interest
 
+There's are things I've been thinking about for a while. Some I may spend a lot of time on. Some I may not touch. Some I may do a small part and move on. Whatever the case, these are still areas that interest me greatly.
+
 ### A phone for humans
 
 What if there was a phone design specifically to assist you as a person. What would that look like? Maybe the things that are available to you change based on the time of day or your location. You're not at work? Slack isn't available. You don't have to uninstall it, it just no longer shows up. It's close to your bed time? Twitter is gone, but in it's place is a reminder to why it's important to get good sleep and why you need to get up at 9 (so you can make that appointment at 10:15). 
@@ -54,7 +56,13 @@ What if there was a combined reading and note taking view? In one pane you have 
 
 ### Tools for therapy
 
-Are there tools to help maximize the benefit of therapy? For those who struggle with ADHD and anxiety (as I do), at there ways we can assist with recording anxiety levels and perform
+Are there tools to help maximize the benefit of therapy? For those who struggle with ADHD and anxiety (as I do), at there ways we can assist with recording anxiety levels and performing daily check-ins without it having to be a conscious action. Also, when building technology like this for those who are vulnerable, how can it be made safe and comforting instead of disruptive and uncanny?
+
+### Tools for podcasting
+
+[[Andrew Lisowski|Andrew]] and I started [[devtools.fm]] recently. It's surprising how much tooling it takes to run a podcast
+
+
 
 ## Technologies of interest
 

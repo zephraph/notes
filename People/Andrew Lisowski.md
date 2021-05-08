@@ -1,5 +1,5 @@
 ---
-aliases: [hipstersmoothie]
+aliases: [hipstersmoothie, Andrew]
 ---
 Co-hosts the [[devtools.fm]] podcast with me. Primary maintainer of [[Auto]]. Formerly at [[Intuit]], now works for [[Descript]].
 
