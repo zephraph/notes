@@ -60,7 +60,15 @@ Are there tools to help maximize the benefit of therapy? For those who struggle 
 
 ### Tools for podcasting
 
-[[Andrew Lisowski|Andrew]] and I started [[devtools.fm]] recently. It's surprising how much tooling it takes to run a podcast
+[[Andrew Lisowski|Andrew]] and I started [[devtools.fm]] recently. It's surprising how much tooling it takes to run a podcast!
+
+How do you record? How do you edit? How do you plan, schedule, publish? How about hosting a website, finding or designing music and art assets?
+
+I'm sure there's lots of fun things here
+
+### Tools for developers
+
+
 
 
 
