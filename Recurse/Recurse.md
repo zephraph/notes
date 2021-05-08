@@ -22,7 +22,8 @@ To be kind to my future self I have only two items here
 1. As a part of my work, continuously document my thoughts, learnings, and decisions to be shared at https://just-be.dev/notes.
 2. Check-in daily to Recurse's check-in channel
 
-## Areas of interest
+## Topics of interest
 
-- Tools for thought
-- 
+### A phone for humans
+
+What if there was a phone design specifically to assist you as a person. What would that look like? Maybe the things that are available to you change based on the time of day or your location. You're not at work? Slack isn't available. You don't have to uninstall it, it just no longer shows up. It's close to your bed time? Twitter is gone, but in it's place is a reminder to why it's important to get good sleep and why you need to get up at 9 (so you can make that appointment at 10:1)
