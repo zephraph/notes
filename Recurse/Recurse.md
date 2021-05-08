@@ -66,16 +66,10 @@ How do you record? How do you edit? How do you plan, schedule, publish? How abou
 
 I'm sure there's lots of fun things here
 
-### Tools for developers
-
-
-
-
-
 ## Technologies of interest
 
 - [Rust](https://www.rust-lang.org/)
 - [Zig](https://ziglang.org/)
 - [Elixir](https://elixir-lang.org/), [Phoenix](https://www.phoenixframework.org/), [LiveView](https://github.com/phoenixframework/phoenix_live_view), [LiveBook](https://github.com/elixir-nx/livebook), [Nerves](https://github.com/nerves-project/nerves), [Nerves-LiveBook](https://github.com/fhunleth/nerves_livebook), [Elixir-circuits](https://elixir-circuits.github.io/)
 - [WebAssembly](https://webassembly.org/)
-- 
+- [Astro](https://marcin.page/posts/astro:-meta-framework-of-future-web-development/)
