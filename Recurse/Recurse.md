@@ -52,4 +52,8 @@ I use [[Obsidian]] heavily (you're reading a note published from it). I've done 
 
 What if there was a combined reading and note taking view? In one pane you have an ebook, pdf, website, etc. In the other, notes. As you add notes the right pane expands so that when you scroll to different sections of the document on the left your notes are spatially aligned with what you took the notes. With a quick selection you can copy over a quote and write on that specifically. 
 
-## Technologies
+## Technologies of interest
+
+- Rust
+- Zig
+- Elixir, Pheonix, LiveView, LiveBook, [Nerves](https://github.com/nerves-project/nerves), [Nerves-LiveBook](https://github.com/fhunleth/nerves_livebook), [Elixir-circuits](https://elixir-circuits.github.io/)
