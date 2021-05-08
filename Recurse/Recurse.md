@@ -14,3 +14,12 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 	- The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself when it is offered.
 4. **Kindness in all things**
 	- I will approach people and problems with an open mind and an open heart. I will seek to understand before being understood. I will also endeavor to save some kindness for myself. To forgive myself for things undone, for motivation unfound, for potential unmet.
+
+## Habits I'd like to cultivate
+
+To be kind to my future self I have only two items here
+
+1. As a part of my work, continuously document my thoughts, learnings, and decisions to be shared at https://just-be.dev/notes.
+2. Check-in daily to Recurse's check-in channel
+
+## Area
