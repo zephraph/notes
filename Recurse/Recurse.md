@@ -8,7 +8,7 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 1. **Completion is never the goal**
 	- I will work to learn and explore new areas of interest, but forgive myself for any project left undone. At the point in which a project or topic no longer serves me, I'll set it aside to explore something new.
-2. **Knowledge gained is knowledge shared**
+2. **Knowledge gained is better shared**
 	- I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
 3. **Community is key**
 	- The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself when it is offered.
@@ -52,8 +52,14 @@ I use [[Obsidian]] heavily (you're reading a note published from it). I've done 
 
 What if there was a combined reading and note taking view? In one pane you have an ebook, pdf, website, etc. In the other, notes. As you add notes the right pane expands so that when you scroll to different sections of the document on the left your notes are spatially aligned with what you took the notes. With a quick selection you can copy over a quote and write on that specifically. 
 
+### Tools for therapy
+
+Are there tools to help maximize the benefit of therapy? For those who struggle with ADHD and anxiety (as I do), at there ways we can assist with recording anxiety levels and perform
+
 ## Technologies of interest
 
-- Rust
-- Zig
-- Elixir, Pheonix, LiveView, LiveBook, [Nerves](https://github.com/nerves-project/nerves), [Nerves-LiveBook](https://github.com/fhunleth/nerves_livebook), [Elixir-circuits](https://elixir-circuits.github.io/)
+- [Rust](https://www.rust-lang.org/)
+- [Zig](https://ziglang.org/)
+- [Elixir](https://elixir-lang.org/), [Phoenix](https://www.phoenixframework.org/), [LiveView](https://github.com/phoenixframework/phoenix_live_view), [LiveBook](https://github.com/elixir-nx/livebook), [Nerves](https://github.com/nerves-project/nerves), [Nerves-LiveBook](https://github.com/fhunleth/nerves_livebook), [Elixir-circuits](https://elixir-circuits.github.io/)
+- [WebAssembly](https://webassembly.org/)
+- 
