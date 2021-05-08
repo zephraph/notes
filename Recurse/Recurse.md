@@ -6,4 +6,5 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 ## Principles to govern my time at RC
 
-- I will work on project or pursue a topic 
+- I will forgive myself for not completing projects because the goal is never completion. It's learning and growth.
+- 
