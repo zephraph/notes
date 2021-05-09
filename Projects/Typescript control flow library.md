@@ -96,4 +96,22 @@ export const createError = (trace: StackTracey, message: string) => {
   }) 
 }
 ```
+
 ---
+
+I've largely got most of the surface area of the API implemented at this point. As I've started using it, I've made a few changes to the API.
+
+Previously calling a procedure would be done like `procedure('procName', context)` where `context` is the object the procedure steps operate on. Somewhat similar to arguments in a function. The thing is, procedures can technically be executed multiple times. Ideally this could happen with different context values. In order to get there, I decided to overload the `procedure` function to accept a context or not. 
+
+```typescript
+export function procedure<C extends Record<string, unknown>>(name: string, context: C): ProcedureWithEagerContext<C>
+export function procedure<C extends Record<string, unknown>>(name: string): ProcedureWithLazyContext<C>
+export function procedure<C extends Record<string, unknown>>(
+  name: string,
+  context?: C
+) {
+  return context ? new ProcedureWithEagerContext(name, context) : new ProcedureWithLazyContext(name, {} as C);
+};
+```
+
+In this implementation, if `procedure` is provided a context it returns the instance of a `ProcedureWithEagerContext`. The only different between that and `ProcedureWithLazyContext` is that the former sets the context on initialization and the latter requires `context` to be passed to its `exec` functi
