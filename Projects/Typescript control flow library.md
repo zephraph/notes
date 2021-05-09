@@ -114,4 +114,12 @@ export function procedure<C extends Record<string, unknown>>(
 };
 ```
 
-In this implementation, if `procedure` is provided a context it returns the instance of a `ProcedureWithEagerContext`. The only different between that and `ProcedureWithLazyContext` is that the former sets the context on initialization and the latter requires `context` to be passed to its `exec` functi
+In this implementation, if `procedure` is provided a context it returns the instance of a `ProcedureWithEagerContext`. The only different between that and `ProcedureWithLazyContext` is that the former sets the context on initialization and the latter requires `context` to be passed to its `exec` function.
+
+So now I can do something like
+
+```ts
+export default procedure<Context>('myProc')
+	.valid('prop', exists)
+	.exec({ prop: true })
+```
