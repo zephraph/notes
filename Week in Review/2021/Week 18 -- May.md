@@ -6,8 +6,10 @@ The last year has had it's ups and downs, but psychologically it's been hard. I 
 
 ## A reflection on the week
 
+Work has been a bit of a whirlwind. I had 9 or 10 1-on-1s and I've got about that many this week. I conducted a few interviews which I found a little challenging. I owe the candidates honesty (which I gave) but I have to be careful not to color the interview with my own bias. I hope I did okay.
 
+I've found it pretty impossible to concentrate on getting anything done. I'd hoped I could go out with a bang, but... doesn't look likely. 
 
 ## To new beginnings
 
-Post next week I'll be officially starting at the [recurse center](https://recurse.com). This will give me some time to explore some bigger picture ideas and hopefully 
+Post next week I'll be officially starting at the [recurse center](https://recurse.com). This will give me some time to explore some bigger picture ideas and hopefully destress. I had the pleasure of meeting some of the folks that'll be in my batch and they all seemed like really great folks. I'm excited for it. 
