@@ -30,11 +30,11 @@ There's are things I've been thinking about for a while. Some I may spend a lot 
 
 What if there was a phone design specifically to assist you as a person. What would that look like? Maybe the things that are available to you change based on the time of day or your location. You're not at work? Slack isn't available. You don't have to uninstall it, it just no longer shows up. It's close to your bed time? Twitter is gone, but in it's place is a reminder to why it's important to get good sleep and why you need to get up at 9 (so you can make that appointment at 10:15). 
 
-There are many areas to explore here. I could pick up an android phone and iterate on a launch to simulate this experience.
+There are many areas to explore here. I could pick up an android phone and iterate on a launcher to simulate this experience.
 
 ### Building a custom keyboard
 
-I've got an [ergodox](https://ergodox-ez.com/) which I greatly enjoy. There are things though, that I wish it did differently. I wish I didn't have to go through a multi-step process to update my keymappings. I wish it understood the context of what type of OS I was working on so actions like copy and paste were the same actions even if different keys (without me manually having to switch between mappings).
+I've got an [ergodox](https://ergodox-ez.com/) which I greatly enjoy. There are things though, that I wish it did differently. I wish I didn't have to go through a multi-step process to update my key mappings. I wish it understood the context of what type of OS I was working on so actions like copy and paste were the same actions even if different keys (without me manually having to switch between mappings).
 
 At the same time, I'd really love to invest more in learning about electronics. I went to college for computer engineering which is mostly electrical engineering with some computer science sprinkled in. I really haven't done hardware work since college. 
 
