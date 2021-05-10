@@ -4,6 +4,10 @@ The last two weeks have been a lot of emotional processing. It's been hard in a 
 
 The last year has had it's ups and downs, but psychologically it's been hard. I had to take time off at the beginning of the year for burnout. The emotional scarring that that's left has made continuing business as usual difficult at best.
 
+## A reflection on the week
+
+
+
 ## To new beginnings
 
-Post next week I'll be officially starting at the [recurse center](https://recurse.com). This will give me some time 
+Post next week I'll be officially starting at the [recurse center](https://recurse.com). This will give me some time to explore some bigger picture ideas and hopefully 
