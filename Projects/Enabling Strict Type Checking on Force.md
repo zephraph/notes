@@ -58,25 +58,34 @@ export default {
 Once I run `yarn betterer` it'll (eventually) generate a `betterer.results` file with the contents like the example above. The result is basically a weird common.js module with a big stringified JSON blob. Easy enough to handle.
 
 ```js
+// Load the results file
 const results = require("../.betterer.results")["strictNullCheck migration"]
 const fs = require("fs")
 const path = require("path")
 
+// Parse the results
 const files = JSON.parse(results.value)
 
 for (let [label, warnings] of Object.entries(files)) {
   let offset = 0
+  
+  // Load our target file to be edited
   const [file] = label.split(":")
   const filePath = path.join(process.cwd(), file)
   const content = fs.readFileSync(filePath, "utf-8").split("\n")
+  
   for (let warning of warnings) {
     const lineNum = warning[0]
+	
+	// Insert our comment above the line
     content.splice(
       lineNum + offset++,
       0,
       "// @ts-expect-error STRICT_NULL_CHECK"
     )
   }
+  
+  // Write the final output
   fs.writeFileSync(filePath, content.join("\n"))
 }
 ```
