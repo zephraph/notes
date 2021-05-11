@@ -11,8 +11,8 @@
                 - Artwork image, gallery name, last message, message count, new message count, timestamp
         - Conversations view
             - Build inquiry conversation header
-            - Build conversation component in [[Artsy/Palette]]
-            - Build mobile message input in [[Artsy/Palette]]
+            - Build conversation component in [[Palette]]
+            - Build mobile message input in [[Palette]]
         - Build inquiries detail view
     - **Desktop**
         - Add new inbox icon to header (with unread notification)

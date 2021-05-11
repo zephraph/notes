@@ -1,0 +1,23 @@
+- Related to [[Exchange]]
+- Used for at risk cases NSO
+    - Return cancelation/refund
+- Bug, cases with `Note Type` that are empty go into a weird state
+- Displaying user name, gallery name, maybe artwork title & artist
+- Pick up orders use the same system
+- admin_notes not in looker because it's too vauge/ not useful
+- Associate order & sales force
+- exchange missing responsible party and reason
+    - Tracked in sales force
+- sort by at risk case
+- partial refunds & offline sales
+- Refunds issued in stripe
+- Top needs
+    - Is order at risk
+    - Who's at fault (responsible party) partner/buyer/shipper/artsy tech/other
+    - Reason 
+        - parnter
+        - buyer
+        - shipper
+    - If it's open or closed
+    - Qualitative note (description field from sales force)
+        - editable

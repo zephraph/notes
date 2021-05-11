@@ -1,5 +1,5 @@
 - [[Life OS]]
 - [[TS Module to CLI]]
 - [[Svelte static site generator]]
-- [[automated deployments]]
+- [[Automated deployments]]
 - {{mentions: [[idea]]}}

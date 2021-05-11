@@ -1,0 +1,12 @@
+- Built with [[Next.js]]
+- Challenges
+    - Want to keep it as simple as possible
+    - Given that it's an internal tool, need to figure out how to secure it
+        - Self hosting
+            - https://github.com/vincent-herlemont/next-aws-lambda-webpack-plugin
+            - https://github.com/zeit/next.js/pull/6070#issuecomment-454846201
+            - https://serverless.com/blog/serverless-nextjs/
+        - Auth
+            - https://github.com/zeit/next.js/tree/canary/examples/with-cookie-auth
+- Design goals
+    - Separate apps that are easy to spin up and fast to install/build

@@ -1,3 +1,0 @@
-- A library used at [[Artsy]],  it contains the [[React]] components and apps that power the modern parts of [[Artsy/Force]] (which is essentially [[https://artsy.net]])
-- **Info**
-    - **Tags**: [[Open Source]]

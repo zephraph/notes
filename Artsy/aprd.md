@@ -1,3 +1,0 @@
-- [[Artsy]]'s Real-time Slack Notification Service (aka Artsy Public Radio)
-- https://github.com/artsy/aprd
-- **Tags** [[repo]]
