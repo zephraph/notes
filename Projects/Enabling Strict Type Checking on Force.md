@@ -92,6 +92,10 @@ for (let [label, warnings] of Object.entries(files)) {
 
 Before running the script we'll need to enable `strictNullChecks` in our base `tsconfig`.
 
+Other cases to check: 
+- Previous line only >
+- Next line starts with `{(` and ends with `(`
+
 ## Running the script
 
 So after running the script it ran correctly on the first time and everything is perfect. I can retire now.
