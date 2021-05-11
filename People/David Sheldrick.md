@@ -1,0 +1,1 @@
+Author of [[patch-package]], formerly an employ at [[Artsy]]
