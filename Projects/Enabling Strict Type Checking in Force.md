@@ -123,4 +123,9 @@ export default {
 }
 ```
 
-Essentially betterer implements the 
+I also added it as a pre-commit hook.
+
+Essentially this is what will happen
+1. A dev fixes a strict null issue
+2. Pre-commit, betterer will run and update the betterer.results file
+3. After the dev's PR is merged, the new betterer file will automatically be enforced by CI
