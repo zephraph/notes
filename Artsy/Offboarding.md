@@ -14,7 +14,7 @@
 - [x] [[Chung-Yi]]
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
-- [ ] [[Devon Blandin]]
+- [ ] [[Devon Blandin]] - scheduled
 - [ ] [[Erik Stockmeier]] - in person
 - [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
