@@ -26,4 +26,57 @@ There is another small difference in my approach though. Instead of using `@ts-i
 
 ## Adding the ignores
 
-It's been a long week and I'm pretty tired. I don't feel like being fancy. [[betterer|Betterer]] has a mechanism for handling [[TypeScript]] strict checks as mentioned. It generates 
+It's been a long week and I'm pretty tired. I don't feel like being fancy. [[betterer|Betterer]] has a mechanism for handling [[TypeScript]] strict checks as mentioned. It generates out this huge jest like snapshot file with the file and the errors where they occurred. It looks something like this
+
+```ts
+exports[`strictNullCheck migration`] = {
+  value: `{
+    "src/desktop/apps/authentication/__tests__/helpers.jest.ts:2639092610": [
+      [128, 15, 16, "Object is possibly \'undefined\'.", "4221209777"],
+      [189, 15, 16, "Object is possibly \'undefined\'.", "4221209777"],
+      [245, 15, 16, "Object is possibly \'undefined\'.", "4221209777"]
+    ]
+  }`
+};	
+```
+
+It'll give the file, line numbers, error, etc. Perfect for what I want to do. I literally just want to put a comment above each of those line numbers.
+
+To generate this output file, I first have to setup the betterer test.
+
+```ts
+// .betterer.ts
+import { typescript } from "@betterer/typescript"
+
+export default {
+  "strictNullCheck migration": typescript("./tsconfig.json", {
+    strictNullChecks: true,
+  }),
+}
+```
+
+Once I run `yarn betterer` it'll (eventually) generate a `betterer.results` file with the contents like the example above. The result is basically a weird common.js module with a big stringified JSON blob. Easy enough to handle.
+
+```js
+const results = require("../.betterer.results")["strictNullCheck migration"]
+const fs = require("fs")
+const path = require("path")
+
+const files = JSON.parse(results.value)
+
+for (let [label, warnings] of Object.entries(files)) {
+  let offset = 0
+  const [file] = label.split(":")
+  const filePath = path.join(process.cwd(), file)
+  const content = fs.readFileSync(filePath, "utf-8").split("\n")
+  for (let warning of warnings) {
+    const lineNum = warning[0]
+    content.splice(
+      lineNum + offset++,
+      0,
+      "// @ts-expect-error STRICT_NULL_CHECK"
+    )
+  }
+  fs.writeFileSync(filePath, content.join("\n"))
+}
+```
