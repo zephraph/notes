@@ -1,0 +1,1 @@
+Thoughts about the startups I've failed to help start
