@@ -66,35 +66,44 @@ const path = require("path")
 // Parse the results
 const files = JSON.parse(results.value)
 
+const JS_COMMENT = "// @ts-expect-error STRICT_NULL_CHECK"
+const JSX_COMMENT = "{/* @ts-expect-error STRICT_NULL_CHECK */}"
+
 for (let [label, warnings] of Object.entries(files)) {
   let offset = 0
   
-  // Load our target file to be edited
+  // Get the file content
   const [file] = label.split(":")
   const filePath = path.join(process.cwd(), file)
   const content = fs.readFileSync(filePath, "utf-8").split("\n")
   
-  for (let warning of warnings) {
-    const lineNum = warning[0]
+  // Get unique array of line numbers
+  const lines = Array.from(new Set(warnings.map(([l]) => l)))
+  
+  for (let lineNum of lines) {
+  	// calculate the line position (changes as updates are made)
+    const pos = lineNum + offset++
 	
-	// Insert our comment above the line
-    content.splice(
-      lineNum + offset++,
-      0,
-      "// @ts-expect-error STRICT_NULL_CHECK"
-    )
+	// Get previous line for some quick JSX sanity checking
+    const prevLine = content[pos - 1].trim()
+	
+	// Checks if JSX... not very smart, could really be beefed up
+    if (prevLine.startsWith("<") && prevLine.endsWith(">")) {
+      content.splice(pos, 0, JSX_COMMENT)
+    } else {
+      content.splice(pos, 0, JS_COMMENT)
+    }
   }
   
-  // Write the final output
   fs.writeFileSync(filePath, content.join("\n"))
 }
 ```
 
 Before running the script we'll need to enable `strictNullChecks` in our base `tsconfig`.
 
-Other cases to check: 
+Other JSX cases that would've helped to check: 
 - Previous line only `>`
-- Next line starts with `{` and ends with `(`
+- Next line starts with `{`, has content between, and ends with `(`
 
 ## Running the script
 
