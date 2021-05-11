@@ -90,4 +90,18 @@ for (let [label, warnings] of Object.entries(files)) {
 }
 ```
 
-Before running the script
+Before running the script we'll need to enable `strictNullChecks` in our base `tsconfig`.
+
+## Running the script
+
+So after running the script it ran correctly on the first time and everything is perfect. I can retire now.
+
+No, that didn't happen. I got 1061 errors.
+
+This is the part of the story where I'm supposed to say something smart like how I figured out exactly what I could do to make things better. 
+
+That also isn't happening.
+
+What is happening is that I'm going through these errors and fixing them mostly by hand, heh.
+
+Sometimes I get two comments appearing right on top of each other. Why? Because my fatigued brain probably did something weird with the splice or something. Who
