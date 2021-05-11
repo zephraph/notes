@@ -1,1 +1,0 @@
-- Slack channel at [[Artsy]] for the engineering team

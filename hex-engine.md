@@ -1,2 +1,0 @@
-- https://hex-engine.dev
-- **GitHub**: https://github.com/suchipi/hex-engine
