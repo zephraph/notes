@@ -1,3 +1,0 @@
-- A digital product agency that I stumbled upon accidentally who has built some cool stuff. They have an office in Chattanooga which is a cool thing to keep in mind if I ever decide to move back down south. 
-- They also have a cool set of [[Tools]] https://code.viget.com/
-- **Site** https://www.viget.com/
