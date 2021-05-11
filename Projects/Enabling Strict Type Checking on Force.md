@@ -107,3 +107,8 @@ What is happening is that I'm going through these errors and fixing them mostly 
 Sometimes I get two comments appearing right on top of each other. Why? Because my fatigued brain probably did something weird with the splice or something. It's diminishing returns now to try to figure that out, so I just delete the extra lines and move on with my life.
 
 The other error I saw a lot of is comments added into the middle of JSX in a way that's invalid. Mostly I just handle this with muscle memory. <kbd>⌘</kbd>+<kbd>/</kbd> toggles the line as a comment in vscode which wraps the `@ts-expect-error` statements in the weird JSX error syntax. 
+
+Okay... yeah, let me just... fix this...
+
+##
+(some time later)
