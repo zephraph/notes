@@ -100,23 +100,27 @@ Other cases to check:
 
 So after running the script it ran correctly on the first time and everything is perfect. I can retire now.
 
-That's what I wish happened. What actually happened is I got 1061 errors.
+That's what I wish happened. What actually happened is I got 1061 errors. I went back and revised the script to ensure it wouldn't do things like print multiple comments if there were multiple null errors and tried to account for some of the places where JS comments were being added when they should be JSX comments or vice versa. Got me down to ~100ish.
 
-This is the part of the story where I'm supposed to say something smart like how I figured out exactly what I could do to make things better. 
+This is the part of the story where I'm supposed to say something smart like how I figured out exactly what I could do to fix the rest of the things.
 
 That also didn't happen.
 
-What happened is that I went through these errors and fixed them mostly by hand, heh.
+What happened is that I went through these errors and fixed them by hand.
 
-Sometimes I get multiple comments appearing right on top of each other. I think this is in situations where there are multiple null errors on the same line. I didn't filter down to only one line number. A good improvement if anyone else is following this workflow.
-
-The other error I saw a lot of is comments added into the middle of JSX in a way that's invalid. Mostly I just handle this with muscle memory. <kbd>⌘</kbd>+<kbd>/</kbd> toggles the line as a comment in vscode which wraps the `@ts-expect-error` statements in the weird JSX error syntax. I could've caught a lot of these by checking to see if the previous line started with `<` and using the JSX comment style instead. I didn't.
-
-So...
-
-Okay... yeah, let me just... fix this...
-
-(some time later)
 ## Writing the regex tests
 
+To ensure we don't backslide and just add a bunch of comments with this `@ts-expect-error` in it to ignore failures, I added a betterer regex test. It's actually pretty trivial.
 
+```
+import { regexp } from "@betterer/regexp"
+
+export default {
+  // Add tests here ☀️
+  "strictNullCheck migration": regexp(
+    /@ts-expect-error\s+STRICT_NULL_CHECK/
+  ).include("**/*.ts(x)?"),
+}
+```
+
+Essentially betterer implements the 
