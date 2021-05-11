@@ -22,4 +22,8 @@ It's not a perfect solution, but this is generally a pretty hard problem. Believ
 
 I essentially want to do the same thing. I'm just going to do it in a slightly different way. First off, I'm going to incorporate this tool called [[betterer]]. It'll take care of ensuring that the migration happens over time. It actually has a [typescript plugin](https://phenomnomnominal.github.io/betterer/docs/built-in-tests#betterertypescript) that can be used to do exactly what we want to do here. Unfortunately that would require that type checking be ran twice... but it's pretty slow already. Not really feasible. What I'd like to do instead is use the [regex plugin](https://phenomnomnominal.github.io/betterer/docs/built-in-tests#bettererregexp) to test for a comment pattern similar to the previously mentioned step.
 
-There is another small difference in my approach though. Instead of using `@ts-ignore` I'm going to use `@ts-expecte`
+There is another small difference in my approach though. Instead of using `@ts-ignore` I'm going to use `@ts-expect-error`. It's similar in that [[TypeScript]] will ignore the errors it encounters, but if there is no error then you'll get an error saying that the statement is unused. That means if someone comes along and accidentally fixes an error, they'll be told to remove the unused `@ts-expect-error`. 
+
+## Adding the ignores
+
+It's been a long week and I'm pretty tired. I don't feel like being fancy. [[betterer|Betterer]] has a mechanism for handling [[TypeScript]] strict checks as mentioned. It generates 
