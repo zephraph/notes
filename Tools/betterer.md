@@ -1,3 +1,3 @@
-A tool to enable incremental migrations over a code base
+A tool to facilitate programmatic, incremental migrations 
 
 https://github.com/phenomnomnominal/betterer
