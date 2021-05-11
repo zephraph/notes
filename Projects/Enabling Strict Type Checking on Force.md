@@ -89,3 +89,5 @@ for (let [label, warnings] of Object.entries(files)) {
   fs.writeFileSync(filePath, content.join("\n"))
 }
 ```
+
+Before running the script
