@@ -138,3 +138,7 @@ Essentially this is what will happen
 1. A dev fixes a strict null issue
 2. Pre-commit, betterer will run and update the betterer.results file
 3. After the dev's PR is merged, the new betterer file will automatically be enforced by CI
+
+## Revisions in the process
+
+After talking to [[David Sheldrick]] about it in the PR, we decided to move more towards what [[Eigen]] was doing. That means removing [[betterer]] and replacing it with a simplified script that only runs in CI. The tooling is more barebones in this way, but it simplifies the process and removes the issue of merge conflicts. 
