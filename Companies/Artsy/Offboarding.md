@@ -37,5 +37,5 @@
 
 - [x] Send an email to pdde@ to let them know about the intent to leave the company within 2 weeks of resignation date so that we can properly plan the transition.
 - [ ] Pair with Sarah on offboarding tech
-- [ ] Goodbye email can be sent to close collaborators and teams within 2 weeks of final day.
+- [x] Goodbye email can be sent to close collaborators and teams within 2 weeks of final day.
 - [ ] Return computer and building badge
