@@ -24,13 +24,13 @@
 - [ ] [[Joey Aghion]]
 - [x] [[Jon Allured]]
 - [x] [[Lily Pace]]
-- [ ] [[Matt Dole]] - Tuesday in person
+- [x] [[Matt Dole]]
 - [x] [[Matt Zikherman]]
 - [x] [[Mounir Dhahri]]
-- [x] [[Oksana Udovitska]] - scheduled
+- [x] [[Oksana Udovitska]]
 - [x] [[Pavlos Vinieratos]]
 - [x] [[Roop Roy]]
-- [ ] [[Sepand Ansari]] - scheduled
+- [x] [[Sepand Ansari]]
 - [x] [[Steve Hicks]]
 
 ## Todo
