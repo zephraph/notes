@@ -1,14 +1,14 @@
 ## Conversations
 
 - [x] [[Adam Butler]]
-- [ ] [[Adam Iskounen]]
+- [x] [[Adam Iskounen]]
 - [x] [[Ana Lisa]]
 - [x] [[Anna Carey]]
 - [x] [[Anson Wang]]
 - [x] [[Ashley Jelks]]
 - [ ] [[Barry Hoggard]] - in person
 - [ ] [[Brian Beckerle]]
-- [ ] [[Cameron Rollheiser]] - scheduled
+- [x] [[Cameron Rollheiser]]
 - [x] [[Christina Thompson]]
 - [x] [[Chris Pappas]]
 - [x] [[Chung-Yi]]
@@ -26,8 +26,8 @@
 - [x] [[Lily Pace]]
 - [ ] [[Matt Dole]] - Tuesday in person
 - [x] [[Matt Zikherman]]
-- [ ] [[Mounir Dhahri]] - scheduled
-- [ ] [[Oksana Udovitska]] - scheduled
+- [x] [[Mounir Dhahri]]
+- [x] [[Oksana Udovitska]] - scheduled
 - [x] [[Pavlos Vinieratos]]
 - [x] [[Roop Roy]]
 - [ ] [[Sepand Ansari]] - scheduled
