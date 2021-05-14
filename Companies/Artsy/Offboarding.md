@@ -7,14 +7,14 @@
 - [x] [[Anson Wang]]
 - [x] [[Ashley Jelks]]
 - [ ] [[Barry Hoggard]] - in person
-- [ ] [[Brian Beckerle]]
+- [x] [[Brian Beckerle]]
 - [x] [[Cameron Rollheiser]]
 - [x] [[Christina Thompson]]
 - [x] [[Chris Pappas]]
 - [x] [[Chung-Yi]]
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
-- [ ] [[Devon Blandin]] - scheduled
+- [x] [[Devon Blandin]]
 - [ ] [[Erik Stockmeier]] - in person
 - [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
