@@ -14,3 +14,4 @@ https://www.recurse.com/calendar
 
 11:00 am -- intro presentations
 
+Really enjoyed the intro speech. Institutional education sometimes more like a factory, RC more
