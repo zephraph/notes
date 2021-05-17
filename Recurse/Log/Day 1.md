@@ -44,7 +44,7 @@ Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal
 ## 11:30 -- Meet and greets
  
  - [Amelia Fitzsimmons](https://www.recurse.com/directory/4535-amelia-fitzsimmons)
- - [Nicholas Montanaro](https://www.recurse.com/directory/2474-nicolas-montanaro)
+ - [Nicholas Montaño](https://www.recurse.com/directory/2138)
  - [George Michel](https://www.recurse.com/directory/4170-george-michel)
 
 Larger group (detail later?)
@@ -65,4 +65,4 @@ Covered some of the same tools as before, just in a little more depth. I did add
 
 ## 4:00 -- 1-on-1
 
-Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.io](https://bubble.io/)
+Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.io](https://bubble.io/), what's next for him, some of the challenges at [[Artsy]]
