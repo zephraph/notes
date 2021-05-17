@@ -62,3 +62,5 @@ Covered some of the same tools as before, just in a little more depth. I did add
 ## 3:30 -- Side thoughts
 
 - It's actually a bit of a struggle to find the motivation to do things. There was a lot of collaborative energy going into this afternoon, but now I'm a little fatigued. 
+
+## 4:00 
