@@ -76,6 +76,9 @@ I'm sure there's lots of fun things here
 
 ## Resources
 
-https://recurse.rctogether.com/chat
-https://docs.rctogether.com/#introduction
-https://www.recurse.com/settings/general
+_These are mostly private resources_
+
+[RC virtual space](https://recurse.rctogether.com/chat)
+[RC together docs](https://docs.rctogether.com/#introduction)
+[Profile settings](https://www.recurse.com/settings/general)
+[Summer 1 batch](https://www.recurse.com/directory?batch=Summer+1%2C+2021)
