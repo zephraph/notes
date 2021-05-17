@@ -65,4 +65,8 @@ Covered some of the same tools as before, just in a little more depth. I did add
 
 ## 4:00 -- 1-on-1
 
-Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.io](https://bubble.io/), what's next for him, some of the challenges at [[Artsy]]
+Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.io](https://bubble.io/), what's next for him, some of the challenges at [[Artsy]], what events we're attending, when to (or not to) use GraphQL, etc. Had a really good time
+
+## 5:00 -- Am I productive yet?
+
+Okay, I'm just hanging out in a zoom trying to do things. Still going back to that [[Automatically tweeting on new episodes]] project.
