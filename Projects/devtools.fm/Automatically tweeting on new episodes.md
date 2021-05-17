@@ -26,5 +26,6 @@ Okay, so! New GitHub Action time?
 
 [[Daily Notes/2021-05-17|May 17th, 2021]]
 
+I borrowed the base action from [obsidian-tools](https://github.com/zephraph/obsidian-tools/blob/main/.github/workflows/release.yml) just because I'm familiar with that. 
 
 
