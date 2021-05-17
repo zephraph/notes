@@ -4,7 +4,7 @@ For offboarding at [[Artsy]], I tried to be as empathetic with my co-workers as 
 
 Wednesday [[Nicole Boettcher]] gathered the [[grow team]] for a little going away party for me on  [around.co](https://around.co). It was a good time (and the software was really good to boot). I'm considering holding public office hours using around in the future.
 
-Also on Wednesday I met up w/ [[Brendan Falk]] to talk a bit about [[fig]] and devtools. I'm a pretty huge fan of both so it was enjoyable. We talked a bit about early company values and that thought has been bouncing around in my head a bit.
+Also on Wednesday I met up w/ [[Brendan Falk]] to talk a bit about [[fig]] and devtools. I'm a pretty huge fan of both so it was enjoyable. We talked a bit about early company values and that thought has been bouncing around in my head a bit since.
 
 On Friday I just setup an around room and hung out all day. 
 

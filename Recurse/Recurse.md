@@ -78,3 +78,4 @@ I'm sure there's lots of fun things here
 
 https://recurse.rctogether.com/chat
 https://docs.rctogether.com/#introduction
+https://www.recurse.com/settings/general
