@@ -1,3 +1,5 @@
+I don't have much planned for today. Mostly just getting myself oriented and talking to folks. I do have an on-going [[devtools.fm]] project around [[Automatically tweeting on new episodes]] which I may try to work on some today.
+
 ## 10:17 am -- tour
 
 Just got out of therapy and jumped onto the on-boarding call in hopper. They're doing breakout rooms and giving a tour of the virtual space. 
@@ -45,4 +47,7 @@ Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal
  - [Nicholas Montanaro](https://www.recurse.com/directory/2474-nicolas-montanaro)
  - [George Michel](https://www.recurse.com/directory/4170-george-michel)
 
+Larger group (detail later?)
+
+## 2:00 -- Software tools
 
