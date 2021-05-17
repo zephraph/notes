@@ -1,0 +1,1 @@
+Worked with me at [[Artsy]] as the designer on the [[grow team]].
