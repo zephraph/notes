@@ -4,3 +4,7 @@ Just got out of therapy and jumped onto the on-boarding call in hopper. They're 
 
 Some really chill background music, I dig it. The artist is Pasquale Grasso.
 
+--- 
+
+https://recurse.rctogether.com/chat
+https://docs.rctogether.com/#introduction
