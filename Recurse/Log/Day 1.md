@@ -63,4 +63,6 @@ Covered some of the same tools as before, just in a little more depth. I did add
 
 - It's actually a bit of a struggle to find the motivation to do things. There was a lot of collaborative energy going into this afternoon, but now I'm a little fatigued. 
 
-## 4:00 
+## 4:00 -- 1-on-1
+
+Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.io](https://bubble.io/)
