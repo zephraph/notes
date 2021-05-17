@@ -53,8 +53,12 @@ Larger group (detail later?)
 
 Covered some of the same tools as before, just in a little more depth. I did add some bookmarks during this time to make some of the stuff easier to get to. 
 
-## Working notes
+## 2:45 -- Working notes
 
 - Noticed I'd had a good bit of traffic to my tips page lately and I haven't really been maintaining that. Decided to remove it. https://github.com/zephraph/just-be/pull/18
 - I sync all of these notes via GitHub to be able to share it between machines. I'd like to _not_ share binaries (like images). That's likely a thing I'd like to work on this week. 
 - Going to work on [[Automatically tweeting on new episodes]] for now
+
+## 3:30 -- Side thoughts
+
+- It's actually a bit of a struggle to find the motivation to do things. There was a lot of collaborative energy going into this afternoon, but now I'm a little fatigued. 
