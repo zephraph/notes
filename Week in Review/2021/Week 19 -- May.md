@@ -8,4 +8,4 @@ On Friday I just setup an around room and hung out all day.
 
 On Saturday my partner and I went to our first public event. It was a rooftop comedy event at [The Tiny Cupboard](https://thetinycupboard.com/). It was a great time and made me somewhat feel like the world was turning normal again. I guess it's worth mentioning that as of this weekend we're both vaccine effective so there's less of an anxiety factor when we're going out and about.
 
-Sunday I had a coffee chat with [[Paul Biggar]]. 
+Sunday I had a coffee chat with [[Paul Biggar]]. It was an incredibly interesting and engaging conversation. I'm looking forward to future meetups with him and other current or past [[Recurse]]

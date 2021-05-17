@@ -1,1 +1,1 @@
-Founder of []()
+Founder of [[CircleCI]] and [[Dark]]. Attended [[Recurse]] in 2016.
