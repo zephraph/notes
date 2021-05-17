@@ -25,3 +25,5 @@ Social rules
 2. No feign surprising.
 3. No backseat driving.
 4. No subtle-isms.
+
+Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal, but be kind when pointing them out and if they're pointed out to you.
