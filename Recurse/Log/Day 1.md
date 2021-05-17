@@ -39,8 +39,8 @@ Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal
 
 ## 11:30 -- Meet and greets
  
- - Amelia Fitzsimmons
- - Nicholas Montano
- - George Michel
+ - [Amelia Fitzsimmons](https://www.recurse.com/directory/4535-amelia-fitzsimmons)
+ - [Nicholas Montanaro](https://www.recurse.com/directory/2474-nicolas-montanaro)
+ - [George Michel](https://www.recurse.com/directory/4170-george-michel)
 
 
