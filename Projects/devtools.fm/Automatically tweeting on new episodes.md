@@ -22,3 +22,9 @@ Maybe a few questions we'll need to answer at some point
 
 Okay, so! New GitHub Action time?
 
+---
+
+[[Daily Notes/2021-05-17|May 17th, 2021]]
+
+
+
