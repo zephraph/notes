@@ -2,7 +2,9 @@ This week was a big week for me. Friday was the last day of my job at [[Artsy]].
 
 For offboarding at [[Artsy]], I tried to be as empathetic with my co-workers as I could be. I let everyone know in advance via small group messages on slack. I didn't want to surprise anyone with a calendar invite that had no topic. Likewise, I wanted to talk to _everyone_. I covered all the engineering people except for folks who were new and I didn't know or those who I plan on meeting soon in person. It was roughly 30 1-on-1s over those two weeks, which was hard, but worth it. I wanted to remind everyone to take care of themselves, to balance work and life. I repeated that message every chance I got. I hope it helped some.
 
-[[Nicole Boettcher]] gathered the [[grow team]] for a little going away party for me on  [around.co](https://around.co). It was a good time (and the software was really good to boot). I'm considering holding public office hours using around in the future.
+Wednesday [[Nicole Boettcher]] gathered the [[grow team]] for a little going away party for me on  [around.co](https://around.co). It was a good time (and the software was really good to boot). I'm considering holding public office hours using around in the future.
+
+Also on Wednesday I met up w/ [[Brendan Falk]] to talk a bit about [[fig]] and devtools. I'm a pretty huge fan of both so it was enjoyable. We talked a bit about early company values and ht
 
 On Friday I just setup an around room and hung out all day. 
 
