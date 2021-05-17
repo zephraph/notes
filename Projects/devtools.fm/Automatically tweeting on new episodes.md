@@ -14,3 +14,11 @@ To explicitly break it down, it seems like we have a few steps here
 1. Create a GitHub action
 2. Check if an episode file has been added to the `episode` directory
 3. If the above is true, send a new tweet
+
+Maybe a few questions we'll need to answer at some point
+1. What should the content of the tweet be?
+
+## Taking action
+
+Okay, so! New GitHub Action time?
+
