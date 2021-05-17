@@ -14,7 +14,9 @@ https://www.recurse.com/calendar
 
 ## 11:00 am -- intro presentations
 
-Really enjoyed the intro speech. Institutional education sometimes more like a factory, RC more like an ecosystem that thrives on diversity.
+Really enjoyed the intro speech. 
+
+> Institutional education sometimes more like a factory, RC more like an ecosystem that thrives on diversity.
 
 ### Social rules
 
