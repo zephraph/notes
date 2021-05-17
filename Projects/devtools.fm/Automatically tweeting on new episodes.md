@@ -32,3 +32,6 @@ I deleted some of the bottom parts and sort of left it. I've had trouble focusin
 
 ---
 
+Okay, so I'm actually pretty interested in the process for sending the tweet so I'm going to hit it from that angle. I'm going to use [FeedHive's twitter api client](https://github.com/FeedHive/twitter-api-client).
+
+
