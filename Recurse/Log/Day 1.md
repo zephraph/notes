@@ -16,4 +16,12 @@ https://www.recurse.com/calendar
 
 Really enjoyed the intro speech. Institutional education sometimes more like a factory, RC more like an ecosystem that thrives on diversity.
 
-Social 
+Social rule interactions
+- point it out
+- apologize
+
+Social rules
+1. No well, actually. Correcting someone tangentially to what they're trying to say.
+2. No feign surprising.
+3. No backseat driving.
+4. No subtle-isms.
