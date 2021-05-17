@@ -1,1 +1,1 @@
-The last product team I worked on at [[Artsy]]. Was lead up at the time by [[Jon Allured]] and PM'd by [[Jenna]]
+The last product team I worked on at [[Artsy]]. Was lead up at the time by [[Jon Allured]] and PM'd by [[Jenna Poczik]]. 
