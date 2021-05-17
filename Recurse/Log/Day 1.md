@@ -39,6 +39,7 @@ Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal
 
 ## 11:30 -- Meet and greets
  
- Ammelia 
+ - Amelia Fitzsimmons
+ - Nicholas Montano
 
 
