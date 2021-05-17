@@ -56,4 +56,5 @@ Covered some of the same tools as before, just in a little more depth. I did add
 ## Working notes
 
 - Noticed I'd had a good bit of traffic to my tips page lately and I haven't really been maintaining that. Decided to remove it. https://github.com/zephraph/just-be/pull/18
-- I sync all of these notes via GitHub to be able to share it between machines. I'd like to _not_ share binaries (like images). 
+- I sync all of these notes via GitHub to be able to share it between machines. I'd like to _not_ share binaries (like images). That's likely a thing I'd like to work on this week. 
+- 
