@@ -38,6 +38,7 @@ Breaking them doesn't mean you're a bad person. It doesn't have to be a big deal
 - Limit emotionally charged conversations to opt-in spaces
 
 ## 11:30 -- Meet and greets
-
+ 
+ Ammelia 
 
 
