@@ -52,3 +52,7 @@ Larger group (detail later?)
 ## 2:00 -- Software tools
 
 Covered some of the same tools as before, just in a little more depth. I did add some bookmarks during this time to make some of the stuff easier to get to. 
+
+## Working notes
+
+- Noticed I'd had a good bit of traffic to my tips page lately and I haven't really been maintaining that. Decided to remove it. 
