@@ -1,0 +1,3 @@
+This week was a big week for me. Last Friday was the last day of my job at [[Artsy]]. I will say though, it was incredibly difficult week for me emotionally. I built up so many friendships and connections at [[Artsy]] that it was hard to leave. Still, I believe it was the right choice. Perhaps one day I'll write in detail about the specifics of why I made that choice.
+
+For offboarding at [[Artsy]], I tried to be as empathetic with my co-workers as I could be. 
