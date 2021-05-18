@@ -29,4 +29,11 @@ I left a little early
 
 Really spinning my wheels. I've had a lot of distractions today.
 
-1. My wifi router suddenly decided to revert to 
+1. My wifi router suddenly decided to revert to its default settings. My ISP requires the router be managed through their portal which just gives an error now when trying to update the settings. Frustrating
+2. Security system is whack because of the above
+3. Lots of podcast related stuff to think about. I tried working on [[Automatically tweeting on new episodes]] yesterday, but made very little progress. Have a podcast episode to edit, but my main harddrive is low on memory so I've got to clean that up.
+4. I lose my work health insurance at the end of the month so I need to figure out that
+5. Scheduled a Dr apt for tomorrow just to get a checkup while I'm still on the same plan
+6. Need to respond to some emails / requests for advice from a few folks
+7. Have therapy homework. Need to sit down and reflect on my identity and specifically look to highlight areas that aren't work.
+8. 
