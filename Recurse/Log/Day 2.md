@@ -21,4 +21,12 @@ Futzed around, but didn't get anything of substance done. I _did_ design a favic
 
 Intros
 - Lots of feedback about fighting the type systems
-- 
+- Sharing some experiences w/ low level vs high level code
+
+I left a little early
+
+## 4:00+
+
+Really spinning my wheels. I've had a lot of distractions today.
+
+1. My wifi router suddenly decided to revert to 
