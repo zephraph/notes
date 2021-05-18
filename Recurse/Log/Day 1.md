@@ -70,3 +70,5 @@ Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.
 ## 5:00 -- Am I productive yet?
 
 Okay, I'm just hanging out in a zoom trying to do things. Still going back to that [[Automatically tweeting on new episodes]] project.
+
+This room had a _really_ interesting conversation about 
