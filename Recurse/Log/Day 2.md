@@ -38,4 +38,4 @@ Really spinning my wheels. I've had a lot of distractions today.
 7. Have therapy homework. Need to sit down and reflect on my identity and specifically look to highlight areas that aren't work.
 8. Emails to respond to
 
-Tomorrow, I just need to start
+I'm going to try to cross some of these life things off the list tonight and start fresh tomorrow
