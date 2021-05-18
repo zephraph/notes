@@ -71,4 +71,4 @@ Met w/ [[Pete Vilter]] just to catch up. Talked a bit about his time at [bubble.
 
 Okay, I'm just hanging out in a zoom trying to do things. Still going back to that [[Automatically tweeting on new episodes]] project.
 
-This room had a _really_ interesting conversation about 
+This room had a _really_ interesting conversation about browsers, how we interact with tech, the addictive lifecycle of a lot of products, how we could try to apply some learnings outside of tech, and the sort of macro-economic definition and incentives that perpetuate this environment. 
