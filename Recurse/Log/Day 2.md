@@ -36,4 +36,5 @@ Really spinning my wheels. I've had a lot of distractions today.
 5. Scheduled a Dr apt for tomorrow just to get a checkup while I'm still on the same plan
 6. Need to respond to some emails / requests for advice from a few folks
 7. Have therapy homework. Need to sit down and reflect on my identity and specifically look to highlight areas that aren't work.
-8. 
+8. Emails to respond to
+9. Just need to start
