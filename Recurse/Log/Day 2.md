@@ -13,6 +13,8 @@ Paired w/ [Lucie Alonso](https://www.recurse.com/directory/4534-lucie-alonso) on
 
 ## 1:15 pm -- Self-work
 
+Futzed around, but didn't get anything of substance done. I _did_ design a favicon for my site. The interesting constraint here is that I wanted it to be visible on both light themes and dark themes. 
+
 
 
 ## 3:00 pm -- Rust check-ins
