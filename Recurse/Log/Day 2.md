@@ -9,4 +9,10 @@ Gave an overview of pair programming.
 - Interesting conceptual model of driver (doing the code, focused on syntax, etc) and navigator (reviewing, thinking about next steps)
 - Swap 8 to 15 minutes
 
+Paired w/ [Lucie Alonso](https://www.recurse.com/directory/4534-lucie-alonso) on a game of life implementation. We didn't get _too_ far into it, but it does seem like a fun problem! We used repl.it for pairing and it really seems to have improved since the last time I used it. 
+
+## 1:15 pm -- Self-work
+
+
+
 ## 3:00 pm -- Rust check-ins
