@@ -54,3 +54,14 @@ const { plugin } = args;
 const { vault } = flags;
 ```
 
+---
+
+_2021-05-19_
+
+Picking back up on this now that I'm at [[Recurse]]. I'd actually been working on it a bit during the last few weeks of work and I didn't really do a good job of logging my progress.
+
+I've finished out the command body, but there's not actually much there. Here's what the `full` run function looks like right now
+
+```ts
+
+```

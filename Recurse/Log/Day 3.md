@@ -14,3 +14,5 @@ Essentially, if the `delta` binary isn't in my path, I'll install it in the appr
 
 ---
 
+I'll be documenting my progress and work on the install command as mentioned below in [[obsidian-plugin-cli#Adding an install command]].
+
