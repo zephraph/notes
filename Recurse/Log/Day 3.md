@@ -24,31 +24,36 @@ Group check-ins. There's always a prompt for check-ins, today's was "What would 
 
 Advice and introductions
 
-[[Michael Z]]
+[[Michael Z|Michael]]
 - NYC Mesh
 - Wants to branch out into frontend stuff, try zig/go lang
 - Advice
 	- Started w/ impostor syndrome: "Never met a community so open to not knowing something"
-[[Coby Tamayo]]
+	
+[[Coby Tamayo|Coby]]
 - Interested in closure
 - content management system (w/ data hike db)
 	- datalog like query system? Pete would like that
 - Web assembly
 - CRDTs
 - Audio programming
-[[Evans Patel]]
+
+[[Evans Patel|Evans]]
 - Fullstack open
 - Web development (elixir + pheonix live view)
 - systems programming
+
 [[rfong]]
 - values based approach
 - debugging, deep focus
 - CRDTs
 - data science/creative coding/graphical programming
-[[Josh Stauffer]]
+
+[[Josh Stauffer|Josh]]
 - Working on this really interesting historical citation app
 - https://github.com/joshua-stauffer/thehistoryatlas
-[[Sara Farquharson]]
+
+[[Sara Farquharson|Sara]]
 - Virtual social space
 - RPG character builder in react
 
