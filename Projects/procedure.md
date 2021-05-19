@@ -126,3 +126,6 @@ export default procedure<Context>('myProc')
 	.valid('prop', exists)
 	.exec({ prop: true })
 ```
+
+---
+*2021-05-19*
