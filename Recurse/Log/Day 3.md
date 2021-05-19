@@ -24,7 +24,8 @@ Group check-ins. There's always a prompt for check-ins, today's was "What would 
 
 Advice and introductions
 
-[Michael Z]()
+[[Michael Z]]
+[Michael Z](https://www.recurse.com/directory/2894-michael-z)
 - NYC Mesh
 - Wants to branch out into frontend stuff, try zig/go lang
 - Advice
