@@ -57,3 +57,5 @@ I couldn't keep up, heh. There were a lot of other interesting folks I'd like to
 ## 1:00 PM
 
 I paired w/ my former coworker [[Roop Roy]] on [[Team Nav]]
+
+## 2:00 PM
