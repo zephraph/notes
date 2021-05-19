@@ -18,6 +18,21 @@ I'll be documenting my progress and work on the install command as mentioned bel
 
 ## 11:00 am
 
-Group check-ins. There's always a p
+Group check-ins. There's always a prompt for check-ins, today's was "What would you give a presentation on?" Some really fun topics! Also, important ones like when/how to say no and how to manage stress.
 
 ## 12:00 pm
+
+Advice and introductions
+
+[Michael Z]()
+- NYC Mesh
+- Wants to branch out into frontend stuff, try zig/go lang
+- Advice
+	- Started w/ impostor syndrome: "Never met a community so open to not knowing something"
+[Ricky Pai (they/them)]()
+- Works on some go
+- Does some interesting hardware / sensor work
+- meme generator
+- Advice
+	- Really enjoys the non-technical talks. There are discussions after that are enriching.
+[Coby Tamayo]()  
