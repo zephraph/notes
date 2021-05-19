@@ -163,4 +163,4 @@ I'm actually simultaneously working on [[obsidian-plugin-cli#Adding an install c
     Code: unknown-error
 ```
 
-This is interesting because it's a doubly nested error. The `promptForVault` procedure is erroring and triggering an error in the `install`
+This is interesting because it's a doubly nested error. The `promptForVault` procedure is erroring and triggering an error in the `install` procedure. 
