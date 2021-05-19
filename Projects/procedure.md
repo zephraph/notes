@@ -137,3 +137,30 @@ export default procedure<Context>('myProc')
 Okay, so it's been a little while since I've been back to this. I actually _have_ been working on it, but just haven't been making updates like I should. Sorry about that.
 
 I'm actually simultaneously working on [[obsidian-plugin-cli#Adding an install command]] and while testing it I'm getting an interesting error to print out. 
+
+```
+./bin/run install test                                                           
+    ProcedureError: Unhandled Internal Exception
+
+      12 | export default procedure<Context>("install")
+      13 |   .validate("plugin", isPluginValid)
+    > 14 |   .match(
+         |    ^ ProcedureError: Unhandled Internal Exception
+    
+      10 |
+      11 | export default procedure<Context>("promptForVault")
+    > 12 |   .load(vaultsFromPath)
+         |    ^ Error: Can't find obsidian settings directory, won't be able to read vaults
+      13 |   .validate("vaults", notEmpty)
+      14 |   .match([
+      15 |     [manyVaults, promptsEnabled, selectVault],
+    
+    Code: unknown-error
+      15 |     [
+      16 |       [noVaultProvided, promptForVault],
+      17 |       [isValidVaultProvided, formatVault],
+
+    Code: unknown-error
+```
+
+This is interesting because it's a doubly nested error. The `promptForVault` procedure is erroring and triggering an error in the `install`
