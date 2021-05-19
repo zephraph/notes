@@ -64,3 +64,16 @@ I couldn't keep up, heh. There were a lot of other interesting folks I'd like to
 I paired w/ my former coworker [[Roop Roy]] on [[Team Nav]]
 
 ## 2:00 PM
+
+Took a train to Tribeca for a Dr apt. Also scheduled follow ups for dentist/optometrist 
+
+- Had lunch
+- Did some work on [[procedure]]
+
+## 3:45 PM 
+
+Caught the tail end of the creative coding meeting. There was a really interesting "fuzzy" version of the game of life that produced fun patterns.
+
+## 5:00 PM 
+
+Watched some of the non-technical talks. Left a little early to play games w/ [[Andrew Greggory|Andrew]].
