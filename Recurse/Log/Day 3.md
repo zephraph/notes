@@ -45,5 +45,11 @@ Advice and introductions
 - debugging, deep focus
 - CRDTs
 - data science/creative coding/graphical programming
+[Josh Stauffer]()
+- Working on this really interesting historical citation app
+- https://github.com/joshua-stauffer/thehistoryatlas
+[Sara Farquharson]()
+- Virtual social space
+- 
 
 (I couldn't keep up, heh)
