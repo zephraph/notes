@@ -29,12 +29,6 @@ Advice and introductions
 - Wants to branch out into frontend stuff, try zig/go lang
 - Advice
 	- Started w/ impostor syndrome: "Never met a community so open to not knowing something"
-[Ricky Pai]()
-- Works on some go
-- Does some interesting hardware / sensor work
-- meme generator
-- Advice
-	- Really enjoys the non-technical talks. There are discussions after that are enriching.
 [Coby Tamayo]()
 - Interested in closure
 - content management system (w/ datahike db)
@@ -42,14 +36,7 @@ Advice and introductions
 - Web assembly
 - CRDTs
 - Audio programming
-[Garret Risley]()
-- programming languages; desktop applications
-- compiler codegen (interested in pairing)
-- Medium-to-large scale project w/ others
-- Interested in learning new programming language w/ others
 [Evans Patel]()
 - Fullstack open
 - Web development (elixir + pheonix live view)
 - systems programming
-[Ashia Lewis]()
-- 
