@@ -10,4 +10,7 @@ As a little diversion, I also wanted to setup [delta](https://github.com/dandavi
 
 Here's the PR: https://github.com/zephraph/zephish/pull/3
 
-Essentially, if the `delta` binary isn't in my path, I'll install it in the appropriate way for waht
+Essentially, if the `delta` binary isn't in my path, I'll install it in the appropriate way for whatever system I'm on and set the [pager](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_pager) to be delta. I also set the syntax-theme to [Nord](https://www.nordtheme.com/) because I pretty much use that for everything.
+
+---
+
