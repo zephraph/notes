@@ -6,4 +6,4 @@ This morning I'm working on adding an i`install` command to [[obsidian-plugin-cl
 
 ---
 
-As a little diversion, I 
+As a little diversion, I also wanted to setup [delta](https://github.com/dandavison/delta) for some better diffs.
