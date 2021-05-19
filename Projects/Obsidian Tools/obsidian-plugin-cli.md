@@ -107,4 +107,4 @@ The procedure is named `install`. That's just useful for debug / error messaging
 
 The `match` operation is almost like an if/else statement. In this case, if `noVaultProvided` returns true then `promptForVault` will be called. Otherwise if `isValidVaultProvided`, call `formatVault`. Otherwise `invalidVaultProvided` would be called. 
 
-Lastly the `do` just calls a function. 
+Lastly the `do` just calls a function (or another procedure)! Aggregated together
