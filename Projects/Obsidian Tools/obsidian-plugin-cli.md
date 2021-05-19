@@ -103,4 +103,8 @@ export default procedure<Context>("install")
 
 This might look a little weird at first, but there's a lot of logic contained here in a way that's hopefully easy-ish to read.
 
-The procedure is named `install`. That's just useful for debug / error messaging. It `validate`s the `plugin` key from `context` (the state that'll be passed) by using the `isPluginValid` function. That function will return `true` or `false` if it's valid or not. If it's _not_ valid, it'll error and not continue. There are ways to add
+The procedure is named `install`. That's just useful for debug / error messaging. It `validate`s the `plugin` key from `context` (the state that'll be passed) by using the `isPluginValid` function. That function will return `true` or `false` if it's valid or not. If it's _not_ valid, it'll error and not continue. There are ways to add extra logic / handling for that, but we're not doing so for now.
+
+The `match` operation is almost like an if/else statement. In this case, if `noVaultProvided` returns true then `promptForVault` will be called. Otherwise if `isValidVaultProvided`, call `formatVault`. Otherwise `invalidVaultProvided` would be called. 
+
+Lastly the `do` just calls a function. 
