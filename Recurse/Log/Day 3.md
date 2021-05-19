@@ -40,3 +40,10 @@ Advice and introductions
 - Fullstack open
 - Web development (elixir + pheonix live view)
 - systems programming
+[rfong]()
+- values based approach
+- debugging, deep focus
+- CRDTs
+- data science/creative coding/graphical programming
+
+(I couldn't keep up, heh)
