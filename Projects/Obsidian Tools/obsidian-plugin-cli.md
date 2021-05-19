@@ -101,3 +101,6 @@ export default procedure<Context>("install")
   .do((context) => console.log(context));
 ```
 
+This might look a little weird at first, but there's a lot of logic contained here in a way that's hopefully easy-ish to read.
+
+The procedure is named `install`. That's just useful for debug / error messaging. It `validate`s the `plugin` key from `context` (the state that'll be passed) by using the `isPluginValid` function. That function will return `true` or `false` if it's valid or not. If it's _not_ valid, it'll error and not continue. There are ways to add
