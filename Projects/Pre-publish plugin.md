@@ -117,7 +117,7 @@ https://github.com/zephraph/obsidian-publish-hooks-plugin
 
 ---
 
-I got a little sidetracked on this and started working on the [[Typescript control flow library]] to make some of the logic for this (and other) tools easier.
+I got a little sidetracked on this and started working on the [[procedure]] to make some of the logic for this (and other) tools easier.
 
 ---
 

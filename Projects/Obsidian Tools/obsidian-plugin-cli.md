@@ -63,5 +63,25 @@ Picking back up on this now that I'm at [[Recurse]]. I'd actually been working o
 I've finished out the command body, but there's not actually much there. Here's what the `full` run function looks like right now
 
 ```ts
+  async run() {
+    const { args, flags } = this.parse(Install);
+    const { plugin } = args;
+    const { vault } = flags;
 
+    const context = {
+      plugin,
+      vaultPath: vault as string,
+      vaults: [] as any,
+      noPrompts: false,
+    };
+
+    const [err, results] = await to(install.exec(context));
+    if (err) {
+      this.error(err);
+    } else {
+      console.log(results);
+    }
+  }
 ```
+
+I'd mentioned the first part (getting args, flags, etc) previously so I won't talk about that. There's a `context` variable here that encapsulates all the state or configuration that I expect this command to use. The last bit you'll see is this `install.exec` call. `install` is a [[procedure]] that encapsulates the logic of the command. You can read more about it on the page linked above, but [[procedure]] is a library I wrote 

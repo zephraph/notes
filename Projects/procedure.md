@@ -1,5 +1,5 @@
 ---
-alias: procedure library
+alias: procedure library, Typescript control flow library
 ---
 As I was working on the [[Pre-publish plugin]], I was struck again (not for the first time) how procedural logic can be messy in a hurry. That's particularly true when you've got a lot of error handling and async flows. It's distracting enough that it pulled me out of the flow and into thinking about this problem. 
 

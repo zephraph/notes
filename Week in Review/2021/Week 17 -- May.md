@@ -12,7 +12,7 @@ Also, I just got my second COVID vaccination, so I'm fully vaccinated now! Two w
 
 ## What I'm working on
 
-I've got a few in flight things that I'm excited about. I recently got a rough PoC of my [[Typescript control flow library]] done. I'm really not sure if that's a good idea yet, but it's interesting none-the-less. 
+I've got a few in flight things that I'm excited about. I recently got a rough PoC of my [[procedure]] done. I'm really not sure if that's a good idea yet, but it's interesting none-the-less. 
 
 Once I publish the above, I'm going to use it to add an install command to [[obsidian-plugin-cli]]. This'll just give folks the ability to install a plugin via the cli instead of having to do it from inside of [[Obsidian]]. Useful for testing an unpublished plugin. 
 
