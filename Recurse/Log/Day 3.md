@@ -7,3 +7,7 @@ This morning I'm working on adding an i`install` command to [[obsidian-plugin-cl
 ---
 
 As a little diversion, I also wanted to setup [delta](https://github.com/dandavison/delta) for some better diffs.
+
+Here's the PR: https://github.com/zephraph/zephish/pull/3
+
+Essentially, if the `delta` binary isn't in my path, I'll install it in the appropriate way for waht
