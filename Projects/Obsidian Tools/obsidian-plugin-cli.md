@@ -84,4 +84,20 @@ I've finished out the command body, but there's not actually much there. Here's 
   }
 ```
 
-I'd mentioned the first part (getting args, flags, etc) previously so I won't talk about that. There's a `context` variable here that encapsulates all the state or configuration that I expect this command to use. The last bit you'll see is this `install.exec` call. `install` is a [[procedure]] that encapsulates the logic of the command. You can read more about it on the page linked above, but [[procedure]] is a library I wrote 
+I'd mentioned the first part (getting args, flags, etc) previously so I won't talk about that. There's a `context` variable here that encapsulates all the state or configuration that I expect this command to use. The last bit you'll see is this `install.exec` call. `install` is a [[procedure]] that encapsulates the logic of the command. You can read more about it on the page linked above, but [[procedure]] is a library I wrote to make complex, procedural logic a little easier to follow. 
+
+Here's what I have so far
+
+```ts
+export default procedure<Context>("install")
+  .validate("plugin", isPluginValid)
+  .match(
+    [
+      [noVaultProvided, promptForVault],
+      [isValidVaultProvided, formatVault],
+    ],
+    invalidVaultProvided
+  )
+  .do((context) => console.log(context));
+```
+
