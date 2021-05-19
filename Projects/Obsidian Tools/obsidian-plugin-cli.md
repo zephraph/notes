@@ -109,4 +109,4 @@ The `match` operation is almost like an if/else statement. In this case, if `noV
 
 Lastly the `do` just calls a function (or another procedure)! Aggregated together it tells a rather terse story of where I'm at with this logic... which isn't far, ha. 
 
-One interesting note is that `promptForVault`
+One interesting note is that `promptForVault` is itself a procedure. 
