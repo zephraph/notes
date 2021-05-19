@@ -58,7 +58,7 @@ This has its own complexities... one of the things I really want to handle with 
 
 The biggest different here is that every call on the chain will actually just be queuing up work. The work itself won't happen until `exec` is called. 
 
----
+## Adding to the implementation
 
 Getting back to this, I've made a bit of progress. I've implemented two basic "verbs" so far.
 
@@ -71,7 +71,7 @@ await procedure('install', context)
 
 This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. That class has a notion of `context` which is the data store for the process and `operations` which are the steps to be run. When you call `validate` or `load` it creates an `Operation` object with a `type` property that match its name. All the operations are buffered up and once `exec` is called the `operations` are looped over and called in order. In essence, a procedure is lazy.
 
----
+## Adding error handingling
 
 In somewhat of an interesting distraction / turn of events I decided to add some nicer error handling. I wanted to add a codeframe similar to what jest has when it errors. 
 
