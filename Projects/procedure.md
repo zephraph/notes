@@ -127,5 +127,9 @@ export default procedure<Context>('myProc')
 	.exec({ prop: true })
 ```
 
----
+## Better error messaging
+
 *2021-05-19*
+
+Okay, so it's been a little while since I've been back to this. I actually _have_ been working on it, but just haven't been making updates like I should. Sorry about that.
+
