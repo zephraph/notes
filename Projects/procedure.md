@@ -1,7 +1,10 @@
 ---
 alias: procedure library, Typescript control flow library
 ---
+
 As I was working on the [[Pre-publish plugin]], I was struck again (not for the first time) how procedural logic can be messy in a hurry. That's particularly true when you've got a lot of error handling and async flows. It's distracting enough that it pulled me out of the flow and into thinking about this problem. 
+
+## Outlining the idea
 
 I started scratching out what a "better" approach might be.
 
@@ -71,7 +74,7 @@ await procedure('install', context)
 
 This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. That class has a notion of `context` which is the data store for the process and `operations` which are the steps to be run. When you call `validate` or `load` it creates an `Operation` object with a `type` property that match its name. All the operations are buffered up and once `exec` is called the `operations` are looped over and called in order. In essence, a procedure is lazy.
 
-## Adding error handingling
+## Adding error handling
 
 In somewhat of an interesting distraction / turn of events I decided to add some nicer error handling. I wanted to add a codeframe similar to what jest has when it errors. 
 
@@ -127,9 +130,10 @@ export default procedure<Context>('myProc')
 	.exec({ prop: true })
 ```
 
-## Better error messaging
+## Better error handling
 
 *2021-05-19*
 
 Okay, so it's been a little while since I've been back to this. I actually _have_ been working on it, but just haven't been making updates like I should. Sorry about that.
 
+I'm actually simultaneously working on [[obsidian-plugin-cli#Adding an install command]] and while testing it I'm getting an interesting error to print out. 
