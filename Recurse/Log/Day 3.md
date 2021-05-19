@@ -50,6 +50,6 @@ Advice and introductions
 - https://github.com/joshua-stauffer/thehistoryatlas
 [Sara Farquharson]()
 - Virtual social space
-- 
+- RPG character builder in react
 
-(I couldn't keep up, heh)
+I couldn't keep up, heh. A lot of depth and range of interests in the people attending. Wish we could've went through this slower. 
