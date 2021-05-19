@@ -52,7 +52,7 @@ Advice and introductions
 - Virtual social space
 - RPG character builder in react
 
-I couldn't keep up, heh. There were a lot of other intresting folks I'd like to catch up and get to know. I do wish this could've just been a longer meeting that gave people more time.
+I couldn't keep up, heh. There were a lot of other interesting folks I'd like to catch up and get to know. I do wish this could've just been a longer meeting that gave people more time.
 
 ## 1:00 PM
 
