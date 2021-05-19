@@ -1,0 +1,1 @@
+- An engineer at [[Artsy]] who works on the [[Find and Explore Team]] team

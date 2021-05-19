@@ -31,7 +31,7 @@ Advice and introductions
 	- Started w/ impostor syndrome: "Never met a community so open to not knowing something"
 [[Coby Tamayo]]
 - Interested in closure
-- content management system (w/ datahike db)
+- content management system (w/ data hike db)
 	- datalog like query system? Pete would like that
 - Web assembly
 - CRDTs
@@ -54,4 +54,6 @@ Advice and introductions
 
 I couldn't keep up, heh. There were a lot of other intresting folks I'd like to catch up and get to know. I do wish this could've just been a longer meeting that gave people more time.
 
-## 1:
+## 1:00 PM
+
+I paired w/ my former coworker [[Roop Roy]] on [[Team Nav]]
