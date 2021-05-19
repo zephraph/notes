@@ -25,32 +25,33 @@ Group check-ins. There's always a prompt for check-ins, today's was "What would 
 Advice and introductions
 
 [[Michael Z]]
-[Michael Z](https://www.recurse.com/directory/2894-michael-z)
 - NYC Mesh
 - Wants to branch out into frontend stuff, try zig/go lang
 - Advice
 	- Started w/ impostor syndrome: "Never met a community so open to not knowing something"
-[Coby Tamayo]()
+[[Coby Tamayo]]
 - Interested in closure
 - content management system (w/ datahike db)
 	- datalog like query system? Pete would like that
 - Web assembly
 - CRDTs
 - Audio programming
-[Evans Patel]()
+[[Evans Patel]]
 - Fullstack open
 - Web development (elixir + pheonix live view)
 - systems programming
-[rfong]()
+[[rfong]]
 - values based approach
 - debugging, deep focus
 - CRDTs
 - data science/creative coding/graphical programming
-[Josh Stauffer]()
+[[Josh Stauffer]]
 - Working on this really interesting historical citation app
 - https://github.com/joshua-stauffer/thehistoryatlas
-[Sara Farquharson]()
+[[Sara Farquharson]]
 - Virtual social space
 - RPG character builder in react
 
-I couldn't keep up, heh. A lot of depth and range of interests in the people attending. Wish we could've went through this slower. 
+I couldn't keep up, heh. There were a lot of other intresting folks I'd like to catch up and get to know. I do wish this could've just been a longer meeting that gave people more time.
+
+## 1:
