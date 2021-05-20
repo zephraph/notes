@@ -24,4 +24,8 @@ Podcast editing. Struggling with feels.
 
 ## 2:00 pm
 
-Coffee chat w/ [[Dan Murphy|Dan]]. 
+Coffee chat w/ [[Dan Murphy|Dan]]. I really enjoyed the conversation, it was incredibly refreshing after my struggles throughout the day. 
+
+We did the call on [around.co](https://around.co) (it feels... less harsh than zoom in some way?). He showed me a visualization project that showed some data on space flights/walks. 
+
+I showed off my obsidian setup and 
