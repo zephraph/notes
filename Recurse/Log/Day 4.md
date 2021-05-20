@@ -40,4 +40,8 @@ Quick break to grab groceries and cook myself a sandwich for a _very_ late lunch
 - https://blog.stackblitz.com/posts/introducing-webcontainers/
 - https://twitter.com/devongovett/status/1395401586503864326?s=12
 
-The first is what looks like node.js compiled to web assembly and running in the browser... which is wild. The second is parcel v2 using a r
+The first is what looks like node.js compiled to web assembly and running in the browser... which is wild. The second is parcel v2 using a rust based transpiler instead of babel.
+
+## 5:00 pm - EOD
+
+More podcast editing. 
