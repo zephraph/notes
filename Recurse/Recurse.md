@@ -28,7 +28,7 @@ There's are things I've been thinking about for a while. Some I may spend a lot 
 
 ### A phone for humans
 
-What if there was a phone design specifically to assist you as a person. What would that look like? Maybe the things that are available to you change based on the time of day or your location. You're not at work? Slack isn't available. You don't have to uninstall it, it just no longer shows up. It's close to your bed time? Twitter is gone, but in it's place is a reminder to why it's important to get good sleep and why you need to get up at 9 (so you can make that appointment at 10:15). 
+What if there was a phone design specifically to assist you as a person. What would that look like? Maybe the things that are available to you change based on the time of day or your location. You're not at work? Slack isn't available. You don't have to uninstall it, it just no longer shows up. It's close to your bed time? [[Twitter]] is gone, but in it's place is a reminder to why it's important to get good sleep and why you need to get up at 9 (so you can make that appointment at 10:15). 
 
 There are many areas to explore here. I could pick up an android phone and iterate on a launcher to simulate this experience.
 
