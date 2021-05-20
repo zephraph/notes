@@ -28,4 +28,16 @@ Coffee chat w/ [[Dan Murphy|Dan]]. I really enjoyed the conversation, it was inc
 
 We did the call on [around.co](https://around.co) (it feels... less harsh than zoom in some way?). He showed me a visualization project that showed some data on space flights/walks. 
 
-I showed off my obsidian setup and 
+I showed off my obsidian setup and talked a little about observable notebooks and the lisp project I did in there. 
+
+## 3:00 pm
+
+Podcast editing in earnest. I added a [[Descript]] layer to my [ergodox layout](https://configure.zsa.io/ergodox-ez/layouts/vAYQl/latest/0) which helped speed up the process a bit. 
+
+## 4:00 pm
+
+Quick break to grab groceries and cook myself a sandwich for a _very_ late lunch. Browsing twitter I found two cool things
+- https://blog.stackblitz.com/posts/introducing-webcontainers/
+- https://twitter.com/devongovett/status/1395401586503864326?s=12
+
+The first is what looks like node.js compiled to web assembly and running in the browser... which is wild. The second is parcel v2 using a r
