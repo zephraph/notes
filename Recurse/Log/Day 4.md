@@ -10,7 +10,7 @@ I have a meet & greet coming up at 12, but it overlaps w/ this elixir pairing se
 
 Forgot about check-ins. Doing that now. 
 
-## 12:00 pm to 1:00 pm
+## 12:00 pm
 
 Meet and greets. This was a combo of both one-on-ones and small groups. Usually 3 to 5 minutes. 
 
