@@ -14,4 +14,10 @@ Forgot about check-ins. Doing that now.
 
 Meet and greets. This was a combo of both one-on-ones and small groups. Usually 3 to 5 minutes. 
 
-I really enjoyed meeting folks and want to connect more. I will say though, 
+I really enjoyed meeting folks and want to connect more. I will say though, today is hard for me mentally/emotionally and the jarring experience of almost being able to connect with someone but not quite leaves me feeling really emotionally drained. I don't regret going and I enjoyed talking to people but I subjectively feel worse coming out of it. I feel lonely now on top of my other emotions. 
+
+It's a good moment for me to stop and feel the emotions. To acknowledge their validity even as I acknowledge that I'm not served by them. To feel, to accept, to forgive, and to move on. _Deep breaths_.
+
+## 1:00 pm
+
+Podcast editing
