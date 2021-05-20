@@ -9,3 +9,5 @@ I have a meet & greet coming up at 12, but it overlaps w/ this elixir pairing se
 ## 11:15 am
 
 Forgot about check-ins. Doing that now. 
+
+## 
