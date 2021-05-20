@@ -21,3 +21,7 @@ It's a good moment for me to stop and feel the emotions. To acknowledge their va
 ## 1:00 pm
 
 Podcast editing. Struggling with feels.
+
+## 2:00 pm
+
+Coffee chat w/ [[Dan Murphy|Dan]]. 
