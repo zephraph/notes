@@ -174,3 +174,12 @@ There are likely two parts to this
 
 *2021-05-21*
 
+This is actually a relatively hard problem. Let's assume we have a match statement like below
+
+```
+procedure("test").match([
+  [ifThisIsTrue, doThis],
+  [otherwiseIfThisIsTrue, doThisOtherThing]
+])
+```
+
