@@ -217,3 +217,4 @@ procedure("test").match([
 
 Referring back to the [[#Adding error handling]] section, I create a stack trace when calling `match` that'll point to its call site. It _specifically_ references `match` with it's line and column number. What I don't have (and won't know) is exactly what child is being called and what line that it's on.
 
+This is where things are going to get a bit... weird. We know which line match is on, we know how many _children_ are passed to match
