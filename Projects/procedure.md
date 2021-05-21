@@ -61,7 +61,7 @@ This has its own complexities... one of the things I really want to handle with 
 
 The biggest different here is that every call on the chain will actually just be queuing up work. The work itself won't happen until `exec` is called. 
 
-## Adding to the implementation
+## The basic implementation
 
 Getting back to this, I've made a bit of progress. I've implemented two basic "verbs" so far.
 
@@ -103,7 +103,23 @@ export const createError = (trace: StackTracey, message: string) => {
 }
 ```
 
----
+An error messaging might look like this
+
+```
+      10 |
+      11 | export default procedure<Context>("promptForVault")
+    > 12 |   .load(vaultsFromPath)
+         |    ^ Error: Can't find obsidian settings directory, won't be able to read vaults
+      13 |   .validate("vaults", notEmpty)
+      14 |   .match([
+      15 |     [manyVaults, promptsEnabled, selectVault],
+    
+    Code: unknown-error
+```
+
+If you've followed my sparse trail to this point you might notice something weird. The error message is pointing to the `load` function above but I've said that these procedures are executed _lazily_. Why does that matter? Well, normally if you're executing something lazily that means you'd buffer up the commands somewhere and run them in a loop later (which I do). If you're running the
+
+## Providing the context later
 
 I've largely got most of the surface area of the API implemented at this point. As I've started using it, I've made a few changes to the API.
 
@@ -183,3 +199,4 @@ procedure("test").match([
 ])
 ```
 
+Referring back to the [[#Adding error handling]] section, 
