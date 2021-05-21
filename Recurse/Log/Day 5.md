@@ -8,4 +8,8 @@ Office hours w/ Rachel, a Recurse facility member
 
 ## 12:00 pm
 
-Feeling
+Feelings check-in
+
+## 1:00 pm
+
+Dentist
