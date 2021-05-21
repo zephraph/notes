@@ -222,3 +222,5 @@ This is where things are going to get a bit... weird. We know which line match i
 *I'm going to place the assumption out there that only functions w/ names are supported (i.e. no anonymous functions) and perhaps that can be validated with its own error handling.*
 
 [[StackTracey]] gives us access to the source file. We know the line `match` is on. We could naively start at `match` and search for a string match to the name of the child we're looking for. That'd be simple _but_ it's possible a single child could be used multiple times in different locations. Instead of that, I'm going to write a _light_ parser. I want to capture everything inside `match( ... )`. I want to know what line each element is on and which child it belongs to.
+
+![[Drawing 2021-05-21 00.05.13.excalidraw]]
