@@ -13,3 +13,7 @@ Feelings check-in
 ## 1:00 pm
 
 Dentist
+
+## 3:00 pm 
+
+Weekly planning
