@@ -117,7 +117,23 @@ An error messaging might look like this
     Code: unknown-error
 ```
 
-If you've followed my sparse trail to this point you might notice something weird. The error message is pointing to the `load` function above but I've said that these procedures are executed _lazily_. Why does that matter? Well, normally if you're executing something lazily that means you'd buffer up the commands somewhere and run them in a loop later (which I do). If you're running the
+If you've followed my sparse trail to this point you might notice something weird. The error message is pointing to the `load` function above but I've said that these procedures are executed _lazily_. Why does that matter? Well, normally if you're executing something lazily that means you'd buffer up the commands somewhere and run them in a loop later (which I do). If you're running them later though, you won't have reference to the original function that buffered them... like `load`. So how do I get a stack trace pointing there?
+
+It's actually fairly easy. Here's the whole implementation of load:
+
+```ts
+  load(loadFn: (context: C) => Partial<C> | Promise<Partial<C>>) {
+    this.operations.push({
+      type: "load",
+      run: loadFn,
+      context: this.context,
+      stackSource: new StackTracey().slice(1),
+    });
+    return this;
+  }
+```
+
+There's a bit going on here, but notice that `stackSource` property. Essentially I'm creating a new stack track _at the time of buffering the operation_. I slice off the top frame (because that would essentially reference the same line that the stack trace is created) and that'll give the actual reference to where `load` is called. 
 
 ## Providing the context later
 
@@ -199,4 +215,5 @@ procedure("test").match([
 ])
 ```
 
-Referring back to the [[#Adding error handling]] section, 
+Referring back to the [[#Adding error handling]] section, I create a stack trace when calling `match` that'll point to its call site. It _specifically_ references `match` with it's line and column number. What I don't have (and won't know) is exactly what child is being called and what line that it's on.
+
