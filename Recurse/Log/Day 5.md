@@ -20,4 +20,8 @@ Coffee chat w/ [[Maryanne]]. Talked about hardware, the [adabox](https://www.ada
 
 ## 3:00 pm 
 
-Weekly planning. This session was pretty light. Mostly heads down time with planning. I 
+Weekly planning. This session was pretty light. Mostly heads down time with planning. I set some time out on Monday to dig into my [[Custom Mechanical Keyboard]] project. Mostly I'm trying to pull back from events a little. 
+
+## 4:00 pm 
+
+Presentations were inspiring. Folks here are definitely working on some deep, hard topics. Makes me want to dig further into my own.
