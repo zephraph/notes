@@ -14,6 +14,10 @@ Feelings check-in
 
 Dentist
 
+## 2:30 pm
+
+Coffee chat w/ [[Maryanna]]. 
+
 ## 3:00 pm 
 
 Weekly planning
