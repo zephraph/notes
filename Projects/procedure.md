@@ -80,7 +80,7 @@ In somewhat of an interesting distraction / turn of events I decided to add some
 
 ![[jest-code-frame.png]]
 
-Turns out it's easy enough to do that with [@babel/codeframe](https://babeljs.io/docs/en/babel-code-frame). Ultimately this isn't likely the error messaging you'd want to bubble up to the end user, but while developing it's helpful. This pairs really well with [stacktracey](https://www.npmjs.com/package/stacktracey) which I'm using to correctly position the stack frame to be at the usage callsite and get data out for the codeframe error. 
+Turns out it's easy enough to do that with [@babel/codeframe](https://babeljs.io/docs/en/babel-code-frame). Ultimately this isn't likely the error messaging you'd want to bubble up to the end user, but while developing it's helpful. This pairs really well with [[StackTracey]] which I'm using to correctly position the stack frame to be at the usage callsite and get data out for the codeframe error. 
 
 I'm not sure any of that'll make sense outside of my head, but here's my error module for a better reference.
 
@@ -221,4 +221,4 @@ This is where things are going to get a bit... weird. We know which line match i
 
 *I'm going to place the assumption out there that only functions w/ names are supported (i.e. no anonymous functions) and perhaps that can be validated with its own error handling.*
 
-Essentially... [StackTracey]()
+Essentially... [[StackTracey]] gives us access to the source file. We know the line match is on. We _roughly_ know how many lines below match our function may be. We _do_ know the name of that function. We search
