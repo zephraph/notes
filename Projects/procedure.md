@@ -163,4 +163,14 @@ I'm actually simultaneously working on [[obsidian-plugin-cli#Adding an install c
     Code: unknown-error
 ```
 
-This is interesting because it's a doubly nested error. The `promptForVault` procedure is erroring and triggering an error in the `install` procedure. 
+This is interesting because it's a doubly nested error. The `promptForVault` procedure is erroring and triggering an error in the `install` procedure. My goal is to make that clearer. 
+
+There are likely two parts to this
+
+1. Generally improving the error positioning of `match` statements
+2. Creating a special error for when nested procedures fail
+
+### Improving match error handling
+
+*2021-05-21*
+
