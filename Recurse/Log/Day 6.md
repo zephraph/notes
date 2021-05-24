@@ -8,4 +8,6 @@ Talked to [[Angad Singh|Angad]] about [[Obsidian]]
 
 lunch
 
-## 
+## 3:00 pm
+
+Coffee chat w/ [[Sara Farquharson|Sara]]. Really lovely
