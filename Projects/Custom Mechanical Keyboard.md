@@ -11,7 +11,8 @@ The _actual_ goal here is to learn. Because that's my true goal I'm going to mak
 
 - A split keyboard connected by a TRRS cable
 - Custom milled walnut case
-- Custom milled wooden keycaps (ma)
+- Custom milled wooden keycaps (stretch goal, material TBD)
+- Software to run on a raspberry pi zero and be powered by [[Nerves]]
 
 ## Hardware
 
