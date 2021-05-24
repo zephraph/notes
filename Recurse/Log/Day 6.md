@@ -25,4 +25,3 @@ Distractibility and accountability meeting
 Talking to [[Andrew Lisowski|Andrew]] online about [[devtools.fm|the podcast]] and getting my relatively new email setup in [[fastmail]]. Listening a bit to the elixir mix podcast. Generally browsing the internet. 
 
 ## 6:30 pm
-
