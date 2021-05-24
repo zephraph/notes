@@ -14,4 +14,7 @@ Coffee chat w/ [[Sara Farquharson|Sara]]. Really lovely chat. Sara is working on
 
 ## 4:00 pm
 
-Designing your life (book)
+Distractability and accountability
+
+- App: Momentum
+- [[Designing your life]]
