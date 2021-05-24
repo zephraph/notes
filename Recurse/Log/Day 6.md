@@ -22,4 +22,4 @@ Distractibility and accountability meeting
 
 ## 5:00 pm
 
-Actually starting to do some work!
+Talking to [[Andrew Lisowski|Andrew]] online about the podcast
