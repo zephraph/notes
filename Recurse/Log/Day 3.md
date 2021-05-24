@@ -2,7 +2,7 @@
 
 Mostly going heads down today / trying to minimize events. Have a Dr apt at 3 that's in Manhattan so I want to carve out some time to get some things done.
 
-This morning I'm working on adding an i`install` command to [[obsidian-plugin-cli]]. That also requires a little work on my [[procedure|procedure library]].
+This morning I'm working on adding an `install` command to [[obsidian-plugin-cli]]. That also requires a little work on my [[procedure|procedure library]].
 
 ---
 
