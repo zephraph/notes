@@ -14,7 +14,8 @@ Coffee chat w/ [[Sara Farquharson|Sara]]. Really lovely chat. Sara is working on
 
 ## 4:00 pm
 
-Distractability and accountability
+Distractibility and accountability meeting
 
 - App: Momentum
 - [[Designing your life]]
+- [[Eisenhower's urgent/important principle]]
