@@ -22,4 +22,4 @@ Distractibility and accountability meeting
 
 ## 5:00 pm
 
-Talking to [[Andrew Lisowski|Andrew]] online about the podcast
+Talking to [[Andrew Lisowski|Andrew]] online about [[devtools.fm|the podcast]] and getting my relatively new email setup in [[fastmail]].
