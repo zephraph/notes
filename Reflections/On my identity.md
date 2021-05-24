@@ -9,6 +9,7 @@ My therapist asked me to define my identity
 ## Who am I?
 
 - Scared
+- Information collector
 
 
 Who do I try to be in a relationship?
