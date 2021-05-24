@@ -8,5 +8,12 @@ My therapist asked me to define my identity
 
 ## Who am I?
 
-Things that come to mind
-- quiet
+- Scared
+
+
+Who do I try to be in a relationship?
+- Respectful, supportive partner
+
+## Who do I want to be?
+
+- reliable
