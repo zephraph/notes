@@ -9,3 +9,5 @@ I'm no longer at [[Artsy]], but the residual stress hasn't left yet. Diving into
 Hanging out w/ my partner on Saturday was a lot of fun though, so it kicked off the start to a good weekend. Stopped by [[Matt Dole]]'s stoop sell to see him again before he prepares to head off to Berlin. Excited for him and the opportunity, but I'll really miss having him around. Such a good guy.
 
 Ended up meeting some [[Recurse|RC]] friends at Prospect park today which was also nice. 
+
+N
