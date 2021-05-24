@@ -1,4 +1,4 @@
-Had a really slow start this morning.
+Had a really slow start this morning. Stayed up too late watching an anime. Classic Sunday scaries.
 
 ## 1:00 pm
 
@@ -19,3 +19,7 @@ Distractibility and accountability meeting
 - App: Momentum
 - [[Designing your life]]
 - [[Eisenhower's urgent/important principle]]
+
+## 5:00 pm
+
+Actually starting to do some work!
