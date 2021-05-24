@@ -1,18 +1,21 @@
-#keyboard
-## Features
-- Split mechanical keyboard
-- Custom pi zero controller board
-- Custom CNC'd keycaps and frame
-- Custom designed PCB
-- RTTC connector
+## Goal
+*2021-05-24*
 
-## Areas of exploration
-- Getting a Pi Zero to act as a USB Gadget
-	- Getting a Pi to act as a multi-tentant gadget (usb keyboard, ethernet connection)
+Aspirationally I want to build a custom keyboard. By _build_ I mean design and CNC mill the case and keycaps, design the PCB, assemble hardware components, and write the necessary firmware. 
+
+The goal in and of itself isn't particularly unique. I've been particularly inspired by [[Kevin Lynagh]]'s [Notes from a year of building keyboards](https://kevinlynagh.com/keyboards/). 
+
+The _actual_ goal here is to learn. Because that's my true goal I'm going to make some decisions that might feel questionable. I'm also _not_ setting out to do everything myself. I will select and use hardware and software components that I want to work with or that abstract parts of the problem away in which I don't want to work on.
+
+## Design details
+
+- A split keyboard connected by a TRRS cable
+
+## Hardware
+
+## Software
 
 ## Log
 - Bought [32 GB samsung SD Card](https://www.amazon.com/gp/product/B06XWN9Q99/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
 - Bought [USB C Hub w/ SD Card reader](https://www.amazon.com/gp/product/B07WPTG7NX/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 - Downloaded [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
-- [ ] Follow [this tutorial](https://www.losant.com/blog/getting-started-with-the-raspberry-pi-zero-w-without-a-monitor) to get SSH and WiFi setup
-- [ ] Try https://medium.com/swlh/building-a-keyboard-with-elixir-fc7bd3f60ec3
