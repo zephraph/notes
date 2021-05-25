@@ -82,11 +82,19 @@ All right, next phase.
 
 Here's the guide: https://hexdocs.pm/nerves/customizing-systems.html
 
-```
-gh repo clone nerves-project/nerves_system_rpi0 keyboard 
+
+```sh
+gh repo clone nerves-project/nerves_system_rpi0 keyboard
+cd keyboard
+git remote rename origin upstream
+git remote add origin git@github.com:zephraph/keyboard.git
+git checkout -b main
+git push origin main
 ```
 
-*I'm using [[gh]] for this step*
+*I'm using [[gh]] for this step just because it handles git auth stuff for me*
+
+
 
 ## Resources
 
