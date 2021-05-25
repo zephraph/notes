@@ -51,16 +51,17 @@ I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]].
 
 Use the [compatibility table](https://hexdocs.pm/elixir/master/compatibility-and-deprecations.html#compatibility-between-elixir-and-erlang-otp) to determine which version of erlang should be installed w/ which version of elixir
 
-Install erlang
+Install [[erlang]]
 ```sh
 asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf install erlang 24.0.1
 
 ```
 
-Install elixir
+Install [[elixir]]
 ```sh
 asdf plugin add elixir https://github.com/asdf-vm/asdf-elixir.git
+asdf install elixir 1.12.0-otp-24
 ```
 
 *2021-05-25*
