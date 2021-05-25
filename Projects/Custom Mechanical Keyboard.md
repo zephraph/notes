@@ -74,6 +74,14 @@ mix local.hex
 mix local.rebar
 ```
 
+Bootstrap the project
+
+```
+mix new keyboard
+cd keyboard
+git init
+
+```
 
 ## Resources
 
