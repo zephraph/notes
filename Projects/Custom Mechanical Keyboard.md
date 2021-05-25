@@ -30,9 +30,15 @@ The _actual_ goal here is to learn. Because that's my true goal I'm going to mak
 
 ### Setting up the Pi Firmware
 
-#### Installing Elixir / Erlang
+#### Installing dependencies for Nerves
 
-Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux]]
+https://hexdocs.pm/nerves/installation.html
+
+---
+
+Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux]].
+
+I'll be using [[asdf]] to manage my [[elixir]]/[[]]
 
 ## Resources
 
