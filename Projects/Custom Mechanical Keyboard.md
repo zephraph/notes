@@ -26,6 +26,14 @@ The _actual_ goal here is to learn. Because that's my true goal I'm going to mak
 
 ## Software
 
+## Implementation
+
+### Setting up the Pi Firmware
+
+#### Installing Elixir / Erlang
+
+Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux]]
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
