@@ -23,3 +23,6 @@ Spent some time chatting w/ folks on [[zulip]] and doing some more email sorting
 
 Coffee chat w/ [[Rachel Petacat|Rachel]]
 
+## 12:00 pm
+
+Recording [[storybook]] episode of [[devtools.fm]]
