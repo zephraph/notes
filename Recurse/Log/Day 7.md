@@ -31,8 +31,8 @@ Recording [[storybook]] episode of [[devtools.fm]]
 
 Went to my eye dr apt. Got my eyes dilated so it took a while. I'm now attending all my zoom meetings with sunglasses, you're welcome. I also had to stop off at Xi'an famous foods while I was in the city and it was such an excellent choice.
 
-## 5:00pm
+## 5:00pm -- 7:00pm
 
-Continuing to poke away at my [[Custom Mechanical Keyboard]]
+Continuing to poke away at my [[Custom Mechanical Keyboard]]. 
 
-## 
+I _thought_ I was making some progress, but I really just hit up against the realization that I was misunderstanding some of the tasks I was taking on. I'm going to pause and take some time to read through [Using a nerves system](https://hexdocs.pm/nerves/systems.html#using-a-nerves-system)
