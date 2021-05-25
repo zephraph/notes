@@ -44,12 +44,20 @@ I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]].
 >
 > When using [[Windows Subsystem for Linux|WSL]] make sure that you have [[git]]'s [autocrlf](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf) set to `input` _not_ `true`. If it's set to `true` then [[asdf]] will fail when trying to install [[elixir]] and [[erlang]] due to improper line endings getting added to bash scripts on checkout. [[asdf|Asdf]] uses [[git]] under the hood.
 
-```bash
-asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
-```
+Use the [compatibility table](https://hexdocs.pm/elixir/master/compatibility-and-deprecations.html#compatibility-between-elixir-and-erlang-otp) to determine which version of erlang should be installed w/ which version of elixir
+
+Install erlang
+```sh
+asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
+asdf install erlang 24.0.1
 
 ```
+
+Install elixir
+```sh
+asdf plugin add elixir https://github.com/asdf-vm/asdf-elixir.git
 ```
+
 
 ## Resources
 
