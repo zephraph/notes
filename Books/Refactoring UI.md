@@ -1,1 +1,3 @@
-- **Tags** [[book]]
+---
+tags: book
+---
