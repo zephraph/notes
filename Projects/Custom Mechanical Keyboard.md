@@ -28,4 +28,4 @@ The _actual_ goal here is to learn. Because that's my true goal I'm going to mak
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
-- I have a [Snapmaker A350](https://www.snapmaker.com/product/snapmaker-2)
+- I have a [Snapmaker A350](https://www.snapmaker.com/product/snapmaker-2)that I'm using for all the milling. 
