@@ -36,14 +36,20 @@ https://hexdocs.pm/nerves/installation.html
 
 ---
 
-Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux]].
+Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux|WSL]].
+
+I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]]. 
 
 > 💡 **Note**
 >
-> On windows you'll need to install [fwup]()
+> When using [[Windows Subsystem for Linux|WSL]] make sure that you have [[git]]'s [autocrlf](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf) set to `input` _not_ `true`. If it's set to `true` then [[asdf]] will fail when trying to install [[elixir]] and [[erlang]] due to improper line endings getting added to bash scripts on checkout. [[asdf|Asdf]] uses [[git]] under the hood.
 
+```bash
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+```
 
-I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]]. 
+```
+```
 
 ## Resources
 
