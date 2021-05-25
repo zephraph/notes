@@ -63,6 +63,7 @@ Install elixir
 asdf plugin add elixir https://github.com/asdf-vm/asdf-elixir.git
 ```
 
+*2021-05-25*
 
 ## Resources
 
