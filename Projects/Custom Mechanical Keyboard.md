@@ -38,7 +38,12 @@ https://hexdocs.pm/nerves/installation.html
 
 Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux]].
 
-I'll be using [[asdf]] to manage my [[elixir]]/[[]]
+> 💡 **Note**
+>
+> On windows you'll need to install [fwup]()
+
+
+I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]]. 
 
 ## Resources
 
