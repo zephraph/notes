@@ -26,3 +26,7 @@ Coffee chat w/ [[Rachel Petacat|Rachel]]
 ## 12:00 pm
 
 Recording [[storybook]] episode of [[devtools.fm]]
+
+## 1:30 pm -- 5:00 pm
+
+Went to my eye dr apt
