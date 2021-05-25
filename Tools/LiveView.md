@@ -1,1 +1,1 @@
-A mechanism built on-top of [[phoenix (elixir)]] that server renders real time UI and tracks the client state in 
+A mechanism built on-top of [[phoenix (elixir)]] that server renders real time UI and tracks the client state in _on the server_. UI updates are sent over [[websockets]] as 
