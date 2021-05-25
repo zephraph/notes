@@ -83,6 +83,12 @@ git init
 mix archive.install hex nerves_bootstrap
 ```
 
+I got everything pushed up to https://github.com/zephraph/keyboard
+
+#### Customizing the nerves setup
+
+
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
