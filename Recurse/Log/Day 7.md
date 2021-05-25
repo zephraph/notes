@@ -15,4 +15,9 @@ Spent some time chatting w/ folks on [[zulip]] and doing some more email sorting
 ## 11:00 am
 
 [[RC]] Check-ins
-- Question of the day: What's a peice 
+- Question of the day: What's some media that you're consuming lately that you really enjoy?
+
+[[Coby Tamayo|Coby]] is working on some assembly stuff which is cool. Should talk to him about that. 
+
+## 11:30 am
+
