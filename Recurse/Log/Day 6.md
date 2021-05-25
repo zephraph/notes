@@ -18,7 +18,7 @@ Distractibility and accountability meeting
 
 - App: Momentum
 - [[Designing your life]]
-- [[Eisenhower's urgent/important principle]]
+- [[Eisenhower's urgency and importance principle]]
 
 ## 5:00 pm
 
