@@ -34,3 +34,5 @@ Went to my eye dr apt. Got my eyes dilated so it took a while. I'm now attending
 ## 5:00pm
 
 Continuing to poke away at my [[Custom Mechanical Keyboard]]
+
+## 

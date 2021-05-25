@@ -78,8 +78,9 @@ That's all the dependency requirements.
 
 #### Customizing the nerves setup
 
-I started this but realized I didn't know what I was doing. I want to customize my nerves installation so I _though_ I needed to foll
+I started this but realized I didn't know what I was doing. I want to customize my nerves installation so I _though_ I needed to follow [their guide on doing so](https://hexdocs.pm/nerves/customizing-systems.html). Turns out, I don't. I think?
 
+Instead of tackling this right away, I'm going to spend time reading [the overview of nerves systems](https://hexdocs.pm/nerves/systems.html).
 
 
 ## Resources
