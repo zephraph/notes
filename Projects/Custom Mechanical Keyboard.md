@@ -55,16 +55,25 @@ Install [[erlang]]
 ```sh
 asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf install erlang 24.0.1
-
+adsf global erlang 24.0.1
 ```
 
 Install [[elixir]]
 ```sh
 asdf plugin add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf install elixir 1.12.0-otp-24
+asdf global elixir 1.12.0-otp-24 
 ```
 
 *2021-05-25*
+
+Update `hex` and `rebar`
+
+```
+mix local.hex
+mix local.rebar
+```
+
 
 ## Resources
 
