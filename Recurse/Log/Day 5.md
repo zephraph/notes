@@ -4,7 +4,7 @@ Morning check-ins. Question of the day: what weird snack did you eat as a kid? I
 
 ## 11:45 am
 
-Office hours w/ Rachel, a Recurse facility member
+Office hours w/ [[Rachel Petacat]], a [[Recurse]] facility member
 
 ## 12:00 pm
 

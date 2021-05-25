@@ -21,3 +21,5 @@ Spent some time chatting w/ folks on [[zulip]] and doing some more email sorting
 
 ## 11:30 am
 
+Coffee chat w/ [[Rachel Petacat|Rachel]]
+
