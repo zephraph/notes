@@ -13,7 +13,8 @@ The _actual_ goal here is to learn. Because that's my true goal I'm going to mak
 - Custom milled walnut case
 - Custom milled wooden keycaps (stretch goal, material TBD)
 - Software to run on a raspberry pi zero and be powered by [[Nerves]]
-- Flashless key mapping updates. 
+- Flashless key mapping updates
+- Onboard key mapping UI powered by [[phoenix (elixir)]] and [[LiveView]]
 
 ## Hardware
 
