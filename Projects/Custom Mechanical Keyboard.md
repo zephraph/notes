@@ -38,6 +38,12 @@ https://hexdocs.pm/nerves/installation.html
 
 Really before anything else I've got to install [[elixir]] and [[erlang]]. I'm running all of these commands on Windows within [[Windows Subsystem for Linux|WSL]].
 
+First install system dependencies
+
+```sh
+sudo apt install build-essential automake autoconf git squashfs-tools ssh-askpass pkg-config curl
+```
+
 I'll be using [[asdf]] to manage and install [[elixir]]/[[erlang]]. 
 
 > 💡 **Note**
