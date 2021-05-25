@@ -80,7 +80,7 @@ Bootstrap the project
 mix new keyboard
 cd keyboard
 git init
-
+mix archive.install hex nerves_bootstrap
 ```
 
 ## Resources
