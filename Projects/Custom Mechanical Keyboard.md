@@ -87,6 +87,10 @@ I got everything pushed up to https://github.com/zephraph/keyboard
 
 #### Customizing the nerves setup
 
+All right, next phase.
+
+Here's the guide: https://hexdocs.pm/nerves/customizing-systems.html
+
 
 
 ## Resources
