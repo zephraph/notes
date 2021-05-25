@@ -74,16 +74,7 @@ mix local.hex
 mix local.rebar
 ```
 
-Bootstrap the project
-
-```
-mix new keyboard
-cd keyboard
-git init
-mix archive.install hex nerves_bootstrap
-```
-
-I got everything pushed up to https://github.com/zephraph/keyboard
+That's all the dependency requirements.
 
 #### Customizing the nerves setup
 
@@ -91,7 +82,11 @@ All right, next phase.
 
 Here's the guide: https://hexdocs.pm/nerves/customizing-systems.html
 
+```
+gh repo clone nerves-project/nerves_system_rpi0 keyboard 
+```
 
+*I'm using [[gh]] for this step*
 
 ## Resources
 
