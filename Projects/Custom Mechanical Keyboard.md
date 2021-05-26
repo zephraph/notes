@@ -27,9 +27,8 @@ I've been particularly inspired by [[Kevin Lynagh]]'s [Notes from a year of buil
 
 ## Implementation
 
-### Setting up the Pi Firmware
 
-#### Installing dependencies for Nerves
+### Installing dependencies for Nerves
 
 https://hexdocs.pm/nerves/installation.html
 
@@ -76,7 +75,7 @@ mix local.rebar
 
 That's all the dependency requirements.
 
-#### Setting up the nerves app
+### Setting up the nerves app
 
 I started this but realized I didn't know what I was doing. I want to customize my nerves installation so I _though_ I needed to follow [their guide on doing so](https://hexdocs.pm/nerves/customizing-systems.html). Turns out, I don't. I think?
 
@@ -106,7 +105,7 @@ MIX_TARGET=rpi0 mix firmware
 
 As an aside, I was wondering what other tasks were available via mix. If you run `mix help` it'll list all the available tasks.
 
-#### Connecting to the pi... or not
+### Connecting to the pi... or not
 
 Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]. According to the nerves docs I'd need to install a special linux driver that's unsigned (which would require me to disable signed driver enforcement... that's a whole thing). 
 
@@ -114,17 +113,27 @@ This is a challenge. I want the keyboard to be able to work on windows machines 
 
 I _really_ don't want to require windows to be booted into some unsafe mode in order to properly access the development. Instead, I'm looking into potential solutions to self-sign the provided linux driver.
 
-#### Self signing the USB driver for windows
+### Self signing the USB driver for windows
 
 I'm using this monster of a guide: http://woshub.com/how-to-sign-an-unsigned-driver-for-windows-7-x64/
 
 Honestly, this process is just so much yikes. I'm not having fun here.
 
-Need to make sure you have access to [`signtool.exe`](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe) and you'll need to install the [windows driver kit](http://www.microsoft.com/en-us/download/details.aspx?id=11800)
+You need to make sure you have access to [`signtool.exe`](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe) and you'll need to install the [windows driver kit](http://www.microsoft.com/en-us/download/details.aspx?id=11800)
 
 I'm running these commands from the visual studio developer console. For me searching "developer command prompt" in the windows search pulled this up.
 
+#### Create the certificate and private key
 
+I created a `DriverCert` directory in my `F:` drive then ran the following command
+
+```powershell
+makecert -r -sv F:\DriverCert\gadgetDriver.pvk -n CN="Linux" F:\DriverCert\gadgetDriver.cer
+```
+
+It asked for a password and I made something up that I'd remember. 
+
+#### 
 
 ## Resources
 
