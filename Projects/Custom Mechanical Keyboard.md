@@ -152,9 +152,9 @@ _ugh_. The guide has a little tip saying "Oh, you can skip downloading these too
 
 Following the guide I created an `xg20` directory in `DriverCert` and downloaded the [`linux.inf`](https://elixir.bootlin.com/linux/v4.19.102/source/Documentation/usb/linux.inf) file provided by the nerves repo to that directory.
 
-The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives. I added the `selfsign` directory to my path (which I recommend doing b/c there will be other )
+The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives. I added the `selfsign` directory to my path (which I recommend doing b/c there will be other tools you'll need in later steps).
 
-I added that to my path then ran
+Afterwards I ran
 
 ```
 inf2cat.exe /driver:"F:\DriverCert\xg20" /os:7_X64 /verbose
