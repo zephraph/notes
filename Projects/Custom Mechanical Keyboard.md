@@ -156,7 +156,7 @@ The next step requires `inf2cat`. This is provided by the windows driver kit as 
 
 Afterwards I ran
 
-```
+```powershell
 inf2cat.exe /driver:"F:\DriverCert\xg20" /os:7_X64 /verbose
 ```
 
@@ -190,7 +190,7 @@ Re-running the `inf2cat` command completed successfully after these changes.
 
 Here's the command I ran to finally sign the driver. 
 
-```
+```powershell
 signtool sign /f F:\DriverCert\gadgetDriver.pfx /p your_password /t http://timestamp.comodoca.com/authenticode /v F:\DriverCert\xg20\rndis_amd64.cat
 ```
 
@@ -202,7 +202,7 @@ This is the last step. I just ran `certmgr` and clicked `import` in the GUI. Pic
 
 Theoretically at this point the cert installation should work. In `cmd` with admin privileges run the following command...
 
-```
+```powershell
 pnputil -i -a F:\DriverCert\xg20\linux.inf
 ```
 
@@ -212,7 +212,17 @@ I get this really generic error message
 
 > Adding the driver package failed : A problem was encountered while attempting to add the driver to the store.
 
-I tried digging around for answers (or figuring out how to debug the issue), but I really wasn't finding much. I used a tool called `chkinf` that was bundled in the windows driver tooling I installed and it only reported warnings, no errors (so I think the `.inf` file is valid). One note is that `chkinf` has been replaced by `infVerif` but the version of the windows driver devel
+I tried digging around for answers (or figuring out how to debug the issue), but I really wasn't finding much. I used a tool called `chkinf` that was bundled in the windows driver tooling I installed and it only reported warnings, no errors (so I think the `.inf` file is valid). One note is that `chkinf` has been replaced by `infVerif` but the version of the windows driver SDK that I have doesn't reflect that change. I wonder if perhaps the windows driver SDK being out of date is the issue?
+
+I found somewhat of an [answer on microsoft's support forums](https://social.msdn.microsoft.com/Forums/windowsdesktop/en-US/fade73e3-a49a-4674-bd36-56586c38cad3/a-problem-was-encountered-while-attempting-to-add-the-driver-to-the-store?forum=wdk). Essentially it just says something is wrong with the signing. To verify I finally went through the process of disabling integrity checks and turned on `testsigning`. I used [solution 2](https://appuals.com/how-to-fix-the-third-party-inf-doesnt-contain-digital-signature-information/) on this guide. 
+
+It's essentially just executing this command in an admin command prompt
+
+```powershell
+bcdedit /set loadoptions DDISABLE\_INTEGRITY\_CHECKS & bcdedit /set testsigning on
+```
+
+After restarting my machine and trying to install the `.inf` again it _actually works_. Well, the installation works. I'm not sure if the driver is doing much for me yet. So continues my journey. 
 
 ## Resources
 
