@@ -203,7 +203,7 @@ This is the last step. I just ran `certmgr` and clicked `import` in the GUI. Pic
 Theoretically at this point the cert installation should work. In `cmd` with admin privileges run the following command...
 
 ```
-pnputil -i -a -v F:\DriverCert\xg20\linux.inf
+pnputil -i -a F:\DriverCert\xg20\linux.inf
 ```
 
 Unfortunately it _doesn't_. 
