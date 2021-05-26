@@ -108,7 +108,7 @@ As an aside, I was wondering what other tasks were available via mix. If you run
 
 #### Connecting to the pi
 
-Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently isn't automatically detected
+Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]
 
 
 ## Resources

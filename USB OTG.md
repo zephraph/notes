@@ -1,0 +1,1 @@
+OTG, short for on-the-go, is a feature that allows a device to act as a USB host in order to read from other usb devices. 
