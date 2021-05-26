@@ -116,6 +116,14 @@ I _really_ don't want to require windows to be booted into some unsafe mode in o
 
 #### Self signing the USB driver for windows
 
+I'm using this monster of a guide: http://woshub.com/how-to-sign-an-unsigned-driver-for-windows-7-x64/
+
+Honestly, this process is just so much yikes. I'm not having fun here.
+
+Need to make sure you have access to [`signtool.exe`](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe) and you'll need to install the [windows driver kit](http://www.microsoft.com/en-us/download/details.aspx?id=11800)
+
+I'm running these commands from the visual studio developer console. For me searching "developer command prompt" in the windows search pulled this up.
+
 
 
 ## Resources
