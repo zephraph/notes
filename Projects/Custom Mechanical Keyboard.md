@@ -196,6 +196,10 @@ signtool sign /f F:\DriverCert\gadgetDriver.pfx /p your_password /t http://times
 
 I had a _really_ hard time getting one of the timestamp servers to respond. There's a [stackoverflow article](https://stackoverflow.com/questions/9714798/http-timestamp-verisign-com-scripts-timstamp-dll-not-available) with a bunch of other alternatives servers and the one listed above for me worked. 
 
+**Installing the cert**
+
+
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
