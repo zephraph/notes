@@ -177,10 +177,12 @@ Class               = Net
 ClassGUID           = {4d36e972-e325-11ce-bfc1-08002be10318}
 Provider            = %Linux%
 DriverVer           = 04/21/2009,6.0.6000.16384
-CatalogFile.NTx86   = tostx86.cat
-CatalogFile.NTIA64  = tostia64.cat
-CatalogFile.NTAMD64 = tstamd64.cat
+CatalogFile.NTx86   = rndis_x86.cat
+CatalogFile.NTIA64  = rndis_ia64.cat
+CatalogFile.NTAMD64 = rndis_amd64.cat
 ```
+
+**Note**: The names of the CatalogFile properties are customizable.  I changed them to [RNDIS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/overview-of-remote-ndis--rndis-) b/c it seems like that's mostly what this driver represents. 
 
 Re-running the `inf2cat` command completed successfully after these changes.
 
