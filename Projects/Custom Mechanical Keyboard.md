@@ -106,6 +106,12 @@ MIX_TARGET=rpi0 mix firmware
 
 As an aside, I was wondering what other tasks were available via mix. If you run `mix help` it'll list all the available tasks.
 
+#### Connecting to the pi
+
+This is a lot easier if you're on mac or linux. Given that I'm windows, I need to go through the process of adding the ability to connect to the rpi.
+
+
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
