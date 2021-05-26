@@ -108,7 +108,7 @@ As an aside, I was wondering what other tasks were available via mix. If you run
 
 #### Connecting to the pi
 
-Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]
+Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]. According to the nerves docs I'd need to install a special linux driver that's unsigned (which would require me to disable signed driver enforcement... that's a whole thing). 
 
 
 ## Resources
