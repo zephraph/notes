@@ -124,7 +124,7 @@ You need to make sure you have access to [`signtool.exe`](https://docs.microsoft
 
 I'm running these commands from the visual studio developer console. For me searching "developer command prompt" in the windows search pulled this up.
 
-##### Create the certificate and private key
+**Create the certificate and private key**
 
 I created a `DriverCert` directory in my `F:` drive then ran the following command
 
@@ -134,13 +134,19 @@ makecert -r -sv F:\DriverCert\gadgetDriver.pvk -n CN="Linux" F:\DriverCert\gadge
 
 It asked for a password and I made something up that I'd remember. 
 
-##### Creating the public key
+**Creating the public key**
 
 ```powershell
 cert2spc F:\DriverCert\gadgetDriver.cer F:\DriverCert\gadgetDriver.spc
 ```
 
-##### Combine public/private keys into 
+**Combine public/private keys into **
+
+```powershell
+pvk2pfx -pvk F:\DriverCert\gadgetDriver.pvk -pi your_password -spc F:\DriverCert\gadgetDriver.spc -pfx F:\DriverCert\gadgetDriver.pfx -po your_password
+```
+
+_ugh_. The guide has a little tip saying "Oh, you can skip downloading these tools and just run this powershell thing too." Frustrating. Anyway, won't dwell on unnecessary work already done, moving along. 
 
 ## Resources
 
