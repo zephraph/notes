@@ -148,6 +148,8 @@ pvk2pfx -pvk F:\DriverCert\gadgetDriver.pvk -pi your_password -spc F:\DriverCert
 
 _ugh_. The guide has a little tip saying "Oh, you can skip downloading these tools and just run this powershell thing too." Frustrating. Anyway, won't dwell on unnecessary work already done, moving along. 
 
+The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives.
+
 
 
 ## Resources
