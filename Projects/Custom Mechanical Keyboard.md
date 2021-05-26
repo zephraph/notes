@@ -98,7 +98,11 @@ cd keyboard
 MIX_TARGET=rpi0 mix deps.get
 ```
 
+To create a firmware image that we can burn onto the sd card we can use
 
+```
+MIX_TARGET=rpi0 mix firmware
+```
 
 ## Resources
 
