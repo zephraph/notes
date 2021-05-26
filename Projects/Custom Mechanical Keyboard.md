@@ -88,7 +88,16 @@ _Okay, I kind of am back on the right track. Read [[Day 8]] for more details_.
 
 *2021-05-26*
 
+I'm following the [getting started guide](https://hexdocs.pm/nerves/getting-started.html)
+
 Let's spin up a nerves app!
+
+```
+mix nerves.new keyboard
+cd keyboard
+MIX_TARGET=rpi0 mix deps.get
+```
+
 
 
 ## Resources
