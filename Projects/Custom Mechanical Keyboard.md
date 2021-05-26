@@ -104,6 +104,8 @@ To create a firmware image that we can burn onto the sd card we can use
 MIX_TARGET=rpi0 mix firmware
 ```
 
+As an aside, I was wondering what other tasks were available via mix. If you run `mix help` it'll list all the available tasks.
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
