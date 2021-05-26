@@ -110,6 +110,7 @@ As an aside, I was wondering what other tasks were available via mix. If you run
 
 Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]. According to the nerves docs I'd need to install a special linux driver that's unsigned (which would require me to disable signed driver enforcement... that's a whole thing). 
 
+This is a challenge. I want the keyboard to be able to work on windows machines just by being plugged in. While technically I believe it _would_ function as a keyboard, the networking aspect would be unavailable without some futzing... It's fine, that just means my idea for having a dynamic, on-keyboard remapping experience might not work.
 
 ## Resources
 
