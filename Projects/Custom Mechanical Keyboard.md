@@ -106,11 +106,17 @@ MIX_TARGET=rpi0 mix firmware
 
 As an aside, I was wondering what other tasks were available via mix. If you run `mix help` it'll list all the available tasks.
 
-#### Connecting to the pi
+#### Connecting to the pi... or not
 
 Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently doesn't have good driver support on windows so connected to the device via [[USB OTG]]. According to the nerves docs I'd need to install a special linux driver that's unsigned (which would require me to disable signed driver enforcement... that's a whole thing). 
 
 This is a challenge. I want the keyboard to be able to work on windows machines just by being plugged in. While technically I believe it _would_ function as a keyboard, the networking aspect would be unavailable without some futzing... It's fine, that just means my idea for having a dynamic, on-keyboard remapping experience might not work.
+
+I _really_ don't want to require windows to be booted into some unsafe mode in order to properly access the development. Instead, I'm looking into potential solutions to self-sign the provided linux driver.
+
+#### Self signing the USB driver for windows
+
+
 
 ## Resources
 
