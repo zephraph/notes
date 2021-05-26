@@ -186,6 +186,9 @@ CatalogFile.NTAMD64 = rndis_amd64.cat
 
 Re-running the `inf2cat` command completed successfully after these changes.
 
+**Signing the catfile**
+
+
 
 
 ## Resources
