@@ -148,6 +148,8 @@ pvk2pfx -pvk F:\DriverCert\gadgetDriver.pvk -pi your_password -spc F:\DriverCert
 
 _ugh_. The guide has a little tip saying "Oh, you can skip downloading these tools and just run this powershell thing too." Frustrating. Anyway, won't dwell on unnecessary work already done, moving along. 
 
+
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
