@@ -10,4 +10,8 @@ Essentially I need to take two steps back and get started w/ the app again. I _m
 
 I'll switch back over to writing these notes in [[Custom Mechanical Keyboard]].
 
+## 11:00 am -- 7:00 pm
+
+Specifically working on this problem: [[Custom Mechanical Keyboard#Self signing the USB driver for windows]]
+
 
