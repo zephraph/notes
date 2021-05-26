@@ -108,8 +108,7 @@ As an aside, I was wondering what other tasks were available via mix. If you run
 
 #### Connecting to the pi
 
-This is a lot easier if you're on mac or linux. Given that I'm windows, I need to go through the process of adding the ability to connect to the rpi.
-
+Started looking into this and hit my next wall. The issue is I'm on windows. Linux gadget mode evidently isn't automatically detected
 
 
 ## Resources
