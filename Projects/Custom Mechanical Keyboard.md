@@ -150,6 +150,22 @@ _ugh_. The guide has a little tip saying "Oh, you can skip downloading these too
 
 The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives.
 
+Following the guide I created an `xg20` directory in `D`
+
+I added that to my path then ran
+
+```
+inf2cat.exe /driver:"F:\DriverCert\xg20" /os:7_X64 /verbose
+```
+
+I got two errors. One the article mentioned (had to edit the date in the `DriverVer` field of the `.inf` to be `04/21/2009`). The other wasn't mentioned.
+ 
+```
+22.9.4: Missing AMD64 CatalogFile entry (CatalogFile.ntamd64, CatalogFile.nt, CatalogFile) from [Version] section in \linux.inf
+```
+
+After some docs searching, I found a [microsoft doc](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/using-inf2cat-to-create-a-catalog-file) that had these entries which I added to my `linux.inf` file.
+
 
 
 ## Resources
