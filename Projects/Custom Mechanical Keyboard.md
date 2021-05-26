@@ -208,6 +208,12 @@ pnputil -i -a F:\DriverCert\xg20\linux.inf
 
 Unfortunately it _doesn't_. 
 
+I get this really generic error message
+
+> Adding the driver package failed : A problem was encountered while attempting to add the driver to the store.
+
+I tried digging around for answers (or figuring out how to debug the issue), but I really wasn't finding much. I used a tool called `chkinf` that was bundled in the windows driver tooling I installed and it only reported warnings, no errors (so I think the `.inf` file is valid). One note is that `chkinf` has been replaced by `infVerif` but the version of the windows driver devel
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
