@@ -148,9 +148,11 @@ pvk2pfx -pvk F:\DriverCert\gadgetDriver.pvk -pi your_password -spc F:\DriverCert
 
 _ugh_. The guide has a little tip saying "Oh, you can skip downloading these tools and just run this powershell thing too." Frustrating. Anyway, won't dwell on unnecessary work already done, moving along. 
 
-The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives.
+**Creating the catalog file**
 
-Following the guide I created an `xg20` directory in `D`
+Following the guide I created an `xg20` directory in `DriverCert` and downloaded the [`linux.inf`](https://elixir.bootlin.com/linux/v4.19.102/source/Documentation/usb/linux.inf) file provided by the nerves repo to that directory.
+
+The next step requires `inf2cat`. This is provided by the windows driver kit as mentioned above. Wherever you installed that there should be a `bin/selfsign` directory where `inf2cat.exe` lives. I added the `selfsign` directory to my path (which I recommend doing b/c there will be other )
 
 I added that to my path then ran
 
@@ -164,7 +166,23 @@ I got two errors. One the article mentioned (had to edit the date in the `Driver
 22.9.4: Missing AMD64 CatalogFile entry (CatalogFile.ntamd64, CatalogFile.nt, CatalogFile) from [Version] section in \linux.inf
 ```
 
-After some docs searching, I found a [microsoft doc](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/using-inf2cat-to-create-a-catalog-file) that had these entries which I added to my `linux.inf` file.
+After some searching, I found a [microsoft doc](https://docs.microsoft.com/en-us/windows-hardware/drivers/install/using-inf2cat-to-create-a-catalog-file) that had these entries which I added to my `linux.inf` file. 
+
+Here's what the final `version` section of my `.inf` file looks like
+
+```
+[Version]
+Signature           = "$Windows NT$"
+Class               = Net
+ClassGUID           = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider            = %Linux%
+DriverVer           = 04/21/2009,6.0.6000.16384
+CatalogFile.NTx86   = tostx86.cat
+CatalogFile.NTIA64  = tostia64.cat
+CatalogFile.NTAMD64 = tstamd64.cat
+```
+
+Re-running the `inf2cat` command completed successfully after these changes.
 
 
 
