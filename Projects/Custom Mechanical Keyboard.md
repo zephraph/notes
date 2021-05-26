@@ -200,6 +200,14 @@ I had a _really_ hard time getting one of the timestamp servers to respond. Ther
 
 This is the last step. I just ran `certmgr` and clicked `import` in the GUI. Pick the cert file from the root of `DriverCert` and select the `Place all certificates` option. You'll need to run this import step twice. The first time you want to put the cert in `Trusted Publishers`. The second time you'll want to put it in `Trusted Root Certification Authorities`. 
 
+Theoretically at this point the cert installation should work. In `cmd` with admin privileges run the following command...
+
+```
+pnputil -i -a -v F:\DriverCert\xg20\linux.inf
+```
+
+Unfortunately it _doesn't_. 
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
