@@ -188,8 +188,13 @@ Re-running the `inf2cat` command completed successfully after these changes.
 
 **Signing the catfile**
 
+Here's the command I ran to finally sign the driver. 
 
+```
+signtool sign /f F:\DriverCert\gadgetDriver.pfx /p your_password /t http://timestamp.comodoca.com/authenticode /v F:\DriverCert\xg20\rndis_amd64.cat
+```
 
+I had a _really_ hard time getting one of the timestamp servers to respond. There's a [stackoverflow article](https://stackoverflow.com/questions/9714798/http-timestamp-verisign-com-scripts-timstamp-dll-not-available) with a bunch of other alternatives servers and the one listed above for me worked. 
 
 ## Resources
 
