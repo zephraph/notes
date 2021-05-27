@@ -19,3 +19,7 @@ Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I
  ## 2:30 pm
  
  Chat w/ [[Jason Laster]] where he demoed [[replay]]. Honestly one of the most exciting tools I've seen in a while. 
+ 
+ ## 3:15 pm
+ 
+ Hung out quietly in the ...with friends zoom. Listened to the [last podcast episode](https://artsyengineeringradio.buzzsprout.com/1781859/8600736-19-humanizing-the-workplace) I participated in at [[Artsy]] w/ [[Steve Hicks]].
