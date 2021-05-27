@@ -4,4 +4,4 @@ Joined check-ins. Today's question was what's an interesting thing that you've l
 
 ## 11:30 am
 
-Coffee chat w/ [[Paul Malmgren|Paul]]
+Coffee chat w/ [[Peter Malmgren|Peter]]
