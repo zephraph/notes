@@ -14,6 +14,6 @@ Lunch
 
 ## 1:00 pm -- 2:15 pm
 
-Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I left being reminded that the need for connection has many different manifestations. Technology can absolutely facilitate deep, authentic connections in ways that support our needs. Also, it's worth reminding ourselves that despite the undertones of  
+Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I left being reminded that the need for connection has many different manifestations. Technology can absolutely facilitate deep, authentic connections in ways that support our needs. Also, it's worth reminding ourselves that despite the undertones of negativity 
  
  
