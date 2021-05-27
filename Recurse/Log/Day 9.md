@@ -18,4 +18,4 @@ Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I
  
  ## 2:30 pm
  
- Chat w/ [[Jason Laster]] where he showed me [[replay]]. Honestly one of the most exciting tools I've seen in a while. 
+ Chat w/ [[Jason Laster]] where he demoed [[replay]]. Honestly one of the most exciting tools I've seen in a while. 
