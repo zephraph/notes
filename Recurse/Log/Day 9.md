@@ -12,5 +12,9 @@ I'm going to continue working on [[procedure]] today and given that he's been st
 
 Lunch
 
+## 1:00 pm -- 2:15 pm
+
+Catch up chat w/ [[Nicolas Monta]]
+
  
  
