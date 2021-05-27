@@ -1,4 +1,5 @@
 ---
+pronoun: he/him
 tags: recurse
 alias: Peter
 ---
