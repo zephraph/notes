@@ -16,4 +16,6 @@ Lunch
 
 Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I left being reminded that the need for connection has many different manifestations. Technology can absolutely facilitate deep, authentic connections in ways that support our needs. Also, it's worth reminding ourselves that despite the undertones of negativity that have come to be associated with tech there's also so much opportunity. We've just got to work for the future we want to see. 
  
+ ## 2:30 pm
  
+ Chat w/ [[Jason Laster]] who
