@@ -26,4 +26,4 @@ Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I
  
  ## 5:00 pm
  
- Calling it quits for the day. I'm not really focused/motivated. 
+ Calling it quits for the day. I don't really have the energy to dig into anything new right now. 
