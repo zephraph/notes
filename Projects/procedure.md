@@ -223,3 +223,8 @@ This is where things are going to get a bit... weird. We know which line match i
 
 [[StackTracey]] gives us access to the source file. We know the line `match` is on. We could naively start at `match` and search for a string match to the name of the child we're looking for. That'd be simple _but_ it's possible a single child could be used multiple times in different locations. Instead of that, I'm going to write a _light_ parser. I want to capture everything inside `match( ... )`. I want to know what line each element is on and which child it belongs to.
 
+*2021-05-28*
+
+#### Implementing a match parser
+
+Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source file as an array of lines. It also provides me the line number and column of where the stack trace was issued. As I noted at the end of [[#Adding error handling]], I'm creating a stack trace when `match` is called and popping the top most frame (where the error creation happens) so that the stack trace actually points to `match`.

@@ -12,4 +12,4 @@ Lunch
 
 ## 2:00 pm
 
-Last night I'd worked a little on [[procedure#Improving match error handling]] and I want to continue that vein today. 
+Last night I'd worked a little on [[procedure#Improving match error handling]] and I want to continue that vein today. Essentially what I did last night was write a little parser that could parse `match` source code and provide line/column numbers for that so I could remap error messages to the appropriate place. 
