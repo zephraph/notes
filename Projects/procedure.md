@@ -281,6 +281,7 @@ To improve the error message future we need to parse the sourcecode of the match
 
 To contain the scope and complexity of this problem, I'm going to apply some constraints. 
 
-1. I'll assume the actual parsing starts on the line that contains `.match(` (or at least that we're given that line number)
-2. I'm going to assume the syntax is valid. There would be a runtime error at the call site if it wasn't, so that's a safe assumption.
-3. I'm going to assume all functions passed to  `match` are [[JavaScript named functions|named]].
+1. The parsing starts on the line that contains `.match(` (or at least that we're given that line number)
+2. The syntax is valid. There would be a runtime error at the call site if it wasn't, so that's a safe assumption.
+3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
+4. The contents th
