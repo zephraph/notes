@@ -225,7 +225,7 @@ This is where things are going to get a bit... weird. We know which line match i
 
 *2021-05-28*
 
-#### Implementing a match error creator
+#### Breaking down match error creation
 
 Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source file as an array of lines. It also provides me the line number and column of where the stack trace was issued. As I noted at the end of [[#Adding error handling]], I'm creating a stack trace when `match` is called and popping the top most frame (where the error creation happens) so that the stack trace actually points to `match`. So in this case I'd have an error pointing to match. Let me show you what this looks like
 
