@@ -239,4 +239,14 @@ Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source 
       17 |       [isValidVaultProvided, formatVault],
 ```
 
-Here's the stackframe error message that's resulting from `promptForVault` having an internal failure. Even though we're showing generally that something in the `match` statement failed, it's hard to see _what_ failed. Given that `match` (and all other procedural steps) are _async_, we really only have reference to that initial stack frame. 
+Here's the stackframe error message that's resulting from `promptForVault` having an internal failure. Even though we're showing generally that something in the `match` statement failed, it's hard to see _what_ failed. Given that `match` (and all other procedural steps) are _async_, we really only have reference to that initial stack frame. We can't easily manually create a stackframe for the match statements like `noValueProvided` or `promptForVault` so we somehow have to figure that out at runtime given the source.
+
+There are a few things that make this process easier. 
+1. We know what actually failed. Even as this is the error message could be improved to reference `promptForVault`
+2. We have access to the raw source from [[StackTracey]]
+3. We know the structure of the match expression and which statement the failure occurred in
+4. We know the line number and column number of the `match` call
+
+Given all of these facts, we can built up a solution to better position the error message.
+
+Let's think at a high level for a second about the function that would be responsible for generating this error. Let's say we have a function `createMatchError`
