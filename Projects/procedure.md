@@ -277,4 +277,6 @@ If we stopped here this would be enough to pass to a library like [babel's code-
 
 To improve the error message future we need to parse the sourcecode of the match expression in such a way that it returns a datastructure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
 
-#### Parsing
+#### Parsing the match expression
+
+To contain the scope and complexity of this problem, I'm going to apply some constraints. 
