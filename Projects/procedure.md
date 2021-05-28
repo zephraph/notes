@@ -249,4 +249,10 @@ There are a few things that make this process easier.
 
 Given all of these facts, we can built up a solution to better position the error message.
 
-Let's think at a high level for a second about the function that would be responsible for generating this error. Let's say we have a function `createMatchError`
+Let's think at a high level for a second about the function that would be responsible for generating this error. Let's say we have a function `createMatchError` which by default only takes the `StackTracey` trace.
+
+```ts
+function createMatchError(trace: StackTracey) {...} 
+```
+
+This will give us `#2` and `#4` from above, but it doesn't provide other critical information wh
