@@ -273,4 +273,8 @@ function createMatchError(trace: StackTracey, statement: number, statementIndex:
 }
 ```
 
-_To be continued_
+If we stopped here this would be enough to pass to a library like [babel's code-frame](https://www.npmjs.com/package/@babel/code-frame) in order to render the first error shown above. Helpful, but we'd like to have more.
+
+To improve the error message future we need to parse the sourcecode of the match expression in such a way that it returns a datastructure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
+
+#### Parsing
