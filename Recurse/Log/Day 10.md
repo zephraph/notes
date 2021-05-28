@@ -20,4 +20,7 @@ Friday presentations
 
 Nemo
 - PDF merger app called pystitcher
-
+[[Josh Stauffer|Josh]]
+- history atlas presentation
+- Takes quotes and correlates people, places, and times
+- Uses NLP to pull out important points
