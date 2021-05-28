@@ -18,15 +18,19 @@ Last night I'd worked a little on [[procedure#Improving match error handling]] a
 
 Friday presentations
 
-Nemo
+[[Nemo]]
 - PDF merger app called pystitcher
+
 [[Josh Stauffer|Josh]]
 - history atlas presentation
 - Takes quotes and correlates people, places, and times
 - Uses NLP to pull out important points
+
 [[Hazem]]
 - built a CLI for viewing who is in a specific room
+
 [[Paul Butler|Paul]]
 - WSGL (web shader spec)
+
 [[Nicolas Montaño|Nicolas]]
 - Using zig to give a visualization of how arrays are stored
