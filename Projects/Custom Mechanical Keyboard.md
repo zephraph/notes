@@ -224,6 +224,17 @@ bcdedit /set loadoptions DDISABLE\_INTEGRITY\_CHECKS & bcdedit /set testsigning 
 
 After restarting my machine and trying to install the `.inf` again it _actually works_. Well, the installation works. I'm not sure if the driver is doing much for me yet. So continues my journey. 
 
+**Disabling test signing mode**
+
+To get my machine back into a (relatively) stable state, I disabled the above commands.
+
+```powershell
+bcdedit -set TESTSIGNING OFF
+bcdedit -set nointegritychecks off
+```
+
+Not 100% about that last one, but hopefully it's right
+
 ## Resources
 
 - I'm using [balenaEtcher](https://www.balena.io/etcher/) to flash the SD Card
