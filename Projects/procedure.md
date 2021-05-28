@@ -227,4 +227,16 @@ This is where things are going to get a bit... weird. We know which line match i
 
 #### Implementing a match parser
 
-Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source file as an array of lines. It also provides me the line number and column of where the stack trace was issued. As I noted at the end of [[#Adding error handling]], I'm creating a stack trace when `match` is called and popping the top most frame (where the error creation happens) so that the stack trace actually points to `match`.
+Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source file as an array of lines. It also provides me the line number and column of where the stack trace was issued. As I noted at the end of [[#Adding error handling]], I'm creating a stack trace when `match` is called and popping the top most frame (where the error creation happens) so that the stack trace actually points to `match`. So in this case I'd have an error pointing to match. Let me show you what this looks like
+
+```ts
+      12 | export default procedure<Context>("install")
+      13 |   .validate("plugin", isPluginValid)
+    > 14 |   .match(
+         |    ^ ProcedureError: Unhandled Internal Exception
+      15 |     [
+      16 |       [noVaultProvided, promptForVault],
+      17 |       [isValidVaultProvided, formatVault],
+```
+
+Here's the stackframe error message that's resulting from `promptForVault` having an internal failure. Even though we're showing generally that something in the `match` statement failed, it's hard to see _what_ failed. Given that `match` (and all other procedural steps) are _async_, we really only have reference to that initial stack frame. 
