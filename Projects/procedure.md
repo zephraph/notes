@@ -225,7 +225,7 @@ This is where things are going to get a bit... weird. We know which line match i
 
 *2021-05-28*
 
-#### Implementing a match parser
+#### Implementing a match error creator
 
 Given that I'm using [[StackTracey]] I'm provided a mechanism to get the source file as an array of lines. It also provides me the line number and column of where the stack trace was issued. As I noted at the end of [[#Adding error handling]], I'm creating a stack trace when `match` is called and popping the top most frame (where the error creation happens) so that the stack trace actually points to `match`. So in this case I'd have an error pointing to match. Let me show you what this looks like
 
@@ -255,4 +255,14 @@ Let's think at a high level for a second about the function that would be respon
 function createMatchError(trace: StackTracey) {...} 
 ```
 
-This will give us `#2` and `#4` from above, but it doesn't provide other critical information wh
+This will give us `#2` and `#4` from above, but it doesn't provide other critical information we need as listed in `#1` and `#2`. We'll need to modify the function to pass that information in
+
+```ts
+function createMatchError(trace: StackTracey, statement: number, statementIndex: number)
+```
+
+In this definition `statement` is the position of the statement the error is contained in and `statementIndex` is the index of the thing that's erroring from within the statement. With that we can start fleshing out the error creating definition. 
+
+```ts
+
+```
