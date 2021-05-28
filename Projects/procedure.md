@@ -284,4 +284,4 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 1. The parsing starts on the line that contains `.match(` (or at least that we're given that line number)
 2. The syntax is valid. There would be a runtime error at the call site if it wasn't, so that's a safe assumption.
 3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
-4. The contents th
+4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. 
