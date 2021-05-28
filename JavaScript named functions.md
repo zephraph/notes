@@ -1,0 +1,1 @@
+A named function in [[JavaScript]] is a function whose object includes a `name` property.
