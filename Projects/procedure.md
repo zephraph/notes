@@ -264,5 +264,11 @@ function createMatchError(trace: StackTracey, statement: number, statementIndex:
 In this definition `statement` is the position of the statement the error is contained in and `statementIndex` is the index of the thing that's erroring from within the statement. With that we can start fleshing out the error creating definition. 
 
 ```ts
-
+function createMatchError(trace: StackTracey, statement: number, statementIndex: number) {
+	// Gets the location and metadata of the error from StackTracey
+	const details = trace.withSource(trace.items[0]);
+	
+	let column = details.column;
+	let line = details.line;
+}
 ```
