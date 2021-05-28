@@ -24,3 +24,5 @@ Nemo
 - history atlas presentation
 - Takes quotes and correlates people, places, and times
 - Uses NLP to pull out important points
+[[Hazem]]
+- built a CLI for viewing who is in a specific room
