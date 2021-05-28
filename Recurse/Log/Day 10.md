@@ -26,6 +26,7 @@ Nemo
 - Uses NLP to pull out important points
 [[Hazem]]
 - built a CLI for viewing who is in a specific room
-[[Paul Butler]]
+[[Paul Butler|Paul]]
 - WSGL (web shader spec)
-- Dug into some compiler pipeline stuff to figure out the WS
+[[Nicolas Montaño|Nicolas]]
+- Using zig to give a visualization of how arrays are stored
