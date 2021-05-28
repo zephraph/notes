@@ -284,4 +284,8 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 1. The parsing starts on the line that contains `.match(` (or at least that we're given that line number)
 2. The syntax is valid. There would be a runtime error at the call site if it wasn't, so that's a safe assumption.
 3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
-4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. 
+4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. This assumption is technically and I'm not sure there's a way to validate it at runtime. More likely this would be a better target for a lint rule. The worst case scenario here is that we have to bail out of the better error messaging and fallback to a generic reference. 
+
+## Reflecting on the project
+
+This has taken a long and winding road. I've mentioned to a few people that I'm not actually sure if this library is a good idea. My worry here is I'm trying to code my way out of writing bad code. Procedure is a scaffolding to constrain a complex portion of code to a particular shape in order to make it easier to read and understand. It's arguable that the same code could be written without
