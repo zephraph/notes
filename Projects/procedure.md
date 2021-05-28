@@ -288,4 +288,18 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 
 ## Reflecting on the project
 
-This has taken a long and winding road. I've mentioned to a few people that I'm not actually sure if this library is a good idea. My worry here is I'm trying to code my way out of writing bad code. Procedure is a scaffolding to constrain a complex portion of code to a particular shape in order to make it easier to read and understand. It's arguable that the same code could be written without
+### The insecurities of inception
+
+This has taken a long and winding road. I've mentioned to a few people that I'm not actually sure if this library is a good idea. My worry here is I'm trying to code my way out of writing bad code. Procedure is a scaffolding to constrain a complex portion of code to a particular shape in order to make it easier to read and understand. It's arguable that the same code could be written without the complexity cost of procedure. 
+
+### Considering the benefits
+
+There are, in my mind, a few things that makes procedure worth while. 
+
+#### 1. Constrains and readability
+
+#### 2. Uniform handling of sync and async functionality
+
+#### 3. Reusability empowered by lazy execution
+
+#### 4. Expressive errors and error handling
