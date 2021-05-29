@@ -288,7 +288,7 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 
 ## Reflecting on the project
 
-### The insecurities of inception
+### The insecurities of its inception
 
 This has taken a long and winding road. I've mentioned to a few people that I'm not actually sure if this library is a good idea. My worry here is I'm trying to code my way out of writing bad code. Procedure is a scaffolding to constrain a complex portion of code to a particular shape in order to make it easier to read and understand. It's arguable that the same code could be written without the complexity cost of procedure. 
 
@@ -298,7 +298,7 @@ There are, in my mind, a few things that makes procedure worth while.
 
 #### 1. Constrains and readability
 
-Procedure provides a finite set of operations each of which communicates a certain type of interaction. I've been thinking a lot recently about code as communication and this library is an 
+Procedure provides a finite set of operations each of which communicates a certain type of interaction. I've been thinking a lot recently about code as communication and this library is in a way an extension of that idea. Constraining the vocabulary means that the intent is clearer at a glance. 
 
 #### 2. Uniform handling of sync and async functionality
 
