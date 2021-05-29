@@ -296,11 +296,15 @@ This has taken a long and winding road. I've mentioned to a few people that I'm 
 
 There are, in my mind, a few things that makes procedure worth while. 
 
-#### 1. Constrains and readability
+#### 1. Constraints and readability
 
-Procedure provides a finite set of operations each of which communicates a certain type of interaction. I've been thinking a lot recently about code as communication and this library is in a way an extension of that idea. Constraining the vocabulary means that the intent is clearer at a glance. 
+Procedure provides a finite set of operations each of which communicates a certain type of interaction. I've been thinking a lot recently about code as communication and this library is in a way an extension of that idea. Constraining the vocabulary means that the intent is clearer at a glance. Constraints _are_ a tradeoff that by their nature limit what can and can't be done. Hopefully I've chosen good constraints. 
+
+Further, by encouraging that function references be used within the procedure definition it makes the overall definition more terse and legible. One of the biggest aims was to be able to fit a long, complex piece of logic on the screen in a small but legible form. You won't get all the underlying details of how it's doing what it's doing, but hopefully you know _what_ it's doing. It's a narrative framework to convey understanding of a complex task.
 
 #### 2. Uniform handling of sync and async functionality
+
+I really love async/await as a language mechanic, but it comes with tradeoffs. An async function is somewhat of a contaminant. If you use an async function in another function you'll likely need to make that async (unless)
 
 #### 3. Reusability empowered by lazy execution
 
