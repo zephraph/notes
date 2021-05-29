@@ -76,7 +76,13 @@ This is the minimal control flow that I can represent right now. Essentially `pr
 
 ### The anatomy of a match operation
 
-I've mentioned the `match` 
+I've mentioned the `match` operation above, but I'd like to discuss it in a bit more detail. `match` is fundamentally the mechanism for branching logic in procedure. Given that, it's both the most verbose and most complex operation.
+
+A match operation has a few key concepts
+- An array of _statements_ which make up its core logic
+- A statement is made up of one or more _conditions_ and an _action_
+	- For an action to run, all conditions must be true. If they're not, it moves to the next statement (assuming one exists)
+- Lastly there's (optionally) a _fallback_ that can be invoked if no statement was execut
 
 ## Adding error handling
 
