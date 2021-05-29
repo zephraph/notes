@@ -279,6 +279,8 @@ To improve the error message future we need to parse the sourcecode of the match
 
 #### Parsing the match expression
 
+*2021-05-28*
+
 To contain the scope and complexity of this problem, I'm going to apply some constraints. 
 
 1. The parsing starts on the line that contains `.match(` (or at least that we're given that line number)
@@ -286,7 +288,11 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
 4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. This assumption is technically and I'm not sure there's a way to validate it at runtime. More likely this would be a better target for a lint rule. The worst case scenario here is that we have to bail out of the better error messaging and fallback to a generic reference. 
 
+First,
+
 ## Reflecting on the project
+
+*2021-05-28*
 
 ### The insecurities of its inception
 
@@ -322,4 +328,6 @@ Lastly, the other big benefit of lazy execution is that it means a procedure can
 
 #### 4. Expressive errors and error handling
 
-Special error handling spawned as an incidental aspect of this library. Given that procedures are lazily executed, the default behavior of an error is to point to the call site of the internals not to where the work was actually queued up. While technically correct, it isn't incredibly helpful to the user because they don't know _where_ in their written code the error spawns from. To solve that I began this complex exploration in capturing early stack traces when queuing work and doing analysis on it to point to a spot that's more informative to the author. As I've mentioned in other places, I'm really thinking about procedure as a framework for communication as much as anything else. Clarity of communication when things go wrong is _especially_ important. Too often error messages are obscure or mislead
+Special error handling spawned as an incidental aspect of this library. Given that procedures are lazily executed, the default behavior of an error is to point to the call site of the internals not to where the work was actually queued up. While technically correct, it isn't incredibly helpful to the user because they don't know _where_ in their written code the error spawns from. To solve that I began this complex exploration in capturing early stack traces when queuing work and doing analysis on it to point to a spot that's more informative to the author. As I've mentioned in other places, I'm really thinking about procedure as a framework for communication as much as anything else. Clarity of communication when things go wrong is _especially_ important. Too often error messages are obscure or misleading. Given the structured internal execution of procedure I can really do a lot to help change that story.
+
+The other aspect on this topic is something I mentioned in [[#2 Uniform handling of sync and async functionality|section 2]]. Handling async errors can be pretty annoying/verbose. One of my hopes for this library is that an async error is as clean and simple to handle as a sync error. Beyond that, there should be a standard framework for how to handle errors. If and error should've been handled that wasn't, that should be clearly communicated too. This aspect of the framework is still under development, but I'm pretty excited about it.
