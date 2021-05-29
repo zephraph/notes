@@ -312,6 +312,5 @@ I still need to think about parallel steps (because that's of course a thing). A
 
 #### 3. Reusability empowered by lazy execution
 
-Lazy execution wasn't actually a thing I planned in the beginning. Instead of a chaining api I had an array based api that I expressed in the beginning of these notes. I abandoned that approach for a chaining api because that api is just easier to type with [[TypeScript]]. Given that steps can be async
-
+Lazy execution wasn't actually a thing I planned in the beginning. Instead of a chaining api I had an array based api that I expressed in the beginning of these notes. I abandoned that approach for a chaining api because that api is just easier to type with [[TypeScript]]. Given that steps can be async I couldn't chain together calls how I wanted _and_ execute them as they're called. Instead I built up this mechanism of queuing work to be invoked by an `exec` function later. This actually worked out surprisingly well. The benefit of this approach (beyond letting me do async stuff and keep the chaining api) is that now procedures could be defined, passed around, and called later. As an aside, I'm building this primarily for my own use to simplify CLI logic. I'd initially been inspired by [[Shawn (swyx)]]'s talk on [adaptive, intent-based cli state machines](https://www.youtube.com/watch?v=ZueoIYnHiaI) but I found when playing with [[xstate]]
 #### 4. Expressive errors and error handling
