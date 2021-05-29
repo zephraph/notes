@@ -304,7 +304,9 @@ Further, by encouraging that function references be used within the procedure de
 
 #### 2. Uniform handling of sync and async functionality
 
-I really love async/await as a language mechanic, but it comes with tradeoffs. An async function is somewhat of a contaminant. If you use an async function in another function you'll likely need to make that async (unless)
+I really love async/await as a language mechanic, but it comes with tradeoffs. An async function is somewhat of a contaminant. If you use an async function in another function you'll likely need to make that async. Also, generally, error handling can be quite verbose. I'm a big fan of [[await-to-js]] as a tool to make the error handling story more concise, but it's no panacea. 
+
+I conceptually map a procedure to something like a recipe. It's a set of (usually) sequential steps. Sometimes you have to wait, like in the case of water boiling. Sometimes you can act immediately. The overall approach doesn't change much though and I wanted that feeling to carry over into procedure. I don't care if a validation is sync or async. All I care about is that it runs when it's supposed to
 
 #### 3. Reusability empowered by lazy execution
 
