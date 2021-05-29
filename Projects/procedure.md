@@ -292,10 +292,13 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
 4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. This assumption is technically and I'm not sure there's a way to validate it at runtime. More likely this would be a better target for a lint rule. The worst case scenario here is that we have to bail out of the better error messaging and fallback to a generic reference. 
 
-First, let's talk about data structures. That's usually the right place to start in many technical design discussions. If a condition inside of a match statement fails, what information do we need about that condition? In my mind we need three things
+First, let's talk about data structures. That's usually the right place to start in many technical design discussions. If a condition inside of a match statement fails, what information do we need about that condition? In my mind we need three things:
 
 1. The name of the condition
-2. The _statement_ in which the condition occurred
+2. The line of the source in which the condition appears
+3. The character count where the condition starts
+
+Given all of those elements we can map our error message to the correct place. The second challenge here is creating a data structure that we can use to map
 
 ## Reflecting on the project
 
