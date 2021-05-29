@@ -82,7 +82,8 @@ A match operation has a few key concepts
 - An array of _statements_ which make up its core logic
 - A statement is made up of one or more _conditions_ and an _action_
 	- For an action to run, all conditions must be true. If they're not, it moves to the next statement (assuming one exists)
-- Lastly there's (optionally) a _fallback_ that can be invoked if no statement was execut
+- Lastly there's (optionally) a _fallback_ that can be invoked if no statement was executed
+	- If there's no fallback and no statement executed then the `match` operation throws an error
 
 ## Adding error handling
 
@@ -314,7 +315,7 @@ Consider this match operation
 ], fallback)
 ```
 
-
+_to be continued_
 
 ## Reflecting on the project
 
