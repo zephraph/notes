@@ -308,8 +308,10 @@ I really love async/await as a language mechanic, but it comes with tradeoffs. A
 
 I conceptually map a procedure to something like a recipe. It's a set of (usually) sequential steps. Sometimes you have to wait, like in the case of water boiling. Sometimes you can act immediately. The overall approach doesn't change much though and I wanted that feeling to carry over into procedure. I don't care if a validation is sync or async. All I care about is that it runs when it's supposed to. That in turn should mean that a function can be swapped between sync and async at no refactor cost all the call site.
 
-I still need to think about parallel steps (because that's of course a thing). 
+I still need to think about parallel steps (because that's of course a thing). Also this approach does mean that a procedure is always async (because any single step _could_ be async). Perhaps in the future I'll add a sync only version... or perhaps not.
 
 #### 3. Reusability empowered by lazy execution
+
+Lazy execution wasn't actually a thing I planned in the beginning. Instead of a chaining api I had an array based api that I expressed in the beginning of these notes. I abandoned that approach for a chaining api because that api is just easier to type with [[TypeScript]]. Given that steps can be async
 
 #### 4. Expressive errors and error handling
