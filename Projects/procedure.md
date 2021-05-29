@@ -316,6 +316,10 @@ Lazy execution wasn't actually a thing I planned in the beginning. Instead of a 
 
 As an aside, I'm building this primarily for my own use to simplify CLI logic. I'd initially been inspired by [[Shawn (swyx)]]'s talk on [adaptive, intent-based cli state machines](https://www.youtube.com/watch?v=ZueoIYnHiaI) but I found when playing with [[xstate]] that that approach ultimately was incredibly verbose and complex. [[Finite state machine|Finite state machines]] are awesome, but there's some mental complexity layered on expression the state machine that increases the burden of understanding the core of what you're trying to accomplish. 
 
-A feature I'm considering adding is the ability to place a marker in a procedure that can be conditionally returned to later. This, in a way, provides an a
+A feature I'm considering adding is the ability to place a marker in a procedure that can be conditionally returned to later. This, in a way, affords an [[Finite state machine|fsm]] like behavior without the conceptual complexity. 
+
+Lastly, the other big benefit of lazy execution is that it means a procedure can be embedded in another procedure. I've already got an example of that working and it's pretty exciting. My hope is to make procedures complete first class members to all chained api methods. 
 
 #### 4. Expressive errors and error handling
+
+Special error handling spawned as an incidental aspect of this library. Given that procedures are lazily executed, the default behavior of an error is to point to the call site of the internals not to where the work was actually queued up. While technically correct, it isn't incredibly helpful to the user because they don't know _where_ in their written code the error spawns from. To solve that I began this complex exploration in capturing early stack traces when queuing work and doing analysis on it 
