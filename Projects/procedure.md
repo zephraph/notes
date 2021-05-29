@@ -315,7 +315,20 @@ Consider this match operation
 ], fallback)
 ```
 
-_to be continued_
+*2021-05-29*
+
+In my mind we'd want a data structure like
+
+```ts
+const match = {
+  statements: [
+  	[{ name: "ifSomething", line: 1, char: 3}, { name: "doSomething", ...}]
+  ],
+  fallback: {
+ 	name: "fallback",
+  }
+}
+```
 
 ## Reflecting on the project
 
