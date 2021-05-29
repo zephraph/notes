@@ -298,6 +298,8 @@ There are, in my mind, a few things that makes procedure worth while.
 
 #### 1. Constrains and readability
 
+Procedure provides a finite set of operations each of which communicates a certain type of interaction. I've been thinking a lot recently about code as communication and this library is an 
+
 #### 2. Uniform handling of sync and async functionality
 
 #### 3. Reusability empowered by lazy execution
