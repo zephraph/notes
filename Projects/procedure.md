@@ -279,7 +279,7 @@ function createMatchError(trace: StackTracey, statement: number, statementIndex:
 
 If we stopped here this would be enough to pass to a library like [babel's code-frame](https://www.npmjs.com/package/@babel/code-frame) in order to render the first error shown above. Helpful, but we'd like to have more.
 
-To improve the error message future we need to parse the sourcecode of the match operation in such a way that it returns a datastructure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
+To improve the error message future we need to parse the source code of the match operation in such a way that it returns a data structure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
 
 #### Parsing the match operation
 
@@ -298,7 +298,17 @@ First, let's talk about data structures. That's usually the right place to start
 2. The line of the source in which the condition appears
 3. The character count where the condition starts
 
-Given all of those elements we can map our error message to the correct place. The second challenge here is creating a data structure that we can use to map
+Given all of those elements we can map our error message to the correct place. The second challenge here is creating a data structure that we can use to map the logical pairing of which match statement contains the error and which condition in the statement error occurred. This is the information we'll have at runtime given that we'll be looping through all the statements and their conditions to execute each. It makes sense to me to do pretty much a 1-to-1 mapping to the actual match definition. 
+
+Consider this match operation
+
+```ts
+.match([
+  [ifSomething, doSomething]
+], fallback)
+```
+
+
 
 ## Reflecting on the project
 
