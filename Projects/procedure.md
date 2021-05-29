@@ -317,7 +317,7 @@ Consider this match operation
 
 *2021-05-29*
 
-In my mind we'd want a data structure like
+In my mind we'd want a complete data structure like
 
 ```ts
 const match = {
@@ -326,9 +326,13 @@ const match = {
   ],
   fallback: {
  	name: "fallback",
+	line: 2,
+	char: 3
   }
 }
 ```
+
+This example has both the shape of the overall match operation and detailed positional information about each element in the operation. 
 
 ## Reflecting on the project
 
