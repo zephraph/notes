@@ -74,6 +74,10 @@ await procedure('install', context)
 
 This is the minimal control flow that I can represent right now. Essentially `procedure` is a factory function that constructs a new `Procedure` class. That class has a notion of `context` which is the data store for the process and `operations` which are the steps to be run. When you call `validate` or `load` it creates an `Operation` object with a `type` property that match its name. All the operations are buffered up and once `exec` is called the `operations` are looped over and called in order. In essence, a procedure is lazy.
 
+### The anatomy of a match operation
+
+I've mentioned the `match` 
+
 ## Adding error handling
 
 In somewhat of an interesting distraction / turn of events I decided to add some nicer error handling. I wanted to add a codeframe similar to what jest has when it errors. 
@@ -244,7 +248,7 @@ Here's the stackframe error message that's resulting from `promptForVault` havin
 There are a few things that make this process easier. 
 1. We know what actually failed. Even as this is the error message could be improved to reference `promptForVault`
 2. We have access to the raw source from [[StackTracey]]
-3. We know the structure of the match expression and which statement the failure occurred in
+3. We know the structure of the match operation and which statement the failure occurred in
 4. We know the line number and column number of the `match` call
 
 Given all of these facts, we can built up a solution to better position the error message.
@@ -275,9 +279,9 @@ function createMatchError(trace: StackTracey, statement: number, statementIndex:
 
 If we stopped here this would be enough to pass to a library like [babel's code-frame](https://www.npmjs.com/package/@babel/code-frame) in order to render the first error shown above. Helpful, but we'd like to have more.
 
-To improve the error message future we need to parse the sourcecode of the match expression in such a way that it returns a datastructure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
+To improve the error message future we need to parse the sourcecode of the match operation in such a way that it returns a datastructure that we can use `statement` and `statementIdnex` on in order to find the `line` and `column` of the actual thing that failed.
 
-#### Parsing the match expression
+#### Parsing the match operation
 
 *2021-05-28*
 
@@ -288,7 +292,10 @@ To contain the scope and complexity of this problem, I'm going to apply some con
 3. All functions passed to  `match` are [[JavaScript named functions|named]]. This assumption can be made safer by a runtime validation when calling `match`.
 4. The contents of the match statements are all references to functions (or other procedures) but not themselves function declarations. Essentially I'm betting that it'll contain simple words instead of complex function bodies. This assumption is technically and I'm not sure there's a way to validate it at runtime. More likely this would be a better target for a lint rule. The worst case scenario here is that we have to bail out of the better error messaging and fallback to a generic reference. 
 
-First,
+First, let's talk about data structures. That's usually the right place to start in many technical design discussions. If a condition inside of a match statement fails, what information do we need about that condition? In my mind we need three things
+
+1. The name of the condition
+2. The _statement_ in which the condition occurred
 
 ## Reflecting on the project
 
@@ -320,7 +327,7 @@ I still need to think about parallel steps (because that's of course a thing). A
 
 Lazy execution wasn't actually a thing I planned in the beginning. Instead of a chaining api I had an array based api that I expressed in the beginning of these notes. I abandoned that approach for a chaining api because that api is just easier to type with [[TypeScript]]. Given that steps can be async I couldn't chain together calls how I wanted _and_ execute them as they're called. Instead I built up this mechanism of queuing work to be invoked by an `exec` function later. This actually worked out surprisingly well. The benefit of this approach (beyond letting me do async stuff and keep the chaining api) is that now procedures could be defined, passed around, and called later. 
 
-As an aside, I'm building this primarily for my own use to simplify CLI logic. I'd initially been inspired by [[Shawn (swyx)]]'s talk on [adaptive, intent-based cli state machines](https://www.youtube.com/watch?v=ZueoIYnHiaI) but I found when playing with [[xstate]] that that approach ultimately was incredibly verbose and complex. [[Finite state machine|Finite state machines]] are awesome, but there's some mental complexity layered on expression the state machine that increases the burden of understanding the core of what you're trying to accomplish. 
+As an aside, I'm building this primarily for my own use to simplify CLI logic. I'd initially been inspired by [[Shawn (swyx)]]'s talk on [adaptive, intent-based cli state machines](https://www.youtube.com/watch?v=ZueoIYnHiaI) but I found when playing with [[xstate]] that that approach ultimately was incredibly verbose and complex. [[Finite state machine|Finite state machines]] are awesome, but there's some mental complexity layered on the expression of the state machine that increases the burden of understanding the core of what you're trying to accomplish. The consc
 
 A feature I'm considering adding is the ability to place a marker in a procedure that can be conditionally returned to later. This, in a way, affords an [[Finite state machine|fsm]] like behavior without the conceptual complexity. 
 
