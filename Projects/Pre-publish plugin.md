@@ -4,7 +4,7 @@ I'm using [Obsidian Publish](https://obsidian.md/publish) to publish these notes
 
 ## Exploration
 
-Okay, so the publish plugin is built in to [[Obsidian]], which means anything that I do to it is undocumented and unsupported. I'll essentially be [[¶ monkey-patching]] it. 
+Okay, so the publish plugin is built in to [[Obsidian]], which means anything that I do to it is undocumented and unsupported. I'll essentially be [[💡 monkey-patching]] it. 
 
 Let's poke around at its insides a bit... 
 
@@ -123,7 +123,7 @@ I got a little sidetracked on this and started working on the [[procedure]] to m
 
 Getting back to this, I've made a bit of progress. Essentially I'm creating a meta-plugin here, that other plugins can interact with. So there are a few base things I need to do.
 
-1. When the publish plugin has loaded, [[¶ monkey-patching|monkey-patch]] the `apiRequest` function to be able to intercept/alter uploads and `apiUploadFile` to be able to hook into before/after the file is published
+1. When the publish plugin has loaded, [[💡 monkey-patching|monkey-patch]] the `apiRequest` function to be able to intercept/alter uploads and `apiUploadFile` to be able to hook into before/after the file is published
 2. When either of the above methods are called emit an event that other plugins can hook into hook into. I'll detail that more below.
 3. When this plugin is unloaded remove the monkey-patches and clean everything up.
 
@@ -149,7 +149,7 @@ That's really all there is to it.
 
 ### Monkey-patching safely
 
-It goes without saying that [[¶ monkey-patching]] is a potentially dangerous operation. _Especially_ if you don't clean up after yourself. If a user disables the publish-hooks plugin, we don't want their publishing to start failing!
+It goes without saying that [[💡 monkey-patching]] is a potentially dangerous operation. _Especially_ if you don't clean up after yourself. If a user disables the publish-hooks plugin, we don't want their publishing to start failing!
 
 Funnily enough, [[pjeby]] comes to the rescue again here. As I was looking at the source for [hotkey-helper](https://github.com/pjeby/hotkey-helper) I noticed it called this `around` function that it was... well, wrapping around built-in objects.
 
