@@ -89,3 +89,9 @@ _These are mostly private resources_
 [RC together docs](https://docs.rctogether.com/#introduction)
 [Profile settings](https://www.recurse.com/settings/general)
 [Summer 1 batch](https://www.recurse.com/directory?batch=Summer+1%2C+2021)
+
+### Meeting rooms
+
+#### The couches
+
+A place for folks to openly hang out and work together. In the RC office it's actually couches, but for my batch it's a section of Virtual RC/a zoom room.
