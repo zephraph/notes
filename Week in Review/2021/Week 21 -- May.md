@@ -12,4 +12,8 @@ I've had a 1-on-1 with a new Recursers pretty much every day over the week which
 
 We recorded episode 5 of [[devtools.fm]] on Tuesday with the [[storybook]] crew. I've also got [[Orta Therox|Orta]] lined up for this week's episode which I'm pretty excited about. 
 
-I struggled with my relationship with productivity over the week. I'm really rubbing up against tension between doing what I want to do versus doing what I think will be good for my growth as an engineer. They aren't necessarily the same thing. Also, I have this principle of [[Recurse#1 Completion is never the goal|Completion is never the goal]] that I feel like I'm struggling with a bit. There are some different veins here... I don't want to continue down a path that I feel like isn't serving me or feeling enriching. If it's a struglg
+I struggled with my relationship with productivity over the week. I'm really rubbing up against tension between doing what I want to do versus doing what I think will be good for my growth as an engineer. They aren't necessarily the same thing. Also, I have this principle of [[Recurse#1 Completion is never the goal|Completion is never the goal]] that I feel like I'm struggling with a bit. There are some different veins here... I don't want to continue down a path that I feel like isn't serving me or feeling enriching. If it's a _productive_ struggle then I _do_ want to keep going. I also *do* want to finish some things, you know? I feel the need to prove to myself that I can complete things...
+
+I'll keep thinking on it.
+
+I think that's most of what I'll cover for this week. I did a lot more work on [[procedure]] so definitely check that out and shoot me questions if you have them. You can always find my contact details on [my about page](https://just-be.dev/about).
