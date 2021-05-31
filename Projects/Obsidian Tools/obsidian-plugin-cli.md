@@ -143,8 +143,8 @@ export default procedure<Context>("install")
   .load(pluginRegistry)
   .match(
     [
-      [likelyGitHubPlugin, downloadFromGithub],
-      [pluginFoundInRegistry, downloadFromRegistry],
+      [likelyGitHubPlugin, installFromGithub],
+      [pluginFoundInRegistry, installFromRegistry],
     ],
     pluginNotFoundError
   );
