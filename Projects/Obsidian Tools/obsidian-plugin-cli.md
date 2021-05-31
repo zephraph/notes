@@ -124,3 +124,32 @@ export default procedure<Context>("promptForVault")
   ])
   .update("vaultPath", promptForVaultPathIfEmpty);
 ```
+
+---
+[[Daily Notes/2021-05-31|2021-05-31]]
+
+I've gotten more of the `install` [[procedure]] built out. 
+
+```ts
+export default procedure<Context>("install")
+  .validate("plugin", isPluginValid)
+  .match(
+    [
+      [noVaultProvided, promptForVault],
+      [isValidVaultProvided, formatVault],
+    ],
+    invalidVaultProvided
+  )
+  .load(pluginRegistry)
+  .match(
+    [
+      [likelyGitHubPlugin, downloadFromGithub],
+      [pluginFoundInRegistry, downloadFromRegistry],
+    ],
+    pluginNotFoundError
+  );
+```
+
+The new parts are only from the `.load` down. The last section is really about doing the actual installation. I'll note that I'd taken a _really_ long detour in getting the error handling for `promptForVault` inside of the `match` statement better. You can read more about that in [[procedure#Improving match error handling]].
+
+I had to [add WSL support]()
