@@ -9,14 +9,18 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 ## Principles to govern my time at RC
 
-1. **Completion is never the goal**
-	- I will work to learn and explore new areas of interest, but forgive myself for any project left undone. At the point in which a project or topic no longer serves me, I'll set it aside to explore something new.
-2. **Knowledge gained is better shared**
-	- I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
-3. **Community is key**
-	- The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself when it is offered.
-4. **Kindness in all things**
-	- I will approach people and problems with an open mind and an open heart. I will seek to understand before being understood. I will also endeavor to save some kindness for myself. To forgive myself for things undone, for motivation unfound, for potential unmet.
+### 1. Completion is never the goal
+
+ I will work to learn and explore new areas of interest, but forgive myself for any project left undone. At the point in which a project or topic no longer serves me, I'll set it aside to explore something new.
+	
+### 2. Knowledge gained is better shared
+ I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
+
+### 3. Community is key
+ The joy of human endeavor is sharing in the journey with those around you. I commit that the efforts of my peers are as important as my own. I will make the space to help lift up those around me. I will be humble and open to accepting help for myself when it is offered.
+	
+### 4. Kindness in all things
+ I will approach people and problems with an open mind and an open heart. I will seek to understand before being understood. I will also endeavor to save some kindness for myself. To forgive myself for things undone, for motivation unfound, for potential unmet.
 
 ## Habits I'd like to cultivate
 

@@ -12,4 +12,4 @@ I've had a 1-on-1 with a new Recursers pretty much every day over the week which
 
 We recorded episode 5 of [[devtools.fm]] on Tuesday with the [[storybook]] crew. I've also got [[Orta Therox|Orta]] lined up for this week's episode which I'm pretty excited about. 
 
-I struggled with my relationship with productivity over the week. I'm really rubbing up against tension between doing what I want to do versus doing what I think will be good for my growth as an engineer. They aren't necessarily the same thing. Also, I have this principle of [[Recurse#Principles to govern my time at RC]]
+I struggled with my relationship with productivity over the week. I'm really rubbing up against tension between doing what I want to do versus doing what I think will be good for my growth as an engineer. They aren't necessarily the same thing. Also, I have this principle of [[Recurse#1 Completion is never the goal|Completion is never the goal]] that I feel like I'm struggling with a bit. There are some different veins here... I don't want to continue down a path that I feel like isn't serving me or feeling enriching. If it's a struglg
