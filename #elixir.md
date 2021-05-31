@@ -1,1 +1,0 @@
-- The [[elixir]] slack channel at [[Artsy]]
