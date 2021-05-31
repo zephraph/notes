@@ -125,6 +125,8 @@ export default procedure<Context>("promptForVault")
   .update("vaultPath", promptForVaultPathIfEmpty);
 ```
 
+
+
 ---
 [[Daily Notes/2021-05-31|2021-05-31]]
 
@@ -153,6 +155,8 @@ export default procedure<Context>("install")
 The new parts are only from the `.load` down. The last section is really about doing the actual installation. I'll note that I'd taken a _really_ long detour in getting the error handling for `promptForVault` inside of the `match` statement better. You can read more about that in [[procedure#Improving match error handling]].
 
 I had to [add WSL support](https://github.com/zephraph/obsidian-tools/pull/46) to the vault code in `obsidian-utils` to get the `promptForVault` procedure working for me. I'm working on my windows game machine but using [[Windows Subsystem for Linux|WSL]] for development. That means the scripts are running in the linux subsystem but my vault is actually stored in Windows. 
+
+A problem that I'm working on right now is that the `vaults` value that's stored in `obsidian.json`
 
 
 
