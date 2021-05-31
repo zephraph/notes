@@ -1,0 +1,5 @@
+You'll notice many of my notes starting with specific emoji. These are organizational indicators to help hint at content and context of a specific file. 
+
+### Symbolic Overview
+
+- 💡 -- A concept  
