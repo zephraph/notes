@@ -10,4 +10,6 @@ The week started at a relatively low place. I'd struggled to get out of bed on M
 
 I've had a 1-on-1 with a new Recursers pretty much every day over the week which  injected some nice energy into the week. [[Recurse|RC]] has a regular 11am check-in which I've pretty consistently attended too. I'm finding having points of routine is a really important part of enjoying my weeks.
 
-We recorded episode 5 of [[devtools.fm]] on Tuesday with the [[storybook]] crew. I've also got [[Orta Therox|Orta]] lined up for this week's e
+We recorded episode 5 of [[devtools.fm]] on Tuesday with the [[storybook]] crew. I've also got [[Orta Therox|Orta]] lined up for this week's episode which I'm pretty excited about. 
+
+I struggled with my relationship with productivity over the week. I'm really rubbing up against tension between doing what I want to do versus doing what I think will be good for my growth as an engineer. They aren't necessarily the same thing. Also, I have this principle of [[Recurse#Principles to govern my time at RC]]
