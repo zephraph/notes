@@ -3,4 +3,5 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 ### Symbolic Overview
 
 💡 — A concept, idea, or definition
-📖— A book
+📖— A book that I am currently reading
+📘 — A book that I haven't started
