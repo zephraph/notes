@@ -125,7 +125,7 @@ export default procedure<Context>("promptForVault")
   .update("vaultPath", promptForVaultPathIfEmpty);
 ```
 
-
+Most of the underlying logic for this procedure ultimately lives in [obsidian-utils]()
 
 ---
 [[Daily Notes/2021-05-31|2021-05-31]]
