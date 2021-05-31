@@ -1,0 +1,1 @@
+The conceptual notion of continuously writing, 
