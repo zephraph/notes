@@ -1,1 +1,1 @@
-The conceptual notion of continuously writing, 
+The conceptual notion of planting the seeds of thought in a document and continuing grooming them by adding details
