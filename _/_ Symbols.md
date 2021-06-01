@@ -6,12 +6,10 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 | ---- | ------------------------------------------------- |
 | 💡   | A concept, idea, or definition                    |
 | 📖   | A reference to a book that I am currently reading |
-| 📘   |                                                   |
+| 📘   | A reference to a book that I haven't started      |
+| 📕   | A reference to a book that I have completed       |
+| 📚   | A collection of references to books or literature |
+| 📑   | Detailed notes about a resource I've read         |
+| 📍   | A geographical location                           |
+|      |                                                   |
 
-💡 — A concept, idea, or definition
-📖— A reference to a book that I am currently reading
-📘 — A reference to a book that I haven't started
-📕 — A reference to a book that I have completed
-📚 — A collection of references to books or literature
-📑 — Detailed notes about a resource I've read
-📍 — A geographical location
