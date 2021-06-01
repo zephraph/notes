@@ -22,7 +22,7 @@ Catch up chat w/ [[Nicolas Montaño|Nicolas]]. It was a rich conversation that I
  
  ## 3:15 pm
  
- Hung out quietly in the ...with friends zoom. Listened to the [last podcast episode](https://artsyengineeringradio.buzzsprout.com/1781859/8600736-19-humanizing-the-workplace) I participated in at [[Artsy]] w/ [[Steve Hicks]]. I meant to work on [[procedure]] but I just ended up on twitter and reading more about [[replay]]. 
+ Hung out quietly in the ...with friends zoom. Listened to the [last podcast episode](https://artsyengineeringradio.buzzsprout.com/1781859/8600736-19-humanizing-the-workplace) I participated in at [[Artsy]] w/ [[Steve Hicks]]. I meant to work on [[procedure]] but I just ended up on [[Twitter]] and reading more about [[replay]]. 
  
  ## 5:00 pm
  

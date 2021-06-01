@@ -36,7 +36,7 @@ Podcast editing in earnest. I added a [[Descript]] layer to my [ergodox layout](
 
 ## 4:00 pm
 
-Quick break to grab groceries and cook myself a sandwich for a _very_ late lunch. Browsing twitter I found two cool things
+Quick break to grab groceries and cook myself a sandwich for a _very_ late lunch. Browsing [[Twitter]] I found two cool things
 - https://blog.stackblitz.com/posts/introducing-webcontainers/
 - https://twitter.com/devongovett/status/1395401586503864326?s=12
 
