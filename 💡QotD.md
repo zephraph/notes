@@ -1,0 +1,1 @@
+An acronym meaning **Question of the day**
