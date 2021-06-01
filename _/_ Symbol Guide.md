@@ -16,5 +16,3 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 
 ### Emoji Resources
 - https://emojipedia.org/
-
-🌱
