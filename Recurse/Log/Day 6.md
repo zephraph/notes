@@ -17,7 +17,7 @@ Coffee chat w/ [[Sara Farquharson|Sara]]. Really lovely chat. Sara is working on
 Distractibility and accountability meeting
 
 - App: Momentum
-- [[📖Designing your life]]
+- [[📘Designing your life]]
 - [[💡 Eisenhower's urgency and importance principle]]
 
 ## 5:00 pm
