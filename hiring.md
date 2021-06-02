@@ -1,3 +1,3 @@
 - Hiring is an incredibly challenging process. I've been on both ends and it's a hard process to get right. I don't know exactly the right way to go, but I'd like to get better at it. 
 - **Resources**
-    - [ ] [[Screening developers should be easy]] by [[Alan Johnson]] [[Reading List]]
+    - [ ] [[Screening developers should be easy]] by [[👤 Alan Johnson]] [[Reading List]]
