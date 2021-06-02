@@ -28,7 +28,7 @@ Okay, so! New GitHub Action time?
 
 I borrowed the base action from [obsidian-tools](https://github.com/zephraph/obsidian-tools/blob/main/.github/workflows/release.yml) just because I'm familiar with that. 
 
-I deleted some of the bottom parts and sort of left it. I've had trouble focusing today and there's some specifics about GitHub actions that I probably need to jump into... but I just don't wanna? I know that it's a thing that I need to do that I'm procrastinating on so I'm going to use [[💡structured procrastination]] to encourage myself to hit the problem from a different angle. 
+I deleted some of the bottom parts and sort of left it. I've had trouble focusing today and there's some specifics about GitHub actions that I probably need to jump into... but I just don't wanna? I know that it's a thing that I need to do that I'm procrastinating on so I'm going to use [[💡 structured procrastination]] to encourage myself to hit the problem from a different angle. 
 
 ---
 
