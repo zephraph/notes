@@ -168,5 +168,5 @@ A problem that I'm working on right now is that the `vaults` value that's stored
 }
 ```
 
-In order to correctly use the vaules inside of WSL, I had to convert the paths. I added `windowsToWSLPath` and `isWSL` as functions in obsidian-utils to support this.
+In order to correctly use the values inside of WSL, I had to convert the paths. I added `windowsToWSLPath` and `isWSL` as functions in obsidian-utils to support this.
 
