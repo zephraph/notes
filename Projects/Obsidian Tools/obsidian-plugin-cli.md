@@ -156,15 +156,17 @@ The new parts are only from the `.load` down. The last section is really about d
 
 I had to [add WSL support](https://github.com/zephraph/obsidian-tools/pull/46) to the vault code in `obsidian-utils` to get the `promptForVault` procedure working for me. I'm working on my windows game machine but using [[Windows Subsystem for Linux|WSL]] for development. That means the scripts are running in the linux subsystem but my vault is actually stored in Windows. 
 
-A problem that I'm working on right now is that the `vaults` value that's stored in `obsidian.json`. The `vaults` value is an array of object descriptors about a vault. It looks something like this
+A problem that I'm working on right now is that the `vaults` value that's stored in `obsidian.json`. The `vaults` value is an array of object descriptors about a vault. It looks something like this on Windows.
 
 ```json
 {
   vaults: [{
-    
+    name: "C:\\Users\\User\\vault_name",
+	path: "C:\\Users\\User\\vault_name",
+	open: true
   }]
 }
 ```
 
-
+In order to correctly use the vaules inside of WSL, I had to convert the paths. I added `windowsToWSLPath` and `isWSL` as functions in obsidian-utils to support this.
 
