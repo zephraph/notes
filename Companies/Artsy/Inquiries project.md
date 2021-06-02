@@ -1,0 +1,25 @@
+- Project done by [[Purchase Team]] at [[Artsy]]
+- **Links**: [designs](https://www.figma.com/file/vtXzdPefblvRiAapA79fTh/Inquiries-Web?node-id=62%3A834), [epic](https://artsyproduct.atlassian.net/browse/PURCHASE-1850), [technical plan](https://www.notion.so/artsy/Bring-inquiry-conversations-to-artsy-net-517f1041982543cd99bd46492300b7a2)
+- **Work breakdown**
+    - Add tracking to messaging system
+    - **Mobile**
+        - Add notification count to menu icon
+        - Add inbox entry to mobile menu w/ notification count
+            - should be gated behind lab feature flag
+        - Conversations view updated view
+            - Includes data
+                - Artwork image, gallery name, last message, message count, new message count, timestamp
+        - Conversations view
+            - Build inquiry conversation header
+            - Build conversation component in [[Palette]]
+            - Build mobile message input in [[Palette]]
+        - Build inquiries detail view
+    - **Desktop**
+        - Add new inbox icon to header (with unread notification)
+        - Add menu to inbox icon with message views
+        - Build desktop layout grid view
+        - Integrate mobile inbox list
+        - Integrate mobile conversations view
+        - Integrate mobile details viewc
+    - **Email**
+        - Update inquiries response email to have new format
