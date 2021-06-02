@@ -14,6 +14,8 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 | 📍   | A geographical location                           |
 | 🗺    | A map detailing multiple location references      |
 | 👤   | A reference to a person                           |
+| ❔   | An open question                                  |
+| ❓   | An answered question                                                  |
 
 ### Emoji Resources
 - https://emojipedia.org/
