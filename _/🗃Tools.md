@@ -8,4 +8,4 @@
 - [chezmoi](https://github.com/twpayne/chezmoi) -- A tool for managing dotfiles
 - [blurhash](https://github.com/woltapp/blurhash) -- Generates blur placeholders for images
 - [clui](https://github.com/replit/clui) -- repl.it's approach to building a cli UI interface
-- [mrm](https://www.npmjs.com/package/mrm)
+- [mrm](https://www.npmjs.com/package/mrm) -- codemods for config files
