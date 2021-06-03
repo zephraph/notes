@@ -1,0 +1,2 @@
+- An engineer at [[Artsy]] on the [[Platform Team]]
+- **Tags** [[person]]

@@ -1,1 +1,0 @@
-- Ex employee at [[Artsy]], co-founder of [[seasons.nyc]]

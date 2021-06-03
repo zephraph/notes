@@ -1,1 +1,0 @@
-- Interviewed at [[Artsy]] for an android engineering role

@@ -1,2 +1,0 @@
-- Designer on the [[Purchase Team]] at [[Artsy]]
-- Previously at Squarespace

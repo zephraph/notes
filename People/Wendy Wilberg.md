@@ -1,2 +1,0 @@
-- Employee at [[Artsy]] on the [[Consumer Marketplace Team]]
-- **Tags** [[person]]
