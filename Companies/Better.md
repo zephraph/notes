@@ -1,5 +1,5 @@
 - A mortgage startup based in NYC that I talked to in 2019/2020
-- **Employees**  [[👤 Alan Johnson]] [[Devang]]
+- **Employees**  [[Alan Johnson]] [[Devang]]
 - Notes from call
     - Dave
         - Senior engineering manager
