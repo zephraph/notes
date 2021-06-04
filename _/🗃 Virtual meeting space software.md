@@ -6,6 +6,8 @@
 
 ## 3d space
 - https://www.roomkey.co/
+- https://spatial.io/
 
-## Textual spaces
+## Flat spaces
 - https://tandem.chat/
+- https://www.around.co
