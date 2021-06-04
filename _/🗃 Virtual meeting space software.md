@@ -7,6 +7,7 @@
 ## 3d space
 - https://www.roomkey.co/
 - https://spatial.io/
+- https://hubs.mozilla.com/
 
 ## Flat spaces
 - https://tandem.chat/
