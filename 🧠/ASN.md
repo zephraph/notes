@@ -3,4 +3,3 @@
     - A unique ASN is allocated to each AS for use in BGP routing. ASNs
  are important because the ASN uniquely identifies each network on the 
 Internet.
-※⁜
