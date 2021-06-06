@@ -9,9 +9,9 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 ## Principles to govern my time at RC
 
-### 1. When in doubt, build
+### 1. Build by default
 
-My ultimate aim
+Unstructured time can be hard. There are no set expectations, no metrics to hit, no definition of success. This is my time to be used for growth. If in the moment I experience self doubt and am paralyzed about what to do this is my reminder. I can always sit down and build something. 
 	
 ### 2. Knowledge gained is better shared
  I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
