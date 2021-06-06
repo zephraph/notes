@@ -9,9 +9,9 @@ I'll keep a running list of what I'm working on, learning, and thinking about he
 
 ## Principles to govern my time at RC
 
-### 1. Completion is never the goal
+### 1. When in doubt, build
 
- I will work to learn and explore new areas of interest, but forgive myself for any project left undone. At the point in which a project or topic no longer serves me, I'll set it aside to explore something new.
+My ultimate aim
 	
 ### 2. Knowledge gained is better shared
  I will strive to share as much as I learn in ways that are sustainable. I accept that not everything I learn will be correct or complete. In sharing, I open the door to correction or compounding knowledge in a way that benefits myself and others.
