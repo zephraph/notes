@@ -6,4 +6,26 @@ I took a step back and looked at the architecture of what's in [[obsidian-plugin
 
 ## Plan
 
-I'm going to use [[commander.js|commander]]'s 
+I'm going to use [[commander.js|commander]]'s [stand alone subcommands](https://github.com/tj/commander.js/#stand-alone-executable-subcommands) feature to build out the commands. Essentially this means I'll have a tiny stand alone app for every subcommand. It actually makes the structure really nice.
+
+For example, this is the entire current contents of the main file:
+
+```ts
+#!/usr/bin/env -S node -r esbuild-register
+
+import { program } from "commander";
+import pkg from "../../package.json";
+
+program.version(pkg.version);
+
+program.command("plugin", "Manage or develop an obsidian plugin");
+
+program.action(() => {
+  program.help();
+});
+
+program.parse(process.argv);
+
+```
+
+Notice the [[shebang]] at the top that references [[esbuild-register]]
