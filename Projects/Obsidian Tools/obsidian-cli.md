@@ -1,1 +1,3 @@
-After putting a lot of work into [[obsidian-plugin-cli]] I kind of realized that having a CLI tool is useful beyond just managing plugins. 
+After putting a lot of work into [[obsidian-plugin-cli]] I kind of realized that having a CLI tool is useful beyond just managing plugins. One of the things I've recently decided that I want to add is the ability to rename files (while keeping their references) outside of [[obsidian]]. To do that, I'll need to broaden the scope.
+
+I took a step back and looked at the architecture of what's in [[obsidian-plugin-cli]] so far. I'm using [[oclif]]
