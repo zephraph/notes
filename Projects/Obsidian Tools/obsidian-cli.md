@@ -1,0 +1,1 @@
+After putting a lot of work into [[obsidian-plugin-cli]] I kind of realized that having a CLI tool is useful beyond just managing plugins. 
