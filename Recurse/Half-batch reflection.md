@@ -12,5 +12,5 @@ I'd came into [[Recurse|RC]] with three areas to help govern my time:
 2. [[Recurse#Habits I'd like to cultivate]]
 	- I tried to keep this part simple because I didn't want to over-commit. I mostly did a good job right up until the last few weeks. Last week in particular I wrote little. I'm finding that I regret not taking a break between work and [[Recurse]]. I've lapsed into phases of feeling burned out again and have really had to step back and just rest. I've spent most of the last week and a half just reading. Overall I *am* glad I kept a limited commitment and I feel okay about my progress in adhering to it. Perhaps I can pick this back up to finish off the second half of my batch strong.
 3. [[Recurse#Projects of interest]]
-	- I honestly haven't dug into my projects of interest nearly as deep as I'd like. 
+	- I honestly haven't dug into my projects of interest nearly as deep as I'd like. I'd made a little progress on my [[Custom Mechanical Keyboard]], though my writing on the topic has faltered a lot. I need to go in and update a few key decisions I've made and my (limited) progress so far. 
 
