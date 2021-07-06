@@ -4,4 +4,5 @@ The idea here is to build an android launcher which adapts to the context an ind
 
 ## Features
 
-Configurable root screen that automatically changes based on a given context
+- Configurable root screen that automatically changes based on a given context
+- A set of widgets that can be added to a context screen 
