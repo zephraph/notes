@@ -1,0 +1,25 @@
+{
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "performant",
+    "journaling",
+    "prototypal",
+    "analytics",
+    "Tribeca",
+    "transpiler",
+    "ergodox",
+    "Distractibility",
+    "Aspirationally",
+    "customizable",
+    "Reusability",
+    "Recursers",
+    "Recurse",
+    "pilcrow",
+    "Kathrin"
+  ],
+  "vimMode": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_"
+}
