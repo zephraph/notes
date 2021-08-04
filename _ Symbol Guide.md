@@ -6,8 +6,8 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 | ---- | ------------------------------------------------- |
 | 💡   | A concept, idea, or definition                    |
 | 🗃    | An index of notes                                 |
-| 📘   | A reference to a book that I haven't started      |
-| 📗   | A fictional book     |
+| 📘   | A non-fiction book                                |
+| 📗   | A fictional book                                  |
 | 📚   | A collection of references to books or literature |
 | 📑   | Detailed notes about a resource I've read         |
 | 📍   | A geographical location                           |
