@@ -1,16 +1,6 @@
 [
-  "obsidian-git",
   "calendar",
-  "hotkeysplus-obsidian",
-  "nldates-obsidian",
-  "periodic-notes",
   "obsidian-excalidraw-plugin",
-  "oz-image-plugin",
-<<<<<<< HEAD
+  "nldates-obsidian",
   "table-editor-obsidian"
-=======
-  "table-editor-obsidian",
-  "supercharged-links-obsidian",
-  "obsidian-rollover-daily-todos"
->>>>>>> 92322b0518fea06b50095864e58c405d5b248b1f
 ]
