@@ -21,4 +21,9 @@ I like this generally because it reduces a lot of the boilerplate from making se
 
 It's not without it's own trade-offs, of course. The implicit nature of the API call site might confuse folks who aren't familiar with that functionality. Also, you'd have the same limitations as any [[Remote Procedure Call|RPC]] interface, the primary being that all arguments _must_ be serializable. Lastly, it probably goes without saying, while this would be great for building a backend-for-the-frontend, it wouldn't make for a very nice sharable api. 
 
-## Remix -- Leverage forms fo
+## Remix -- Leverage form API for data uploads
+
+docs: https://docs.remix.run/v0.17/tutorial/6-actions/
+
+[[Remix]] leverages good ol' html forms. In a remix route you can export an `action` function that'll be the primary handler for html forms contained within the route. If you don't want to do client based JS data submissions, that's all you need! If you would like something a little more dynamic (and to avoid a form's page refresh) then you can use their `Form` component which has the same api as the normal html form but with the added benefit that you can use a ````
+usePendingFormSubmit`
