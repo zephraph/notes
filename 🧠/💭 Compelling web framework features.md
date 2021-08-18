@@ -4,4 +4,4 @@ This is a working list (in no particular order) of features of web frameworks or
 
 Docs: https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration
 
-When dealing with [[static site generation]]
+[[static site generation|Static site generation]] classically suffe
