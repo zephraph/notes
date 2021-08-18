@@ -4,4 +4,4 @@ This is a working list (in no particular order) of features of web frameworks or
 
 Docs: https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration
 
-[[static site generation|Static site generation]] classically suffe
+[[static site generation|Static site generation]] classically suffers from ever lengthening build times the more pages that are being generated. Imagine having a recipe site with 50k recipes. If those pages don't change often and you'd like them to be statically generated you'll pay the cost of that generation at build time. It needlessly lengthen deploys. To solve for this, [[]]
