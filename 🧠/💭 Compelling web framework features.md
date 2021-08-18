@@ -12,6 +12,7 @@ Arguably you could get a similar effect just using CDN caching with the right ca
 
 docs: https://blitzjs.com/docs/why-blitz#2-data-layer
 code:
-- 
+-  [blitz-rpc-client](https://github.com/blitz-js/blitz/blob/f6354d2dd5928f34c331377c1fe9b406b3940429/nextjs/packages/next/build/babel/plugins/blitz-rpc-client.ts) 
+- [blitz-rpc-server-transform](https://github.com/blitz-js/blitz/blob/f6354d2dd5928f34c331377c1fe9b406b3940429/nextjs/packages/next/build/babel/plugins/blitz-rpc-server-transform.ts)
 
 Blitz allows client code to _directly_ import server code. At build time there's a babel plugin that replaces both the server definition and the client call with an [[Remote Procedure Call|RPC]] interface. 
