@@ -11,5 +11,7 @@ Arguably you could get a similar effect just using CDN caching with the right ca
 ## Blitz.js -- Import server functions on the client
 
 docs: https://blitzjs.com/docs/why-blitz#2-data-layer
+code:
+- 
 
-Blitz allows client code, like a react component, to _directly_ import server code. At build time there's a babel plugin that 
+Blitz allows client code to _directly_ import server code. At build time there's a babel plugin that replaces both the server definition and the client call with an [[Remote Procedure Call|RPC]] interface. 
