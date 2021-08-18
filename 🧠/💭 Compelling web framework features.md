@@ -16,3 +16,7 @@ code:
 - [blitz-rpc-server-transform](https://github.com/blitz-js/blitz/blob/f6354d2dd5928f34c331377c1fe9b406b3940429/nextjs/packages/next/build/babel/plugins/blitz-rpc-server-transform.ts)
 
 Blitz allows client code to _directly_ import server code. At build time there's a babel plugin that replaces both the server definition and the client call with an [[Remote Procedure Call|RPC]] interface. 
+
+I like this generally because it reduces a lot of the boilerplate from making server calls and you get a fully typed API for practically free. 
+
+It's not without it's own trade-offs, of course. The implicit nature of the API call site might confuse folks who aren't familiar with that functionality. Also, you'd have the same limitations as any [[Remote Procedure Call|RPC]] interface, the primary being that all arguments _must_ be serializable. Lastly, it probably goes without saying, while this would be great for building a backend-for-the-frontend, it wouldn't make for a very nice sharable api. 
