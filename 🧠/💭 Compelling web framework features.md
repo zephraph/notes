@@ -12,3 +12,4 @@ Arguably you could get a similar effect just using CDN caching with the right ca
 
 docs: https://blitzjs.com/docs/why-blitz#2-data-layer
 
+Blitz allows client code, like a react component, to _directly_ import server code. At build time there's a babel plugin that 
