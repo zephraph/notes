@@ -10,3 +10,5 @@ Arguably you could get a similar effect just using CDN caching with the right ca
 
 ## Blitz.js -- Import server functions on the client
 
+docs: https://blitzjs.com/docs/why-blitz#2-data-layer
+
