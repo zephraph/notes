@@ -4,7 +4,7 @@ You'll notice many of my notes starting with specific emoji. These are organizat
 
 | Icon | Purpose                                           |
 | ---- | ------------------------------------------------- |
-| 💡   | A concept, idea, or definition                    |
+| 💡   | A concept, theory, or definition                  |
 | 🗃    | An index of notes                                 |
 | 📘   | A non-fiction book                                |
 | 📗   | A fictional book                                  |
