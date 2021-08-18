@@ -31,4 +31,16 @@ docs: https://docs.remix.run/v0.17/tutorial/6-actions/
 
 docs: [component hydration](https://docs.astro.build/core-concepts/component-hydration#hydrate-interactive-components)
 
-[[Astro]] is unique. It's probably the framework that I'm most excited about currently that I feel is one of the best responses 
+[[Astro]] is unique. It's probably the framework that I'm most excited about currently that I feel is one of the best responses to how we can effectively build sites, not apps. 
+
+By default, [[Astro]] includes (effectively) no client side JavaScript. All components are server side rendered by default. If you want it to be interactive on the client you must tell [[Astro]] (at the callsite of the component) how you want it [[hydration (web)|hydrated]]. The current choices are once the page has loaded, when the main thread is idle, when the component is visible, or when the page is at a certain breakpoint. 
+
+It looks something like this
+
+```
+---
+import { Sidebar } from './Sideb'
+---
+<section>
+</section>
+```
