@@ -4,4 +4,8 @@ We all paid the price because we've been separated for so long. I'm asking you t
 
 I want to have my family back. I play tennis in Brazil and I want to have mom and daddy David to watch. I know he's been present, but I want to be able to wake up and have fun cakes he made for me. I also dream that we'll do things like a normal family: wake up, go to church together, laugh at the dogs. I always think about their love: if they're separated for that long and still together. I hear my mom laugh and he laugh when he call. 
 
+I want to go back, go to college, and be a good citizen. I hope that one day I'll be able to help as a citizen.
+
 That's why I ask you guys to forgive my mom. We've all paid for it. I ask that you let me have a normal life.  I love my mom and step-dad. God bless. 
+
+* I know Papa is sick. I don't have any grandparents anymore. He's the only one I still have and I wish I could see him before he passes away. I wish I could see his smile one more time. 
