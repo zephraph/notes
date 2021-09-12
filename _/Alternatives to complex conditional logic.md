@@ -4,4 +4,4 @@ The solitaire game is keyboard driven and stores a highlight state. When the use
 
 Current technologies I'm vaguely aware of:
 
-State machines / state
+- State machines / state charts
