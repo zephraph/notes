@@ -11,5 +11,6 @@
   "obsidian-plugin-sync",
   "obsidian-plugin-prettier",
   "obsidian-rollover-daily-todos",
-  "supercharged-links-obsidian"
+  "supercharged-links-obsidian",
+  "templater-obsidian"
 ]
