@@ -20,4 +20,7 @@ alias: RFD 192
 
 - Defines [[identity metadata]]
 - Uses [unique partial indexes](https://www.cockroachlabs.com/docs/v21.1/partial-indexes#unique-partial-indexes)
+	- i.e. instance uses `project_id` and `name` together
+	- is unique on that combination
+	- partial means only some rows are indexed, i.e. when `time_deleted` is null
 - 
