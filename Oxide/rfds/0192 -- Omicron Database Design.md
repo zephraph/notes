@@ -9,5 +9,10 @@ alias: RFD 192
 
 # Modeling control plane data
 
-- This section mentions "VPCs are useful for some of our examples because they’re created synchronously." Why arce VPCs 
+- This section mentions "VPCs are useful for some of our examples because they’re created synchronously." Why are VPCs created synchronously?
+	- Mentions checking out [[0021 -- User networking api|RFD 21]] for more info on VPCs
+- Are we building organizations into Nexus?
+- Pagination
+	- enumeration should include items present in the scan but not what was changed during the scan
+	- must be bounded time
 
