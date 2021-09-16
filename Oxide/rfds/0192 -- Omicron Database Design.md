@@ -19,3 +19,4 @@ alias: RFD 192
 ## Modeling a collection
 
 - Defines [[identity metadata]]
+- 
