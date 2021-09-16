@@ -19,4 +19,5 @@ alias: RFD 192
 ## Modeling a collection
 
 - Defines [[identity metadata]]
+- Uses [unique partial indexes](https://www.cockroachlabs.com/docs/v21.1/partial-indexes#unique-partial-indexes)
 - 
