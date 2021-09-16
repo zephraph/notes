@@ -1,0 +1,1 @@
+The `id`, `name`, `description`, `time_modified`, and `time_created` columns are prescribed by [[0004|RFD 4]]

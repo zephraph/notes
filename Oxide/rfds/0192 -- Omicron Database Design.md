@@ -16,3 +16,6 @@ alias: RFD 192
 	- enumeration should include items present in the scan but not what was changed during the scan
 	- must be bounded time
 
+## Modeling a collection
+
+- Defines [[identity metadata]]
