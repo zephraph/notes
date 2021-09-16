@@ -2,6 +2,8 @@
 alias: RFD 192
 ---
 
+https://rfd.shared.oxide.computer/rfd/0192
+
 # Goals
 
 - Calls out [[0048 -- Control plane requirements|RFD 48]] mentioning the API should be strongly consistent
