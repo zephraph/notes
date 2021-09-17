@@ -29,6 +29,15 @@ https://rfd.shared.oxide.computer/rfd/0192
 ## Use of foreign keys
 
 - Foreign keys can have a performance impact by requiring the db to check two tables in order to run a query
-- Does this still ne
+- Does the below still need to be addressed?
 > Referential integrity also requires that if we delete a row in the foreign table, we must ensure that there are no rows in this table that reference it. It would be possible to do this efficiently with our unique index by name. Does CockroachDB use that? We would really want to verify this before switching to using explicit foreign keys to avoid seemingly innocuous operations generating very expensive scans. We’d also want to make sure we understand (and carefully choose) the behavior of operations like "DELETE" when foreign keys are used.
 
+## Soft deletes
+
+- separates row removal from other potentially expensive consequences of removing the row
+- `time_deleted` is the uniform property to enforce soft deletes
+- Eventually will remove dead rows, possibly storing them in a log file
+
+# Querying the database
+
+## General notes
