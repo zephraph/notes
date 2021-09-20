@@ -6,7 +6,7 @@
 - [x] [[Anna Carey]]
 - [x] [[Anson Wang]]
 - [x] [[Ashley Jelks]]
-- [ ] [[Barry Hoggard]] - in person
+- [x] [[Barry Hoggard]] - in person
 - [x] [[Brian Beckerle]]
 - [x] [[Cameron Rollheiser]]
 - [x] [[Christina Thompson]]
@@ -15,13 +15,13 @@
 - [x] [[Damon Zucconi]]
 - [x] [[David Sheldrick]]
 - [x] [[Devon Blandin]]
-- [ ] [[Erik Stockmeier]] - in person
+- [x] [[Erik Stockmeier]] - in person
 - [x] [[Guillaume Delgutte]]
 - [x] [[Isac Petruzzi]]
 - [x] [[Jackie Potts]]
 - [x] [[Jian Xu]]
 - [x] [[Joel Rosenblatt]]
-- [ ] [[Joey Aghion]]
+- [ ] [[Joey Aghion]] #someday
 - [x] [[Jon Allured]]
 - [x] [[Lily Pace]]
 - [x] [[Matt Dole]]
@@ -36,6 +36,6 @@
 ## Todo
 
 - [x] Send an email to pdde@ to let them know about the intent to leave the company within 2 weeks of resignation date so that we can properly plan the transition.
-- [ ] Pair with Sarah on offboarding tech
+- [x] Pair with Sarah on offboarding tech
 - [x] Goodbye email can be sent to close collaborators and teams within 2 weeks of final day.
-- [ ] Return computer and building badge
+- [x] Return computer and building badge

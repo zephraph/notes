@@ -3,20 +3,20 @@
 ### Inherits from DefaultSitemapJob
 
 - [x] ArticleSitemapJob.scala
-- [ ] ArtistImageSitemapJob.scala
+- [x] ArtistImageSitemapJob.scala
 - [x] ArtistSeriesSitemapJob.scala
 - [x] ArtistSitemapJob.scala
 - [x] ArtworkSitemapJob.scala
 - [x] CitySitemapJob.scala
 - [x] CollectSitemap.scala
-- [ ] DefaultSitemapJob.scala
+- [x] DefaultSitemapJob.scala
 - [x] FairSitemapJob.scala
 - [x] FeatureSitemapJob.scala
-- [ ] GenericSitemapJob.scala
+- [x] GenericSitemapJob.scala
 - [x] GeneSitemapJob.scala
-- [ ] ImageSitemapJob.scala
+- [x] ImageSitemapJob.scala
 - [x] PartnerSitemapJob.scala
-- [ ] README.md
+- [x] README.md
 - [x] ShowSitemapJob.scala
 - [x] TagSitemapJob.scala
 - [x] VideoSitemapJob.scala

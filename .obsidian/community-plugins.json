@@ -10,8 +10,8 @@
   "periodic-notes",
   "obsidian-plugin-sync",
   "obsidian-plugin-prettier",
-  "obsidian-rollover-daily-todos",
   "supercharged-links-obsidian",
   "templater-obsidian",
-  "quickadd"
+  "quickadd",
+  "obsidian-vault-changelog"
 ]
