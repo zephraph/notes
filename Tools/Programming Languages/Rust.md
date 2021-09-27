@@ -1,3 +1,8 @@
+## Notes
+
+- Automatically imports stuff from [prelude](https://doc.rust-lang.org/stable/std/prelude/index.html) into scope
+- 
+
 ## Errors and how to fix them
 
 ---
