@@ -1,7 +1,7 @@
 ## Notes
 
 - Automatically imports stuff from [prelude](https://doc.rust-lang.org/stable/std/prelude/index.html) into scope
-- 
+- Use `cargo doc --open` to generate docs for current project and its dependencies and open them in the browser
 
 ## Errors and how to fix them
 
