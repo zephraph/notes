@@ -9,7 +9,7 @@ There was a conversation on [[Daily Notes/2021-09-29|2021-09-29]] during water c
 
 - http://dtrace.org/blogs/bmc/2020/10/11/rust-after-the-honeymoon/
 
-Essentially `no_std` does what it says... it doesn't include the standard library which makes a lot of br
+Essentially `no_std` does what it says... it doesn't include the standard library which makes a lot of broad assumptions about underlying systems which can't be made in embedded systems. 
 
 ## Errors and how to fix them
 
