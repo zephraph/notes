@@ -3,6 +3,14 @@
 - Automatically imports stuff from [prelude](https://doc.rust-lang.org/stable/std/prelude/index.html) into scope
 - Use `cargo doc --open` to generate docs for current project and its dependencies and open them in the browser
 
+### no_std
+
+There was a conversation on [[Daily Notes/2021-09-29|2021-09-29]] during water cooler where [[Bryan]] mentioned `no_std` in rust being an incredibly important feature. There's a section linked in the article below.
+
+- http://dtrace.org/blogs/bmc/2020/10/11/rust-after-the-honeymoon/
+
+Essentially `no_std` does what it says... it doesn't include the standard library which makes a lot of br
+
 ## Errors and how to fix them
 
 ---
