@@ -7,7 +7,6 @@
 	- Direct user feedback
 	- Where/how feedback is shared
 - [  ] Write RFD on the state of OpenAPI at Oxide
-- [x] Updated pinned omicron version
 - [ ] FTS on RFD site
 - [ ] Setup server to replace nginx in console docker container
 - [ ] Add detailed docs to omicron
