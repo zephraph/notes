@@ -12,4 +12,5 @@
 - [ ] Setup server to replace nginx in console docker container
 - [ ] Add detailed docs to omicron
 - [ ] Finish first four chapters of rust book
+- [ ] Write a blog post on codemods with jscodeshift
 
