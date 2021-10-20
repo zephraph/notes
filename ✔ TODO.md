@@ -12,4 +12,10 @@
 - [ ] Add detailed docs to omicron
 - [ ] Finish first four chapters of rust book
 - [ ] Write a blog post on codemods with jscodeshift
-
+- [ ] Write a blog post on adding custom documentation indexing
+	- https://github.com/meilisearch/docs-searchbar.js/issues/40#issuecomment-937337291
+- [ ] send an email to all about RFCs that might not be in the right state
+- [ ] RFD outlining problems for versioning
+	- [ ] Use matrix table, old client, new client, old server, new server for different cases
+	- [ ] Pointing out that we want to ensure we fail with invalid submissions
+	- 
