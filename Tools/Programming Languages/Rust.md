@@ -21,3 +21,11 @@ thread 'rustc' panicked at 'assertion failed: `(left == right)`
 ```
 
 Fix documented in the [rust lang blog](https://blog.rust-lang.org/2021/05/10/Rust-1.52.1.html). I encountered this when building [[omicron]]-common and fixed it by running `cargo clean` to delete the incremental compiler cache.
+
+## Type State
+
+Encoding the state as a part of the type. First discovered via [this video](https://youtu.be/bnnacleqg6k?t=2023) shared by [[David Crespo]] on [twitter](https://twitter.com/davidcrespo/status/1456976507146887169).
+
+Related resources
+
+- [The Typestate Pattern in Rust](http://cliffle.com/blog/rust-typestate/) by [[Cliff Biffle]]
