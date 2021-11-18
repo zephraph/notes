@@ -21,5 +21,6 @@
   ],
   "vimMode": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "_"
+  "newFileFolderPath": "_",
+  "livePreview": true
 }
