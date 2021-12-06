@@ -8,9 +8,6 @@
 	- Where/how feedback is shared
 - [  ] Write RFD on the state of OpenAPI at Oxide
 - [ ] FTS on RFD site
-- [ ] Setup server to replace nginx in console docker container
-- [ ] Add detailed docs to omicron
-- [ ] Finish first four chapters of rust book
 - [ ] Write a blog post on codemods with jscodeshift
 - [ ] Write a blog post on adding custom documentation indexing
 	- https://github.com/meilisearch/docs-searchbar.js/issues/40#issuecomment-937337291
