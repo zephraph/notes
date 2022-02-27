@@ -1,0 +1,15 @@
+- Kubernetes (no repo yet) 
+	- Implement Cloud Provider interface: https://github.com/kubernetes/cloud-provider (Bare minimum) 
+	- Container storage interface: https://kubernetes-csi.github.io/docs/drivers.html 
+		- We need this after the cloud provider interface 
+	- Packer (no repo yet) 
+		- Auth with service account/api token 
+		- Capability of building custom images in a project 
+	- Terraform (no repo yet) 
+		- Bare minimum all the necessary resources should be able to be configured via terraform 
+		- Auth with service account/api token 
+	- GitHub Actions (no repo yet) 
+		- Like these but for us: https://github.com/google-github-actions/auth 
+			- authenticates via service account, we should do something like their “Workload Identity Federation” after our initial MVP, but service account and/ or API token for now 
+			- https://github.com/google-github-actions/setup-gcloud installs command line tool and sets default project etc in the environment 
+			- Put these into one GitHub Action, it is super annoying cloud uses two…
