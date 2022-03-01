@@ -1,3 +1,6 @@
+---
+alias: Tasks
+---
 ## TODO
 - [ ] Publish `@oxide/ui` package
 - [ ] Write RFD about feedback mechanisms ^702746

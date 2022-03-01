@@ -1,4 +1,4 @@
 - **Info**
     - **Employer**: [[Artsy]]
     - **Team**: [[Purchase Team]]
-- **Tags** [[person]]
+- **Tags** [[_/person]]

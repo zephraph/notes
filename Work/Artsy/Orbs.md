@@ -1,2 +1,0 @@
-- A repo containing [[Artsy]]'s [[CircleCI]] configuration in reusable configuration packages. 
-- [[Orbs]] are published to the [orb registry](https://circleci.com/orbs/registry/)

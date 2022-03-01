@@ -4,4 +4,4 @@
     - **Employer**: [[Artsy]]
     - **Relationship**: My manager
     - **Team**: [[Purchase Team]]
-- **Tags** [[person]]
+- **Tags** [[_/person]]

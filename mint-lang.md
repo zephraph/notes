@@ -1,2 +1,0 @@
-- https://www.mint-lang.com/
-- A really interesting front-end focused programming language

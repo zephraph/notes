@@ -2,4 +2,4 @@
 - **Info**
     - **Links**
         - [on-boarding issue](https://github.com/artsy/potential/issues/314)
-- **Tags** [[person]]
+- **Tags** [[_/person]]

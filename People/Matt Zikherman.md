@@ -1,2 +1,2 @@
 - Employee at [[Artsy]] on the [[Platform Team]]
-- **Tags** [[person]]
+- **Tags** [[_/person]]

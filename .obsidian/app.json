@@ -22,5 +22,7 @@
   "vimMode": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "_",
-  "livePreview": true
+  "livePreview": true,
+  "legacyEditor": false,
+  "communityPluginSortOrder": "release"
 }

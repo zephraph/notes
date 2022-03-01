@@ -1,1 +1,1 @@
-- **Tags** [[person]]
+- **Tags** [[_/person]]

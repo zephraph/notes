@@ -1,0 +1,2 @@
+- The New York Times. A newspaper organization with an interesting tech presence. 
+- [[An ❤️ ]] works there
