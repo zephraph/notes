@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3fdcdad1fd0f0910",
+        "id": "dc5a47c077639383",
         "type": "tabs",
         "children": [
           {
-            "id": "ce2414c4746a57e9",
+            "id": "963930ed3e3e523d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "programming while blind.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "programming while blind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "programming while blind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,17 +126,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ce2414c4746a57e9",
+  "active": "963930ed3e3e523d",
   "lastOpenFiles": [
+    "Tools/postgres.md",
+    "personal-site.md",
+    "🧠/future of the terminal.md",
+    "Blog/Building tools with empathy.md",
+    "📦 Archive/Past endeavours/GraphLog/Startup School.md",
     "Welcome to my notes.md",
-    "GraphLog.md",
-    "📦 Archive/Artsy/Ginger.md",
-    "📦 Archive/Artsy/frontend practice hour.md",
-    "Daily Notes/2020-01-27.md",
-    "future of the terminal.md",
-    "Building tools with empathy.md",
-    "_ Symbol Guide.md",
-    "Exporting and Importing from IndexedDB 7f6c45488db841edb25ebea29ad5022a/Untitled 1.png.md",
-    "Exporting and Importing from IndexedDB 7f6c45488db841edb25ebea29ad5022a/Untitled.png.md"
+    "Assets/Runes with ring example.png",
+    "Assets/obsidian-sources-navigator.png",
+    "Assets/obsidian-publish-plugin-console.png",
+    "Assets/obisdian-pre-publish-api-upload-breakpoint.png"
   ]
 }

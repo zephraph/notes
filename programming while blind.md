@@ -29,3 +29,5 @@ user you can hit me up for tool recommendations. My email is my username
     - On OSX, `llvm` takes a _really_ long time to build. You want to make sure to avoid that. The `llvm` bottle from `brew` requires `Xcode CLT` to be installed.
     - `XCode CLT` is `XCode's Command Line Toolkit` which can be downloaded from [apple](https://developer.apple.com/download/more/)
     - To see if you have CLT installed run `brew config`
+
+

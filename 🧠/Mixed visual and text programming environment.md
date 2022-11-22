@@ -1,3 +1,7 @@
+---
+tags: thought
+---
+
 - functions stored in individual files
 - programming on a canvas
 - create a new node
