@@ -23,5 +23,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "_",
   "livePreview": true,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "communityPluginSortOrder": "download"
 }

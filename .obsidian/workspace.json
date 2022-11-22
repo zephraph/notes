@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "c0d1809d83130d87",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca8d59123cba62c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bf6273ff88eaa74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📚/🗃 Virtual meeting space software.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ddb06d6d77e944c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "27d56bccdd6cdba1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79c4bca72de587c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14094f5de3d888c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "702746",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1143f35b001fee0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cab36509db6fba7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd12da56546498e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "534324f61a27679b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "📚/🗃 Virtual meeting space software.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5f9dfa19b3d442eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "📚/🗃 Virtual meeting space software.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "070085b1b3966028",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "79c4bca72de587c9",
+  "lastOpenFiles": [
+    "_/Content Addressability and the GraphOS.md",
+    "📚/🗃 Virtual meeting space software.md",
+    "📚/🗃 WASM Frontend Frameworks.md",
+    "🧠/💡 JavaScript named functions.md",
+    "🧠/💡 Hydration (web).md",
+    "🧠/💡 Finite state machine.md",
+    "Ideas/Life OS.md",
+    "Meetups/Svelte Society.md",
+    "Oxide/rfds/0004.md",
+    "Oxide/rfds/0003 -- Engineering Hiring Process.md"
+  ]
+}

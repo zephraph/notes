@@ -15,4 +15,6 @@
 ## Flat spaces
 - https://tandem.chat/
 - https://www.around.co
+- https://pesto.app/
+- https://getteamy.com/
 
