@@ -1,0 +1,2 @@
+- Tech lead at [[Discovery]] on the connected services team
+- **Tags** [[_/person]]

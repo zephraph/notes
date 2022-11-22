@@ -1,0 +1,4 @@
+---
+alias: Nicolas
+tags: recurse
+---

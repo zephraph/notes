@@ -1,4 +1,0 @@
-- Date: [[January 23rd, 2020]]
-- Primary metric
-    - Weeks till launch...?
-- That was... kind of a waste of time

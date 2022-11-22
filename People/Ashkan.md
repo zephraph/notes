@@ -1,4 +1,0 @@
-- **Info**
-    - **Employer**: [[Artsy]]
-    - **Team**: [[Purchase Team]]
-- **Tags** [[person]]

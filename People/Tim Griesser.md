@@ -1,2 +1,0 @@
-- Employee at [[Cypress]] and co-founder with me on [[GraphLog]]
-- **Tags** [[person]]

@@ -1,2 +1,0 @@
-- Employee at [[Artsy]], formerly at [[Code Climate]]
-- **Tag** [[person]]

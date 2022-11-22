@@ -55,3 +55,8 @@ _Harrison was the [[Harrison's Resume#^f33cea|first hire at Respondly]] and [[Ha
 ## Product
 
 - _The Console UI doesn't have access to traditional analytics given that we can't just send data back from customer data centers. How would you go about discovering product improvements?_
+
+
+
+---
+Performance was as much an organizational issue as it was a technical issue. 

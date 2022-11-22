@@ -1,0 +1,2 @@
+- articles
+    - [ ] https://interrupt.memfault.com/blog/i2c-in-a-nutshell [[Reading List]]
