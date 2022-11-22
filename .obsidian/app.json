@@ -24,5 +24,6 @@
   "newFileFolderPath": "_",
   "livePreview": true,
   "legacyEditor": false,
-  "communityPluginSortOrder": "release"
+  "communityPluginSortOrder": "download",
+  "communityThemeSortOrder": "download"
 }

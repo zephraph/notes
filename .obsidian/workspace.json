@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "fc2fabc243d7425e",
+    "type": "split",
+    "children": [
+      {
+        "id": "42bd754a51fee23b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f2746b13f4c9a0d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16e3fb12d26ccf41",
+    "type": "split",
+    "children": [
+      {
+        "id": "149d07588ec079fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5471f1c271b2b50a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gratuitous",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7cb2adf93df9be82",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee6703f954d622a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249
+  },
+  "right": {
+    "id": "bf3fec014e90d96e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5b51e115ddda00a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c521134931bdbe74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_/💭 Generic vs Perscriptive Components.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "abd2fe7a7908bf9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_/💭 Generic vs Perscriptive Components.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "206de0f4c93ca45c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ee6703f954d622a6",
+  "lastOpenFiles": [
+    "_/Content Addressability and the GraphOS.md",
+    "Research/SP 001 - Inverting the incentives.md",
+    "Research/SP 00X - Anatomy of a service.md",
+    "Research/SP 000 - We deserve a better smartphone.md",
+    "🗄️ Collections/🗃 Virtual meeting space software.md",
+    "🗄️ Collections/🗃TUI.md",
+    "🗄️ Collections/🗃Tools.md",
+    "🗄️ Collections/🗃Acronyms and Abbreviations.md",
+    "🗄️ Collections/🗃 Whitepapers.md",
+    "🗄️ Collections/🗃 WASM Frontend Frameworks.md"
+  ]
+}
