@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8d59123cba62c2",
+        "id": "3fdcdad1fd0f0910",
         "type": "tabs",
         "children": [
           {
-            "id": "cdf2e1c479b5af83",
+            "id": "ce2414c4746a57e9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "702746",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,17 +119,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "cdf2e1c479b5af83",
+  "active": "ce2414c4746a57e9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "📚/🗃 Virtual meeting space software.md",
-    "_/Content Addressability and the GraphOS.md",
-    "📚/🗃 WASM Frontend Frameworks.md",
-    "🧠/💡 JavaScript named functions.md",
-    "🧠/💡 Hydration (web).md",
-    "🧠/💡 Finite state machine.md",
-    "Ideas/Life OS.md",
-    "Meetups/Svelte Society.md",
-    "Oxide/rfds/0004.md"
+    "Welcome to my notes.md",
+    "GraphLog.md",
+    "📦 Archive/Artsy/Ginger.md",
+    "📦 Archive/Artsy/frontend practice hour.md",
+    "Daily Notes/2020-01-27.md",
+    "future of the terminal.md",
+    "Building tools with empathy.md",
+    "_ Symbol Guide.md",
+    "Exporting and Importing from IndexedDB 7f6c45488db841edb25ebea29ad5022a/Untitled 1.png.md",
+    "Exporting and Importing from IndexedDB 7f6c45488db841edb25ebea29ad5022a/Untitled.png.md"
   ]
 }
