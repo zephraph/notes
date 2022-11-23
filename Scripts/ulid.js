@@ -147,23 +147,40 @@ function detectPrng(allowInsecure = false, root) {
 //   };
 // }
 
+const metadata = new Proxy(
+  {},
+  {
+    get: (_, prop) => {
+      return globalThis.__ulid__?.[prop];
+    },
+    set: (_, prop, value) => {
+      globalThis.__ulid__ ??= {};
+      globalThis.__ulid__[prop] = value;
+    },
+  }
+);
+
 module.exports = (function monotonicFactory(currPrng) {
   if (!currPrng) {
     currPrng = detectPrng();
   }
-  let lastTime = globalThis.__ulid__ || 0;
-  let lastRandom;
-  console.log("lastTime", lastTime);
+  metadata.lastTime ??= 0;
+  console.log("lastTime", metadata.lastTime);
   return function ulid(seedTime) {
     if (isNaN(seedTime)) {
       seedTime = Date.now();
     }
-    if (seedTime <= lastTime) {
-      const incrementedRandom = (lastRandom = incrementBase32(lastRandom));
-      return encodeTime(lastTime, TIME_LEN) + incrementedRandom;
+    if (seedTime <= metadata.lastTime) {
+      const incrementedRandom = (metadata.lastRandom = incrementBase32(
+        metadata.lastRandom
+      ));
+      return encodeTime(metadata.lastTime, TIME_LEN) + incrementedRandom;
     }
-    lastTime = seedTime;
-    const newRandom = (lastRandom = encodeRandom(RANDOM_LEN, currPrng));
+    metadata.lastTime = seedTime;
+    const newRandom = (metadata.lastRandom = encodeRandom(
+      RANDOM_LEN,
+      currPrng
+    ));
     return encodeTime(seedTime, TIME_LEN) + newRandom;
   };
 })();

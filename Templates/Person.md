@@ -1,7 +1,5 @@
 ---
+id: <% tp.user.ulid() %>
 tags: person
-email: 
-github: 
-twitter: 
 alias: <% tp.user.first_name(tp) %>
 ---

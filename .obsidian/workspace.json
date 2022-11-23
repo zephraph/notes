@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/Untitled 5.md",
+                "file": "Templates/Person.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_/Untitled 5.md",
+                "file": "Templates/Person.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_/Untitled 5.md",
+                "file": "Templates/Person.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,15 +129,15 @@
   },
   "active": "8f2746b13f4c9a0d",
   "lastOpenFiles": [
-    "Templates/Note.md",
+    "_/John Doe.md",
     "Templates/Person.md",
+    "Templates/Note.md",
+    "Templates/RFD.md",
     "_/Untitled 5.md",
     "_/Untitled 4.md",
-    "Templates/RFD.md",
     "_/Untitled 3.md",
     "_/Untitled 2.md",
     "_/Untitled 1.md",
-    "_/Untitled.md",
-    "React Native.md"
+    "_/Untitled.md"
   ]
 }

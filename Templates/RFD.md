@@ -1,4 +1,6 @@
 ---
+id: <% tp.user.ulid() %>
+tags: oxide, rfd
 alias: RFD <% tp.user.rfd_name(tp) %>
 ---
 
