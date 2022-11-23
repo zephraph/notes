@@ -31,7 +31,7 @@ My ideal usage here is to be able to call `ulid()` with no args in the typical c
 
 ## [[Templater]] and automatic ID creation
 
-A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for solving the first problem.
+A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for generating IDs when I'm creating new files. I added a template like below into my [[Templates/]]
 
 ```
 ---

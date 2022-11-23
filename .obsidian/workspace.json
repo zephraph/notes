@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5ee183535d16d0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/Adding IDs to Obsidian.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6b84087730313f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/ULIDs.md",
+                "file": "_/Adding IDs to Obsidian.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -146,17 +133,25 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "3c31d6f2d736956f",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "e5ee183535d16d0f",
+  "active": "3f6b84087730313f",
   "lastOpenFiles": [
     "_/ULIDs.md",
+    "Templates.md",
     "_/Adding IDs to Obsidian.md",
     "Templates/Note.md",
     "Obsidian/Obsidian.md",
@@ -164,7 +159,6 @@
     "Templates/RFD.md",
     "Templates/Person.md",
     "Daily Notes/2021-09-20.md",
-    "Daily Notes/2021-06-11.md",
-    "Daily Notes/2021-06-08.md"
+    "Daily Notes/2021-06-11.md"
   ]
 }
