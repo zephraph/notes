@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c1b19cd91845a8e5",
+        "id": "299732f90ed91349",
         "type": "tabs",
         "children": [
           {
-            "id": "9ce1079999c7e1ca",
+            "id": "1699a5aab0a412d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📦 Archive/Artsy/Exchange.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📦 Archive/Artsy/Exchange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📦 Archive/Artsy/Exchange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9ce1079999c7e1ca",
+  "active": "1699a5aab0a412d5",
   "lastOpenFiles": [
-    "📦 Archive/Artsy/Eigen.md",
+    "👤 People/Person34",
+    "📦 Archive/Artsy/Force.md",
+    "📦 Archive/Artsy/Find and Explore Team.md",
+    "📦 Archive/Artsy/feelings check-in.md",
+    "📦 Archive/Artsy/Exchange.md",
     "📦 Archive/Artsy/Diffusion.md",
-    "📦 Archive/Artsy/dev-tech-leads.md",
-    "📦 Archive/Artsy/dev-help.md",
     "📦 Archive/Artsy/dev.md",
-    "📦 Archive/Artsy/Demo Days.md",
     "📦 Archive/Artsy/Consumer Marketplace Team.md",
     "📦 Archive/Artsy/Cinder sitemap documentation.md",
-    "📦 Archive/Artsy/Cinder.md",
     "📦 Archive/Artsy/Automated deployments.md"
   ]
 }

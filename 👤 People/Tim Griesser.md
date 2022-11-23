@@ -1,5 +1,5 @@
 ---
-id: 01GJHFEW438RN6RK0KDKC227BF
+id: 01GJHKJYT6D64C73570KKE96KY
 ---
 - Employee at [[Cypress]] and co-founder with me on [[GraphLog]]
 - **Tags** [[_/person]]

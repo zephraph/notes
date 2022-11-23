@@ -1,5 +1,5 @@
 ---
-id: 01GJHFEW438RN6RK0KDKC227CG
+id: 01GJHKJYT6D64C73570KKE96MZ
 ---
 - Employee at [[Artsy]] on the [[Platform Team]]
 - **Tags** [[_/person]]

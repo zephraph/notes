@@ -1,5 +1,5 @@
 ---
-id: 01GJHFEW438RN6RK0KDKC227EA
+id: 01GJHKJYT6D64C73570KKE96PS
 aliases: [hipstersmoothie, Andrew]
 ---
 Co-hosts the [[devtools.fm]] podcast with me. Primary maintainer of [[Auto]]. Formerly at [[Intuit]], now works for [[Descript]].

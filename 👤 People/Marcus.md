@@ -1,5 +1,5 @@
 ---
-id: 01GJHFEW438RN6RK0KDKC227CM
+id: 01GJHKJYT6D64C73570KKE96N3
 ---
 - Tech lead at [[Discovery]] on the connected services team
 - **Tags** [[_/person]]

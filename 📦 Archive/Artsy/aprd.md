@@ -1,5 +1,5 @@
 ---
-id: 01GJHFEW438RN6RK0KDKC2279T
+id: 01GJHKJYT6D64C73570KKE96J9
 ---
 - [[Artsy]]'s Real-time Slack Notification Service (aka Artsy Public Radio)
 - https://github.com/artsy/aprd
