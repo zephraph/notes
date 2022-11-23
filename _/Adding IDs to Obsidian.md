@@ -6,9 +6,23 @@ I'm working towards using [[Obsidian]] as the tool to back my personal site. One
 
 [[Obsidian]] supports [[frontmatter]] which means it's easy enough to add an ID as metadata on every page. Doing this manually would be a bit annoying though. There's a few problems to work through here
 
-1. Dynamically generating the ID
+1. Add a method dynamically for generating IDs
 2. Injecting IDs into new pages
 3. Populating all my old notes with IDs
+
+## ID generation
+
+I learned about [[ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful
+
+## [[Templater]] and automatic ID creation
+
+A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for solving the first problem.
+
+```
+---
+id: <% tp.user.ulid() %>
+---
+```
 
 ```js
 const files = app.vault.getFiles()
