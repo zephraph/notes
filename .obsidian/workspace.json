@@ -1,21 +1,20 @@
 {
   "main": {
-    "id": "c0d1809d83130d87",
+    "id": "fc2fabc243d7425e",
     "type": "split",
     "children": [
       {
-        "id": "dc5a47c077639383",
+        "id": "42bd754a51fee23b",
         "type": "tabs",
         "children": [
           {
-            "id": "963930ed3e3e523d",
+            "id": "8f2746b13f4c9a0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming while blind.md",
+                "file": "React Native.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
@@ -26,15 +25,38 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddb06d6d77e944c5",
+    "id": "16e3fb12d26ccf41",
     "type": "split",
     "children": [
       {
-        "id": "27d56bccdd6cdba1",
+        "id": "149d07588ec079fd",
         "type": "tabs",
         "children": [
           {
-            "id": "79c4bca72de587c9",
+            "id": "5471f1c271b2b50a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gratuitous",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7cb2adf93df9be82",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee6703f954d622a6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -42,51 +64,29 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "14094f5de3d888c1",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "f1143f35b001fee0",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 249
   },
   "right": {
-    "id": "cab36509db6fba7f",
+    "id": "bf3fec014e90d96e",
     "type": "split",
     "children": [
       {
-        "id": "cd12da56546498e3",
+        "id": "d5b51e115ddda00a",
         "type": "tabs",
         "children": [
           {
-            "id": "534324f61a27679b",
+            "id": "c521134931bdbe74",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming while blind.md",
+                "file": "React Native.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +98,19 @@
             }
           },
           {
-            "id": "5f9dfa19b3d442eb",
+            "id": "abd2fe7a7908bf9d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming while blind.md",
+                "file": "React Native.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "070085b1b3966028",
+            "id": "206de0f4c93ca45c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -124,19 +124,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "963930ed3e3e523d",
+  "active": "8f2746b13f4c9a0d",
   "lastOpenFiles": [
-    "Tools/postgres.md",
-    "personal-site.md",
-    "🧠/future of the terminal.md",
-    "Blog/Building tools with empathy.md",
-    "📦 Archive/Past endeavours/GraphLog/Startup School.md",
-    "Welcome to my notes.md",
-    "Assets/Runes with ring example.png",
-    "Assets/obsidian-sources-navigator.png",
-    "Assets/obsidian-publish-plugin-console.png",
-    "Assets/obisdian-pre-publish-api-upload-breakpoint.png"
+    "_/💭 Generic vs Perscriptive Components.md",
+    "_/Content Addressability and the GraphOS.md",
+    "Research/SP 001 - Inverting the incentives.md",
+    "Research/SP 00X - Anatomy of a service.md",
+    "Research/SP 000 - We deserve a better smartphone.md",
+    "🗄️ Collections/🗃 Virtual meeting space software.md",
+    "🗄️ Collections/🗃TUI.md",
+    "🗄️ Collections/🗃Tools.md",
+    "🗄️ Collections/🗃Acronyms and Abbreviations.md",
+    "🗄️ Collections/🗃 Whitepapers.md"
   ]
 }
