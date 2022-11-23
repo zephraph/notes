@@ -1,5 +1,5 @@
 ---
-id: 01FVT7W5DVHEPEFBRF8EXG3KDH
+id: <% tp.user.ulid() %>
 ---
 <%* 
 tp.file.title = await tp.system.prompt('Name', 'Person') 

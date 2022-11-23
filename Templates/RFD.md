@@ -1,5 +1,5 @@
 ---
-id: 01FVT7W5DVHEPEFBRF8EXG3KDG
+id: <% tp.user.ulid() %>
 tags: oxide, rfd
 alias: RFD <% tp.user.rfd_name(tp) %>
 ---

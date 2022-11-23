@@ -1,3 +1,3 @@
 ---
-id: 01GJHAXXSF00FEGC5XMXQTF20Q
+id: <% tp.user.ulid() %>
 ---
