@@ -14,7 +14,7 @@ I'm working towards using [[Obsidian]] as the tool to back my personal site. One
 
 I learned about [[ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful if you're wanting a chronological listing of posts only using their IDs.
 
-There's a monotonic version of the ULID generation algorithm which essentially means that if multiple IDs are generated for the same span of time, they'll be separated by a counter. Here's an example from their site:
+There's a monotonic version of the ULID generation algorithm which essentially means that if multiple IDs are generated for the same span of time, they'll be separated by a counter. Here's an example from [their site](https://github.com/ulid/javascript#monotonic-ulids):
 
 ```js
 import { monotonicFactory } from 'ulid'
@@ -27,7 +27,7 @@ ulid(150000) // 000XAL6S41ACTAV9WEVGEMMVR9
 ulid(150000) // 000XAL6S41ACTAV9WEVGEMMVRA
 ```
 
-
+My ideal usage here is to be able to call `ulid()` with no args in the typical case of creating a new note. That should just generate the ULID off of the current timestamp. When populating ids for old notes though I'd like to go through and grab their created date in milliseconds and pass that through to the `ulid` function.
 
 ## [[Templater]] and automatic ID creation
 
