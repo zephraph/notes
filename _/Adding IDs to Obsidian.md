@@ -12,7 +12,22 @@ I'm working towards using [[Obsidian]] as the tool to back my personal site. One
 
 ## ID generation
 
-I learned about [[ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful
+I learned about [[ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful if you're wanting a chronological listing of posts only using their IDs.
+
+There's a monotonic version of the ULID generation algorithm which essentially means that if multiple IDs are generated for the same span of time, they'll be separated by a counter. Here's an example from their site:
+
+```js
+import { monotonicFactory } from 'ulid'
+
+const ulid = monotonicFactory()
+
+// Strict ordering for the same timestamp, by incrementing the least-significant random bit by 1
+ulid(150000) // 000XAL6S41ACTAV9WEVGEMMVR8
+ulid(150000) // 000XAL6S41ACTAV9WEVGEMMVR9
+ulid(150000) // 000XAL6S41ACTAV9WEVGEMMVRA
+```
+
+
 
 ## [[Templater]] and automatic ID creation
 
