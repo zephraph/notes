@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Native.md",
+                "file": "Templates/Person.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Native.md",
+                "file": "Templates/Person.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Native.md",
+                "file": "Templates/Person.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,15 +129,15 @@
   },
   "active": "8f2746b13f4c9a0d",
   "lastOpenFiles": [
+    "Templates/RFD.md",
+    "Templates/Person.md",
+    "React Native.md",
     "_/💭 Generic vs Perscriptive Components.md",
     "_/Content Addressability and the GraphOS.md",
     "Research/SP 001 - Inverting the incentives.md",
     "Research/SP 00X - Anatomy of a service.md",
     "Research/SP 000 - We deserve a better smartphone.md",
     "🗄️ Collections/🗃 Virtual meeting space software.md",
-    "🗄️ Collections/🗃TUI.md",
-    "🗄️ Collections/🗃Tools.md",
-    "🗄️ Collections/🗃Acronyms and Abbreviations.md",
-    "🗄️ Collections/🗃 Whitepapers.md"
+    "🗄️ Collections/🗃TUI.md"
   ]
 }
