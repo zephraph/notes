@@ -1,5 +1,9 @@
-<%* tp.file.title = await tp.system.prompt('Name', 'Person') %>
-<%* tp.file.functions.move(`👤 People/${tp.file.title}`, tp.config.target_file) %>
+<%* 
+tp.file.title = await tp.system.prompt('Name', 'Person') 
+const f = tp.config.target_file
+f.name = f.basename = tp.file.title
+f.path = `👤 People/${f.name}`
+-%>
 ---
 id: <% tp.user.ulid() %>
 tags: person
