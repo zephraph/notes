@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC227EM
+---
 - Used by [[Palette]] and [[Reaction]] at [[Artsy]] to manage image lazy loading
 - Links
     - [GitHub](https://github.com/Aljullu/react-lazy-load-image-component#readme)

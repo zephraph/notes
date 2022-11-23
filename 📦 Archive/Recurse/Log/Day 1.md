@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC22799
+---
 I don't have much planned for today. Mostly just getting myself oriented and talking to folks. I do have an on-going [[devtools.fm]] project around [[Automatically tweeting on new episodes]] which I may try to work on some today.
 
 ## 10:17 am -- tour

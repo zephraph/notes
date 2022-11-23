@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8e46abe03637e603",
+        "id": "c1b19cd91845a8e5",
         "type": "tabs",
         "children": [
           {
-            "id": "28314284df31ffdb",
+            "id": "9ce1079999c7e1ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠/💭 accessibility is applied empathy.md",
+                "file": "📦 Archive/Artsy/Exchange.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠/💭 accessibility is applied empathy.md",
+                "file": "📦 Archive/Artsy/Exchange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠/💭 accessibility is applied empathy.md",
+                "file": "📦 Archive/Artsy/Exchange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "28314284df31ffdb",
+  "active": "9ce1079999c7e1ca",
   "lastOpenFiles": [
-    "🧠/💭 accessibility is applied empathy.md",
-    "📚 Books/📕 God's Demon.md",
-    "📚 Books/📕 Wheel of Time.md",
-    "📍 Places/two hands.md",
-    "👤 People/Person",
-    "Templates/Untitled.md",
-    "_/Untitled 8.md",
-    "Blog/Building tools with empathy.md",
-    "Templates/Person.md",
-    "👤 People/John Doe"
+    "📦 Archive/Artsy/Eigen.md",
+    "📦 Archive/Artsy/Diffusion.md",
+    "📦 Archive/Artsy/dev-tech-leads.md",
+    "📦 Archive/Artsy/dev-help.md",
+    "📦 Archive/Artsy/dev.md",
+    "📦 Archive/Artsy/Demo Days.md",
+    "📦 Archive/Artsy/Consumer Marketplace Team.md",
+    "📦 Archive/Artsy/Cinder sitemap documentation.md",
+    "📦 Archive/Artsy/Cinder.md",
+    "📦 Archive/Artsy/Automated deployments.md"
   ]
 }

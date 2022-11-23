@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC2278Y
+---
 ## 9:30 am
 
 Mostly going heads down today / trying to minimize events. Have a Dr apt at 3 that's in Manhattan so I want to carve out some time to get some things done.

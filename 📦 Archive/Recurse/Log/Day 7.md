@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC2278T
+---
 2021-05-25
 
 You know, I really should make a template for this.

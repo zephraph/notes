@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC2279C
+---
 - Entering around [[GraphLog]]
 - [[Startup School Group Session 1]]
 - Evaluating startup ideas

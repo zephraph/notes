@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC2278S
+---
 ## 10:00 am
 
 Getting started. As mentioned when I left off [[Day 7|yesterday]], I'm reading through the [Nerves system overview](https://hexdocs.pm/nerves/systems.html#using-a-nerves-system). 

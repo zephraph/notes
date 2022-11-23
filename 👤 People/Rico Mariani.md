@@ -1,3 +1,6 @@
+---
+id: 01GJHFEW438RN6RK0KDKC227BX
+---
 - Coined the term pit of success
 - https://medium.com/@ricomariani
 - https://blogs.msdn.microsoft.com/ricom/2015/12/16/pit-of-success-for-organizations/
