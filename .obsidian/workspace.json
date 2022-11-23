@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d0e7f4b1d7fe2977",
+        "id": "8e46abe03637e603",
         "type": "tabs",
         "children": [
           {
-            "id": "79b300e4cf6b7aee",
+            "id": "28314284df31ffdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📚 Books/📕 Wheel of Time.md",
+                "file": "🧠/💭 accessibility is applied empathy.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📚 Books/📕 Wheel of Time.md",
+                "file": "🧠/💭 accessibility is applied empathy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📚 Books/📕 Wheel of Time.md",
+                "file": "🧠/💭 accessibility is applied empathy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "79b300e4cf6b7aee",
+  "active": "28314284df31ffdb",
   "lastOpenFiles": [
-    "📚 Books/📕 God's Demon.md",
-    "📍 Places/two hands.md",
     "🧠/💭 accessibility is applied empathy.md",
+    "📚 Books/📕 God's Demon.md",
+    "📚 Books/📕 Wheel of Time.md",
+    "📍 Places/two hands.md",
     "👤 People/Person",
     "Templates/Untitled.md",
     "_/Untitled 8.md",
     "Blog/Building tools with empathy.md",
     "Templates/Person.md",
-    "👤 People/John Doe",
-    "👤 People/Person d"
+    "👤 People/John Doe"
   ]
 }
