@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D9SQ7YNQMPKX31N7W6
+---
 - Uses `/pages` like [[Next.js]] to render pages...
 - Has multiple service output targets (self-hosted, now, cloudflare, AWS)
 - Three targets:

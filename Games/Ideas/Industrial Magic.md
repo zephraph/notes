@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D9SQ7YNQMPKX31N7WB
+---
 #idea #game
 
 Industrial crafting game like factorio but entirely based on magic systems. 

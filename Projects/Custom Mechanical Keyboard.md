@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DH6FZMKHNF5J3P459V
+---
 *2021-05-24*
 
 Aspirationally I want to build a custom keyboard. By _build_ I mean design and CNC mill the case and keycaps, design the PCB, assemble the hardware components, and write the necessary firmware. 

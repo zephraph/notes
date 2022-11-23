@@ -1,4 +1,5 @@
 ---
+id: 01GFVGSAXEF8EFBY0BP8N5T7FY
 alias: SP 000
 ---
 >[!note]

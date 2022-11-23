@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GX
+id: 01GJFDY1W5BJMGASRDFZ88H0XD
 tags: thought
 ---
 What does a next generation terminal look like?

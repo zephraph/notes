@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GJ
+id: 01FVT7W5E69RFFBM8EYRK1W4Y2
 alias: SSG, Static site generation, static site generation
 ---
 

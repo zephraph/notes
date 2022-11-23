@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5CT8QNX2GX2AA2HPS1J
+---
 - A mortgage startup based in NYC that I talked to in 2019/2020
 - **Employees**  [[Alan Johnson]] [[Devang]]
 - Notes from call

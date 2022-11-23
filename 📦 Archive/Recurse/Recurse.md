@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96H5
+id: 01GJFDY1W4N20EGPM4X5KNRGPT
 alias: RC
 ---
 The [Recurse Center](https://www.recurse.com/) is a community based self-directed educational programming retreat. 

@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GP
+id: 01FVT7W5E69RFFBM8EYRK1W4Y6
 alias: Finite state machines, fsm
 ---
 

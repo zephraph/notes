@@ -1,4 +1,4 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96N6
+id: 01FVT7W5DEVP2R1JXHVF5VSN76
 ---
 - Ex employee at [[Artsy]], co-founder of [[seasons.nyc]]

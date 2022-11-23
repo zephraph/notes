@@ -1,3 +1,6 @@
+---
+id: 01FX3T3FCPRA0A6PR04BAWWKPR
+---
 - Kubernetes (no repo yet) 
 	- Implement Cloud Provider interface: https://github.com/kubernetes/cloud-provider (Bare minimum) 
 	- Container storage interface: https://kubernetes-csi.github.io/docs/drivers.html 

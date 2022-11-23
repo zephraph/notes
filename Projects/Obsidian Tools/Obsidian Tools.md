@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DH6FZMKHNF5J3P459S
+---
 A few months ago I started working on some tooling to make building plugins for [[Obsidian]] easier. 
 
 There were a few things in particular I wanted to be able to do:

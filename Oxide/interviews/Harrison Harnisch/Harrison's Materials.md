@@ -1,3 +1,6 @@
+---
+id: 01FX3T3FCM9GS50X0FKSK4CZ2F
+---
 # Hey Oxide! I'm Harrison 👋
 
 I'll get into the samples for each section but I wanted to take a moment to introduce myself. I've been building things with and from computers in some form since I was 8 and in the industry for ~13 years. I've worked on everything from embedded systems that are hardened for space to help take pictures of black holes to big distributed systems on the web that scale to billions of requests per day. I'm a generalist engineer who gravitates to solving big problems that bridge gaps across domains. I hope you'll consider me for a role at Oxide!

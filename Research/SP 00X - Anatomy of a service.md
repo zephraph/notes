@@ -1,3 +1,6 @@
+---
+id: 01GFXCZSTZBGZKK2P3MD7VSH1D
+---
 In [[SP XXX]] we explored the idea that apps as we know them today would be better broken down into independent parts. The aspect dealing with data fetching and interfacing with system resources we called a [[service]]. Let's dig a little further into the details of a service.
 
 ---

@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96JS
+id: 01FVT7W5DZ2S02EYAT1S22WX8N
 ---
 - Project done by [[Purchase Team]] at [[Artsy]]
 - **Links**: [designs](https://www.figma.com/file/vtXzdPefblvRiAapA79fTh/Inquiries-Web?node-id=62%3A834), [epic](https://artsyproduct.atlassian.net/browse/PURCHASE-1850), [technical plan](https://www.notion.so/artsy/Bring-inquiry-conversations-to-artsy-net-517f1041982543cd99bd46492300b7a2)

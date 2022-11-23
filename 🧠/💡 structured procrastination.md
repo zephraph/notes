@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GF
+id: 01FVT7W5E69RFFBM8EYRK1W4XZ
 ---
 A technique that leverages the tendency of someone procrastinating to do anything other than the task being procrastinated on to make progress on other important tasks.
 

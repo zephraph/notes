@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GM
+id: 01FVT7W5E69RFFBM8EYRK1W4Y4
 ---
 A named function in [[JavaScript]] is a function whose object includes a `name` property.
 

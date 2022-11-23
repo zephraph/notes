@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DA661GTA5D120R51GW
+---
 [[Obsidian]]'s [publish](https://obsidian.md/publish) is a feature that allows you to publish parts of your obsidian vault to the web. These notes are published that way! 
 
 ## Adding custom analytics to publish pages

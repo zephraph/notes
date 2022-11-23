@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D9SQ7YNQMPKX31N7W4
+---
 - A [[SaaS]] startup idea I had to facilitate the easy scheduling of asynchronous lambdas
 - Isn't primarily a [[cron]] service. It's a scheduled callback service.
 - **Info**

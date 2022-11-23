@@ -1,3 +1,6 @@
+---
+id: 01GJFDY1VNY209N9FSF57H1JCC
+---
 #blog-post
 
 Brain dump:

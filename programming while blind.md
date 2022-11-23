@@ -1,3 +1,6 @@
+---
+id: 01GJFDY1W0PM6KB40NS689V27K
+---
 - [[blog post]]
 - Inspiration
     - [I'm a software engineer going blind, how should I prepare?](https://news.ycombinator.com/item?id=22918980)

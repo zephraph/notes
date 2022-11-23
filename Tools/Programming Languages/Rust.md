@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DWGZWXDAVZ7YFGTPK8
+---
 ## Notes
 
 - Automatically imports stuff from [prelude](https://doc.rust-lang.org/stable/std/prelude/index.html) into scope

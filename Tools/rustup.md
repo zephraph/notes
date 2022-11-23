@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DX9M8T6MN0BBCCP4PV
+---
 https://rust-lang.github.io/rustup/index.html
 
 The [[📘 Rust Book]] says rustup is a _toolchain multiplexer_. Presumably that means it occupies the same space as [[nvm]], [[rvm]], etc. 

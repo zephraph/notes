@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D8AQDN7T5TCVT05QG0
+---
 #idea 
 
 Grants the ability to add something to mymind from alfred. 

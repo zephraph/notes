@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DVHEPEFBRF8EXG3KDH
+---
 <%* 
 tp.file.title = await tp.system.prompt('Name', 'Person') 
 const f = tp.config.target_file

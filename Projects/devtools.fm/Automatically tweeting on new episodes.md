@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DH6FZMKHNF5J3P459N
+---
 [[Daily Notes/2021-05-16|May 16th, 2021]]
 
 We've got an [issue](https://github.com/devtools-fm/devtools.fm/issues/11) up for automating sending out a tweet when we launch a new episode. I figured I'd dive into solving that this evening.

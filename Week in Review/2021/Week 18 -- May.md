@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DY413BZT5FY421WSYW
+---
 Hey friends, back again. [[Week 17 -- May|Last week]] I mentioned I had some big news. If you haven't heard already, I'm leaving [[Artsy]]. This coming up Friday is my last day.
 
 The last two weeks have been a lot of emotional processing. It's been hard in a lot of ways. This has probably been the best job I've ever had. I'm definitely incredibly fortunate to have worked with a few of my heroes. That said, I know it's time. As it goes with these things, when you really start considering leaving it's already past time for you to go. 

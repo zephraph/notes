@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5DY413BZT5FY421WSYX
+---
 Well, I missed two weeks. Writing once does not a habit make! Still, I won't beat myself up about it. I'm writing here, now. It's a step.
 
 ## What's new in my life

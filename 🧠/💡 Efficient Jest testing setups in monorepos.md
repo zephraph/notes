@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GT
+id: 01FVT7W5E69RFFBM8EYRK1W4Y9
 ---
 When setting up jest in a monorepo (especially using lerna and ts-jest) the fact that dependencies are hoisted means that base ts-jest example setups will fail. They depend on `preprocess.js` being located in the `node_modules` directory in that folder.
 

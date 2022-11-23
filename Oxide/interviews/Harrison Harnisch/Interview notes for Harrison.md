@@ -1,3 +1,6 @@
+---
+id: 01FX3T3FCNN4X5S0SH2NW7W5CC
+---
 ### Focus Areas
 - Build vs buy
 - Naming

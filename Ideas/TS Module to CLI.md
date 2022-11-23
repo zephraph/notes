@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D9SQ7YNQMPKX31N7W5
+---
 - Parses ts module and generates a command line client from that
 - Automatically handles transpilation
 - Generates help text based off of jsdoc comments

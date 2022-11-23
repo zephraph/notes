@@ -1,4 +1,4 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96HW
+id: 01GJFDY1W13Z2XHT88846GVB62
 ---
 - Observability for [[graphql]]

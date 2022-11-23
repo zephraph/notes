@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5E2SW4HQQP6VBJRTX9T
+---
 I've spent a lot of time this week thinking about aspects of a tabs component. 
 
 ## Considering the HTML

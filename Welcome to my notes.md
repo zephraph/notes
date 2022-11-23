@@ -1,4 +1,5 @@
 ---
+id: 01FVT7W5DY413BZT5FY421WSYQ
 publish: true
 ---
 Here you'll find a collection of unfinished thoughts, details of what I'm learning, and a mix of whatever else I decide to add. I'm not sure what this will turn into yet!

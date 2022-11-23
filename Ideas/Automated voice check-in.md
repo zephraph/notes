@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5D9SQ7YNQMPKX31N7WA
+---
 #idea 
 
 Journaling is easy to forget and can be hard to build a habit around. If your therapist asks you to rate your anxiety level every day, it could be easy to skip or be lax. In the long term that doesn't help you.

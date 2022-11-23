@@ -1,3 +1,6 @@
+---
+id: 01GF4JFAJ6N8AP8RWXR78JXME0
+---
 This is a scratch pad to dump ideas about a new operating system (or patterns of computing) that will improve our lives instead of detract from them. It'll mostly be described from the lens of mobile devices, though the concepts should be portable to desktop devices. 
 
 ## Rethinking applications

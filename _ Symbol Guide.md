@@ -1,3 +1,6 @@
+---
+id: 01FVT7W5E0RGSSSJBH0T94YV48
+---
 You'll notice many of my notes starting with specific emoji. These are organizational indicators to help hint at content and context of a specific file. 
 
 ### Symbolic Overview

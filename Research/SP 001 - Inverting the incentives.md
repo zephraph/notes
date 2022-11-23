@@ -1,4 +1,5 @@
 ---
+id: 01GFVN2B9X74XA9YJW155YHY2V
 alias: SP 001
 ---
 In [[SP 000 - We deserve a better smartphone|SP 000]] I mentioned how I believe the economic incentive model for our current generation of smartphones actually _encourages_ distraction by economically incentivizing user engagement. To truly build a better smartphone the incentive model should fundamentally be altered. 

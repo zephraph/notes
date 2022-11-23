@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96GA
+id: 01FVT7W5E69RFFBM8EYRK1W4XT
 ---
 The conceptual notion that repeated stimulus like reminders can build internal pressure which leads to a negative association of said stimulus. 
 

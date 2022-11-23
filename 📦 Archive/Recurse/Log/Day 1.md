@@ -1,5 +1,5 @@
 ---
-id: 01GJHKJYT6D64C73570KKE96HR
+id: 01GJFDY1W2SCN7BV7HKEW7JXQ4
 ---
 I don't have much planned for today. Mostly just getting myself oriented and talking to folks. I do have an on-going [[devtools.fm]] project around [[Automatically tweeting on new episodes]] which I may try to work on some today.
 

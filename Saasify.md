@@ -1,2 +1,5 @@
+---
+id: 01FVT7W5DTFQC84XG88AYPBTY4
+---
 - A startup created by [[Travis Fischer]]. The original pitch was to make OSS sustainable by making it easy to create a Saas company around that. Now it seems it's more aligned around just making creating a startup easier. 
 - https://github.com/saasify-sh/saasify

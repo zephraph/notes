@@ -160,45 +160,45 @@ const metadata = new Proxy(
   }
 );
 
-// module.exports = (function monotonicFactory(currPrng) {
-//   if (!currPrng) {
-//     currPrng = detectPrng();
-//   }
-//   metadata.lastTime ??= 0;
-//   console.log("lastTime", metadata.lastTime);
-//   return function ulid(seedTime) {
-//     if (isNaN(seedTime)) {
-//       seedTime = Date.now();
-//     }
-//     if (seedTime <= metadata.lastTime) {
-//       const incrementedRandom = (metadata.lastRandom = incrementBase32(
-//         metadata.lastRandom
-//       ));
-//       return encodeTime(metadata.lastTime, TIME_LEN) + incrementedRandom;
-//     }
-//     metadata.lastTime = seedTime;
-//     const newRandom = (metadata.lastRandom = encodeRandom(
-//       RANDOM_LEN,
-//       currPrng
-//     ));
-//     return encodeTime(seedTime, TIME_LEN) + newRandom;
-//   };
-// })();
-
-module.exports = (() => {
-  currPrng = detectPrng();
-  metadata.seen ??= {};
-  return (seedTime) => {
+module.exports = (function monotonicFactory(currPrng) {
+  if (!currPrng) {
+    currPrng = detectPrng();
+  }
+  metadata.lastTime ??= 0;
+  console.log("lastTime", metadata.lastTime);
+  return function ulid(seedTime) {
     if (isNaN(seedTime)) {
       seedTime = Date.now();
     }
-    if (seedTime in metadata.seen) {
-      metadata.seen[seedTime] = incrementBase32(metadata.seen[seedTime]);
-      return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+    if (seedTime <= metadata.lastTime) {
+      const incrementedRandom = (metadata.lastRandom = incrementBase32(
+        metadata.lastRandom
+      ));
+      return encodeTime(metadata.lastTime, TIME_LEN) + incrementedRandom;
     }
-    metadata.seen[seedTime] = encodeRandom(RANDOM_LEN, currPrng);
-    return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+    metadata.lastTime = seedTime;
+    const newRandom = (metadata.lastRandom = encodeRandom(
+      RANDOM_LEN,
+      currPrng
+    ));
+    return encodeTime(seedTime, TIME_LEN) + newRandom;
   };
 })();
+
+// module.exports = (() => {
+//   currPrng = detectPrng();
+//   metadata.seen ??= {};
+//   return (seedTime) => {
+//     if (isNaN(seedTime)) {
+//       seedTime = Date.now();
+//     }
+//     if (seedTime in metadata.seen) {
+//       metadata.seen[seedTime] = incrementBase32(metadata.seen[seedTime]);
+//       return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+//     }
+//     metadata.seen[seedTime] = encodeRandom(RANDOM_LEN, currPrng);
+//     return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+//   };
+// })();
 
 // const ulid = factory();
