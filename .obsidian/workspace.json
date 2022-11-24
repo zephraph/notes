@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95de26992896fc1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,11 +80,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 249
+    "width": 249,
+    "collapsed": true
   },
   "right": {
     "id": "bf3fec014e90d96e",
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_/Adding IDs to Obsidian.md",
+                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_/Adding IDs to Obsidian.md",
+                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,12 +149,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "206de0f4c93ca45c",
+  "active": "95de26992896fc1f",
   "lastOpenFiles": [
-    "Blog/Building tools with empathy.md",
     "_/Adding IDs to Obsidian.md",
+    "Blog/Building tools with empathy.md",
     "_/ULID.md",
     "Obsidian/plugins/Templater.md",
     "Daily Notes/2021-03-15.md",

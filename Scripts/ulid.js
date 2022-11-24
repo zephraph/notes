@@ -165,7 +165,6 @@ module.exports = (function monotonicFactory(currPrng) {
     currPrng = detectPrng();
   }
   metadata.lastTime ??= 0;
-  console.log("lastTime", metadata.lastTime);
   return function ulid(seedTime) {
     if (isNaN(seedTime)) {
       seedTime = Date.now();
