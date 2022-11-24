@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#work",
+                "query": "tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,8 +135,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e3933ee75e53e805",
+  "active": "206de0f4c93ca45c",
   "lastOpenFiles": [
+    "Blog/Building tools with empathy.md",
     "_/Adding IDs to Obsidian.md",
     "_/ULID.md",
     "Obsidian/plugins/Templater.md",
@@ -146,7 +146,6 @@
     "Daily Notes/2021-09-03.md",
     "Templates/RFD.md",
     "👤 People/Adam Leventhal.md",
-    "_/Obsidian plugin.md",
-    "Obsidian/Obsidian.md"
+    "_/Obsidian plugin.md"
   ]
 }

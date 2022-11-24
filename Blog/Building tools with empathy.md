@@ -1,7 +1,7 @@
 ---
 id: 01GJFDY1VNY209N9FSF57H1JCC
+tags: blog
 ---
-#blog-post
 
 Brain dump:
 - Define tools

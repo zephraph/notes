@@ -1,6 +1,6 @@
 ---
 id: 01GJHMEEB49GPD2SHQRS6J7A5M
-tags: blog
+tags: blog, obsidian
 ---
 
 I'm working towards using [[Obsidian]] as the tool to back my personal site. One of my goals in this endeavor is to ensure that my links are stable. That's pretty hard to do if the URL is based on a file path that can (and will) change. I'm always re-organizing, renaming, and moving stuff around so I need a better record of store. 
@@ -45,7 +45,9 @@ id: <% tp.user.ulid() %>
 Next I dropped a modified version of the [ulid library](https://github.com/ulid/javascript/blob/master/lib/index.ts) into in a `Scripts` directory that I pointed [[Templater]] to. See [the docs](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) for more info on how that all works. 
 
 ```js
-//... 
+/*
+ * Copy over the other parts of this from the library (linked above)
+ */
 const metadata = new Proxy(
   {},
   {
@@ -90,7 +92,7 @@ Now anytime I invoke [[Templater]] to create a new note: voila! An ID appears.
 
 There's probably a much, much better way to do what I'm about to describe. This isn't something I wanted to spend a whole lot of time on though. 
 
-I commented out the 
+I commented out the code for the `montonicFactory` in the above snippet and added a new definition that works locally for generating the [[ULID|ulid]] from 
 
 If you open up the dev tools in obsidian (<kbd>cmd</kbd>+<kbd>⌥</kbd>+<kbd>i</kbd> on OSX) you can run JS in the console to exercise different APIs on the app. That includes reaching in and controlling plugins. 
 
