@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_/Adding IDs to Obsidian.md",
+                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#obsidian",
+                "query": "alias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,13 +80,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 249,
-    "collapsed": true
+    "width": 249
   },
   "right": {
     "id": "bf3fec014e90d96e",
@@ -145,24 +143,23 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "95de26992896fc1f",
   "lastOpenFiles": [
+    "👤 People/Chris Shank",
+    "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+    "👤 People/Chris Shank@chrisshank.md",
+    "Oxide/rfds/0003 -- Engineering Hiring Process.md",
     "_/Adding IDs to Obsidian.md",
+    "_/@chrisshank.md",
+    "📄 Whitepapers/Statecharts-by-harel-1984.pdf",
     "Blog/Building tools with empathy.md",
     "_/ULID.md",
-    "Obsidian/plugins/Templater.md",
-    "Daily Notes/2021-03-15.md",
-    "_/steno.md",
-    "Daily Notes/2021-09-03.md",
-    "Templates/RFD.md",
-    "👤 People/Adam Leventhal.md",
-    "_/Obsidian plugin.md"
+    "Obsidian/plugins/Templater.md"
   ]
 }
