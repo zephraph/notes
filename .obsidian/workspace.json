@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e17cfe7d33fd2563",
+        "id": "12a9e4238216a201",
         "type": "tabs",
         "children": [
           {
-            "id": "87dce9ef30a155c7",
+            "id": "aff1ca514fe5a9b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Templates/Note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "📥 Notes/Statecharts by Harel.md"
               }
             }
           }
@@ -87,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Note.md",
+                "file": "📥 Notes/Statecharts by Harel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Note.md",
+                "file": "📥 Notes/Statecharts by Harel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,19 +131,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "87dce9ef30a155c7",
+  "active": "aff1ca514fe5a9b2",
   "lastOpenFiles": [
-    "Templates/Person.md",
     "Templates/Note.md",
+    "Templates/RFD.md",
+    "Templates/Person.md",
     "📥 Notes/Statecharts by Harel.md",
     "📥 Notes/Statecharts by Harel",
     "📥 Notes/Untitled 12",
     "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
     "👤 People/Chris Shank",
     "👤 People/Chris Shank@chrisshank.md",
-    "Oxide/rfds/0003 -- Engineering Hiring Process.md",
-    "_/Adding IDs to Obsidian.md"
+    "Oxide/rfds/0003 -- Engineering Hiring Process.md"
   ]
 }
