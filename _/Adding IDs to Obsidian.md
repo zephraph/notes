@@ -1,5 +1,6 @@
 ---
 id: 01GJHMEEB49GPD2SHQRS6J7A5M
+tags: blog
 ---
 
 I'm working towards using [[Obsidian]] as the tool to back my personal site. One of my goals in this endeavor is to ensure that my links are stable. That's pretty hard to do if the URL is based on a file path that can (and will) change. I'm always re-organizing, renaming, and moving stuff around so I need a better record of store. 
@@ -31,7 +32,9 @@ My ideal usage here is to be able to call `ulid()` with no args in the typical c
 
 ## [[Templater]] and automatic ID creation
 
-A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for generating IDs when I'm creating new files. I added a template like below into my `Templates` directory where [[Templater]] points to. 
+A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It enables templates to have JS snippets that can be used to generate data when creating a new note. Perfect for generating IDs when I'm creating new files. 
+
+First up I added a template like below into my `Templates` directory where [[Templater]] points to. 
 
 ```
 ---
@@ -39,11 +42,55 @@ id: <% tp.user.ulid() %>
 ---
 ```
 
-I just converted the [ulid package](https://github.com/ulid/javascript) to JS and dropped that in a `Scripts` directory that I also pointed [[Templater]] too. They've got more [in their docs](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) on how to configure that. Now anytime I invoke [[Templater]] to create a new note: voila! An ID appears. 
+Next I dropped a modified version of the [ulid library](https://github.com/ulid/javascript/blob/master/lib/index.ts) into in a `Scripts` directory that I pointed [[Templater]] to. See [the docs](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) for more info on how that all works. 
+
+```js
+//... 
+const metadata = new Proxy(
+  {},
+  {
+    get: (_, prop) => {
+      return globalThis.__ulid__?.[prop];
+    },
+    set: (_, prop, value) => {
+      globalThis.__ulid__ ??= {};
+      globalThis.__ulid__[prop] = value;
+    },
+  }
+);
+
+module.exports = (function monotonicFactory(currPrng) {
+  if (!currPrng) {
+    currPrng = detectPrng();
+  }
+  metadata.lastTime ??= 0;
+  return function ulid(seedTime) {
+    if (isNaN(seedTime)) {
+      seedTime = Date.now();
+    }
+    if (seedTime <= metadata.lastTime) {
+      const incrementedRandom = (metadata.lastRandom = incrementBase32(
+        metadata.lastRandom
+      ));
+      return encodeTime(metadata.lastTime, TIME_LEN) + incrementedRandom;
+    }
+    metadata.lastTime = seedTime;
+    const newRandom = (metadata.lastRandom = encodeRandom(
+      RANDOM_LEN,
+      currPrng
+    ));
+    return encodeTime(seedTime, TIME_LEN) + newRandom;
+  };
+})();
+```
+
+Now anytime I invoke [[Templater]] to create a new note: voila! An ID appears. 
 
 ## Adding IDs to all my old notes
 
 There's probably a much, much better way to do what I'm about to describe. This isn't something I wanted to spend a whole lot of time on though. 
+
+I commented out the 
 
 If you open up the dev tools in obsidian (<kbd>cmd</kbd>+<kbd>⌥</kbd>+<kbd>i</kbd> on OSX) you can run JS in the console to exercise different APIs on the app. That includes reaching in and controlling plugins. 
 
@@ -53,7 +100,7 @@ First thing is I just need a list of all the files in my vault. That's easy enou
 const files = app.vault.getFiles()
 ```
 
-Next up I need a function to write an ID to the current file. The best way that I know to do that is to access the workspace's currently active view via `app.workspace.activeLeaf.view`. From that object you have access to `editor` and other properties like `lastFrontmatter` which help you figure out if the page has frontmatter without parsing it yourself. 
+Next up I need a function to write an ID to the current file. The best way that I know to do that is to access the workspace's currently active view via `app.workspace.activeLeaf.view`. From that object you have access to `editor` and other properties like `lastFrontmatter` which help you figure out if the page has `frontmatter` without parsing it yourself. 
 
 ```js
 const writeId = (id) => {
@@ -71,6 +118,8 @@ const writeId = (id) => {
     }
 }
 ```
+
+Now that we can write to t
 
 ```js
 const processFile = async (file) => {
