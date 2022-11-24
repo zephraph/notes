@@ -14,3 +14,5 @@ Topology is more fundamental than geometry. Geometry deals with the shape of an 
 
 ## 3. Statecharts
 
+Inner states are collapsible 
+
