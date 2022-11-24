@@ -14,5 +14,7 @@ Topology is more fundamental than geometry. Geometry deals with the shape of an 
 
 ## 3. Statecharts
 
-Inner states are collapsible 
+- Inner states are collapsible visually
+- Events can be broadcasted to parallel states via the syntax `a/b` where `a` is the triggered event and `b` is the event to be broadcast. 
+- Guards are generally represented in `[]` where `a[b]` means the event `a` only triggers if the guard `b` is satisified. 
 
