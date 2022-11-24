@@ -90,19 +90,36 @@ Now anytime I invoke [[Templater]] to create a new note: voila! An ID appears.
 
 ## Adding IDs to all my old notes
 
-There's probably a much, much better way to do what I'm about to describe. This isn't something I wanted to spend a whole lot of time on though. 
+>[!NOTE]
+>
+Just for this step I commented out the code for the `montonicFactory` in the above snippet and added a new definition that works locally for generating the [[ULID|ulid]] from a file's created timestamp. Essentially I want the `ulid` seem to be the same age as the file and the traditional algorithm makes it based on no earlier than the moment at which it's invoked. 
+> ```js
+> module.exports = (() => {
+>   currPrng = detectPrng();
+>   metadata.seen ??= {};
+>   return (seedTime) => {
+>     if (isNaN(seedTime)) {
+>       seedTime = Date.now();
+>     }
+>     if (seedTime in metadata.seen) {
+>       metadata.seen[seedTime] = incrementBase32(metadata.seen[seedTime]);
+>       return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+>     }
+>     metadata.seen[seedTime] = encodeRandom(RANDOM_LEN, currPrng);
+>     return encodeTime(seedTime, TIME_LEN) + metadata.seen[seedTime];
+>   };
+> })();
+> ```
 
-I commented out the code for the `montonicFactory` in the above snippet and added a new definition that works locally for generating the [[ULID|ulid]] from 
+This section is pretty hacky because I really didn't feel like spending too much time on it. All the following code snippets were just inserted into the console of devtools (<kbd>cmd</kbd>+<kbd>⌥</kbd>+<kbd>i</kbd> on OSX) which gives access to both the `app` scope to control [[obsidian]] _and_ its plugins. 
 
-If you open up the dev tools in obsidian (<kbd>cmd</kbd>+<kbd>⌥</kbd>+<kbd>i</kbd> on OSX) you can run JS in the console to exercise different APIs on the app. That includes reaching in and controlling plugins. 
-
-First thing is I just need a list of all the files in my vault. That's easy enough.
+First up is listing all the files in my vault.
 
 ```js
-const files = app.vault.getFiles()
+const files = app.vault.getFiles() // returns an array of TFile objects
 ```
 
-Next up I need a function to write an ID to the current file. The best way that I know to do that is to access the workspace's currently active view via `app.workspace.activeLeaf.view`. From that object you have access to `editor` and other properties like `lastFrontmatter` which help you figure out if the page has `frontmatter` without parsing it yourself. 
+Next up I need a function to write an ID to the current file. The best way that I know to do that is to access the workspace's currently active view via `app.workspace.activeLeaf.view`. 
 
 ```js
 const writeId = (id) => {
@@ -121,7 +138,7 @@ const writeId = (id) => {
 }
 ```
 
-Now that we can write to t
+Then I created a function to open the file, grab its ctime[^1], write its id, and close the file. 
 
 ```js
 const processFile = async (file) => {
@@ -136,6 +153,8 @@ const processFile = async (file) => {
 }
 ```
 
+Last bit... just iterate through all the files
+
 ```js
 const processFiles = async (files) => {
     for (const file of files) {
@@ -144,3 +163,6 @@ const processFiles = async (files) => {
 }
 ```
 
+That's really all there is to it. 
+
+[^1]: The timestamp for when the file was originally created 
