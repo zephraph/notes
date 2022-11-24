@@ -11,3 +11,6 @@ Topology is more fundamental than geometry. Geometry deals with the shape of an 
 > <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When I feel this I remind myself to take a step back to focus on topology (e.g. containment, connection, order) rather than geometry (e.g. shape, position, size). Topology has little concern for such a strict structure. This insight is from David Harel:<a href="https://t.co/vycol01C45">https://t.co/vycol01C45</a></p>&mdash; 𝕮 | @chrisshank@mastodon.social (@chrisshank23) <a href="https://twitter.com/chrisshank23/status/1595577568274845696?ref_src=twsrc%5Etfw">November 24, 2022</a></blockquote>
 
 **Encapsulation**, **Intersection**, and **Connection** are three primary topological notions. When considering visual languages [[David Harel|Harel]] posits that we should focus first on the topological aspects and not be distracted by the geometric ones. 
+
+## 3. Statecharts
+
