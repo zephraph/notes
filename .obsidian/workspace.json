@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6455b867b00c8f1c",
+        "id": "e17cfe7d33fd2563",
         "type": "tabs",
         "children": [
           {
-            "id": "311da528016a673f",
+            "id": "87dce9ef30a155c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel",
+                "file": "Templates/Note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel",
+                "file": "Templates/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel",
+                "file": "Templates/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "311da528016a673f",
+  "active": "87dce9ef30a155c7",
   "lastOpenFiles": [
-    "Templates/Note.md",
     "Templates/Person.md",
+    "Templates/Note.md",
+    "📥 Notes/Statecharts by Harel.md",
+    "📥 Notes/Statecharts by Harel",
     "📥 Notes/Untitled 12",
     "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
     "👤 People/Chris Shank",
     "👤 People/Chris Shank@chrisshank.md",
     "Oxide/rfds/0003 -- Engineering Hiring Process.md",
-    "_/Adding IDs to Obsidian.md",
-    "_/@chrisshank.md",
-    "📄 Whitepapers/Statecharts-by-harel-1984.pdf"
+    "_/Adding IDs to Obsidian.md"
   ]
 }
