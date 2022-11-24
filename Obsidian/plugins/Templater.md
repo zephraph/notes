@@ -1,6 +1,6 @@
 ---
 id: 01GJJZXH5ZEDVQSBAAE6B3D0DA
-tags: obsidian, obsidian-plugin
+tags: obsidian/plugin
 repo: https://github.com/SilentVoid13/Templater
 ---
 

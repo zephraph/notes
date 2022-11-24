@@ -19,48 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d9a8dc130bc77200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian/plugins/Templater.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00c0e8390afc0ec4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/Adding IDs to Obsidian.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1076ec55a6e1460d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_/ULIDs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#work",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,17 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "00c0e8390afc0ec4",
+  "active": "3f6b84087730313f",
   "lastOpenFiles": [
-    "Obsidian/plugins/Templater.md",
-    "_/Obsidian plugin.md",
+    "_/ULID.md",
     "_/Adding IDs to Obsidian.md",
-    "Obsidian/Obsidian.md",
-    "Templates/Note.md",
+    "Obsidian/plugins/Templater.md",
+    "Daily Notes/2021-03-15.md",
+    "_/steno.md",
+    "Daily Notes/2021-09-03.md",
     "Templates/RFD.md",
-    "Templates/Person.md",
-    "_/ULIDs.md",
-    "Templates.md",
-    "Obsidian/Adding.md"
+    "👤 People/Adam Leventhal.md",
+    "_/Obsidian plugin.md",
+    "Obsidian/Obsidian.md"
   ]
 }

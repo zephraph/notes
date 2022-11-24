@@ -12,7 +12,7 @@ I'm working towards using [[Obsidian]] as the tool to back my personal site. One
 
 ## ID generation
 
-I learned about [[ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful if you're wanting a chronological listing of posts only using their IDs.
+I learned about [[ULID|ULIDs]] recently which is an ID format that's shorter than UUIDs and also encodes a notion of time into the ID generation so that the actual IDs themselves are lexically sortable. That's an incredibly useful if you're wanting a chronological listing of posts only using their IDs.
 
 There's a monotonic version of the ULID generation algorithm which essentially means that if multiple IDs are generated for the same span of time, they'll be separated by a counter. Here's an example from [their site](https://github.com/ulid/javascript#monotonic-ulids):
 
@@ -31,7 +31,7 @@ My ideal usage here is to be able to call `ulid()` with no args in the typical c
 
 ## [[Templater]] and automatic ID creation
 
-A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for generating IDs when I'm creating new files. I added a template like below into my [[Templates/]]
+A popular solution in the [[Obsidian]] community for templating is SilentVoid's [[Templater]]. It allows you to create templates with JS snippets that can be used to generate data when creating a new note. Perfect for generating IDs when I'm creating new files. I added a template like below into my `Templates` directory where [[Templater]] points to. 
 
 ```
 ---
@@ -39,9 +39,21 @@ id: <% tp.user.ulid() %>
 ---
 ```
 
+I just converted the [ulid package](https://github.com/ulid/javascript) to JS and dropped that in a `Scripts` directory that I also pointed [[Templater]] too. They've got more [in their docs](https://silentvoid13.github.io/Templater/user-functions/script-user-functions.html) on how to configure that. Now anytime I invoke [[Templater]] to create a new note: voila! An ID appears. 
+
+## Adding IDs to all my old notes
+
+There's probably a much, much better way to do what I'm about to describe. This isn't something I wanted to spend a whole lot of time on though. 
+
+If you open up the dev tools in obsidian (<kbd>cmd</kbd>+<kbd>⌥</kbd>+<kbd>i</kbd> on OSX) you can run JS in the console to exercise different APIs on the app. That includes reaching in and controlling plugins. 
+
+First thing is I just need a list of all the files in my vault. That's easy enough.
+
 ```js
 const files = app.vault.getFiles()
 ```
+
+Next up I need a function to write an ID to the current file. The best way that I know to do that is to access the workspace's currently active view via `app.workspace.activeLeaf.view`. From that object you have access to `editor` and other properties like `lastFrontmatter` which help you figure out if the page has frontmatter without parsing it yourself. 
 
 ```js
 const writeId = (id) => {
