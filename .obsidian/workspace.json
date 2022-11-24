@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "12a9e4238216a201",
+        "id": "55b09e9e53cf9290",
         "type": "tabs",
         "children": [
           {
-            "id": "aff1ca514fe5a9b2",
+            "id": "3fdd320e948dce11",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel.md"
+                "file": "_/Content Addressability and the GraphOS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "topology",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel.md",
+                "file": "_/Content Addressability and the GraphOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/Statecharts by Harel.md",
+                "file": "_/Content Addressability and the GraphOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "aff1ca514fe5a9b2",
+  "active": "3fdd320e948dce11",
   "lastOpenFiles": [
-    "Templates/Note.md",
-    "Templates/RFD.md",
-    "Templates/Person.md",
-    "📥 Notes/Statecharts by Harel.md",
-    "📥 Notes/Statecharts by Harel",
-    "📥 Notes/Untitled 12",
-    "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
-    "👤 People/Chris Shank",
-    "👤 People/Chris Shank@chrisshank.md",
-    "Oxide/rfds/0003 -- Engineering Hiring Process.md"
+    "Research/SP 001 - Inverting the incentives.md",
+    "👤 People/Alexander Obenauer.md",
+    "👤 People/Matt Dole.md",
+    "👤 People/Adam Leventhal.md",
+    "🧠/💡 topology.md",
+    "Research/SP 00X - Anatomy of a service.md",
+    "Research/SP 000 - We deserve a better smartphone.md",
+    "Research/TOC.md",
+    "Reflections/Failure to launch.md",
+    "Reflections/On my identity.md"
   ]
 }
