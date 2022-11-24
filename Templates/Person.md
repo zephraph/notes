@@ -1,6 +1,3 @@
----
-id: <% tp.user.ulid() %>
----
 <%* 
 tp.file.title = await tp.system.prompt('Name', 'Person') 
 const f = tp.config.target_file

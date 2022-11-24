@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "22e14cc024bd6b91",
+        "id": "6455b867b00c8f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "e3933ee75e53e805",
+            "id": "311da528016a673f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95de26992896fc1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+                "file": "📥 Notes/Statecharts by Harel",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alias",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+                "file": "📥 Notes/Statecharts by Harel",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+                "file": "📥 Notes/Statecharts by Harel",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "95de26992896fc1f",
+  "active": "311da528016a673f",
   "lastOpenFiles": [
-    "👤 People/Chris Shank",
+    "Templates/Note.md",
+    "Templates/Person.md",
+    "📥 Notes/Untitled 12",
     "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+    "👤 People/Chris Shank",
     "👤 People/Chris Shank@chrisshank.md",
     "Oxide/rfds/0003 -- Engineering Hiring Process.md",
     "_/Adding IDs to Obsidian.md",
     "_/@chrisshank.md",
-    "📄 Whitepapers/Statecharts-by-harel-1984.pdf",
-    "Blog/Building tools with empathy.md",
-    "_/ULID.md",
-    "Obsidian/plugins/Templater.md"
+    "📄 Whitepapers/Statecharts-by-harel-1984.pdf"
   ]
 }
