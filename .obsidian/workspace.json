@@ -11,12 +11,9 @@
             "id": "3fdd320e948dce11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "_/Content Addressability and the GraphOS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "📥 Notes/IPFS.md"
               }
             }
           }
@@ -87,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_/Content Addressability and the GraphOS.md",
+                "file": "📥 Notes/IPFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_/Content Addressability and the GraphOS.md",
+                "file": "📥 Notes/IPFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,19 +131,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "3fdd320e948dce11",
   "lastOpenFiles": [
-    "Research/SP 001 - Inverting the incentives.md",
-    "👤 People/Alexander Obenauer.md",
-    "👤 People/Matt Dole.md",
-    "👤 People/Adam Leventhal.md",
-    "🧠/💡 topology.md",
-    "Research/SP 00X - Anatomy of a service.md",
-    "Research/SP 000 - We deserve a better smartphone.md",
-    "Research/TOC.md",
-    "Reflections/Failure to launch.md",
-    "Reflections/On my identity.md"
+    "📥 Notes/Statecharts by Harel.md",
+    "📥 Notes/IPFS.md",
+    "📤 Writing/Content Addressability and the GraphOS.md",
+    "_/article.md",
+    "_/Arise Yoga.md",
+    "_/adam.md",
+    "_/abstractions.md",
+    "📤 Writing/Alternatives to complex conditional logic.md",
+    "📤 Writing/Adding IDs to Obsidian.md",
+    "📤 Writing/Building tools with empathy.md"
   ]
 }
