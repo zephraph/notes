@@ -11,12 +11,9 @@
             "id": "3fdd320e948dce11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "📥 Notes/IPFS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "📥 Notes/Statecharts by Harel.md"
               }
             }
           }
@@ -87,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "📥 Notes/Statecharts by Harel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "📥 Notes/Statecharts by Harel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,6 +135,8 @@
   },
   "active": "3fdd320e948dce11",
   "lastOpenFiles": [
+    "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
+    "📥 Notes/IPFS.md",
     "_/Content Addressability and the GraphOS.md",
     "Research/SP 001 - Inverting the incentives.md",
     "👤 People/Alexander Obenauer.md",
@@ -145,8 +144,6 @@
     "👤 People/Adam Leventhal.md",
     "🧠/💡 topology.md",
     "Research/SP 00X - Anatomy of a service.md",
-    "Research/SP 000 - We deserve a better smartphone.md",
-    "Research/TOC.md",
-    "Reflections/Failure to launch.md"
+    "Research/SP 000 - We deserve a better smartphone.md"
   ]
 }
