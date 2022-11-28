@@ -11,9 +11,12 @@
             "id": "3fdd320e948dce11",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "📥 Notes/IPFS.md"
+                "file": "📥 Notes/IPFS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -131,20 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "3fdd320e948dce11",
   "lastOpenFiles": [
-    "📥 Notes/Statecharts by Harel.md",
-    "📥 Notes/IPFS.md",
-    "📤 Writing/Content Addressability and the GraphOS.md",
-    "_/article.md",
-    "_/Arise Yoga.md",
-    "_/adam.md",
-    "_/abstractions.md",
-    "📤 Writing/Alternatives to complex conditional logic.md",
-    "📤 Writing/Adding IDs to Obsidian.md",
-    "📤 Writing/Building tools with empathy.md"
+    "_/Content Addressability and the GraphOS.md",
+    "Research/SP 001 - Inverting the incentives.md",
+    "👤 People/Alexander Obenauer.md",
+    "👤 People/Matt Dole.md",
+    "👤 People/Adam Leventhal.md",
+    "🧠/💡 topology.md",
+    "Research/SP 00X - Anatomy of a service.md",
+    "Research/SP 000 - We deserve a better smartphone.md",
+    "Research/TOC.md",
+    "Reflections/Failure to launch.md"
   ]
 }

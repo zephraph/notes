@@ -1,6 +1,6 @@
 ---
 id: 01GJVEEC1TZYQM4CFK5V2492QX
-annotation-target: ../ipfs-p2p-file-system.pdf
+annotation-target: https://resources.just-be.dev/juan-benet_2014_ipfs-content-addressed-versioned-p2p-filesystem.pdf
 ---
 
 
