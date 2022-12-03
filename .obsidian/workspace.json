@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "55b09e9e53cf9290",
+        "id": "2d5760242387850c",
         "type": "tabs",
         "children": [
           {
-            "id": "3fdd320e948dce11",
+            "id": "57fe893abee448d7",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "📥 Notes/IPFS.md"
+                "file": "Welcome to my notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "topology",
+                "query": "publish",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "Welcome to my notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "Welcome to my notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,17 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3fdd320e948dce11",
+  "active": "57fe893abee448d7",
   "lastOpenFiles": [
+    "📦 Archive/Recurse/Recurse.md",
+    "Projects/Obsidian Tools/Obsidian Tools.md",
+    "Obsidian/Publish.md",
+    "📥 Notes/IPFS.md",
     "_/blog post.md",
     "programming while blind.md",
     "🗄️ Collections/🗃 Whitepapers.md",
-    "📥 Notes/IPFS.md",
     "_/Untitled 1.md",
     "📥 Notes/Statecharts by Harel.md",
-    "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md",
-    "_/Content Addressability and the GraphOS.md",
-    "Research/SP 001 - Inverting the incentives.md",
-    "👤 People/Alexander Obenauer.md"
+    "📥 Notes/Programming for Everyone - An Introduction to Visual Programming Languages.md"
   ]
 }
