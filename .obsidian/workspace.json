@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "55b09e9e53cf9290",
+        "id": "4669a03858d849e2",
         "type": "tabs",
         "children": [
           {
-            "id": "3fdd320e948dce11",
+            "id": "bbe8b11887419dad",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "📥 Notes/IPFS.md"
+                "file": "Research/SP 000 - We deserve a better smartphone.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -63,12 +66,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 249
+    "width": 249,
+    "collapsed": true
   },
   "right": {
     "id": "bf3fec014e90d96e",
@@ -84,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "Research/SP 000 - We deserve a better smartphone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📥 Notes/IPFS.md",
+                "file": "Research/SP 000 - We deserve a better smartphone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3fdd320e948dce11",
+  "active": "bbe8b11887419dad",
   "lastOpenFiles": [
-    "📥 Notes/Statecharts by Harel.md",
+    "Research/SP 001 - Inverting the incentives.md",
+    "Research/SP 000 - We deserve a better smartphone.md",
     "📥 Notes/IPFS.md",
+    "📥 Notes/Statecharts by Harel.md",
     "📤 Writing/Content Addressability and the GraphOS.md",
     "_/article.md",
     "_/Arise Yoga.md",
     "_/adam.md",
     "_/abstractions.md",
-    "📤 Writing/Alternatives to complex conditional logic.md",
-    "📤 Writing/Adding IDs to Obsidian.md",
-    "📤 Writing/Building tools with empathy.md"
+    "📤 Writing/Alternatives to complex conditional logic.md"
   ]
 }
