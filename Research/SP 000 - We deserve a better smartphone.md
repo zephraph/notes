@@ -13,7 +13,7 @@ There was a time when smartphones were a business tool and the most engagement w
 
 Smartphones have become a general purpose computer much like our desktops. Like a desktop it has applications that can be published by any developer in the world[^1]. This gives 3rd parties a direct connection from their servers to a device that's rarely out of reach. In the current technological environment 3rd parties are economically incentivised to drive engagement. The more you engage, the more valuable you are to them. Thus slews of VC funds flow into organizations hyper optimizing on user engagement and retention. Eyeballs on screens. Apps like tiktok are what fall out of that environment. An app so addictive and engaging that the hours can slip by without you knowing (or caring).
 
-Surely there's a better alternative than this. Surely, for those of us want to escape the shackles of digitial solitude there are alternatives that empower instead of detract... Right?
+Surely there's a better alternative than this. Surely, for those of us want to escape the shackles of digital solitude there are alternatives that empower instead of detract... Right?
 
 ## Mitigating Distraction
 
