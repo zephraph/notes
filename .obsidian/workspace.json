@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbe8b11887419dad",
+            "id": "f196f62fd4afe034",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/SP 000 - We deserve a better smartphone.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/SP 000 - We deserve a better smartphone.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/SP 000 - We deserve a better smartphone.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bbe8b11887419dad",
+  "active": "f196f62fd4afe034",
   "lastOpenFiles": [
-    "Research/SP 001 - Inverting the incentives.md",
+    "conflict-files-obsidian-git.md",
     "Research/SP 000 - We deserve a better smartphone.md",
+    "Research/SP 001 - Inverting the incentives.md",
     "📥 Notes/IPFS.md",
     "📥 Notes/Statecharts by Harel.md",
     "📤 Writing/Content Addressability and the GraphOS.md",
     "_/article.md",
     "_/Arise Yoga.md",
     "_/adam.md",
-    "_/abstractions.md",
-    "📤 Writing/Alternatives to complex conditional logic.md"
+    "_/abstractions.md"
   ]
 }
