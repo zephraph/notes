@@ -19,15 +19,27 @@ This document is inspired by [[Jennifer]]'s [translation](https://friendly-augus
 
 ### Needs rating
 
-| category              | rating (out of 10) |
-| --------------------- | ------------------ |
-| certainty/comfort     | 4                  |
-| novelty | 7                  |
-| importance            | 4                  |
-| love and connection   | 5                  |
-| growth                | 3                  |
-| contribution          | 4                   |
+| Core Needs          | Evaluation                                                                                                                                                                                                                                                                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| certainty/comfort   | **3/10**. Unhappy with where I live, uncertain of where I want to live. Deeply concerned about my financial future. Feel a lack of confidence in my work and my ability to work. Often find myself without the energy or desire to complete simple daily tasks.                  |
+| novelty             | **6/10**. Happy with travels last year both solo and with Jennifer. Met new people through HyperTalk and BetaWorks meetups. Anxiety in other areas reduced this somewhat (like canceling my FatCat membership due to financial concerns). Also used this area as a crutch to mask challenges in other areas. | 
+| importance          | **4/10**. Podcast gives me some minor feeling of importance. Don't feel importance at work. Depended on by family but that doesn't give me a feeling of satisfaction. Lack of comfort and self confidence feels like it's impacting this area.                                                                                                         |
+| love and connection | **5/10**. Family connection poor. I feel a sense of love from them... I think I'm both too selfish and yet not firm enough in drawing healthy boundaries with family. Lots of childhood trauma bubbling up from family drama. Sense of love and connection from my relationship but underlying anxiety about my contributions. Friend group slowly starting to reform post pandemic but feels tenuous yet.                                                                                                                                                                                                                                               |
+| growth              | **3/10**. I just generally feel like I've regressed since the pandemic. My desire to learn, ambition, and sense of accomplishment feel low. Find myself often seeking escape (novelty) over growth.                                                                                                                                                                                                                                                                           |
+| contribution        | **5/10**. Have been able to provide for family. Started supporting researchers I admire and supporting local businesses.                                                                                                                                                                                                                                                                           |
 
 ### Certainty
 
-I feel since the pandemic I've been lacking a foundation. Specifically I've been missing a sense of grounding and belonging. 
+> Where in my life now do I feel uncomfortable and unsafe? 
+
+Where I live, how I live, and how I sustain myself are all areas I feel uncomfortable with. I don't feel like I'm saving enough to have a secure feature. I feel ineffectual but over-stretched at work.
+
+> Do I feel safe living in the current place? Do I spend a lot of time furnishing my home? Do I feel happy when I return home?
+
+Physically yes, but psychologically no. My home doesn't feel like a home. I don't invest in decorating it because it doesn't feel worth it. I feel neither happy nor sad about returning home. It just is what it is. 
+
+>  What about work? Do I feel a lot of pressure? Do I feel that I can't control your life? Am I often criticized by others? Do I have to learn something I don't like, or do something that I am not good at? Do I often experience frustration? 
+
+
+>  
+>  Do I get encouragement, affirmation, praise on a regular basis? Do I have a stable supportive partner, family and friends?
