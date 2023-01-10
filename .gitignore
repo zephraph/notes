@@ -1,4 +1,5 @@
 .obsidian
+attachments
 
 # Add below lines to exclude OS settings and caches
 .trash/
