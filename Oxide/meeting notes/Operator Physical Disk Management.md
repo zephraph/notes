@@ -1,7 +1,7 @@
 
 Issue: https://github.com/oxidecomputer/omicron/issues/2036
 
-RFD-352
+[[Oxide/rfds/0352 -- Sled agent physical disk management|RFD 352]]
 
 - Physical Resource allocation metrics
 
