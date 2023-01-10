@@ -1,3 +1,6 @@
+
+Issue: https://github.com/oxidecomputer/omicron/issues/2036
+
 RFD-352
 
 - Physical Resource allocation metrics
