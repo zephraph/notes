@@ -1,7 +1,7 @@
 ---
 id: 01GJHMEEB49GPD2SHQRS6J7A5M
+tags: blog, obsidian
 ---
-#blog #obsidian 
 
 I'm working towards using [[Obsidian]] as the tool to back my personal site. One of my goals in this endeavor is to ensure that my links are stable. That's pretty hard to do if the URL is based on a file path that can (and will) change. I'm always re-organizing, renaming, and moving stuff around so I need a better record of store. 
 

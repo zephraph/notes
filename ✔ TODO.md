@@ -11,7 +11,7 @@ alias: Tasks
 	- Direct user feedback
 	- Where/how feedback is shared
 - [  ] Write RFD on the state of OpenAPI at Oxide
-- [x] FTS on RFD site
+- [ ] FTS on RFD site
 - [ ] Write a blog post on codemods with jscodeshift
 - [ ] Write a blog post on adding custom documentation indexing
 	- https://github.com/meilisearch/docs-searchbar.js/issues/40#issuecomment-937337291
