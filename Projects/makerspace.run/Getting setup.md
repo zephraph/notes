@@ -31,3 +31,7 @@ mix ash_postgres.drop
 mix_ash_postgres.create
 mix ash_postgres.migrate
 ```
+
+## Other Commands
+
+- `mix phx.routes` - List routes registered with Phoenix
