@@ -16,6 +16,8 @@ mix phx.new makerspace --no-ecto
 
 ## DB Creation and Migration
 
+Make sure postgres is started: `sudo service postgresql start`
+
 ```shell
 mix ash_postgres.create
 mix ash_postgres.generate_migrations --name add_user_and_token
