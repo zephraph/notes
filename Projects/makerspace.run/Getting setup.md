@@ -10,6 +10,22 @@ For some extra details about the new stuff in 1.7 see [the release blogpost](htt
 
 ## Installation
 
-```
+```shell
 mix phx.new makerspace --no-ecto
+```
+
+## DB Creation and Migration
+
+```shell
+mix ash_postgres.create
+mix ash_postgres.generate_migrations --name add_user_and_token
+mix ash_postgres.migrate
+```
+
+To start over again in development
+
+```
+mix ash_postgres.drop
+mix_ash_postgres.create
+mix ash_postgres.migrate
 ```
