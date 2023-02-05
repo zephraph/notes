@@ -1,5 +1,6 @@
 .obsidian
-*Attachments
+*Attachments/*
+!*Attachments/.gitkeep
 
 # Add below lines to exclude OS settings and caches
 .trash/

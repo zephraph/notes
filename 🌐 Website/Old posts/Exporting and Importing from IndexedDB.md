@@ -15,11 +15,11 @@ I technically didn't know they buffered video/audio in indexeddb at this point, 
 
 In chrome if you open devtools and go to the `Applications` tab there's a `Storage` menu item in the left hand bar. Clicking that will give you an insight as to how much storage is being used via that domain (and *where* it's being stored). I was greeted with this
 
-![[chrome debug console of indexeddb size for riverside.fm.png]]
+![[chrome debug console of indexeddb size for riverside.fm 1.png]]
 
 Clearly a lot of *something* was being stored in IndexedDB. It's cropped a bit above, but the domain for each database is listed out beside it so it was fairly simple to figure out which corresponded to my recording. There were four tables stored inside the db: `audio`, `metadata`, `processed`, and `video`. In Chrome's devtools you can click on a table to get a preview of what's contained inside each. `audio` and `video` were empty and `metadata` only had one entry. Turns out the `processed` table contained all the data I was concerned with.
 
-![[indexeddb entries for riverside.fm.png]]
+![[indexeddb entries for riverside.fm 1.png]]
 
 Turns out the table was filled with a bunch of 4 MB+ [ArrayBuffers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer). Looks like a bunch of encoded A/V data to me. 
 
