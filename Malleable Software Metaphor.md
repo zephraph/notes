@@ -1,0 +1,8 @@
+When I think of malleability I imagine having a lump of clay in my hand. I can mold and shape it directly. The distance between the thought of a manipulation, the execution of that manipulation, and the observation of its result is so small to be almost non-existent. The feedback is immediate and visceral, inducing a meditative creative state by the sheer property of its receptiveness to change. 
+
+Malleable software often doesn't invoke this same response. It feels more like there's a lump of clay in a sealed box. The box has a camera with a fixed perspective and some robotic manipulators that you can control from the outside. The manipulators aren't directly mechanically controlled through, they're moved through a control system that has its own nuances and may even be designed to work well for someone right handed and you're a lefty. Making a change to the clay then isn't just envisioning the change you want to make and applying it directly... it's dealing with understanding how to use the control system and it's quirks to get the manipulators to move in a way you want in the limited view of the material that you have to hopefully make some semblance of change of what you have in mind. The feedback loop is slow because there's multiple layers of understanding that has to come together to even begin to do what you want. When making a change is costly, we try to preserve energy by making fewer changes... thus allowing us less creative opportunity to design something delightful through the serendipity of play.
+
+Not every software system can be like clay just like clay isn't a suitable material for most things we build in the physical world. The opportunity does exist though and I want more of that personal, approachable, tactile experience. 
+
+
+
