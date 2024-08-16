@@ -96,5 +96,3 @@ _These are mostly private resources_
 #### The couches
 
 A place for folks to openly hang out and work together. In the RC office it's actually couches, but for my batch it's a section of Virtual RC/a zoom room.
-
-[[Recurse|RC]]
